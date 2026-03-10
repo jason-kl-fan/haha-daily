@@ -1,0 +1,82 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "date": "2026-03-10",
+  "count": 10,
+  "searchNotes": {
+    "rss": "blogwatcher tracked feeds and scan results",
+    "searchFallback": "Brave web_search was unavailable due missing API key, so broader web article fetching was used as the closest available replacement for Tavily"
+  },
+  "items": [
+    {
+      "title": "OpenAI 將收購 Promptfoo",
+      "takeaway": "**OpenAI 開始把 AI 安全測試與評估能力直接內建到企業 agent 平台。**",
+      "summary": "OpenAI 表示會把 Promptfoo 的紅隊測試、評估與治理能力整合進 Frontier，代表企業導入 AI coworkers 時，安全驗證將更前置化與平台化。",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-promptfoo"
+    },
+    {
+      "title": "OpenAI 發表 GPT-5.4",
+      "takeaway": "**GPT-5.4 把推理、編碼、工具操作與長上下文整合成更完整的工作型模型。**",
+      "summary": "OpenAI 將 GPT-5.4 定位為更適合專業知識工作與 agent workflow 的旗艦模型，並強調更高工具使用能力、1M context 與更好的 token 效率。",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4"
+    },
+    {
+      "title": "Gemini 在 Google Sheets 達到接近專家級的試算表能力",
+      "takeaway": "**Google 正把 Gemini 從聊天助手往真正的表格操作代理推進。**",
+      "summary": "Google 表示 Gemini in Sheets 在 SpreadsheetBench 上達到 70.48% 成功率，已逼近人類專家水準，顯示 AI 正更深入辦公資料處理核心。",
+      "source": "Google",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+    },
+    {
+      "title": "Google 為 Docs、Sheets、Slides、Drive 推出新一批 Gemini 能力",
+      "takeaway": "**Workspace 的生成式 AI 正從『輔助』升級成跨應用內容組裝層。**",
+      "summary": "新能力可從 Gmail、Chat、Drive 與搜尋拉資料，直接產生文件、試算表與簡報，代表 Google 想把 Gemini 變成整個 Workspace 的工作流編排器。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/"
+    },
+    {
+      "title": "Google 為 Ask Photos 加回更明顯的經典搜尋切換",
+      "takeaway": "**生成式 AI 功能如果又慢又不準，主流用戶會直接要求退回傳統體驗。**",
+      "summary": "Google 因使用者抱怨 Ask Photos 速度與準確度問題，新增更顯眼的切換方式，說明高頻產品場景下 AI 仍必須服從實用性。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/"
+    },
+    {
+      "title": "Adobe 在 Photoshop 推出 AI assistant",
+      "takeaway": "**創意軟體的 AI 競爭已經進入『直接用自然語言操作編修流程』階段。**",
+      "summary": "Adobe 讓 Photoshop 使用者可用提示詞完成去背、調光、改色與生成式編修，同時也把更多生成式能力帶進 Firefly，進一步強化工作流綁定。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/"
+    },
+    {
+      "title": "Zoom 推出 AI office suite 與會議替身 avatar",
+      "takeaway": "**Zoom 不只想做會議工具，而是想用 AI 擴成整套辦公與代理工作平台。**",
+      "summary": "Zoom 宣布 AI Docs、Slides、Sheets、meeting avatar、voice translation 與 agent builder，顯示會議平台正把 AI 當成產品線延伸的核心引擎。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/"
+    },
+    {
+      "title": "Anthropic 為 Claude Code 推出多代理 Code Review",
+      "takeaway": "**AI 公司正在把模型能力包成更昂貴、但更完整的開發工作流產品。**",
+      "summary": "Anthropic 的 Code Review 會派出多個 agent 平行審查 pull request，再交叉驗證與排序問題嚴重度，明顯瞄準企業級高價值開發流程。",
+      "source": "VentureBeat",
+      "sourceUrl": "https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon"
+    },
+    {
+      "title": "Nvidia 傳將推出開源 AI agent 平台",
+      "takeaway": "**Nvidia 正從算力供應商進一步往 agent 軟體平台層延伸。**",
+      "summary": "WIRED 報導 Nvidia 正準備推出面向企業的開源 agent 平台，並接觸多家大型軟體公司，意味其戰略重心正在往『晶片 + 平台』雙棲發展。",
+      "source": "WIRED",
+      "sourceUrl": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/"
+    },
+    {
+      "title": "Thinking Machines Lab 與 Nvidia 簽下大型算力合作",
+      "takeaway": "**頂級 AI 實驗室之間的競爭，核心仍是先進算力與長期供應保障。**",
+      "summary": "Mira Murati 的 Thinking Machines Lab 與 Nvidia 建立多年合作，並將部署至少 1GW Vera Rubin 系統，反映大型研究團隊正持續搶占未來算力產能。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/"
+    }
+  ]
+}

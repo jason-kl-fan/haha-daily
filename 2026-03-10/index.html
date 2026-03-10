@@ -20,23 +20,19 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
 .small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
 .footer{font-size:.95rem;color:var(--muted)}
 @media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}
-.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}
-.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}
-</style>
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
   <main class="wrap">
 <section class="card">
   <div class="kicker"><span class="pill">哈哈狗報</span><a class="small" href="../">← 回首頁</a></div>
   <h1>2026 年 3 月 10 日｜每日科技・產業・地緣新聞</h1>
-  <p>今天先看 AI 與基礎設施鏈：模型、資料中心、晶片、資安與中美台政策線同步有更新。</p>
+  <p>今天先看 AI 主題重跑版：模型、辦公代理、開發工作流與算力平台消息特別密集。</p>
   <p class="muted">星期二 · 固定八大主題 · 手機閱讀版</p>
 </section>
 <section class="card">
   <h2>快速導讀 / TL;DR</h2>
-  <ul class="list"><li><strong>AI</strong>：OpenAI 收購 Promptfoo、GPT-5.4 上線，Google 與 Anthropic 也各自補強產品與研究敘事。</li><li><strong>基礎設施</strong>：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。</li><li><strong>政策與風險</strong>：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。</li></ul>
+  <ul class="list"><li><strong>AI</strong>：OpenAI 安全併購、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與大型算力合作同步推進。</li><li><strong>基礎設施</strong>：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。</li><li><strong>政策與風險</strong>：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。</li></ul>
 </section>
 <section class="card">
   <h2>主題捷徑</h2>
@@ -47,24 +43,54 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
       <p class="muted">模型、產品、研究、監管與產業動態。</p>
       <article class="story">
       <h3>OpenAI 將收購 Promptfoo</h3>
-      <p><strong>OpenAI 開始把 AI 安全測試能力往內建化整合。</strong></p>
-      <p class="small">Promptfoo 原本就是紅隊測試與提示攻擊評估工具，併入後代表 OpenAI 想把 agent 與模型安全驗證做成更底層能力。</p>
+      <p><strong>OpenAI 開始把 AI 安全測試與評估能力直接內建到企業 agent 平台。</strong></p>
+      <p class="small">OpenAI 表示會把 Promptfoo 的紅隊測試、評估與治理能力整合進 Frontier，代表企業導入 AI coworkers 時，安全驗證將更前置化與平台化。</p>
       <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/openai-to-acquire-promptfoo">原文連結</a></p>
     </article><article class="story">
       <h3>OpenAI 發表 GPT-5.4</h3>
-      <p><strong>新一代旗艦模型繼續往知識工作、推理與工具整合前進。</strong></p>
-      <p class="small">官方定位顯示 GPT-5.4 強調更完整的知識工作能力，對企業導入與工作流整合會是接下來的主軸。</p>
+      <p><strong>GPT-5.4 把推理、編碼、工具操作與長上下文整合成更完整的工作型模型。</strong></p>
+      <p class="small">OpenAI 將 GPT-5.4 定位為更適合專業知識工作與 agent workflow 的旗艦模型，並強調更高工具使用能力、1M context 與更好的 token 效率。</p>
       <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/introducing-gpt-5-4">原文連結</a></p>
     </article><article class="story">
-      <h3>Gemini 在 Google Sheets 的能力再往前推</h3>
-      <p><strong>Google 正把 AI 從聊天介面往真正的辦公操作面滲透。</strong></p>
-      <p class="small">Google 宣稱 Gemini 在 Sheets 達到更強表格任務表現，代表 Workspace 內的 AI 自動分析與操作能力正在加速成熟。</p>
-      <p class="source">來源：<strong>blog.google</strong> · <a href="https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/">原文連結</a></p>
+      <h3>Gemini 在 Google Sheets 達到接近專家級的試算表能力</h3>
+      <p><strong>Google 正把 Gemini 從聊天助手往真正的表格操作代理推進。</strong></p>
+      <p class="small">Google 表示 Gemini in Sheets 在 SpreadsheetBench 上達到 70.48% 成功率，已逼近人類專家水準，顯示 AI 正更深入辦公資料處理核心。</p>
+      <p class="source">來源：<strong>Google</strong> · <a href="https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/">原文連結</a></p>
     </article><article class="story">
-      <h3>Anthropic 發布 AI 對勞動市場影響的新研究</h3>
-      <p><strong>AI 公司開始更積極主導「哪些工作受影響」的敘事。</strong></p>
-      <p class="small">Anthropic 用新指標追蹤 AI 對職業與任務的暴露程度，這類研究會影響企業採用節奏，也可能進一步進入政策監管討論。</p>
-      <p class="source">來源：<strong>Anthropic / Google News</strong> · <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KTkM5U1RQMnVZS29QR3BLTzQyOHJYSHFZY253LXd2RTNyZlNOZjdxMFB5ZkV4SVNJcGtaSkJIQkdma21jS0tvWWdGQ3BDZ1ZMQjFIU09Xb2FaUl9JSlcxY1lVazhUQQ?oc=5">原文連結</a></p>
+      <h3>Google 為 Docs、Sheets、Slides、Drive 推出新一批 Gemini 能力</h3>
+      <p><strong>Workspace 的生成式 AI 正從『輔助』升級成跨應用內容組裝層。</strong></p>
+      <p class="small">新能力可從 Gmail、Chat、Drive 與搜尋拉資料，直接產生文件、試算表與簡報，代表 Google 想把 Gemini 變成整個 Workspace 的工作流編排器。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Google 為 Ask Photos 加回更明顯的經典搜尋切換</h3>
+      <p><strong>生成式 AI 功能如果又慢又不準，主流用戶會直接要求退回傳統體驗。</strong></p>
+      <p class="small">Google 因使用者抱怨 Ask Photos 速度與準確度問題，新增更顯眼的切換方式，說明高頻產品場景下 AI 仍必須服從實用性。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Adobe 在 Photoshop 推出 AI assistant</h3>
+      <p><strong>創意軟體的 AI 競爭已經進入『直接用自然語言操作編修流程』階段。</strong></p>
+      <p class="small">Adobe 讓 Photoshop 使用者可用提示詞完成去背、調光、改色與生成式編修，同時也把更多生成式能力帶進 Firefly，進一步強化工作流綁定。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Zoom 推出 AI office suite 與會議替身 avatar</h3>
+      <p><strong>Zoom 不只想做會議工具，而是想用 AI 擴成整套辦公與代理工作平台。</strong></p>
+      <p class="small">Zoom 宣布 AI Docs、Slides、Sheets、meeting avatar、voice translation 與 agent builder，顯示會議平台正把 AI 當成產品線延伸的核心引擎。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Anthropic 為 Claude Code 推出多代理 Code Review</h3>
+      <p><strong>AI 公司正在把模型能力包成更昂貴、但更完整的開發工作流產品。</strong></p>
+      <p class="small">Anthropic 的 Code Review 會派出多個 agent 平行審查 pull request，再交叉驗證與排序問題嚴重度，明顯瞄準企業級高價值開發流程。</p>
+      <p class="source">來源：<strong>VentureBeat</strong> · <a href="https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon">原文連結</a></p>
+    </article><article class="story">
+      <h3>Nvidia 傳將推出開源 AI agent 平台</h3>
+      <p><strong>Nvidia 正從算力供應商進一步往 agent 軟體平台層延伸。</strong></p>
+      <p class="small">WIRED 報導 Nvidia 正準備推出面向企業的開源 agent 平台，並接觸多家大型軟體公司，意味其戰略重心正在往『晶片 + 平台』雙棲發展。</p>
+      <p class="source">來源：<strong>WIRED</strong> · <a href="https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Thinking Machines Lab 與 Nvidia 簽下大型算力合作</h3>
+      <p><strong>頂級 AI 實驗室之間的競爭，核心仍是先進算力與長期供應保障。</strong></p>
+      <p class="small">Mira Murati 的 Thinking Machines Lab 與 Nvidia 建立多年合作，並將部署至少 1GW Vera Rubin 系統，反映大型研究團隊正持續搶占未來算力產能。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/">原文連結</a></p>
     </article>
     </section><section class="card" id="big-tech">
       <div class="kicker"><span class="pill">2. Big Tech</span><a class="small" href="./big-tech/">看本主題頁 →</a></div>
@@ -237,18 +263,17 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
     </section>
 <section class="card">
   <h2>任務資訊</h2>
-  <p class="muted">更新時間：2026-03-10 09:18 America/Los_Angeles</p>
+  <p class="muted">更新時間：2026-03-10 10:02 America/Los_Angeles</p>
   <div class="stat small">
       <div><b>total token</b>約 18k</div>
       <div><b>input token</b>約 14k</div>
       <div><b>output token</b>約 4k</div>
-      <div><b>duration</b>約 18 分</div>
+      <div><b>duration</b>AI 重跑</div>
       <div><b>status</b>published</div>
     </div>
 </section>
 <section class="footer">哈哈狗報 · /saved 保留給手動收藏，不做自動加入。</section>
 </main>
-
-<script src="../assets/saved.js"></script>
+  <script src="../assets/saved.js"></script>
 </body>
 </html>

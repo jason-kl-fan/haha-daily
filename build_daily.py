@@ -7,12 +7,12 @@ DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-10-curated.json')))
 DATE = DATA['site']['date']
 DATE_LABEL = DATA['site']['dateLabel']
 TOPICS = DATA['topics']
-UPDATED = '2026-03-10 09:18 America/Los_Angeles'
+UPDATED = '2026-03-10 10:02 America/Los_Angeles'
 STATS = {
     'total': '約 18k',
     'input': '約 14k',
     'output': '約 4k',
-    'duration': '約 18 分',
+    'duration': 'AI 重跑',
     'status': 'published'
 }
 TOPIC_ORDER = [t['slug'] for t in TOPICS]
@@ -40,16 +40,18 @@ def ensure(path):
     os.makedirs(path, exist_ok=True)
 
 def render_page(title, body, root='.'):
+    extra_css = '.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}'
     return f'''<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>{html.escape(title)}</title>
-  <style>{CSS}</style>
+  <style>{CSS}{extra_css}</style>
 </head>
 <body>
   <main class="wrap">{body}</main>
+  <script src="{root}/assets/saved.js"></script>
 </body>
 </html>'''
 
@@ -114,7 +116,7 @@ daily = f'''
 </section>
 <section class="footer">{DATA['site']['name']} · /saved 保留給手動收藏，不做自動加入。</section>
 '''
-open(os.path.join(ROOT, DATE, 'index.html'),'w').write(render_page(f"哈哈狗報｜{DATE_LABEL}", daily))
+open(os.path.join(ROOT, DATE, 'index.html'),'w').write(render_page(f"哈哈狗報｜{DATE_LABEL}", daily, '..'))
 
 # topic daily pages + history pages
 for t in TOPICS:
@@ -128,7 +130,7 @@ for t in TOPICS:
     <section class="card">{''.join(item_html(i) for i in t['items'])}</section>
     <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：{UPDATED}</p>{stats_block()}</section>
     '''
-    open(os.path.join(ddir,'index.html'),'w').write(render_page(f"哈哈狗報｜{DATE_LABEL}｜{t['name']}", body))
+    open(os.path.join(ddir,'index.html'),'w').write(render_page(f"哈哈狗報｜{DATE_LABEL}｜{t['name']}", body, '../..'))
 
     history=f'''
     <section class="card">
@@ -143,7 +145,7 @@ for t in TOPICS:
       {''.join(item_html(i) for i in t['items'][:3])}
     </section>
     '''
-    open(os.path.join(ROOT,t['slug'],'index.html'),'w').write(render_page(f"哈哈狗報｜{t['name']}", history))
+    open(os.path.join(ROOT,t['slug'],'index.html'),'w').write(render_page(f"哈哈狗報｜{t['name']}", history, '..'))
 
 # homepage
 cards=[]
