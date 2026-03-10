@@ -5,55 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>哈哈狗報</title>
   <style>
-    :root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49}
-    *{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.75}
-    .wrap{max-width:900px;margin:0 auto;padding:20px 14px 48px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
-    h1,h2,h3{margin:0 0 10px} a{color:var(--accent);text-decoration:none}.muted{color:var(--muted)} .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}.topic{display:block;color:inherit}.topic h3{color:var(--accent);font-size:1.05rem}.topic p{margin:.35em 0 0}.list{margin:.5em 0 0 1.2em;padding:0}.list li+li{margin-top:8px}
-  </style>
+:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
+*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
+a{color:var(--accent);text-decoration:none} strong{font-weight:800}
+.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
+.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
+h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
 </head>
 <body>
   <main class="wrap">
-    <section class="card">
-      <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="./assets/husky-logo.png" alt="哈哈狗報 Logo" style="width:72px;height:72px;filter:drop-shadow(0 8px 18px rgba(125,211,252,.18))" /><div><div class="pill">哈哈狗報</div><h1>每日科技・產業・地緣情報整理</h1></div></div>
-      <p>網站骨架已建立完成，接下來會從每日任務自動補上內容。明天起，最新一期新聞會優先更新在這裡，並同步寫入各主題歷史頁。</p>
-      <p class="muted">更新模式：每日 09:00（America/Los_Angeles）</p>
-    </section>
-
-    <section class="card">
-      <h2>站點導覽</h2>
-      <ul class="list">
-        <li>首頁會放最新一期、快速導讀與導覽入口</li>
-        <li>每日頁會依固定八大主題整理當日新聞</li>
-        <li>主題頁會累積歷史內容，後續再補更完整檢索能力</li>
-        <li><a href="./saved/">Saved</a> 會保留你手動指定收藏的重要新聞</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Saved 收藏</h2>
-      <p>你之後如果要把某篇新聞收起來，只要直接叫我收藏，我就會把它整理進 <a href="./saved/">/saved/</a>，方便回頭複習。</p>
-      <p><a href="./saved/" style="display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(125,211,252,.08)"><span style="font-size:1.25rem">🔖</span><strong>進入 Saved 收藏頁</strong></a></p>
-    </section>
-
-    <section class="card">
-      <h2>八大主題</h2>
-      <div class="grid">
-        <a class="card topic" href="./ai/"><h3>AI</h3><p>模型、產品、研究、監管與產業動態。</p></a>
-        <a class="card topic" href="./big-tech/"><h3>Big Tech</h3><p>全球大型科技公司產品、策略、AI 與監管更新。</p></a>
-        <a class="card topic" href="./semiconductor/"><h3>Semiconductor</h3><p>晶圓代工、記憶體、封裝、設備與晶片公司消息。</p></a>
-        <a class="card topic" href="./storage-server/"><h3>Storage / Server</h3><p>存儲、伺服器、企業基礎設施軟硬體與供應鏈。</p></a>
-        <a class="card topic" href="./cooling/"><h3>Cooling</h3><p>資料中心液冷、熱管理與有意義的 PC 散熱動態。</p></a>
-        <a class="card topic" href="./security/"><h3>Security</h3><p>漏洞、攻擊、防禦、AI 安全與企業安全事件。</p></a>
-        <a class="card topic" href="./startup/"><h3>Startup</h3><p>新創融資、產品、合作、轉型與併購。</p></a>
-        <a class="card topic" href="./geopolitics/"><h3>Geopolitics</h3><p>聚焦中美台的政策、貿易、安全與科技限制。</p></a>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>目前狀態</h2>
-      <p><strong>舊資料已清除。</strong> 現在保留的是新的網站骨架；等明天早上新聞任務跑完，首頁與每日頁就會開始填入正式內容。</p>
-    </section>
-  </main>
+<section class="card">
+  <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="./assets/husky-logo.png" alt="哈哈狗報 Logo" style="width:72px;height:72px;filter:drop-shadow(0 8px 18px rgba(125,211,252,.18))" /><div><div class="pill">哈哈狗報</div><h1>每日科技・產業・地緣情報整理</h1></div></div>
+  <p>今天先看 AI 與基礎設施鏈：模型、資料中心、晶片、資安與中美台政策線同步有更新。</p>
+  <p><a href="./2026-03-10/"><strong>進入今日主頁：2026 年 3 月 10 日</strong></a></p>
+  <p class="muted">最新更新：2026-03-10 09:18 America/Los_Angeles</p>
+</section>
+<section class="card">
+  <h2>快速導讀 / TL;DR</h2>
+  <ul class="list"><li><strong>AI</strong>：OpenAI 收購 Promptfoo、GPT-5.4 上線，Google 與 Anthropic 也各自補強產品與研究敘事。</li><li><strong>基礎設施</strong>：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。</li><li><strong>政策與風險</strong>：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。</li></ul>
+</section>
+<section class="card">
+  <h2>今日八大主題</h2>
+  <div class="grid"><a class="card topic-card" href="./2026-03-10/ai/"><h3>AI</h3><p><strong>OpenAI 開始把 AI 安全測試能力往內建化整合。</strong></p><p class="muted small">最新：OpenAI 將收購 Promptfoo</p></a><a class="card topic-card" href="./2026-03-10/big-tech/"><h3>Big Tech</h3><p><strong>微軟把 AI 套件打包成更高層的企業方案，賣點是 intelligence + trust。</strong></p><p class="muted small">最新：Microsoft 推出 Frontier Suite</p></a><a class="card topic-card" href="./2026-03-10/semiconductor/"><h3>Semiconductor</h3><p><strong>先進 GPU 產能仍是頂級 AI 團隊最關鍵的稀缺資源。</strong></p><p class="muted small">最新：Nvidia 與 Thinking Machines Lab 敲定長期算力合作</p></a><a class="card topic-card" href="./2026-03-10/storage-server/"><h3>Storage / Server</h3><p><strong>企業級開發平台持續把搜尋與可靠性當核心基建。</strong></p><p class="muted small">最新：GitHub Enterprise Server 重做搜尋架構以提高可用性</p></a><a class="card topic-card" href="./2026-03-10/cooling/"><h3>Cooling</h3><p><strong>AI 機房競爭已從伺服器延伸到整套電力與散熱交付能力。</strong></p><p class="muted small">最新：Vertiv 與 Generate Capital 推出資料中心『電力 + 冷卻』打包方案</p></a><a class="card topic-card" href="./2026-03-10/security/"><h3>Security</h3><p><strong>企業核心系統還是最需要第一時間處理的高風險面。</strong></p><p class="muted small">最新：SAP 修補 FS-QUO 與 NetWeaver 關鍵漏洞</p></a><a class="card topic-card" href="./2026-03-10/startup/"><h3>Startup</h3><p><strong>AI 基礎設施新創現在連網路層都能拿到超大額資金。</strong></p><p class="muted small">最新：Eridu 以超過 2 億美元 A 輪走出隱身模式</p></a><a class="card topic-card" href="./2026-03-10/geopolitics/"><h3>Geopolitics</h3><p><strong>高層會前的工作層接觸，代表雙方都在先控風險。</strong></p><p class="muted small">最新：路透：美中貿易主管預計 3 月中會面，為川習會鋪路</p></a></div>
+</section>
+<section class="card">
+  <h2>站點導覽</h2>
+  <ul class="list">
+    <li><a href="./2026-03-10/">今日總覽</a>：固定八大主題、每則精簡摘要。</li>
+    <li>主題歷史頁：<a href="./ai/">AI</a> / <a href="./big-tech/">Big Tech</a> / <a href="./semiconductor/">Semiconductor</a> / <a href="./storage-server/">Storage / Server</a> / <a href="./cooling/">Cooling</a> / <a href="./security/">Security</a> / <a href="./startup/">Startup</a> / <a href="./geopolitics/">Geopolitics</a></li>
+    <li><a href="./saved/">Saved</a> 僅保留手動收藏，不會自動加入。</li>
+  </ul>
+</section>
+<section class="card">
+  <h2>任務資訊</h2>
+  <div class="stat small">
+      <div><b>total token</b>約 18k</div>
+      <div><b>input token</b>約 14k</div>
+      <div><b>output token</b>約 4k</div>
+      <div><b>duration</b>約 18 分</div>
+      <div><b>status</b>published</div>
+    </div>
+</section>
+</main>
 </body>
 </html>

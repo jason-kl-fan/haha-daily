@@ -1,0 +1,296 @@
+{
+  "site": {
+    "name": "哈哈狗報",
+    "date": "2026-03-10",
+    "dateLabel": "2026 年 3 月 10 日",
+    "weekday": "星期二",
+    "intro": "今天先看 AI 與基礎設施鏈：模型、資料中心、晶片、資安與中美台政策線同步有更新。",
+    "overview": [
+      "**AI**：OpenAI 收購 Promptfoo、GPT-5.4 上線，Google 與 Anthropic 也各自補強產品與研究敘事。",
+      "**基礎設施**：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。",
+      "**政策與風險**：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。"
+    ]
+  },
+  "topics": [
+    {
+      "slug": "ai",
+      "name": "AI",
+      "desc": "模型、產品、研究、監管與產業動態。",
+      "items": [
+        {
+          "title": "OpenAI 將收購 Promptfoo",
+          "takeaway": "**OpenAI 開始把 AI 安全測試能力往內建化整合。**",
+          "summary": "Promptfoo 原本就是紅隊測試與提示攻擊評估工具，併入後代表 OpenAI 想把 agent 與模型安全驗證做成更底層能力。",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-promptfoo"
+        },
+        {
+          "title": "OpenAI 發表 GPT-5.4",
+          "takeaway": "**新一代旗艦模型繼續往知識工作、推理與工具整合前進。**",
+          "summary": "官方定位顯示 GPT-5.4 強調更完整的知識工作能力，對企業導入與工作流整合會是接下來的主軸。",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-5-4"
+        },
+        {
+          "title": "Gemini 在 Google Sheets 的能力再往前推",
+          "takeaway": "**Google 正把 AI 從聊天介面往真正的辦公操作面滲透。**",
+          "summary": "Google 宣稱 Gemini 在 Sheets 達到更強表格任務表現，代表 Workspace 內的 AI 自動分析與操作能力正在加速成熟。",
+          "source": "blog.google",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+        },
+        {
+          "title": "Anthropic 發布 AI 對勞動市場影響的新研究",
+          "takeaway": "**AI 公司開始更積極主導「哪些工作受影響」的敘事。**",
+          "summary": "Anthropic 用新指標追蹤 AI 對職業與任務的暴露程度，這類研究會影響企業採用節奏，也可能進一步進入政策監管討論。",
+          "source": "Anthropic / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KTkM5U1RQMnVZS29QR3BLTzQyOHJYSHFZY253LXd2RTNyZlNOZjdxMFB5ZkV4SVNJcGtaSkJIQkdma21jS0tvWWdGQ3BDZ1ZMQjFIU09Xb2FaUl9JSlcxY1lVazhUQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "slug": "big-tech",
+      "name": "Big Tech",
+      "desc": "全球大型科技公司產品、策略、AI 與監管更新。",
+      "items": [
+        {
+          "title": "Microsoft 推出 Frontier Suite",
+          "takeaway": "**微軟把 AI 套件打包成更高層的企業方案，賣點是 intelligence + trust。**",
+          "summary": "Frontier Suite 明顯不是單點功能，而是把 Copilot、代理與治理能力整合成新一層企業產品，瞄準大客戶標案與平台綁定。",
+          "source": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
+        },
+        {
+          "title": "OpenAI 與 Microsoft 再次重申合作關係",
+          "takeaway": "**市場雜音很多，但雙方仍需要彼此的算力、渠道與商業化能力。**",
+          "summary": "雙方聯合聲明主要在穩定預期，代表合作模式雖在調整，但至少短中期內仍是產業核心聯盟之一。",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/microsoft-and-openai-joint-statement-on-continuing-partnership"
+        },
+        {
+          "title": "Google 因用戶抱怨調整 AI 版 Ask Photos",
+          "takeaway": "**生成式 AI 進入主流產品後，體驗不夠好就會立刻被真實用戶打回票。**",
+          "summary": "Google 對 Ask Photos 的調整，反映 AI 搜尋 / 相簿這類高頻工具不能只靠炫技，速度與準確性仍是核心。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/"
+        },
+        {
+          "title": "Meta 強調資料中心對能源、就業與地方社群的價值",
+          "takeaway": "**大型平台正提前為資料中心擴張做社會與政策溝通。**",
+          "summary": "Meta 這篇論述重點不在新技術，而在為 AI 時代更大規模的基礎設施投資建立政治與社會正當性。",
+          "source": "Meta",
+          "url": "https://about.fb.com/news/2026/03/meta-data-centers-support-energy-jobs-environment-local-communities/"
+        }
+      ]
+    },
+    {
+      "slug": "semiconductor",
+      "name": "Semiconductor",
+      "desc": "晶圓代工、記憶體、封裝、設備與晶片公司消息。",
+      "items": [
+        {
+          "title": "Nvidia 與 Thinking Machines Lab 敲定長期算力合作",
+          "takeaway": "**先進 GPU 產能仍是頂級 AI 團隊最關鍵的稀缺資源。**",
+          "summary": "Nvidia 不只供貨，還直接參與新創的算力部署與資本合作，代表晶片供應已經是戰略級綁定，而非單純採購。",
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+        },
+        {
+          "title": "阿里雲推進上海資料中心，將部署自研含光 / 真武系晶片",
+          "takeaway": "**中國雲廠仍在加速「自家雲 + 自家晶片」垂直整合。**",
+          "summary": "阿里雲持續推自研晶片進資料中心，顯示在外部限制加強下，大型中國平台仍把自主硬體視為核心能力。",
+          "source": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/alibaba-cloud-pushes-ahead-with-shanghai-data-center-will-house-custom-zhenwu-chips/"
+        },
+        {
+          "title": "路透：中東衝突恐干擾關鍵晶片材料供應",
+          "takeaway": "**地緣政治開始直接映射到晶片材料與供應鏈風險。**",
+          "summary": "南韓對中東局勢可能衝擊半導體材料供應提出警告，這類非晶圓廠端的上游風險，正重新進入市場視野。",
+          "source": "Reuters / Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSXFFZnBBUXF5MmhqeEwydWdXeWVLNDdnc21tVXNqQ1JCVmFsblVaeHRmeWJwWm83bllHOE00a2ppX0NxMjA2NXM2dndMWFJRZ1VZSmlQNFRJeHRBQmJNM2VyRld4V0g5ZEdJY1dWN1hYSTlDYUxYdy1ONmk1SUVMQXhvX3FzejhjcGplS0pGMGVuOXViT3dHdTQ3X1ZmR1RWQ0dzV215dXM5UjZVdVF5MnpQWElPaG5PUU9nN2VuRTJTSkc0UGNmWlRHa0pueFhmeTM0TA?oc=5"
+        },
+        {
+          "title": "報導指 Tesla 擴大 AI6 晶片訂單，拉升 Samsung Texas 廠利用率",
+          "takeaway": "**AI 與自駕需求仍在替成熟 / 新產線找量。**",
+          "summary": "若訂單訊號屬實，三星德州廠的 AI 晶片能見度會改善，也代表車用與 AI 工作負載的邊界持續模糊。",
+          "source": "DigiTimes / Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3hkdTlYQ2hMQ2RHcXBvd2M2RFNMeE5CcGpRRkxrQzBDaHNYZ25nZG5uVE1hUFJPcTdneE5CMkQzNW40MGN2UThSVGdMbFFQU05pdzFoYWhET0ZubzJOTXdlX3Q1ZlVWaWxFczZZeEM4RGd1N1BsR2Q3M1hoejN6MW9lcFhXckg3TDBqN0pqZFRIbVVORDItTW4zUzBZb1RFNkRlNVVrdw?oc=5"
+        }
+      ]
+    },
+    {
+      "slug": "storage-server",
+      "name": "Storage / Server",
+      "desc": "存儲、伺服器、企業基礎設施軟硬體與供應鏈。",
+      "items": [
+        {
+          "title": "GitHub Enterprise Server 重做搜尋架構以提高可用性",
+          "takeaway": "**企業級開發平台持續把搜尋與可靠性當核心基建。**",
+          "summary": "GitHub 直接談高可用搜尋重構，顯示大型軟體平台的競爭點已不只是功能，而是能否穩定支撐大規模企業內部使用。",
+          "source": "GitHub Blog",
+          "url": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/"
+        },
+        {
+          "title": "VAST Data 新增 block storage，想把 AI 與混合工作負載拉到同一平台",
+          "takeaway": "**AI 儲存平台正在往更完整的企業基礎設施棧擴張。**",
+          "summary": "VAST 不再只講 AI data platform，而是補上 block storage，試圖吃下更傳統的企業應用與現代 AI 工作負載。",
+          "source": "HPCwire",
+          "url": "https://www.hpcwire.com/off-the-wire/vast-data-adds-block-storage-to-unify-enterprise-ai-and-hybrid-workloads/"
+        },
+        {
+          "title": "Box 推出給 AI agents 用的虛擬檔案系統層",
+          "takeaway": "**檔案與權限抽象層正成為 agent 工作流的重要基礎設施。**",
+          "summary": "如果 agents 要安全讀寫企業文件，除了模型以外，資料存取層會變得同樣關鍵；Box 顯然想卡住這個位置。",
+          "source": "Blocks and Files",
+          "url": "https://www.blocksandfiles.com/ai-ml/2026/03/09/box-pitches-virtual-filesystem-layer-for-ai-agents/5208017"
+        },
+        {
+          "title": "MariaDB 收購 GridGain，主打降低 AI inference 延遲",
+          "takeaway": "**資料庫廠也在往 AI 低延遲架構擴張。**",
+          "summary": "MariaDB 透過收購補上記憶體資料格與高速存取能力，目的是把推論場景的延遲壓下來，迎合企業 AI 服務化需求。",
+          "source": "Blocks and Files",
+          "url": "https://www.blocksandfiles.com/ai-ml/2026/03/09/mariadb-buys-gridgain-to-cut-latency-for-ai-inference-workloads/5208064"
+        }
+      ]
+    },
+    {
+      "slug": "cooling",
+      "name": "Cooling",
+      "desc": "資料中心液冷、熱管理與有意義的 PC 散熱動態。",
+      "items": [
+        {
+          "title": "Vertiv 與 Generate Capital 推出資料中心『電力 + 冷卻』打包方案",
+          "takeaway": "**AI 機房競爭已從伺服器延伸到整套電力與散熱交付能力。**",
+          "summary": "Vertiv 與資本方合作，意味大型客戶要的不只是設備，而是更快落地的整包供電與冷卻能力。",
+          "source": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/vertiv-generate-capital-team-up-on-bring-your-own-power-cooling-offering-for-data-centers/"
+        },
+        {
+          "title": "Trane 收購 LiquidStack，切入 AI 資料中心液冷",
+          "takeaway": "**傳統 HVAC 大廠正在正面押注液冷。**",
+          "summary": "Trane 直接收購 LiquidStack，顯示液冷已經不是周邊選項，而是會被併入大型熱管理公司主戰略的核心能力。",
+          "source": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/trane-acquires-cooling-firm-liquidstack/"
+        },
+        {
+          "title": "Submer 與印度 Anant Raj 合作推進 immersion cooling 資料中心",
+          "takeaway": "**液冷與浸沒式方案開始往新興市場複製。**",
+          "summary": "印度資料中心建設加速下，Submer 這類玩家正把浸沒式冷卻從概念驗證推向區域級部署。",
+          "source": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/immersion-cooling-firm-submer-partners-with-indian-real-estate-developer-anant-raj-for-data-center-venture/"
+        },
+        {
+          "title": "ASUS 公開 AI / HPC 資料中心液冷生態系",
+          "takeaway": "**不只機房級供應商，硬體品牌也在往液冷平台化前進。**",
+          "summary": "ASUS 展示整體液冷方案，說明 AI 機櫃熱密度提升之後，冷卻能力正在變成銷售組合的一部分。",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbmxVaU5PdDVQaENaQW5NOHpyaFJwOHZKelZieWJ6eEl4dHB5S0VtX05lMXIxODlLdHpDWEh6M0V0QWl3UnBlTVF1SGdwQTRRa0d5X1VQYjFGV0RuQjg3RmZVWVJrYW12eHVrbm9oNEMxY0Q3RkNHWTNLWVpNdHFISE9fRTl4SjR2b2lqbk9BMk0zbkQ3Wk9S?oc=5"
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "name": "Security",
+      "desc": "漏洞、攻擊、防禦、AI 安全與企業安全事件。",
+      "items": [
+        {
+          "title": "SAP 修補 FS-QUO 與 NetWeaver 關鍵漏洞",
+          "takeaway": "**企業核心系統還是最需要第一時間處理的高風險面。**",
+          "summary": "SAP 弱點牽涉到大型企業流程與資料面，一旦延後修補，影響通常不只單一應用而是整個內部系統鏈。",
+          "source": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/"
+        },
+        {
+          "title": "Ericsson 資料外洩影響數千人",
+          "takeaway": "**老牌大型企業仍持續面臨個資與內部資料暴露風險。**",
+          "summary": "Ericsson 事件提醒大家：即使不是戲劇化的大型入侵，涉及員工或客戶資料的外洩仍會造成長尾法務與信任成本。",
+          "source": "SecurityWeek",
+          "url": "https://www.securityweek.com/thousands-affected-by-ericsson-data-breach/"
+        },
+        {
+          "title": "OpenAI 推出 Codex Security 漏洞掃描器",
+          "takeaway": "**AI 公司開始把開發安全工具商品化，往 DevSecOps 延伸。**",
+          "summary": "這類產品不是只為展示模型能力，而是瞄準企業開發流程中的安全檢測預算，意圖卡位更高價值工作流。",
+          "source": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-rolls-out-codex-security-vulnerability-scanner/"
+        },
+        {
+          "title": "Microsoft 警告：偽裝成辦公工具的已簽章惡意程式正投放 RMM 後門",
+          "takeaway": "**供應鏈信任與簽章信任都正在被攻擊者反向利用。**",
+          "summary": "攻擊者冒充常見工作軟體並利用已簽章樣本，提高繞過防護與社交工程成功率，企業端點防禦必須同步升級。",
+          "source": "Microsoft / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR1ItOEd4UTNqLUI2Qm0tTFRuZlRYaGJmRU9tblRqR2NfN1NlQWJFM2V2VDNIOFlJdTY2NzRhdDNjM3Qzc1NtWEczbWdMV2REaWszT3dQbGhDSGVjb1VKbFo0emQ4SGtrMEUxbjFHdzdwQ0ZSU0FpdjBRYlJoQkw4cnBZNjVSNnRHSHBPeG5VTTNaQnZpdXNMV3ZGcGpvOXJ3eWprU2lj?oc=5"
+        }
+      ]
+    },
+    {
+      "slug": "startup",
+      "name": "Startup",
+      "desc": "新創融資、產品、合作、轉型與併購。",
+      "items": [
+        {
+          "title": "Eridu 以超過 2 億美元 A 輪走出隱身模式",
+          "takeaway": "**AI 基礎設施新創現在連網路層都能拿到超大額資金。**",
+          "summary": "Eridu 主打突破 AI 叢集的網路瓶頸，代表資本市場已經不只追模型，而是開始深挖底層互連與效率痛點。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/"
+        },
+        {
+          "title": "Legora 估值升至 55.5 億美元",
+          "takeaway": "**AI 法律科技仍是高估值熱門賽道。**",
+          "summary": "Legora 的最新估值顯示，能直接切入高單價專業服務流程的 AI 新創，仍最容易獲得市場高倍數定價。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/"
+        },
+        {
+          "title": "Yann LeCun 的 AMI Labs 傳出募得 10.3 億美元",
+          "takeaway": "**市場願意繼續押注大型研究型新創與非主流 AI 路線。**",
+          "summary": "若這筆資金規模屬實，AMI Labs 代表的不只是資本熱度，也是在『LLM 之外還有沒有下一條大路徑』上的高額下注。",
+          "source": "TechCrunch / Google News",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHNjBvMUtxY0xSLUNNYjliSWdvYjNodEpBNFBjN2hPS1RKcjFtU3dwVDFjWm9iM09RV1JkMlB4UV9QX1hHdE4wTzFqWGdaMXJldk1IT3M3N0xmVWh0WjUzd0twYjVHMXd0NmlOR3dEbExPMTRZa01nVVRKZFFwZWg?oc=5"
+        },
+        {
+          "title": "Bluesky 執行長 Jay Graber 請辭",
+          "takeaway": "**社群新創在成長期仍要面對治理與領導層穩定性考驗。**",
+          "summary": "Bluesky 正處於產品定位與生態擴張的重要階段，管理層變動會影響外界對其長期競爭力與商業化節奏的判斷。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down/"
+        }
+      ]
+    },
+    {
+      "slug": "geopolitics",
+      "name": "Geopolitics",
+      "desc": "聚焦中美台的政策、貿易、安全與科技限制。",
+      "items": [
+        {
+          "title": "路透：美中貿易主管預計 3 月中會面，為川習會鋪路",
+          "takeaway": "**高層會前的工作層接觸，代表雙方都在先控風險。**",
+          "summary": "在關稅、科技限制與區域安全壓力都升高之際，先由經貿官員對表，顯示雙方仍希望避免衝突全面外溢。",
+          "source": "Reuters / Google News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRmYxWnQ3eGl4YkhFb3hhY1VZbGJxM2JqUG1NU1gzX0N0WnBvU0NNaEtrNlJnZ1FvWU9TeUJ1YlE4djl1Rnk0YVB2MTRGNTJUTzJwWmlWVVlna0dlVGJYTW5mUkZ3S2VjR3JEYk5GMlROVEMzWk1lek5uZGJvT3hTWDJQMnY4QjZLaFVYVk5VQkRla2dqbUh2aG9jS2M1M3dKSkQ3Y0VqQw?oc=5"
+        },
+        {
+          "title": "中國稱與美國溝通至關重要，但也強調會守住紅線",
+          "takeaway": "**北京的訊號是『可以談，但不會在核心議題上退讓』。**",
+          "summary": "這種表述通常意味外交降溫與政治定調同步進行，台灣、出口管制與盟友布局仍會是雙方最硬的碰撞點。",
+          "source": "Reuters / Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRjQxUGN2azU0dU40SFBJVjRNSmNpQ1pDVVBmSDR1dmJkOUVjTHBZbUVxZ2JJdnRydjVWMzJ2emRXYllGQWp1TlBnZXZacnlpTmItY0p1M2NUVHFCYnNJdDJvM3lncDZQa0Zka2JOeXNzTXRqM1VSQjZ4Mll4MGVvUnJUNmZoSkIzb05rX0txdTdXWmI5RmhQZEx5YzVUdXBRNkpmR0o5UQ?oc=5"
+        },
+        {
+          "title": "路透：圍台中國軍機架次下降，市場解讀與峰會前氣氛有關",
+          "takeaway": "**軍事壓力節奏可能暫時配合外交安排微調。**",
+          "summary": "這不代表風險消失，而是顯示北京在軍事施壓與高層外交之間，仍會動態拿捏節奏與訊號強度。",
+          "source": "Reuters / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjlRS2dQdVVBSE11SUdPVEJHa0RoMFl6NGpnUGdJOFdyTlMwTk51UlV2RzRwWWNtZ2VDd0VhXzQ5cVJHWFBMQ0JCN3FZNTNNYUs2VF9oZ3VBRkQwTHdBam9CMFNfYUw1SE1SazcwV3ZJZnB4TE15Q0FMRF95T0t4Qk0wRTBWWG9jaDBEdm12SDNlbWt0dG0zVVFLc2VqWlY0dXc4MHFDTktyZw?oc=5"
+        },
+        {
+          "title": "路透：Nvidia 停止中國市場定向晶片產出，轉把台積電產能留給 Vera Rubin",
+          "takeaway": "**出口管制已開始改變先進晶片產能配置與區域策略。**",
+          "summary": "這條線同時牽涉美國限制、中國需求下滑與台積電先進產能分配，對 AI 晶片競局與地緣科技戰都有指標意義。",
+          "source": "Reuters / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYVhTQ3pjcTFuVE1UNmJhd3R1YzBfdjMxdjMya1NzTm1uYlRVTk9nR0xXWGl2MDRqRkNtYzhkWHE5WjhlMVRXcnpKZk5ERDdkbjhPOWVhN0p5ODZxQWZIQlNYSWViMFBMSkV1UHBMN29nTjl5M2wwblBHVVh6SE1CaFc0aGx4T1JpaGJYMVNhbmc0VkZ5ZEFZMTJOV3dZcmN2Qm1QUzE?oc=5"
+        }
+      ]
+    }
+  ]
+}
