@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>哈哈狗報</title>
   <style>
-    :root{--bg:#f6f7fb;--card:#fff;--text:#111827;--muted:#6b7280;--line:#dbe3ef;--accent:#2563eb;--soft:#eef4ff}
+    :root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49}
     *{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.75}
-    .wrap{max-width:900px;margin:0 auto;padding:20px 14px 48px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 8px 24px rgba(0,0,0,.05);margin-bottom:14px}
+    .wrap{max-width:900px;margin:0 auto;padding:20px 14px 48px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
     h1,h2,h3{margin:0 0 10px} a{color:var(--accent);text-decoration:none}.muted{color:var(--muted)} .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}.topic{display:block;color:inherit}.topic h3{color:var(--accent);font-size:1.05rem}.topic p{margin:.35em 0 0}.list{margin:.5em 0 0 1.2em;padding:0}.list li+li{margin-top:8px}
   </style>
@@ -15,8 +15,7 @@
 <body>
   <main class="wrap">
     <section class="card">
-      <div class="pill">哈哈狗報</div>
-      <h1>每日科技・產業・地緣情報整理</h1>
+      <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="./assets/husky-logo.svg" alt="哈哈狗報 Logo" style="width:72px;height:72px;filter:drop-shadow(0 8px 18px rgba(125,211,252,.18))" /><div><div class="pill">哈哈狗報</div><h1>每日科技・產業・地緣情報整理</h1></div></div>
       <p>網站骨架已建立完成，接下來會從每日任務自動補上內容。明天起，最新一期新聞會優先更新在這裡，並同步寫入各主題歷史頁。</p>
       <p class="muted">更新模式：每日 09:00（America/Los_Angeles）</p>
     </section>
@@ -34,7 +33,7 @@
     <section class="card">
       <h2>Saved 收藏</h2>
       <p>你之後如果要把某篇新聞收起來，只要直接叫我收藏，我就會把它整理進 <a href="./saved/">/saved/</a>，方便回頭複習。</p>
-      <p><a href="./saved/"><strong>→ 進入 Saved 收藏頁</strong></a></p>
+      <p><a href="./saved/" style="display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(125,211,252,.08)"><span style="font-size:1.25rem">🔖</span><strong>進入 Saved 收藏頁</strong></a></p>
     </section>
 
     <section class="card">
