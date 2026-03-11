@@ -27,12 +27,12 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
 <section class="card">
   <div class="kicker"><span class="pill">哈哈狗報</span><a class="small" href="../">← 回首頁</a></div>
   <h1>2026 年 3 月 10 日｜每日科技・產業・地緣新聞</h1>
-  <p>今天的 AI、Big Tech、Semiconductor、Storage/Server、Cooling、Security、Startup 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。</p>
+  <p>今天先完成 Security 主題手動重跑版：企業修補、身份安全、通訊帳號接管與高強度攻擊壓力仍是重點。</p>
   <p class="muted">星期二 · 固定八大主題 · 手機閱讀版</p>
 </section>
 <section class="card">
   <h2>快速導讀 / TL;DR</h2>
-  <ul class="list"><li><strong>AI</strong>：OpenAI 安全整合、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與垂直 AI 助手同步推進。</li><li><strong>Big Tech / 晶片</strong>：Meta / Nvidia 長約、Oracle 擴大晶片供應鏈，半導體面則集中在 HBM、Rubin、封裝與地緣供應風險。</li><li><strong>政策與風險</strong>：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。</li></ul>
+  <ul class="list"><li><strong>AI</strong>：OpenAI 安全併購、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與大型算力合作同步推進。</li><li><strong>Security</strong>：微軟 3 月修補、SAP / Cisco 高風險漏洞、身份安全升級、Signal / WhatsApp 帳號接管與全球攻擊維持高檔。</li><li><strong>政策與風險</strong>：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。</li></ul>
 </section>
 <section class="card">
   <h2>主題捷徑</h2>
@@ -43,378 +43,228 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
       <p class="muted">模型、產品、研究、監管與產業動態。</p>
       <article class="story">
       <h3>OpenAI 將收購 Promptfoo</h3>
-      <p><strong>OpenAI 開始把 AI 安全測試與治理能力直接收進企業 agent 平台。</strong></p>
-      <p class="small">這代表未來企業導入 AI coworker 時，安全驗證、紅隊測試與合規追蹤會更像平台內建功能，而不是外掛工具。</p>
-      <p class="source">來源：<strong>OpenAI / RSS</strong> · <a href="https://openai.com/index/openai-to-acquire-promptfoo">原文連結</a></p>
+      <p><strong>OpenAI 開始把 AI 安全測試與評估能力直接內建到企業 agent 平台。</strong></p>
+      <p class="small">OpenAI 表示會把 Promptfoo 的紅隊測試、評估與治理能力整合進 Frontier，代表企業導入 AI coworkers 時，安全驗證將更前置化與平台化。</p>
+      <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/openai-to-acquire-promptfoo">原文連結</a></p>
     </article><article class="story">
       <h3>OpenAI 發表 GPT-5.4</h3>
-      <p><strong>GPT-5.4 明顯朝專業知識工作、工具操作與長流程任務整合前進。</strong></p>
-      <p class="small">官方重點放在 reasoning、coding、tool use、computer use 與更高 token 效率，顯示模型競爭已進入真實工作流落地階段。</p>
-      <p class="source">來源：<strong>OpenAI / RSS</strong> · <a href="https://openai.com/index/introducing-gpt-5-4">原文連結</a></p>
+      <p><strong>GPT-5.4 把推理、編碼、工具操作與長上下文整合成更完整的工作型模型。</strong></p>
+      <p class="small">OpenAI 將 GPT-5.4 定位為更適合專業知識工作與 agent workflow 的旗艦模型，並強調更高工具使用能力、1M context 與更好的 token 效率。</p>
+      <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/introducing-gpt-5-4">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 擴大 Gemini 在 Workspace 的能力</h3>
-      <p><strong>Gemini 正從聊天助手升級成 Workspace 的跨應用工作流引擎。</strong></p>
-      <p class="small">Docs、Sheets、Slides、Drive 都在擴展，代表 Google 想把搜尋、郵件、文件、簡報和資料表串成單一 AI 操作層。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/">原文連結</a></p>
+      <h3>Gemini 在 Google Sheets 達到接近專家級的試算表能力</h3>
+      <p><strong>Google 正把 Gemini 從聊天助手往真正的表格操作代理推進。</strong></p>
+      <p class="small">Google 表示 Gemini in Sheets 在 SpreadsheetBench 上達到 70.48% 成功率，已逼近人類專家水準，顯示 AI 正更深入辦公資料處理核心。</p>
+      <p class="source">來源：<strong>Google</strong> · <a href="https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/">原文連結</a></p>
     </article><article class="story">
-      <h3>Gemini in Sheets 達到接近專家級試算表能力</h3>
-      <p><strong>Google 正把 AI 推進到高摩擦、真實辦公資料處理核心。</strong></p>
-      <p class="small">這不只是生成內容，而是更接近可執行表格工作的代理化能力，對企業內部分析流程影響會很大。</p>
-      <p class="source">來源：<strong>Google Blog / RSS</strong> · <a href="https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/">原文連結</a></p>
+      <h3>Google 為 Docs、Sheets、Slides、Drive 推出新一批 Gemini 能力</h3>
+      <p><strong>Workspace 的生成式 AI 正從『輔助』升級成跨應用內容組裝層。</strong></p>
+      <p class="small">新能力可從 Gmail、Chat、Drive 與搜尋拉資料，直接產生文件、試算表與簡報，代表 Google 想把 Gemini 變成整個 Workspace 的工作流編排器。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 為 Ask Photos 加回更明顯的傳統搜尋切換</h3>
-      <p><strong>AI 功能如果又慢又不準，主流產品使用者會直接反彈。</strong></p>
-      <p class="small">這條很重要，因為它說明生成式 AI 在高頻產品場景裡，不能只靠新奇，還是得回到速度、準確與可控性。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/">原文連結</a></p>
+      <h3>Google 為 Ask Photos 加回更明顯的經典搜尋切換</h3>
+      <p><strong>生成式 AI 功能如果又慢又不準，主流用戶會直接要求退回傳統體驗。</strong></p>
+      <p class="small">Google 因使用者抱怨 Ask Photos 速度與準確度問題，新增更顯眼的切換方式，說明高頻產品場景下 AI 仍必須服從實用性。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/">原文連結</a></p>
     </article><article class="story">
-      <h3>Anthropic 為 Claude Code 推出 Code Review</h3>
-      <p><strong>AI 公司正在把模型能力封裝成高價值、可收費的開發流程產品。</strong></p>
-      <p class="small">多代理平行審查 PR、再做交叉驗證，這已經不是單純聊天模型，而是直接切進企業工程流程。</p>
-      <p class="source">來源：<strong>VentureBeat / RSS</strong> · <a href="https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon">原文連結</a></p>
+      <h3>Adobe 在 Photoshop 推出 AI assistant</h3>
+      <p><strong>創意軟體的 AI 競爭已經進入『直接用自然語言操作編修流程』階段。</strong></p>
+      <p class="small">Adobe 讓 Photoshop 使用者可用提示詞完成去背、調光、改色與生成式編修，同時也把更多生成式能力帶進 Firefly，進一步強化工作流綁定。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Zoom 推出 AI office suite 與會議替身 avatar</h3>
+      <p><strong>Zoom 不只想做會議工具，而是想用 AI 擴成整套辦公與代理工作平台。</strong></p>
+      <p class="small">Zoom 宣布 AI Docs、Slides、Sheets、meeting avatar、voice translation 與 agent builder，顯示會議平台正把 AI 當成產品線延伸的核心引擎。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Anthropic 為 Claude Code 推出多代理 Code Review</h3>
+      <p><strong>AI 公司正在把模型能力包成更昂貴、但更完整的開發工作流產品。</strong></p>
+      <p class="small">Anthropic 的 Code Review 會派出多個 agent 平行審查 pull request，再交叉驗證與排序問題嚴重度，明顯瞄準企業級高價值開發流程。</p>
+      <p class="source">來源：<strong>VentureBeat</strong> · <a href="https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon">原文連結</a></p>
     </article><article class="story">
       <h3>Nvidia 傳將推出開源 AI agent 平台</h3>
-      <p><strong>Nvidia 不只賣晶片，也開始往 agent 軟體平台層擴張。</strong></p>
-      <p class="small">如果這件事成真，Nvidia 會從基礎算力供應商更往上走，變成晶片、agent platform 與生態整合的三層角色。</p>
-      <p class="source">來源：<strong>WIRED / RSS</strong> · <a href="https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/">原文連結</a></p>
+      <p><strong>Nvidia 正從算力供應商進一步往 agent 軟體平台層延伸。</strong></p>
+      <p class="small">WIRED 報導 Nvidia 正準備推出面向企業的開源 agent 平台，並接觸多家大型軟體公司，意味其戰略重心正在往『晶片 + 平台』雙棲發展。</p>
+      <p class="source">來源：<strong>WIRED</strong> · <a href="https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/">原文連結</a></p>
     </article><article class="story">
       <h3>Thinking Machines Lab 與 Nvidia 簽下大型算力合作</h3>
-      <p><strong>頂級 AI 團隊競爭的核心，仍然是先進算力的長期保障。</strong></p>
-      <p class="small">Mira Murati 的團隊拿到大規模 Nvidia 資源，說明模型競賽背後的真正稀缺資源還是 compute。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Amazon 推出 healthcare AI assistant</h3>
-      <p><strong>AI 助手正快速滲透到垂直場景，而不只是通用聊天。</strong></p>
-      <p class="small">醫療健康這種高敏感、高流程的場景如果開始導入，代表 AI 助手商品化會更進一步往實際服務入口走。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/">原文連結</a></p>
-    </article><article class="story">
-      <h3>ChatGPT 新增互動式視覺化學習能力</h3>
-      <p><strong>通用 AI 正從回答問題，往教學介面進化。</strong></p>
-      <p class="small">這種能力對教育、科普、知識工作都很有延伸性，也代表產品競爭已經不只是模型分數，而是互動體驗。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/">原文連結</a></p>
+      <p><strong>頂級 AI 實驗室之間的競爭，核心仍是先進算力與長期供應保障。</strong></p>
+      <p class="small">Mira Murati 的 Thinking Machines Lab 與 Nvidia 建立多年合作，並將部署至少 1GW Vera Rubin 系統，反映大型研究團隊正持續搶占未來算力產能。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/">原文連結</a></p>
     </article>
     </section><section class="card" id="big-tech">
       <div class="kicker"><span class="pill">2. Big Tech</span><a class="small" href="./big-tech/">看本主題頁 →</a></div>
       <p class="muted">全球大型科技公司產品、策略、AI 與監管更新。</p>
       <article class="story">
-      <h3>Meta 與 Nvidia 擴大多年 AI 基礎設施合作</h3>
-      <p><strong>Big Tech 的 AI 競爭已經從買 GPU，升級成多年期基礎設施綁定。</strong></p>
-      <p class="small">Meta 與 Nvidia 的合作涵蓋 Blackwell、Rubin、Grace CPU 與網通，顯示大型平台正在用長約鎖定算力、供應鏈與擴張速度。</p>
-      <p class="source">來源：<strong>Forbes / Tavily</strong> · <a href="https://www.forbes.com/sites/jonmarkman/2026/03/09/metas-most-efficient-ai-infrastructure-for-digital-intelligence/">原文連結</a></p>
+      <h3>Microsoft 推出 Frontier Suite</h3>
+      <p><strong>微軟把 AI 套件打包成更高層的企業方案，賣點是 intelligence + trust。</strong></p>
+      <p class="small">Frontier Suite 明顯不是單點功能，而是把 Copilot、代理與治理能力整合成新一層企業產品，瞄準大客戶標案與平台綁定。</p>
+      <p class="source">來源：<strong>Microsoft</strong> · <a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">原文連結</a></p>
     </article><article class="story">
-      <h3>Oracle 在財報會議點名 Cerebras 與 Nvidia、AMD 並列</h3>
-      <p><strong>Big Tech 雲端陣營正在擴大 AI 晶片供應商名單，不再只押單一巨頭。</strong></p>
-      <p class="small">Oracle 把 Cerebras 與 Nvidia、AMD 並列，代表大型雲平台已經開始更公開地培養 alternative AI hardware 供應鏈。</p>
-      <p class="source">來源：<strong>CNBC / Tavily</strong> · <a href="https://www.cnbc.com/2026/03/10/ai-chipmaker-cerebras-namedropped-by-oracle-alongside-nvidia-and-amd-.html">原文連結</a></p>
+      <h3>OpenAI 與 Microsoft 再次重申合作關係</h3>
+      <p><strong>市場雜音很多，但雙方仍需要彼此的算力、渠道與商業化能力。</strong></p>
+      <p class="small">雙方聯合聲明主要在穩定預期，代表合作模式雖在調整，但至少短中期內仍是產業核心聯盟之一。</p>
+      <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/microsoft-and-openai-joint-statement-on-continuing-partnership">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 擴大 Gemini 在 Workspace 的能力</h3>
-      <p><strong>Google 想把 Workspace 變成 AI 原生辦公平台，而不是只加聊天功能。</strong></p>
-      <p class="small">Docs、Sheets、Slides、Drive 的 Gemini 更新顯示，Google 正把搜尋、郵件、文件與資料表串成一套可直接執行工作的操作層。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/">原文連結</a></p>
+      <h3>Google 因用戶抱怨調整 AI 版 Ask Photos</h3>
+      <p><strong>生成式 AI 進入主流產品後，體驗不夠好就會立刻被真實用戶打回票。</strong></p>
+      <p class="small">Google 對 Ask Photos 的調整，反映 AI 搜尋 / 相簿這類高頻工具不能只靠炫技，速度與準確性仍是核心。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 將 Gemini in Chrome 擴展到更多國家</h3>
-      <p><strong>Google 正把 Gemini 從單點產品推向瀏覽器級入口。</strong></p>
-      <p class="small">Gemini in Chrome 持續擴區，代表 Google 不只要在 Workspace 內部署 AI，也想把瀏覽器本身變成更高頻的 AI 接觸面。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Google Cloud 提出讓電信業更自主的雲端與 AI 路線</h3>
-      <p><strong>Google 正用雲端加 AI 重新包裝傳統產業升級敘事。</strong></p>
-      <p class="small">對 Google Cloud 來說，telco automation 不只是產業方案，而是把雲端、資料、網路與 AI 綁成一個長期營收故事。</p>
-      <p class="source">來源：<strong>Data Center Dynamics / RSS</strong> · <a href="https://www.datacenterdynamics.com/en/news/google-cloud-lays-out-plans-to-help-telcos-become-more-autonomous/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Amazon 推出 healthcare AI assistant</h3>
-      <p><strong>Amazon 正把 AI 助手能力往高價值垂直場景延伸。</strong></p>
-      <p class="small">醫療健康是高流程、高敏感度場景，Amazon 直接把 AI 助手放進官網與 app，代表它不想只做通用型聊天，而想卡住特定服務入口。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Amazon 對 AI 輔助程式變更收緊工程審批</h3>
-      <p><strong>Big Tech 開始面對 AI 寫程式帶來的真實營運風險，而不只是宣傳效益。</strong></p>
-      <p class="small">Amazon 因高爆炸半徑的 AI 輔助變更事件，要求資深工程師更嚴格簽核，反映大型公司已進入 AI 開發治理期。</p>
-      <p class="source">來源：<strong>Ars Technica / RSS</strong> · <a href="https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Meta 收購 AI agent 社群產品 Moltbook</h3>
-      <p><strong>Meta 對 agent 型社交產品有興趣，代表 AI social 仍被視為下一波入口。</strong></p>
-      <p class="small">Moltbook 雖然帶有實驗色彩，但 Meta 願意出手收購，顯示它仍想抓住 AI 代理人在社交與內容分發上的潛在新形態。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Adobe 在 Photoshop 推出 AI assistant</h3>
-      <p><strong>Adobe 正把創意軟體從工具箱改造成自然語言可操作的工作流平台。</strong></p>
-      <p class="small">這不只是加一個生成按鈕，而是讓 Photoshop 直接接受語意指令完成編修工作，進一步提高使用者對 Adobe 生態的依賴。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Zoom 推出 AI office suite 與會議 avatar</h3>
-      <p><strong>Zoom 想從視訊會議工具升級成 AI 辦公平台。</strong></p>
-      <p class="small">Docs、Slides、Sheets、avatar、voice translation 與 agent builder 一起推出，顯示 Zoom 正用 AI 擴大產品邊界，對抗更大平台型對手。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/">原文連結</a></p>
+      <h3>Meta 強調資料中心對能源、就業與地方社群的價值</h3>
+      <p><strong>大型平台正提前為資料中心擴張做社會與政策溝通。</strong></p>
+      <p class="small">Meta 這篇論述重點不在新技術，而在為 AI 時代更大規模的基礎設施投資建立政治與社會正當性。</p>
+      <p class="source">來源：<strong>Meta</strong> · <a href="https://about.fb.com/news/2026/03/meta-data-centers-support-energy-jobs-environment-local-communities/">原文連結</a></p>
     </article>
     </section><section class="card" id="semiconductor">
       <div class="kicker"><span class="pill">3. Semiconductor</span><a class="small" href="./semiconductor/">看本主題頁 →</a></div>
       <p class="muted">晶圓代工、記憶體、封裝、設備與晶片公司消息。</p>
       <article class="story">
-      <h3>Micron 面臨 HBM4 供應壓力，SK hynix 與 Samsung 競爭升溫</h3>
-      <p><strong>AI 記憶體競賽已經進入 HBM4 世代卡位戰，Micron 壓力變大。</strong></p>
-      <p class="small">市場消息指 Nvidia 新一代 Vera Rubin 的 HBM4 供應可能由 SK hynix 與 Samsung 主導，代表 Micron 在高階 AI 記憶體鏈條上面臨更直接競爭。</p>
-      <p class="source">來源：<strong>Motley Fool / Tavily</strong> · <a href="https://www.fool.com/investing/2026/03/09/micron-investors-just-got-terrible-news-from-nvidi/">原文連結</a></p>
+      <h3>Nvidia 與 Thinking Machines Lab 敲定長期算力合作</h3>
+      <p><strong>先進 GPU 產能仍是頂級 AI 團隊最關鍵的稀缺資源。</strong></p>
+      <p class="small">Nvidia 不只供貨，還直接參與新創的算力部署與資本合作，代表晶片供應已經是戰略級綁定，而非單純採購。</p>
+      <p class="source">來源：<strong>NVIDIA Blog</strong> · <a href="https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/">原文連結</a></p>
     </article><article class="story">
-      <h3>Applied Materials 與 Micron 合作加速 HBM、NAND、DRAM 開發</h3>
-      <p><strong>設備商與記憶體廠正更深度綁定，搶 AI 記憶體開發速度。</strong></p>
-      <p class="small">Applied Materials 與 Micron 的合作說明高頻寬記憶體與先進記憶體節點的競爭，不只靠晶片設計，也高度依賴設備端聯合開發。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347250/applied-materials-and-micron-partner-to-accelerate-hbm-nand-and-dram-development">原文連結</a></p>
+      <h3>阿里雲推進上海資料中心，將部署自研含光 / 真武系晶片</h3>
+      <p><strong>中國雲廠仍在加速「自家雲 + 自家晶片」垂直整合。</strong></p>
+      <p class="small">阿里雲持續推自研晶片進資料中心，顯示在外部限制加強下，大型中國平台仍把自主硬體視為核心能力。</p>
+      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/alibaba-cloud-pushes-ahead-with-shanghai-data-center-will-house-custom-zhenwu-chips/">原文連結</a></p>
     </article><article class="story">
-      <h3>SK hynix 推出 1c LPDDR6 記憶體</h3>
-      <p><strong>先進記憶體競爭不只在資料中心，行動與邊緣端也在往新世代推進。</strong></p>
-      <p class="small">SK hynix 發表 LPDDR6，顯示記憶體廠正同時布局 AI 伺服器與終端裝置，藉由新規格搶功耗與頻寬優勢。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347229/sk-hynix-unveils-1c-lpddr6-memory-with-16-gb-capacity">原文連結</a></p>
+      <h3>路透：中東衝突恐干擾關鍵晶片材料供應</h3>
+      <p><strong>地緣政治開始直接映射到晶片材料與供應鏈風險。</strong></p>
+      <p class="small">南韓對中東局勢可能衝擊半導體材料供應提出警告，這類非晶圓廠端的上游風險，正重新進入市場視野。</p>
+      <p class="source">來源：<strong>Reuters / Google News</strong> · <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSXFFZnBBUXF5MmhqeEwydWdXeWVLNDdnc21tVXNqQ1JCVmFsblVaeHRmeWJwWm83bllHOE00a2ppX0NxMjA2NXM2dndMWFJRZ1VZSmlQNFRJeHRBQmJNM2VyRld4V0g5ZEdJY1dWN1hYSTlDYUxYdy1ONmk1SUVMQXhvX3FzejhjcGplS0pGMGVuOXViT3dHdTQ3X1ZmR1RWQ0dzV215dXM5UjZVdVF5MnpQWElPaG5PUU9nN2VuRTJTSkc0UGNmWlRHa0pueFhmeTM0TA?oc=5">原文連結</a></p>
     </article><article class="story">
-      <h3>Tesla 與 Samsung 洽談擴大 AI6 晶片生產</h3>
-      <p><strong>Samsung 先進製程仍在積極爭取 AI 與自駕晶片訂單。</strong></p>
-      <p class="small">若 Tesla 擴大 AI6 訂單屬實，Samsung 在 2nm foundry 的能見度會提升，也顯示車用與 AI 晶片需求正在更緊密地結合。</p>
-      <p class="source">來源：<strong>The Elec / Tavily</strong> · <a href="https://www.thelec.net/news/articleView.html?idxno=5646">原文連結</a></p>
-    </article><article class="story">
-      <h3>Nvidia 與 Thinking Machines Lab 推進 1GW Vera Rubin 部署</h3>
-      <p><strong>先進 AI 晶片的真正競爭，不只是出貨，而是誰能提前鎖住未來數年的產能。</strong></p>
-      <p class="small">Nvidia 與 Thinking Machines Lab 的長期合作不只是算力供貨，也是在提前分配下一代 Rubin 架構的關鍵產能。</p>
-      <p class="source">來源：<strong>Data Center Dynamics / RSS</strong> · <a href="https://www.datacenterdynamics.com/en/news/nvidia-partners-with-thinking-machines-lab-for-1gw-vera-rubin-deployment-makes-significant-investment-in-startup/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Nvidia 停止中國特規 H200 Hopper 生產</h3>
-      <p><strong>出口管制已開始直接改寫晶片產品線與區域供應策略。</strong></p>
-      <p class="small">Nvidia 停止中國定向 H200 產品，顯示美國限制正逼迫供應商重新切分市場與產能配置，半導體地緣化更明顯。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347079/nvidia-stops-china-focused-h200-hopper-gpu-production">原文連結</a></p>
-    </article><article class="story">
-      <h3>中東衝突與能源價格上升威脅半導體材料與需求</h3>
-      <p><strong>半導體風險不只在晶圓廠，材料、能源與終端需求都可能同步受衝擊。</strong></p>
-      <p class="small">CNBC 指出若中東局勢惡化，像氦氣、溴等關鍵材料供應與整體需求都可能受影響，這類上游風險值得持續盯。</p>
-      <p class="source">來源：<strong>CNBC / Tavily</strong> · <a href="https://www.cnbc.com/2026/03/10/iran-war-semiconductor-memory-chip-impact.html">原文連結</a></p>
-    </article><article class="story">
-      <h3>STMicroelectronics 進入 photonics 晶片量產</h3>
-      <p><strong>光子晶片開始從技術敘事走向實際量產節點。</strong></p>
-      <p class="small">STMicro 進入高量產，代表 photonics 不再只是研究與概念階段，未來在資料中心、通訊與高效互連上可能更有存在感。</p>
-      <p class="source">來源：<strong>Data Center Dynamics / RSS</strong> · <a href="https://www.datacenterdynamics.com/en/news/stmicroelectronics-enters-high-volume-production-of-photonics-chip/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Wolfspeed 推進 300mm 碳化矽技術用於 AI 資料中心封裝</h3>
-      <p><strong>先進封裝與材料技術正延伸到 AI 資料中心電力與熱管理鏈條。</strong></p>
-      <p class="small">Wolfspeed 把 300mm SiC 技術對準 AI data center packaging，說明功率、封裝與散熱材料正變成 AI 基礎設施的重要一環。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347249/wolfspeed-brings-300-mm-silicon-carbide-technology-to-next-gen-ai-data-center-packaging">原文連結</a></p>
-    </article><article class="story">
-      <h3>Intel 持續推進 Nova Lake、XeSS 3.0 與加密運算晶片路線</h3>
-      <p><strong>Intel 雖然不在 AI 晶片聲量中心，但仍在 CPU、GPU 與安全計算路線上持續補位。</strong></p>
-      <p class="small">從 Nova Lake、XeSS 3.0 到可在加密資料上運算的晶片，Intel 目前策略看起來是多線推進，試圖在不同半導體切面維持存在感。</p>
-      <p class="source">來源：<strong>TechPowerUp / IEEE Spectrum / RSS</strong> · <a href="https://spectrum.ieee.org/fhe-intel">原文連結</a></p>
+      <h3>報導指 Tesla 擴大 AI6 晶片訂單，拉升 Samsung Texas 廠利用率</h3>
+      <p><strong>AI 與自駕需求仍在替成熟 / 新產線找量。</strong></p>
+      <p class="small">若訂單訊號屬實，三星德州廠的 AI 晶片能見度會改善，也代表車用與 AI 工作負載的邊界持續模糊。</p>
+      <p class="source">來源：<strong>DigiTimes / Google News</strong> · <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3hkdTlYQ2hMQ2RHcXBvd2M2RFNMeE5CcGpRRkxrQzBDaHNYZ25nZG5uVE1hUFJPcTdneE5CMkQzNW40MGN2UThSVGdMbFFQU05pdzFoYWhET0ZubzJOTXdlX3Q1ZlVWaWxFczZZeEM4RGd1N1BsR2Q3M1hoejN6MW9lcFhXckg3TDBqN0pqZFRIbVVORDItTW4zUzBZb1RFNkRlNVVrdw?oc=5">原文連結</a></p>
     </article>
     </section><section class="card" id="storage-server">
       <div class="kicker"><span class="pill">4. Storage / Server</span><a class="small" href="./storage-server/">看本主題頁 →</a></div>
       <p class="muted">存儲、伺服器、企業基礎設施軟硬體與供應鏈。</p>
       <article class="story">
-      <h3>VAST Data 新增 block storage，往 AI 與混合工作負載統一平台推進</h3>
-      <p><strong>AI 儲存平台正在從單點能力擴成更完整的企業基礎設施棧。</strong></p>
-      <p class="small">VAST Data 補上 block storage，意味它不只想服務 AI 資料平台，也想把更多傳統企業工作負載拉進同一套儲存與資料架構。</p>
-      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.hpcwire.com/off-the-wire/vast-data-adds-block-storage-to-unify-enterprise-ai-and-hybrid-workloads/">原文連結</a></p>
+      <h3>GitHub Enterprise Server 重做搜尋架構以提高可用性</h3>
+      <p><strong>企業級開發平台持續把搜尋與可靠性當核心基建。</strong></p>
+      <p class="small">GitHub 直接談高可用搜尋重構，顯示大型軟體平台的競爭點已不只是功能，而是能否穩定支撐大規模企業內部使用。</p>
+      <p class="source">來源：<strong>GitHub Blog</strong> · <a href="https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/">原文連結</a></p>
     </article><article class="story">
-      <h3>Box 主打給 AI agents 用的虛擬檔案系統層</h3>
-      <p><strong>未來企業 AI 代理能不能安全讀寫文件，資料存取層會是關鍵。</strong></p>
-      <p class="small">Box 想把自己卡在 agent 存取企業檔案與權限控管的中間層，這讓檔案平台從儲存工具升級成 agent 基礎設施。</p>
-      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/box-pitches-virtual-filesystem-layer-for-ai-agents/5208017">原文連結</a></p>
+      <h3>VAST Data 新增 block storage，想把 AI 與混合工作負載拉到同一平台</h3>
+      <p><strong>AI 儲存平台正在往更完整的企業基礎設施棧擴張。</strong></p>
+      <p class="small">VAST 不再只講 AI data platform，而是補上 block storage，試圖吃下更傳統的企業應用與現代 AI 工作負載。</p>
+      <p class="source">來源：<strong>HPCwire</strong> · <a href="https://www.hpcwire.com/off-the-wire/vast-data-adds-block-storage-to-unify-enterprise-ai-and-hybrid-workloads/">原文連結</a></p>
     </article><article class="story">
-      <h3>MariaDB 收購 GridGain，強調降低 AI inference latency</h3>
-      <p><strong>資料庫廠正往低延遲 AI 推論基礎設施延伸。</strong></p>
-      <p class="small">MariaDB 透過收購補足高速資料存取能力，目標是在企業 AI 推論場景中縮短延遲，顯示資料平台也在跟著 AI 工作負載重構。</p>
-      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/mariadb-buys-gridgain-to-cut-latency-for-ai-inference-workloads/5208064">原文連結</a></p>
+      <h3>Box 推出給 AI agents 用的虛擬檔案系統層</h3>
+      <p><strong>檔案與權限抽象層正成為 agent 工作流的重要基礎設施。</strong></p>
+      <p class="small">如果 agents 要安全讀寫企業文件，除了模型以外，資料存取層會變得同樣關鍵；Box 顯然想卡住這個位置。</p>
+      <p class="source">來源：<strong>Blocks and Files</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/box-pitches-virtual-filesystem-layer-for-ai-agents/5208017">原文連結</a></p>
     </article><article class="story">
-      <h3>GitHub Enterprise Server 重做搜尋架構以提升高可用性</h3>
-      <p><strong>企業開發平台的競爭點已不只是功能，而是能否穩定支撐大規模團隊。</strong></p>
-      <p class="small">GitHub 談搜尋高可用重構，反映企業基礎設施工具正在更重視可靠性、維運成本與內部大規模部署的穩定度。</p>
-      <p class="source">來源：<strong>GitHub Blog / existing coverage</strong> · <a href="https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Micron 發表面向資料中心基礎設施的 256GB LPDRAM SOCAMM2</h3>
-      <p><strong>AI 與資料中心需求正把記憶體模組形態往更高密度伺服器設計推進。</strong></p>
-      <p class="small">Micron 這類高容量模組產品說明，server 與 infrastructure 端的記憶體需求仍在快速升級，特別是 AI server 帶動下。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/346999/micron-releases-worlds-first-high-capacity-256-gb-lpdram-socamm2-for-data-center-infrastructure">原文連結</a></p>
-    </article><article class="story">
-      <h3>AI server storage demand 激增，NAND 供應商營收同步成長</h3>
-      <p><strong>AI 工作負載已經明確拉動企業儲存需求，而不只是帶動 GPU。</strong></p>
-      <p class="small">NAND 供應商營收走強，反映 AI server 不只吃算力，也同步吃下更多高效能儲存、快取與資料管線投資。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347012/ai-server-storage-demand-surges-top-five-nand-flash-suppliers-post-23-8-qoq-revenue-growth-in-4q25">原文連結</a></p>
-    </article><article class="story">
-      <h3>QNAP 推出高密度 all-flash NAS，瞄準企業與邊緣部署</h3>
-      <p><strong>NAS 廠商也在往更高密度、低延遲的企業基礎設施定位升級。</strong></p>
-      <p class="small">QNAP 的新 all-flash 產品顯示中小型企業與邊緣場景對高密度儲存需求增加，NAS 不再只是備份設備，而是更正式的工作負載節點。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347035/qnap-releases-ts-h1077afu-10-bay-high-density-all-flash-nas-with-amd-ryzen-pro-7000-cpus">原文連結</a></p>
-    </article><article class="story">
-      <h3>Asustor 補齊 24-bay rackmount NAS 產品線</h3>
-      <p><strong>儲存硬體廠仍持續擴大機櫃級產品，搶資料成長帶來的實體容量需求。</strong></p>
-      <p class="small">24-bay rackmount NAS 這類產品代表企業儲存需求依然很實體，尤其在監控、媒體、備份與本地 AI 資料保存場景。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347037/asustor-completes-as72-rackmount-nas-lineup-with-24-bay-as7224rdx">原文連結</a></p>
-    </article><article class="story">
-      <h3>Advantech 與 Qualcomm 推出新 server 平台</h3>
-      <p><strong>伺服器市場仍在持續試探新的 CPU 架構與供應組合。</strong></p>
-      <p class="small">Advantech 和 Qualcomm 的 server 產品，顯示 ARM 及新型平台仍在找企業與邊緣基礎設施切入點。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347258/advantech-and-qualcomm-launch-sky-641e3-server-powered-by-qualcomm-dragonwing">原文連結</a></p>
-    </article><article class="story">
-      <h3>AMD 表示 server CPU demand 遠超預期，供應開始吃緊</h3>
-      <p><strong>企業伺服器需求仍然強，CPU 供應壓力還在。</strong></p>
-      <p class="small">Lisa Su 對 server CPU 需求的說法，反映企業與 AI 基礎設施投資仍未降溫，server 端供應鏈後續仍值得盯。</p>
-      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347008/amd-ceo-lisa-su-says-server-cpu-demand-far-exceeded-expectations-supply-now-tightening">原文連結</a></p>
+      <h3>MariaDB 收購 GridGain，主打降低 AI inference 延遲</h3>
+      <p><strong>資料庫廠也在往 AI 低延遲架構擴張。</strong></p>
+      <p class="small">MariaDB 透過收購補上記憶體資料格與高速存取能力，目的是把推論場景的延遲壓下來，迎合企業 AI 服務化需求。</p>
+      <p class="source">來源：<strong>Blocks and Files</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/mariadb-buys-gridgain-to-cut-latency-for-ai-inference-workloads/5208064">原文連結</a></p>
     </article>
     </section><section class="card" id="cooling">
       <div class="kicker"><span class="pill">5. Cooling</span><a class="small" href="./cooling/">看本主題頁 →</a></div>
       <p class="muted">資料中心液冷、熱管理與有意義的 PC 散熱動態。</p>
       <article class="story">
-      <h3>KKR 傳出擬以 30 億美元收購資料中心液冷公司 CoolIT Systems</h3>
-      <p><strong>頂級私募股權基金正大舉進入 AI 散熱基礎設施，顯示液冷已成為核心資產。</strong></p>
-      <p class="small">私募巨頭 KKR 據傳正洽談收購 CoolIT。隨著 AI 晶片熱密度突破極限，液冷技術不再是邊緣選項，而是維持資料中心運作的剛需。</p>
-      <p class="source">來源：<strong>New York Post / Tavily</strong> · <a href="https://nypost.com/2026/03/08/business/kkr-eyes-multibillion-dollar-sale-of-coolit-systems-report/">原文連結</a></p>
+      <h3>Vertiv 與 Generate Capital 推出資料中心『電力 + 冷卻』打包方案</h3>
+      <p><strong>AI 機房競爭已從伺服器延伸到整套電力與散熱交付能力。</strong></p>
+      <p class="small">Vertiv 與資本方合作，意味大型客戶要的不只是設備，而是更快落地的整包供電與冷卻能力。</p>
+      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/vertiv-generate-capital-team-up-on-bring-your-own-power-cooling-offering-for-data-centers/">原文連結</a></p>
     </article><article class="story">
-      <h3>Vertiv 訂單量激增 252%，AI 需求將 backlog 推升至 150 億美元</h3>
-      <p><strong>AI 資料中心的瓶頸正從晶片供應移向電力與冷卻基礎設施。</strong></p>
-      <p class="small">散熱大廠 Vertiv 訂單暴增，顯示市場對高密度散熱方案的飢渴。分析師指出，AI 晶片出貨越多，對散熱系統的依賴就越高。</p>
-      <p class="source">來源：<strong>24/7 Wall St. / Tavily</strong> · <a href="https://247wallst.com/investing/2026/03/09/5-ai-stocks-that-could-be-the-next-nvidia-before-wall-street-figures-it-out/">原文連結</a></p>
+      <h3>Trane 收購 LiquidStack，切入 AI 資料中心液冷</h3>
+      <p><strong>傳統 HVAC 大廠正在正面押注液冷。</strong></p>
+      <p class="small">Trane 直接收購 LiquidStack，顯示液冷已經不是周邊選項，而是會被併入大型熱管理公司主戰略的核心能力。</p>
+      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/trane-acquires-cooling-firm-liquidstack/">原文連結</a></p>
     </article><article class="story">
-      <h3>舊建築重生成為低延遲 AI 推論中心，推動局部散熱需求</h3>
-      <p><strong>AI 推論端正往城市中心移動，帶動與傳統建物整合的精密散熱方案。</strong></p>
-      <p class="small">開發商正將市中心閒置建物改裝為 AI 中心，這類環境需要更安靜、更高效且節省空間的局部冷卻技術，而非傳統郊區的大型冷卻塔。</p>
-      <p class="source">來源：<strong>Insurance Journal / Tavily</strong> · <a href="https://www.insurancejournal.com/news/midwest/2026/03/04/860401.htm">原文連結</a></p>
+      <h3>Submer 與印度 Anant Raj 合作推進 immersion cooling 資料中心</h3>
+      <p><strong>液冷與浸沒式方案開始往新興市場複製。</strong></p>
+      <p class="small">印度資料中心建設加速下，Submer 這類玩家正把浸沒式冷卻從概念驗證推向區域級部署。</p>
+      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/immersion-cooling-firm-submer-partners-with-indian-real-estate-developer-anant-raj-for-data-center-venture/">原文連結</a></p>
     </article><article class="story">
-      <h3>Trane 併購 LiquidStack，傳統 HVAC 大廠全面轉向液冷</h3>
-      <p><strong>傳統空調大廠正透過併購快速補齊 AI 世代所需的液冷技術能力。</strong></p>
-      <p class="small">Trane 收購 LiquidStack 顯示傳統散熱玩家必須轉型，浸沒式液冷將從實驗室走進主流企業級產品線。</p>
-      <p class="source">來源：<strong>Data Center Dynamics / 歷史覆蓋</strong> · <a href="https://www.datacenterdynamics.com/en/news/trane-acquires-cooling-firm-liquidstack/">原文連結</a></p>
-    </article><article class="story">
-      <h3>緬因州擬禁止新建資料中心，可能衝擊 LiquidCool 等液冷項目</h3>
-      <p><strong>資料中心的資源消耗（電、水）引發政策反作用，液冷技術需具備更高環境正當性。</strong></p>
-      <p class="small">緬因州立法進展顯示，即使使用了更環保的液冷技術，大型資料中心的能耗仍面臨地方法規與社群審查壓力。</p>
-      <p class="source">來源：<strong>GovTech / Tavily</strong> · <a href="https://www.govtech.com/infrastructure/proposed-maine-data-center-ban-could-restrict-loring-project">原文連結</a></p>
-    </article><article class="story">
-      <h3>離岸浮動式資料中心成為 AI 冷卻新方向</h3>
-      <p><strong>為了避開電力短缺與冷卻挑戰，開發商開始嘗試將伺服器沉入海中。</strong></p>
-      <p class="small">開發商計劃在近海部署浸沒式冷卻機房，利用自然水溫來大幅降低冷卻能耗，這是 AI 時代對極端散熱效率的探索。</p>
-      <p class="source">來源：<strong>TechCrunch / Tavily</strong> · <a href="https://techcrunch.com/2026/03/04/who-needs-data-centers-in-space-when-they-can-float-offshore/">原文連結</a></p>
-    </article><article class="story">
-      <h3>ID-Cooling 發表 Frozen 510 加厚版單塔散熱器</h3>
-      <p><strong>消費級散熱市場持續優化塔式設計，應對高效能 CPU 日常散熱。</strong></p>
-      <p class="small">新推出的 Frozen 510 採用加厚散熱鰭片與改良熱導管，顯示在 DIY 市場中，風冷方案仍透過材料改進來對抗水冷趨勢。</p>
-      <p class="source">來源：<strong>KitGuru / RSS</strong> · <a href="https://www.kitguru.net/components/cooling/joao-silva/id-cooling-reveals-thick-single-tower-frozen-510-cpu-cooler/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Rebar 融資 1400 萬美元，利用 AI 加速 HVAC 供應鏈報價</h3>
-      <p><strong>散熱產業本身的供應鏈數位化也正被 AI 重新塑模。</strong></p>
-      <p class="small">這筆資金將用於幫 HVAC 供應商快速生成報價，顯示散熱設備的製造與銷售環節正在經歷數位轉型。</p>
-      <p class="source">來源：<strong>Crunchbase / RSS</strong> · <a href="https://news.crunchbase.com/real-estate-property-tech/ai-generated-hvac-quotes-rebar-seriesa/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Submer 推進印度浸沒式冷卻資料中心市場</h3>
-      <p><strong>液冷解決方案開始向高溫、新興資料中心市場大規模擴張。</strong></p>
-      <p class="small">與印度地產商的合作顯示，在新一代基礎設施建設落後、氣溫較高的地區，液冷被視為跳過傳統空調、直接接軌 AI 時代的捷徑。</p>
-      <p class="source">來源：<strong>Data Center Dynamics / 歷史覆蓋</strong> · <a href="https://www.datacenterdynamics.com/en/news/immersion-cooling-firm-submer-partners-with-indian-real-estate-developer-anant-raj-for-data-center-venture/">原文連結</a></p>
-    </article><article class="story">
-      <h3>太平洋深層冷卻系統為夏威夷商業冷卻提供高效新解法</h3>
-      <p><strong>區域級節能冷卻技術正利用地理優勢，減少傳統暖通設備對電網的依賴。</strong></p>
-      <p class="small">研究顯示利用太平洋深層水進行區域冷卻，能大幅降低傳統 HVAC 的電力需求，這對高溫地區的永續基礎設施具備示範意義。</p>
-      <p class="source">來源：<strong>CleanTechnica / Tavily</strong> · <a href="https://cleantechnica.com/2026/03/07/district-cooling-from-the-pacific-a-targeted-efficiency-for-o%CA%BBahu/">原文連結</a></p>
+      <h3>ASUS 公開 AI / HPC 資料中心液冷生態系</h3>
+      <p><strong>不只機房級供應商，硬體品牌也在往液冷平台化前進。</strong></p>
+      <p class="small">ASUS 展示整體液冷方案，說明 AI 機櫃熱密度提升之後，冷卻能力正在變成銷售組合的一部分。</p>
+      <p class="source">來源：<strong>Google News</strong> · <a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxQbmxVaU5PdDVQaENaQW5NOHpyaFJwOHZKelZieWJ6eEl4dHB5S0VtX05lMXIxODlLdHpDWEh6M0V0QWl3UnBlTVF1SGdwQTRRa0d5X1VQYjFGV0RuQjg3RmZVWVJrYW12eHVrbm9oNEMxY0Q3RkNHWTNLWVpNdHFISE9fRTl4SjR2b2lqbk9BMk0zbkQ3Wk9S?oc=5">原文連結</a></p>
     </article>
     </section><section class="card" id="security">
       <div class="kicker"><span class="pill">6. Security</span><a class="small" href="./security/">看本主題頁 →</a></div>
       <p class="muted">漏洞、攻擊、防禦、AI 安全與企業安全事件。</p>
       <article class="story">
-      <h3>SAP 修補 FS-QUO 與 NetWeaver 關鍵漏洞</h3>
-      <p><strong>企業核心系統（ERP、保險、門戶）的漏洞修補仍然是企業防護的最前線。</strong></p>
-      <p class="small">SAP 在 3 月份的安全修補日解決了包含保險報價管理（FS-QUO）與 NetWeaver 企業門戶在內的多項關鍵弱點，強調了大型企業維持系統更新的重要性。</p>
-      <p class="source">來源：<strong>SecurityWeek / Tavily</strong> · <a href="https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/">原文連結</a></p>
+      <h3>微軟 3 月 Patch Tuesday 修補 82 個漏洞</h3>
+      <p><strong>企業 Windows 與 Microsoft 服務面仍是本月修補重點，EoP 與 RCE 風險特別高。</strong></p>
+      <p class="small">CrowdStrike 分析指出，微軟 3 月安全更新涵蓋 82 個漏洞，其中含 8 個 Critical 與 2 個已公開漏洞；Windows 與 Azure 仍是主要修補面向。</p>
+      <p class="source">來源：<strong>CrowdStrike</strong> · <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/">原文連結</a></p>
     </article><article class="story">
-      <h3>OpenAI Codex Security 正式上線，一個月內找出上萬個高風險漏洞</h3>
-      <p><strong>AI 原生安全代理人正從『掃描工具』進化為可自動化發現與修復漏洞的 AI 工員。</strong></p>
-      <p class="small">OpenAI 推出 Codex Security 掃描器，首月測試即在 120 萬次 commit 中找出超過 1 萬個高影響力漏洞，顯示 AI 在 DevSecOps 中的強大潛力。</p>
-      <p class="source">來源：<strong>The Hacker News / Tavily</strong> · <a href="https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html">原文連結</a></p>
+      <h3>SAP 修補 FS-QUO 與 NetWeaver 相關高風險漏洞</h3>
+      <p><strong>SAP 核心系統漏洞仍然是大型企業最不能拖延的修補項。</strong></p>
+      <p class="small">Gemini 搜尋彙整顯示，SAP 3 月 Patch Day 處理了 NetWeaver 與相關產品的關鍵與高優先級漏洞，包含反序列化、SQL Injection 與授權檢查缺失等問題。</p>
+      <p class="source">來源：<strong>SecurityWeek / Gemini web_search</strong> · <a href="https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 報告指出 2025 年半數零日漏洞鎖定企業技術</h3>
-      <p><strong>駭客攻擊重心正從個人裝置全面轉向擁有高價值資料的企業基礎設施。</strong></p>
-      <p class="small">Google 最新研究顯示，去年追蹤到的零日漏洞有一半集中在企業級軟硬體，反映出攻擊者正採取更具針對性的商業間諜或勒索策略。</p>
-      <p class="source">來源：<strong>TechCrunch / Tavily</strong> · <a href="https://techcrunch.com/2026/03/05/google-says-half-of-all-zero-days-it-tracked-in-2025-targeted-buggy-enterprise-tech/">原文連結</a></p>
+      <h3>全球網攻強度仍維持高檔，2 月平均每組織每週 2,086 次攻擊</h3>
+      <p><strong>整體攻擊面壓力沒有明顯降溫，企業應把高強度攻擊視為常態。</strong></p>
+      <p class="small">Check Point 指出，2026 年 2 月全球平均每個組織每週遭遇 2,086 次攻擊，年增 9.6%，即使勒索活動放緩，總體威脅仍維持接近歷史高點。</p>
+      <p class="source">來源：<strong>Check Point Research</strong> · <a href="https://blog.checkpoint.com/research/global-cyber-attacks-remain-near-record-highs-in-february-2026-despite-ransomware-decline/">原文連結</a></p>
     </article><article class="story">
-      <h3>UK 企業 2026 年首要任務：應對資料外洩與 AI 生成的錯誤資訊</h3>
-      <p><strong>隨著 AI 普及，企業的安全威脅已從單純的系統入侵擴展到聲譽風險。</strong></p>
-      <p class="small">研究顯示英國消費者高度關注企業對 Deepfake 與錯誤資訊的防範能力，這要求企業在數位轉型中必須同步建立 AI 治理框架。</p>
-      <p class="source">來源：<strong>Weekly Voice / Tavily</strong> · <a href="https://weeklyvoice.com/uk-businesses-urged-to-prioritise-cybersecurity-and-misinformation-in-2026-report-finds/">原文連結</a></p>
+      <h3>俄羅斯駭客被指鎖定 Signal 與 WhatsApp 使用者</h3>
+      <p><strong>社交工程與帳號接管依然比惡意程式更容易成功打進高價值目標。</strong></p>
+      <p class="small">荷蘭情報單位警告，俄羅斯國家級駭客透過假冒客服、索取簡訊驗證碼與 PIN，鎖定政府、軍方與記者的 Signal / WhatsApp 帳號。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/">原文連結</a></p>
     </article><article class="story">
-      <h3>T-Mobile 強調大規模供應鏈安全挑戰</h3>
-      <p><strong>即使企業內部防護嚴密，第三方供應鏈仍然是最大的攻擊暴露面。</strong></p>
-      <p class="small">T-Mobile 高層指出，在日益擴張的攻擊面中，如何確保龐大供應鏈的每一個環節都符合安全標準，是電信巨頭目前面臨的最核心挑戰。</p>
-      <p class="source">來源：<strong>CyberScoop / Tavily</strong> · <a href="https://cyberscoop.com/video/t-mobiles-eric-jensen-on-the-challenge-of-securing-vast-supply-chains/">原文連結</a></p>
+      <h3>CrowdStrike 推出 FalconID 強化抗釣魚 MFA</h3>
+      <p><strong>身份安全正從登入驗證走向持續授權與即時風險判斷。</strong></p>
+      <p class="small">CrowdStrike 將 FalconID 定位為釣魚抗性更高的 FIDO2 驗證方案，並結合端點、身分與 SaaS 風險訊號做持續授權，對抗 MFA fatigue 與 session hijacking。</p>
+      <p class="source">來源：<strong>CrowdStrike</strong> · <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-id-brings-phishing-resistant-mfa-to-falcon-next-gen-identity-security/">原文連結</a></p>
     </article><article class="story">
-      <h3>FBI 遭受駭客攻擊，部分內部系統受影響</h3>
-      <p><strong>執法機關的安全防禦同樣面臨嚴峻挑戰，國家級網路攻擊不曾停歇。</strong></p>
-      <p class="small">近期報導指出 FBI 內部系統遭到入侵，雖然具體範圍尚未公開，但再次凸顯了即便具備頂尖安全能力的機構也難以做到百分之百的免疫。</p>
-      <p class="source">來源：<strong>SecurityWeek / Tavily</strong> · <a href="https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/">原文連結</a></p>
+      <h3>企業身份系統正面臨 AI agent 帶來的新信任問題</h3>
+      <p><strong>未來身份治理不只管理人，也必須管理會自動行動的代理。</strong></p>
+      <p class="small">VentureBeat 指出，傳統 IAM 預設主體是人類，但 agentic workflow 需要短時、可驗證、可追責的非人類身分，否則權限邊界會快速失控。</p>
+      <p class="source">來源：<strong>VentureBeat</strong> · <a href="https://venturebeat.com/security/enterprise-identity-was-built-for-humans-not-ai-agents">原文連結</a></p>
     </article><article class="story">
-      <h3>London 交通局資料外洩案影響擴大至 1,000 萬人</h3>
-      <p><strong>公共服務基礎設施的資料外洩具備極高的社會影響力與長尾修復成本。</strong></p>
-      <p class="small">Transport for London (TfL) 的資料外洩規模持續擴大，涉及大量乘客個資，引發公眾對於智慧城市基礎設施安全的深度擔憂。</p>
-      <p class="source">來源：<strong>SecurityWeek / Tavily</strong> · <a href="https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/">原文連結</a></p>
+      <h3>LexisNexis 等大型資料外洩事件顯示第三方與舊洞仍是主因</h3>
+      <p><strong>企業真正麻煩的不是單一新型攻擊，而是老問題一直沒補乾淨。</strong></p>
+      <p class="small">Gemini web_search 匯總提到多起 2026 年 3 月重大外洩案例，包括 LexisNexis、Ericsson 與其他大型機構，凸顯未修補漏洞與第三方供應商風險仍是核心來源。</p>
+      <p class="source">來源：<strong>Gemini web_search</strong> · <a href="https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/">原文連結</a></p>
     </article><article class="story">
-      <h3>雲端安全聯盟（CSA）的 AI 控制矩陣榮獲 2026 CSO 大獎</h3>
-      <p><strong>標準化與合規性正成為 AI 安全領域的發展基石。</strong></p>
-      <p class="small">CSA 憑藉 AI 控制矩陣獲得肯定，代表業界正積極建立一套通用的 AI 安全基準，幫助企業在導入模型時有據可依。</p>
-      <p class="source">來源：<strong>Yahoo Finance / Tavily</strong> · <a href="https://finance.yahoo.com/news/cloud-security-alliance-ai-controls-130500743.html">原文連結</a></p>
+      <h3>Cisco SD-WAN 與相關基礎設施漏洞仍受高度關注</h3>
+      <p><strong>網路設備與邊界基建弱點，一旦被利用，影響常比一般端點更廣。</strong></p>
+      <p class="small">Gemini 搜尋整理顯示，Cisco 多個 SD-WAN 漏洞在 3 月仍是安全圈焦點，部分問題甚至已遭利用，聯邦單位也被要求快速盤點與修補。</p>
+      <p class="source">來源：<strong>Gemini web_search</strong> · <a href="https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-mar-9-2026-cisa-warns-of-ios-flaws-lexisnexis-confirms-data-breach-fbi-investigates-breach-of-surveillance-and-wiretap-systems-and-more/">原文連結</a></p>
     </article><article class="story">
-      <h3>微軟警告已簽名惡意軟體偽裝成辦公工具投放 RMM 後門</h3>
-      <p><strong>攻擊者正利用簽名信任與辦公場景進行更隱蔽的權限獲取。</strong></p>
-      <p class="small">駭客利用合法簽名來規避傳統防護，並冒充常見軟體進行社交工程，這對企業端點檢測能力（EDR）提出了更高要求。</p>
-      <p class="source">來源：<strong>Microsoft / 歷史覆蓋</strong> · <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR1ItOEd4UTNqLUI2Qm0tTFRuZlRYaGJmRU9tblRqR2NfN1NlQWJFM2V2VDNIOFlJdTY2NzRhdDNjM3Qzc1NtWEczbWdMV2REaWszT3dQbGhDSGVjb1VKbFo0emQ4SGtrMEUxbjFHdzdwQ0ZSU0FpdjBRYlJoQkw4cnBZNjVSNnRHSHBPeG5VTTNaQnZpdXNMV3ZGcGpvOXJ3eWprU2lj?oc=5">原文連結</a></p>
+      <h3>Mandiant 創辦人募資做 autonomous AI agent security startup</h3>
+      <p><strong>資安市場正在把 AI agent 從威脅來源，同時也變成新的防禦產品方向。</strong></p>
+      <p class="small">TechCrunch 報導，Mandiant 創辦人募得 1.9 億美元打造自動化 AI agent 資安新創，顯示 SOC 自動化與 agent 安控正快速升溫。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/">原文連結</a></p>
     </article><article class="story">
-      <h3>Ericsson 資料外洩事件影響數千名員工與客戶</h3>
-      <p><strong>老牌科技巨頭的遺留系統與個資管理仍然是高頻風險區。</strong></p>
-      <p class="small">Ericsson 的外洩事件雖然規模不算極端，但涉及敏感的內部通訊與人員資料，顯示企業內網治理需要更持續的投入。</p>
-      <p class="source">來源：<strong>SecurityWeek / 歷史覆蓋</strong> · <a href="https://www.securityweek.com/thousands-affected-by-ericsson-data-breach/">原文連結</a></p>
+      <h3>SentinelOne 與 Check Point 持續強調 AI security 與國家級韌性</h3>
+      <p><strong>資安產業的主軸已從單點防毒轉成整體韌性、可觀測性與 AI 治理。</strong></p>
+      <p class="small">從 SentinelOne 的 AI security / agent hardening 論述，到 Check Point 的 national cyber resilience 與高強度攻擊報告，可以看出供應商都在往更高層的風險治理敘事移動。</p>
+      <p class="source">來源：<strong>SentinelOne / Check Point / RSS</strong> · <a href="https://www.sentinelone.com/blog/ai-security-from-data-to-runtime-a-holistic-defense-approach/">原文連結</a></p>
     </article>
     </section><section class="card" id="startup">
       <div class="kicker"><span class="pill">7. Startup</span><a class="small" href="./startup/">看本主題頁 →</a></div>
       <p class="muted">新創融資、產品、合作、轉型與併購。</p>
       <article class="story">
-      <h3>瑞典法律科技新創 Legora 融資 5.5 億美元，估值達 55.5 億美元</h3>
-      <p><strong>AI 法律科技賽道持續升溫，具備垂直整合能力的工具最受資本青睞。</strong></p>
-      <p class="small">Legora 獲得大規模 Series D 融資，旨在加速美國擴張。儘管面臨微軟 Copilot 等通用模型的競爭，Legora 憑藉深耕法律專業流程的優勢，成功維持高估值。</p>
-      <p class="source">來源：<strong>TechCrunch / Tavily</strong> · <a href="https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/">原文連結</a></p>
+      <h3>Eridu 以超過 2 億美元 A 輪走出隱身模式</h3>
+      <p><strong>AI 基礎設施新創現在連網路層都能拿到超大額資金。</strong></p>
+      <p class="small">Eridu 主打突破 AI 叢集的網路瓶頸，代表資本市場已經不只追模型，而是開始深挖底層互連與效率痛點。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/">原文連結</a></p>
     </article><article class="story">
-      <h3>Yann LeCun 的 AMI Labs 完成 10.3 億美元種子輪融資</h3>
-      <p><strong>非主流 AI 路線（世界模型）正吸引大規模長期資本押注，試圖突破 LLM 的瓶頸。</strong></p>
-      <p class="small">由前 Meta 首席科學家 Yann LeCun 創立的 AMI Labs，以 35 億美元估值獲得巨額資金，這標誌著歐洲史上最大規模的種子輪 deal，主打建立能理解物理世界的 AI 模型。</p>
-      <p class="source">來源：<strong>Bloomberg / Tavily</strong> · <a href="https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding">原文連結</a></p>
+      <h3>Legora 估值升至 55.5 億美元</h3>
+      <p><strong>AI 法律科技仍是高估值熱門賽道。</strong></p>
+      <p class="small">Legora 的最新估值顯示，能直接切入高單價專業服務流程的 AI 新創，仍最容易獲得市場高倍數定價。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/">原文連結</a></p>
     </article><article class="story">
-      <h3>AI 網路新創 Eridu 以 2 億美元 A 輪融資走出隱身模式</h3>
-      <p><strong>AI 基礎設施的競爭重心正從模型計算延伸到資料中心內部的網路互連效率。</strong></p>
-      <p class="small">Eridu 致力於開發 AI 原生網路晶片與系統，旨在消除 AI 叢集在處理大規模任務時的網路瓶頸，獲得超額認購顯示市場對底層硬體創新的渴求。</p>
-      <p class="source">來源：<strong>TechCrunch / Tavily</strong> · <a href="https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/">原文連結</a></p>
+      <h3>Yann LeCun 的 AMI Labs 傳出募得 10.3 億美元</h3>
+      <p><strong>市場願意繼續押注大型研究型新創與非主流 AI 路線。</strong></p>
+      <p class="small">若這筆資金規模屬實，AMI Labs 代表的不只是資本熱度，也是在『LLM 之外還有沒有下一條大路徑』上的高額下注。</p>
+      <p class="source">來源：<strong>TechCrunch / Google News</strong> · <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBHNjBvMUtxY0xSLUNNYjliSWdvYjNodEpBNFBjN2hPS1RKcjFtU3dwVDFjWm9iM09RV1JkMlB4UV9QX1hHdE4wTzFqWGdaMXJldk1IT3M3N0xmVWh0WjUzd0twYjVHMXd0NmlOR3dEbExPMTRZa01nVVRKZFFwZWg?oc=5">原文連結</a></p>
     </article><article class="story">
-      <h3>AgentMail 融資 600 萬美元，為 AI agent 提供專用郵件服務</h3>
-      <p><strong>AI 代理人正逐漸擁有自己的數位身份與通訊基礎設施。</strong></p>
-      <p class="small">AgentMail 提供 API 平台讓 AI 代理人擁有獨立收件匣，支援自動解析、對話追蹤與回覆，這是 agent 從輔助工具轉變為獨立數位員工的重要一步。</p>
-      <p class="source">來源：<strong>TechCrunch / Tavily</strong> · <a href="https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Lux Aeterna 融資 1,000 萬美元，研發可重複使用衛星</h3>
-      <p><strong>商業航太新創正透過可重複利用技術，試圖大幅降低太空經濟的進入門檻。</strong></p>
-      <p class="small">這家科羅拉多新創獲得種子輪資金，目標是開發能重返大氣層並再次發射的衛星平台，計劃在 2027 年進行首飛展示。</p>
-      <p class="source">來源：<strong>SpaceNews / Tavily</strong> · <a href="https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Sandbar 完成 2,300 萬美元 A 輪融資，開發 AI 錄音戒指</h3>
-      <p><strong>穿戴式裝置正成為 AI 捕捉日常資料與提供即時輔助的新戰場。</strong></p>
-      <p class="small">Sandbar 的 AI 戒指主打隱蔽、持久的錄音與筆記整理能力，顯示 AI 硬體正在從大型穿戴設備往更極簡、專業化的形態演進。</p>
-      <p class="source">來源：<strong>TechCrunch / 歷史覆蓋</strong> · <a href="https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Lantern Partners AI 推出面向農業的 AI 原生業務規劃平台</h3>
-      <p><strong>AI 新創正加速滲透至農業等傳統產業，提供更精準的資源配置方案。</strong></p>
-      <p class="small">新推出的 LanternBRP™ 平台旨在幫農業企業進行智慧化的資源與產能規劃，反映出 AI 在優化實體產業效率上的實踐。</p>
-      <p class="source">來源：<strong>WFXG / Tavily</strong> · <a href="https://www.wfxg.com/online_features/press_releases/lantern-partners-ai-enters-agriculture-with-lanternbrp/article_5dc12d4c-48a6-52ef-bf49-563db961a31f.html">原文連結</a></p>
-    </article><article class="story">
-      <h3>前 Google 研究員創立的 Integral AI 致力於用 AI 改造日本工業機器人</h3>
-      <p><strong>AI 軟體優勢正與日本強大的機器人供應鏈結合，試圖重新定義自動化生產。</strong></p>
-      <p class="small">Integral AI 專注於將先進 AI 模型引入工業機器人，以實現更靈活、可重新編程的製造流程，這對應對勞動力短缺具有重要意義。</p>
-      <p class="source">來源：<strong>Bloomberg Law / Tavily</strong> · <a href="https://news.bloomberglaw.com/daily-labor-report/ex-google-researcher-seeks-to-transform-japans-robots-with-ai">原文連結</a></p>
-    </article><article class="story">
-      <h3>Galaxy Corporation 獲 Nasdaq 副主席訪問，展示 AI 娛樂成長野心</h3>
-      <p><strong>韓國 AI 新創正積極利用文化影響力與 AI 技術結合，進軍全球娛樂市場。</strong></p>
-      <p class="small">Nasdaq 高層訪問其首爾總部，探討業務策略與在美上市可能，顯示韓國 AI 娛樂技術已獲得國際資本市場的嚴肅關注。</p>
-      <p class="source">來源：<strong>Business Insider / Tavily</strong> · <a href="https://markets.businessinsider.com/news/stocks/galaxy-corporation-hosts-nasdaq-vice-chairman-in-seoul-as-company-highlights-growth-and-u-s-listing-ambitions-1035905415">原文連結</a></p>
-    </article><article class="story">
-      <h3>AI 應用程式面臨用戶留存挑戰，新報告揭示「新奇感」後的倦怠期</h3>
-      <p><strong>AI 新創在度過產品爆發期後，如何從『有趣』轉變為『不可或缺』是存活關鍵。</strong></p>
-      <p class="small">最新研究指出，許多 AI 原生應用在初期爆紅後用戶流失嚴重，這迫使新創必須重新思考如何深度嵌入用戶的長期工作流與生活習慣。</p>
-      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/ai-powered-apps-struggle-with-long-term-retention-new-report-shows/">原文連結</a></p>
+      <h3>Bluesky 執行長 Jay Graber 請辭</h3>
+      <p><strong>社群新創在成長期仍要面對治理與領導層穩定性考驗。</strong></p>
+      <p class="small">Bluesky 正處於產品定位與生態擴張的重要階段，管理層變動會影響外界對其長期競爭力與商業化節奏的判斷。</p>
+      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down/">原文連結</a></p>
     </article>
     </section><section class="card" id="geopolitics">
       <div class="kicker"><span class="pill">8. Geopolitics</span><a class="small" href="./geopolitics/">看本主題頁 →</a></div>
@@ -443,12 +293,12 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
     </section>
 <section class="card">
   <h2>任務資訊</h2>
-  <p class="muted">更新時間：2026-03-10 22:35 America/Los_Angeles</p>
+  <p class="muted">更新時間：2026-03-11 00:36 America/Los_Angeles</p>
   <div class="stat small">
       <div><b>total token</b>約 18k</div>
       <div><b>input token</b>約 14k</div>
       <div><b>output token</b>約 4k</div>
-      <div><b>duration</b>前七主題 Tavily 重整</div>
+      <div><b>duration</b>Security 手動重跑</div>
       <div><b>status</b>published</div>
     </div>
 </section>

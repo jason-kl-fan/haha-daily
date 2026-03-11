@@ -1,0 +1,82 @@
+{
+  "slug": "security",
+  "name": "Security",
+  "date": "2026-03-11",
+  "count": 10,
+  "searchNotes": {
+    "search": "Gemini web_search",
+    "rss": "blogwatcher tracked feeds and scan results"
+  },
+  "items": [
+    {
+      "title": "微軟 3 月 Patch Tuesday 修補 82 個漏洞",
+      "takeaway": "**企業 Windows 與 Microsoft 服務面仍是本月修補重點，EoP 與 RCE 風險特別高。**",
+      "summary": "CrowdStrike 分析指出，微軟 3 月安全更新涵蓋 82 個漏洞，其中含 8 個 Critical 與 2 個已公開漏洞；Windows 與 Azure 仍是主要修補面向。",
+      "source": "CrowdStrike",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/"
+    },
+    {
+      "title": "SAP 修補 FS-QUO 與 NetWeaver 相關高風險漏洞",
+      "takeaway": "**SAP 核心系統漏洞仍然是大型企業最不能拖延的修補項。**",
+      "summary": "Gemini 搜尋彙整顯示，SAP 3 月 Patch Day 處理了 NetWeaver 與相關產品的關鍵與高優先級漏洞，包含反序列化、SQL Injection 與授權檢查缺失等問題。",
+      "source": "SecurityWeek / Gemini web_search",
+      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/"
+    },
+    {
+      "title": "全球網攻強度仍維持高檔，2 月平均每組織每週 2,086 次攻擊",
+      "takeaway": "**整體攻擊面壓力沒有明顯降溫，企業應把高強度攻擊視為常態。**",
+      "summary": "Check Point 指出，2026 年 2 月全球平均每個組織每週遭遇 2,086 次攻擊，年增 9.6%，即使勒索活動放緩，總體威脅仍維持接近歷史高點。",
+      "source": "Check Point Research",
+      "sourceUrl": "https://blog.checkpoint.com/research/global-cyber-attacks-remain-near-record-highs-in-february-2026-despite-ransomware-decline/"
+    },
+    {
+      "title": "俄羅斯駭客被指鎖定 Signal 與 WhatsApp 使用者",
+      "takeaway": "**社交工程與帳號接管依然比惡意程式更容易成功打進高價值目標。**",
+      "summary": "荷蘭情報單位警告，俄羅斯國家級駭客透過假冒客服、索取簡訊驗證碼與 PIN，鎖定政府、軍方與記者的 Signal / WhatsApp 帳號。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/"
+    },
+    {
+      "title": "CrowdStrike 推出 FalconID 強化抗釣魚 MFA",
+      "takeaway": "**身份安全正從登入驗證走向持續授權與即時風險判斷。**",
+      "summary": "CrowdStrike 將 FalconID 定位為釣魚抗性更高的 FIDO2 驗證方案，並結合端點、身分與 SaaS 風險訊號做持續授權，對抗 MFA fatigue 與 session hijacking。",
+      "source": "CrowdStrike",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-id-brings-phishing-resistant-mfa-to-falcon-next-gen-identity-security/"
+    },
+    {
+      "title": "企業身份系統正面臨 AI agent 帶來的新信任問題",
+      "takeaway": "**未來身份治理不只管理人，也必須管理會自動行動的代理。**",
+      "summary": "VentureBeat 指出，傳統 IAM 預設主體是人類，但 agentic workflow 需要短時、可驗證、可追責的非人類身分，否則權限邊界會快速失控。",
+      "source": "VentureBeat",
+      "sourceUrl": "https://venturebeat.com/security/enterprise-identity-was-built-for-humans-not-ai-agents"
+    },
+    {
+      "title": "LexisNexis 等大型資料外洩事件顯示第三方與舊洞仍是主因",
+      "takeaway": "**企業真正麻煩的不是單一新型攻擊，而是老問題一直沒補乾淨。**",
+      "summary": "Gemini web_search 匯總提到多起 2026 年 3 月重大外洩案例，包括 LexisNexis、Ericsson 與其他大型機構，凸顯未修補漏洞與第三方供應商風險仍是核心來源。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/"
+    },
+    {
+      "title": "Cisco SD-WAN 與相關基礎設施漏洞仍受高度關注",
+      "takeaway": "**網路設備與邊界基建弱點，一旦被利用，影響常比一般端點更廣。**",
+      "summary": "Gemini 搜尋整理顯示，Cisco 多個 SD-WAN 漏洞在 3 月仍是安全圈焦點，部分問題甚至已遭利用，聯邦單位也被要求快速盤點與修補。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-mar-9-2026-cisa-warns-of-ios-flaws-lexisnexis-confirms-data-breach-fbi-investigates-breach-of-surveillance-and-wiretap-systems-and-more/"
+    },
+    {
+      "title": "Mandiant 創辦人募資做 autonomous AI agent security startup",
+      "takeaway": "**資安市場正在把 AI agent 從威脅來源，同時也變成新的防禦產品方向。**",
+      "summary": "TechCrunch 報導，Mandiant 創辦人募得 1.9 億美元打造自動化 AI agent 資安新創，顯示 SOC 自動化與 agent 安控正快速升溫。",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/"
+    },
+    {
+      "title": "SentinelOne 與 Check Point 持續強調 AI security 與國家級韌性",
+      "takeaway": "**資安產業的主軸已從單點防毒轉成整體韌性、可觀測性與 AI 治理。**",
+      "summary": "從 SentinelOne 的 AI security / agent hardening 論述，到 Check Point 的 national cyber resilience 與高強度攻擊報告，可以看出供應商都在往更高層的風險治理敘事移動。",
+      "source": "SentinelOne / Check Point / RSS",
+      "sourceUrl": "https://www.sentinelone.com/blog/ai-security-from-data-to-runtime-a-holistic-defense-approach/"
+    }
+  ]
+}
