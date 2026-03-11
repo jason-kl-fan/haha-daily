@@ -20,11 +20,7 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
 .small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
 .footer{font-size:.95rem;color:var(--muted)}
 @media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}
-.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}
-.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}
-</style>
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
   <main class="wrap">
@@ -34,35 +30,64 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
       <p>存儲、伺服器、企業基礎設施軟硬體與供應鏈。</p>
     </section>
     <section class="card"><article class="story">
-      <h3>GitHub Enterprise Server 重做搜尋架構以提高可用性</h3>
-      <p><strong>企業級開發平台持續把搜尋與可靠性當核心基建。</strong></p>
-      <p class="small">GitHub 直接談高可用搜尋重構，顯示大型軟體平台的競爭點已不只是功能，而是能否穩定支撐大規模企業內部使用。</p>
-      <p class="source">來源：<strong>GitHub Blog</strong> · <a href="https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/">原文連結</a></p>
+      <h3>VAST Data 新增 block storage，往 AI 與混合工作負載統一平台推進</h3>
+      <p><strong>AI 儲存平台正在從單點能力擴成更完整的企業基礎設施棧。</strong></p>
+      <p class="small">VAST Data 補上 block storage，意味它不只想服務 AI 資料平台，也想把更多傳統企業工作負載拉進同一套儲存與資料架構。</p>
+      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.hpcwire.com/off-the-wire/vast-data-adds-block-storage-to-unify-enterprise-ai-and-hybrid-workloads/">原文連結</a></p>
     </article><article class="story">
-      <h3>VAST Data 新增 block storage，想把 AI 與混合工作負載拉到同一平台</h3>
-      <p><strong>AI 儲存平台正在往更完整的企業基礎設施棧擴張。</strong></p>
-      <p class="small">VAST 不再只講 AI data platform，而是補上 block storage，試圖吃下更傳統的企業應用與現代 AI 工作負載。</p>
-      <p class="source">來源：<strong>HPCwire</strong> · <a href="https://www.hpcwire.com/off-the-wire/vast-data-adds-block-storage-to-unify-enterprise-ai-and-hybrid-workloads/">原文連結</a></p>
+      <h3>Box 主打給 AI agents 用的虛擬檔案系統層</h3>
+      <p><strong>未來企業 AI 代理能不能安全讀寫文件，資料存取層會是關鍵。</strong></p>
+      <p class="small">Box 想把自己卡在 agent 存取企業檔案與權限控管的中間層，這讓檔案平台從儲存工具升級成 agent 基礎設施。</p>
+      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/box-pitches-virtual-filesystem-layer-for-ai-agents/5208017">原文連結</a></p>
     </article><article class="story">
-      <h3>Box 推出給 AI agents 用的虛擬檔案系統層</h3>
-      <p><strong>檔案與權限抽象層正成為 agent 工作流的重要基礎設施。</strong></p>
-      <p class="small">如果 agents 要安全讀寫企業文件，除了模型以外，資料存取層會變得同樣關鍵；Box 顯然想卡住這個位置。</p>
-      <p class="source">來源：<strong>Blocks and Files</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/box-pitches-virtual-filesystem-layer-for-ai-agents/5208017">原文連結</a></p>
+      <h3>MariaDB 收購 GridGain，強調降低 AI inference latency</h3>
+      <p><strong>資料庫廠正往低延遲 AI 推論基礎設施延伸。</strong></p>
+      <p class="small">MariaDB 透過收購補足高速資料存取能力，目標是在企業 AI 推論場景中縮短延遲，顯示資料平台也在跟著 AI 工作負載重構。</p>
+      <p class="source">來源：<strong>Blocks and Files / existing coverage</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/mariadb-buys-gridgain-to-cut-latency-for-ai-inference-workloads/5208064">原文連結</a></p>
     </article><article class="story">
-      <h3>MariaDB 收購 GridGain，主打降低 AI inference 延遲</h3>
-      <p><strong>資料庫廠也在往 AI 低延遲架構擴張。</strong></p>
-      <p class="small">MariaDB 透過收購補上記憶體資料格與高速存取能力，目的是把推論場景的延遲壓下來，迎合企業 AI 服務化需求。</p>
-      <p class="source">來源：<strong>Blocks and Files</strong> · <a href="https://www.blocksandfiles.com/ai-ml/2026/03/09/mariadb-buys-gridgain-to-cut-latency-for-ai-inference-workloads/5208064">原文連結</a></p>
+      <h3>GitHub Enterprise Server 重做搜尋架構以提升高可用性</h3>
+      <p><strong>企業開發平台的競爭點已不只是功能，而是能否穩定支撐大規模團隊。</strong></p>
+      <p class="small">GitHub 談搜尋高可用重構，反映企業基礎設施工具正在更重視可靠性、維運成本與內部大規模部署的穩定度。</p>
+      <p class="source">來源：<strong>GitHub Blog / existing coverage</strong> · <a href="https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Micron 發表面向資料中心基礎設施的 256GB LPDRAM SOCAMM2</h3>
+      <p><strong>AI 與資料中心需求正把記憶體模組形態往更高密度伺服器設計推進。</strong></p>
+      <p class="small">Micron 這類高容量模組產品說明，server 與 infrastructure 端的記憶體需求仍在快速升級，特別是 AI server 帶動下。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/346999/micron-releases-worlds-first-high-capacity-256-gb-lpdram-socamm2-for-data-center-infrastructure">原文連結</a></p>
+    </article><article class="story">
+      <h3>AI server storage demand 激增，NAND 供應商營收同步成長</h3>
+      <p><strong>AI 工作負載已經明確拉動企業儲存需求，而不只是帶動 GPU。</strong></p>
+      <p class="small">NAND 供應商營收走強，反映 AI server 不只吃算力，也同步吃下更多高效能儲存、快取與資料管線投資。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347012/ai-server-storage-demand-surges-top-five-nand-flash-suppliers-post-23-8-qoq-revenue-growth-in-4q25">原文連結</a></p>
+    </article><article class="story">
+      <h3>QNAP 推出高密度 all-flash NAS，瞄準企業與邊緣部署</h3>
+      <p><strong>NAS 廠商也在往更高密度、低延遲的企業基礎設施定位升級。</strong></p>
+      <p class="small">QNAP 的新 all-flash 產品顯示中小型企業與邊緣場景對高密度儲存需求增加，NAS 不再只是備份設備，而是更正式的工作負載節點。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347035/qnap-releases-ts-h1077afu-10-bay-high-density-all-flash-nas-with-amd-ryzen-pro-7000-cpus">原文連結</a></p>
+    </article><article class="story">
+      <h3>Asustor 補齊 24-bay rackmount NAS 產品線</h3>
+      <p><strong>儲存硬體廠仍持續擴大機櫃級產品，搶資料成長帶來的實體容量需求。</strong></p>
+      <p class="small">24-bay rackmount NAS 這類產品代表企業儲存需求依然很實體，尤其在監控、媒體、備份與本地 AI 資料保存場景。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347037/asustor-completes-as72-rackmount-nas-lineup-with-24-bay-as7224rdx">原文連結</a></p>
+    </article><article class="story">
+      <h3>Advantech 與 Qualcomm 推出新 server 平台</h3>
+      <p><strong>伺服器市場仍在持續試探新的 CPU 架構與供應組合。</strong></p>
+      <p class="small">Advantech 和 Qualcomm 的 server 產品，顯示 ARM 及新型平台仍在找企業與邊緣基礎設施切入點。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347258/advantech-and-qualcomm-launch-sky-641e3-server-powered-by-qualcomm-dragonwing">原文連結</a></p>
+    </article><article class="story">
+      <h3>AMD 表示 server CPU demand 遠超預期，供應開始吃緊</h3>
+      <p><strong>企業伺服器需求仍然強，CPU 供應壓力還在。</strong></p>
+      <p class="small">Lisa Su 對 server CPU 需求的說法，反映企業與 AI 基礎設施投資仍未降溫，server 端供應鏈後續仍值得盯。</p>
+      <p class="source">來源：<strong>TechPowerUp / RSS</strong> · <a href="https://www.techpowerup.com/347008/amd-ceo-lisa-su-says-server-cpu-demand-far-exceeded-expectations-supply-now-tightening">原文連結</a></p>
     </article></section>
-    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-10 09:18 America/Los_Angeles</p><div class="stat small">
+    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-10 22:13 America/Los_Angeles</p><div class="stat small">
       <div><b>total token</b>約 18k</div>
       <div><b>input token</b>約 14k</div>
       <div><b>output token</b>約 4k</div>
-      <div><b>duration</b>約 18 分</div>
+      <div><b>duration</b>前四主題 Tavily 重整</div>
       <div><b>status</b>published</div>
     </div></section>
     </main>
-
-<script src="../../assets/saved.js"></script>
+  <script src="../../assets/saved.js"></script>
 </body>
 </html>
