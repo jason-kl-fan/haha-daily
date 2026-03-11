@@ -4,7 +4,7 @@
     "date": "2026-03-10",
     "dateLabel": "2026 年 3 月 10 日",
     "weekday": "星期二",
-    "intro": "今天的 AI、Big Tech、Semiconductor、Storage/Server、Cooling 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。",
+    "intro": "今天的 AI、Big Tech、Semiconductor、Storage/Server、Cooling、Security 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。",
     "overview": [
       "**AI**：OpenAI 安全整合、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與垂直 AI 助手同步推進。",
       "**Big Tech / 晶片**：Meta / Nvidia 長約、Oracle 擴大晶片供應鏈，半導體面則集中在 HBM、Rubin、封裝與地緣供應風險。",
@@ -404,31 +404,73 @@
       "items": [
         {
           "title": "SAP 修補 FS-QUO 與 NetWeaver 關鍵漏洞",
-          "takeaway": "**企業核心系統還是最需要第一時間處理的高風險面。**",
-          "summary": "SAP 弱點牽涉到大型企業流程與資料面，一旦延後修補，影響通常不只單一應用而是整個內部系統鏈。",
-          "source": "SecurityWeek",
+          "takeaway": "**企業核心系統（ERP、保險、門戶）的漏洞修補仍然是企業防護的最前線。**",
+          "summary": "SAP 在 3 月份的安全修補日解決了包含保險報價管理（FS-QUO）與 NetWeaver 企業門戶在內的多項關鍵弱點，強調了大型企業維持系統更新的重要性。",
+          "source": "SecurityWeek / Tavily",
           "url": "https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/"
         },
         {
-          "title": "Ericsson 資料外洩影響數千人",
-          "takeaway": "**老牌大型企業仍持續面臨個資與內部資料暴露風險。**",
-          "summary": "Ericsson 事件提醒大家：即使不是戲劇化的大型入侵，涉及員工或客戶資料的外洩仍會造成長尾法務與信任成本。",
-          "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/thousands-affected-by-ericsson-data-breach/"
+          "title": "OpenAI Codex Security 正式上線，一個月內找出上萬個高風險漏洞",
+          "takeaway": "**AI 原生安全代理人正從『掃描工具』進化為可自動化發現與修復漏洞的 AI 工員。**",
+          "summary": "OpenAI 推出 Codex Security 掃描器，首月測試即在 120 萬次 commit 中找出超過 1 萬個高影響力漏洞，顯示 AI 在 DevSecOps 中的強大潛力。",
+          "source": "The Hacker News / Tavily",
+          "url": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html"
         },
         {
-          "title": "OpenAI 推出 Codex Security 漏洞掃描器",
-          "takeaway": "**AI 公司開始把開發安全工具商品化，往 DevSecOps 延伸。**",
-          "summary": "這類產品不是只為展示模型能力，而是瞄準企業開發流程中的安全檢測預算，意圖卡位更高價值工作流。",
-          "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/openai-rolls-out-codex-security-vulnerability-scanner/"
+          "title": "Google 報告指出 2025 年半數零日漏洞鎖定企業技術",
+          "takeaway": "**駭客攻擊重心正從個人裝置全面轉向擁有高價值資料的企業基礎設施。**",
+          "summary": "Google 最新研究顯示，去年追蹤到的零日漏洞有一半集中在企業級軟硬體，反映出攻擊者正採取更具針對性的商業間諜或勒索策略。",
+          "source": "TechCrunch / Tavily",
+          "url": "https://techcrunch.com/2026/03/05/google-says-half-of-all-zero-days-it-tracked-in-2025-targeted-buggy-enterprise-tech/"
         },
         {
-          "title": "Microsoft 警告：偽裝成辦公工具的已簽章惡意程式正投放 RMM 後門",
-          "takeaway": "**供應鏈信任與簽章信任都正在被攻擊者反向利用。**",
-          "summary": "攻擊者冒充常見工作軟體並利用已簽章樣本，提高繞過防護與社交工程成功率，企業端點防禦必須同步升級。",
-          "source": "Microsoft / Google News",
+          "title": "UK 企業 2026 年首要任務：應對資料外洩與 AI 生成的錯誤資訊",
+          "takeaway": "**隨著 AI 普及，企業的安全威脅已從單純的系統入侵擴展到聲譽風險。**",
+          "summary": "研究顯示英國消費者高度關注企業對 Deepfake 與錯誤資訊的防範能力，這要求企業在數位轉型中必須同步建立 AI 治理框架。",
+          "source": "Weekly Voice / Tavily",
+          "url": "https://weeklyvoice.com/uk-businesses-urged-to-prioritise-cybersecurity-and-misinformation-in-2026-report-finds/"
+        },
+        {
+          "title": "T-Mobile 強調大規模供應鏈安全挑戰",
+          "takeaway": "**即使企業內部防護嚴密，第三方供應鏈仍然是最大的攻擊暴露面。**",
+          "summary": "T-Mobile 高層指出，在日益擴張的攻擊面中，如何確保龐大供應鏈的每一個環節都符合安全標準，是電信巨頭目前面臨的最核心挑戰。",
+          "source": "CyberScoop / Tavily",
+          "url": "https://cyberscoop.com/video/t-mobiles-eric-jensen-on-the-challenge-of-securing-vast-supply-chains/"
+        },
+        {
+          "title": "FBI 遭受駭客攻擊，部分內部系統受影響",
+          "takeaway": "**執法機關的安全防禦同樣面臨嚴峻挑戰，國家級網路攻擊不曾停歇。**",
+          "summary": "近期報導指出 FBI 內部系統遭到入侵，雖然具體範圍尚未公開，但再次凸顯了即便具備頂尖安全能力的機構也難以做到百分之百的免疫。",
+          "source": "SecurityWeek / Tavily",
+          "url": "https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/"
+        },
+        {
+          "title": "London 交通局資料外洩案影響擴大至 1,000 萬人",
+          "takeaway": "**公共服務基礎設施的資料外洩具備極高的社會影響力與長尾修復成本。**",
+          "summary": "Transport for London (TfL) 的資料外洩規模持續擴大，涉及大量乘客個資，引發公眾對於智慧城市基礎設施安全的深度擔憂。",
+          "source": "SecurityWeek / Tavily",
+          "url": "https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/"
+        },
+        {
+          "title": "雲端安全聯盟（CSA）的 AI 控制矩陣榮獲 2026 CSO 大獎",
+          "takeaway": "**標準化與合規性正成為 AI 安全領域的發展基石。**",
+          "summary": "CSA 憑藉 AI 控制矩陣獲得肯定，代表業界正積極建立一套通用的 AI 安全基準，幫助企業在導入模型時有據可依。",
+          "source": "Yahoo Finance / Tavily",
+          "url": "https://finance.yahoo.com/news/cloud-security-alliance-ai-controls-130500743.html"
+        },
+        {
+          "title": "微軟警告已簽名惡意軟體偽裝成辦公工具投放 RMM 後門",
+          "takeaway": "**攻擊者正利用簽名信任與辦公場景進行更隱蔽的權限獲取。**",
+          "summary": "駭客利用合法簽名來規避傳統防護，並冒充常見軟體進行社交工程，這對企業端點檢測能力（EDR）提出了更高要求。",
+          "source": "Microsoft / 歷史覆蓋",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR1ItOEd4UTNqLUI2Qm0tTFRuZlRYaGJmRU9tblRqR2NfN1NlQWJFM2V2VDNIOFlJdTY2NzRhdDNjM3Qzc1NtWEczbWdMV2REaWszT3dQbGhDSGVjb1VKbFo0emQ4SGtrMEUxbjFHdzdwQ0ZSU0FpdjBRYlJoQkw4cnBZNjVSNnRHSHBPeG5VTTNaQnZpdXNMV3ZGcGpvOXJ3eWprU2lj?oc=5"
+        },
+        {
+          "title": "Ericsson 資料外洩事件影響數千名員工與客戶",
+          "takeaway": "**老牌科技巨頭的遺留系統與個資管理仍然是高頻風險區。**",
+          "summary": "Ericsson 的外洩事件雖然規模不算極端，但涉及敏感的內部通訊與人員資料，顯示企業內網治理需要更持續的投入。",
+          "source": "SecurityWeek / 歷史覆蓋",
+          "url": "https://www.securityweek.com/thousands-affected-by-ericsson-data-breach/"
         }
       ]
     },
