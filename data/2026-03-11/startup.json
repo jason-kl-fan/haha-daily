@@ -1,0 +1,98 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-11",
+  "count": 12,
+  "searchNotes": {
+    "search": "Gemini web_search for March 10-11, 2026 startup funding, launches, partnerships, acquisitions and pivots",
+    "rss": "blogwatcher tracked feeds/articles across TechCrunch Startups, Crunchbase News, EU-Startups and related startup feeds",
+    "workflow": "Search first, draft JSON second, HTML update last",
+    "dedupe": "Deduplicated overlapping items from Gemini web_search citations and blogwatcher RSS candidates before drafting"
+  },
+  "items": [
+    {
+      "title": "Alan 完成 1 億歐元增資，估值升至 50 億歐元",
+      "takeaway": "**歐洲成熟新創即使還在衝規模，也仍能靠成長與產品擴張拿到高估值續投。**",
+      "summary": "法國健康保險新創 Alan 由 Index Ventures 領投 1 億歐元新資金，估值從 2024 年的 45 億歐元升至 50 億歐元，並把 AI、國際擴張與產品深化列為下一步重點。",
+      "source": "TechCrunch / web_search + RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/11/health-insurance-startup-alan-reaches-e5b-valuation/"
+    },
+    {
+      "title": "前 Apple 工程師創業 Taya，為只錄自己聲音的筆記項鍊募得 500 萬美元",
+      "takeaway": "**AI 穿戴裝置開始把隱私設計當成產品差異化，而不只是功能清單。**",
+      "summary": "Taya 主打預設關閉麥克風、優先只收錄佩戴者聲音，並以項鍊外型切入日常筆記場景；本輪由 MaC Venture Capital 與 Female Founders Fund 領投。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/11/former-apple-engineer-raises-5m-for-a-note-taking-pendant-that-only-records-your-voice/"
+    },
+    {
+      "title": "Anduril 收購太空監測公司 ExoAnalytic Solutions",
+      "takeaway": "**國防新創的併購焦點正從單一硬體，往資料、感測與任務軟體整合移動。**",
+      "summary": "Anduril 把經營全球 400 座望遠鏡網路的 ExoAnalytic 併入體系，強化太空態勢感知與飛彈防禦能力，也替後續搶攻美國政府太空防務標案加分。",
+      "source": "TechCrunch / web_search + RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/11/anduril-snaps-up-space-surveillance-firm-exoanalytic-solutions/"
+    },
+    {
+      "title": "AMI 完成 10.3 億美元種子輪，挑戰『世界模型』路線",
+      "takeaway": "**資本市場仍願意對非 LLM 路線下重注，只要團隊足夠明星級且敘事夠大。**",
+      "summary": "Yann LeCun 共同創辦的巴黎新創 AMI 以約 35 億美元估值募得 10.3 億美元，號稱歐洲史上最大 seed round，目標是打造能理解 3D 現實世界的 AI 模型。",
+      "source": "Crunchbase News / RSS + web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/"
+    },
+    {
+      "title": "Legora 完成 5.5 億美元 D 輪，估值跳升至 55.5 億美元",
+      "takeaway": "**AI 法律科技仍是最能把專業工作流直接變現的熱門賽道之一。**",
+      "summary": "這家瑞典法律科技新創由 Accel 領投 D 輪，估值較去年 10 月大幅跳升，並加速在紐約、休士頓與芝加哥擴張，顯示美國法律市場仍是主戰場。",
+      "source": "Crunchbase News / RSS + web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/unicorn-legal-tech-ai-startup-legora-triples-valuation/"
+    },
+    {
+      "title": "AgentMail 融資 600 萬美元，打造 AI agents 的原生郵件基礎設施",
+      "takeaway": "**如果 AI agent 要像數位員工一樣工作，就需要自己的身份與通訊層。**",
+      "summary": "AgentMail 提供 API 讓代理人可自行建立收件匣、管理 thread、標籤與搜尋；本輪由 General Catalyst 領投，也同步推出讓 agent 自助開通信箱的 onboarding API。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/"
+    },
+    {
+      "title": "Thinking Machines Lab 與 Nvidia 建立多年合作，含策略投資與 GW 級部署",
+      "takeaway": "**頂級 AI 新創的合作談判，已經不是買 GPU，而是在談長期算力供應與資本綁定。**",
+      "summary": "Mira Murati 的 Thinking Machines Lab 宣布與 Nvidia 建立多年合作，預計自 2027 年起部署至少 1GW Vera Rubin 系統，Nvidia 也同步參與投資。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/"
+    },
+    {
+      "title": "Meta 收購 AI agent 社群 Moltbook",
+      "takeaway": "**大型平台開始提前卡位 agent 生態入口，即使產品本身還很早期。**",
+      "summary": "Meta 已把 Moltbook 團隊與產品帶進 Superintelligence Labs，顯示它不只想要模型能力，也想掌握 agent 發現、連結與協作的社群介面。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/"
+    },
+    {
+      "title": "Lux Aeterna 募得 1,000 萬美元，推進可重複使用衛星",
+      "takeaway": "**商業太空新創正試著把『火箭可回收』的邏輯複製到衛星本體。**",
+      "summary": "由 SpaceX 校友創辦的 Lux Aeterna 希望打造可攜帶酬載返回地球的衛星結構，資金將用於 Delphi 太空船設計與 2027 年展示任務準備。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/lux-aeterna-raises-10-million-for-reusable-satellite-mission/"
+    },
+    {
+      "title": "Sandbar 完成 2,300 萬美元 A 輪，擴大 AI 筆記戒指產品線",
+      "takeaway": "**AI 穿戴新創正從『錄音小玩具』往日常工作入口與 agent 工作流延伸。**",
+      "summary": "Sandbar 的 Stream 戒指主打近距離收音與語音筆記，本輪將用於 app 體驗、Web 端與模型回應速度優化，並朝可執行行動的 agentic workflow 發展。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/"
+    },
+    {
+      "title": "Eridu 走出隱身並募得 2 億美元 A 輪，重做 AI 資料中心網路",
+      "takeaway": "**AI 基礎設施投資正從晶片延伸到交換器、互連與整體網路架構。**",
+      "summary": "由網通老將 Drew Perkins 共同創辦的 Eridu 想從晶片到系統重構 AI data center networking，透過更高整合度降低延遲、功耗與成本。",
+      "source": "TechCrunch Startups / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/"
+    },
+    {
+      "title": "finperks 完成 340 萬歐元 pre-seed，要做『預付卡版 Stripe』",
+      "takeaway": "**歐洲金融基建新創仍有空間，用 API 把舊產業的碎片化流程重新打包。**",
+      "summary": "這家柏林新創由 viafintech 創辦團隊再出發，目標是把發卡、品牌合作、結算與合規整成單一 API，服務現金回饋、員工福利與數位禮卡等場景。",
+      "source": "EU-Startups / RSS + web_search",
+      "sourceUrl": "https://www.eu-startups.com/2026/03/ex-viafintech-founders-new-venture-finperks-raises-e3-4-million-pre-seed-to-build-the-stripe-for-prepaid/"
+    }
+  ]
+}
