@@ -1,0 +1,83 @@
+{
+  "slug": "cooling",
+  "name": "Cooling",
+  "date": "2026-03-11",
+  "count": 10,
+  "searchNotes": {
+    "gemini": "Used Gemini web_search for official releases and broader cooling trend discovery",
+    "rss": "Used blogwatcher/RSS results for Data Center Dynamics, Tom's Hardware, KitGuru, and TechPowerUp cooling items",
+    "workflow": "Search first, text draft second, HTML update last"
+  },
+  "items": [
+    {
+      "title": "Alfa Laval 推出 FreeWaterLoop，主打天然水源與高密度資料中心液冷",
+      "takeaway": "**資料中心外部冷卻迴路開始從傳統空氣式設備，轉向更節能、占地更小的液冷基礎設施。**",
+      "summary": "Alfa Laval 新系統把泵、熱交換器與過濾整合在同一方案，強調可利用天然水源的穩定溫度來支援高密度運算，同時降低設施占地與淨耗水量。",
+      "source": "Alfa Laval / Gemini web_search",
+      "sourceUrl": "https://www.alfalaval.com/media/news/investors/2026/alfa-laval-launches-freewaterloop-to-support-efficient-data-center-cooling/"
+    },
+    {
+      "title": "Panasonic 在歐洲啟動生成式 AI 資料中心液冷業務",
+      "takeaway": "**傳統空調大廠正把 CDU 與 free-cooling chiller 打包成 AI 機房標配。**",
+      "summary": "Panasonic 開始在歐洲接單 400kW、800kW CDU，以及 800kW、1,200kW free-cooling 冷水機，瞄準 hyperscaler、colo 與中小型 edge data center 的高熱負載需求。",
+      "source": "Panasonic / Gemini web_search",
+      "sourceUrl": "https://news.panasonic.com/global/press/en260304-2"
+    },
+    {
+      "title": "JetCool 與 Broadcom 合作，為下一代 AI XPU 導入直觸式液冷",
+      "takeaway": "**AI 晶片熱密度已逼近『散熱決定可量產性』的階段。**",
+      "summary": "JetCool 表示其單相 direct-to-chip 方案可支援多千瓦級 ASIC，並與 Broadcom 的機構與熱設計參考架構對齊，顯示液冷正被更早納入 AI 晶片平台共設計。",
+      "source": "Flex / JetCool / Gemini web_search",
+      "sourceUrl": "https://investors.flex.com/news/news-details/2026/JetCool-Collaborates-with-Broadcom-to-Deliver-Innovative-Liquid-Cooling-for-Next-Generation-AI-XPUs/default.aspx"
+    },
+    {
+      "title": "Schneider Electric 指單相直液冷正成為 AI 資料中心最實際熱管理選項",
+      "takeaway": "**資料中心業界共識正在往單相 direct liquid cooling 收斂：效率夠高，維運門檻又比全浸沒更低。**",
+      "summary": "Schneider Electric 指出，高密度 GPU 工作負載讓傳統風冷逼近極限，而單相直液冷同時兼顧熱源就地帶走、維修性與改造彈性，特別適合 AI 工廠與棕地升級。",
+      "source": "Schneider Electric Blog / Gemini web_search",
+      "sourceUrl": "https://blog.se.com/datacenter/2026/03/10/single-phase-direct-liquid-cooling-efficient-thermal-solution-ai-data-centers/"
+    },
+    {
+      "title": "Perstorp 在 Data Centre World London 展示 PFAS-free 浸沒式冷卻液",
+      "takeaway": "**液冷競爭已不只比散熱能力，也開始比安全性、壽命與環境風險。**",
+      "summary": "Perstorp 把 Synmerse DC 定位為面向高密度機房的 PFAS-free synthetic dielectric fluid，強調導熱效率、較高閃火點、較長壽命與可生物降解特性。",
+      "source": "Perstorp / Gemini web_search",
+      "sourceUrl": "https://www.perstorp.com/en/news_center/events/2026/data_centre_world_london_2026"
+    },
+    {
+      "title": "Akash Systems 推出採用鑽石散熱的 AMD AI 伺服器",
+      "takeaway": "**資料中心散熱材料正在往更極端的導熱路線探索，目標是把 AI 伺服器功率密度再往上推。**",
+      "summary": "根據 Data Center Dynamics 的 RSS 新聞，Akash Systems 發表採 AMD 平台的 diamond-cooled AI servers，顯示高階 AI 基建已開始把散熱材料本身做成差異化賣點。",
+      "source": "Data Center Dynamics / RSS",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/akash-systems-launches-amd-powered-diamond-cooled-ai-servers/"
+    },
+    {
+      "title": "Tom's Hardware 整理正壓與負壓風道，提醒 DIY 玩家別只看風扇數量",
+      "takeaway": "**PC DIY 散熱的關鍵愈來愈不是『多裝幾顆風扇』，而是整體風道平衡。**",
+      "summary": "Tom's Hardware 指出，正壓與負壓會直接影響灰塵控制、熱空氣排出效率與噪音表現；對高功耗 CPU、GPU 機器來說，機殼風道調校仍是最划算的散熱升級。",
+      "source": "Tom's Hardware / RSS",
+      "sourceUrl": "https://www.tomshardware.com/desktops/pc-building/how-to-optimize-your-pcs-airflow-using-positive-vs-negative-pressure"
+    },
+    {
+      "title": "ID-Cooling 發表 Frozn 510 加厚單塔散熱器，鎖定 chiplet CPU 熱點",
+      "takeaway": "**風冷沒有退場，反而開始更精準對準 chiplet 架構的局部熱源。**",
+      "summary": "KitGuru 報導這款散熱器採 58mm 厚鰭片塔體、五根直觸熱導管與 2+2+1 排列，AMD 版還加入偏移扣具，讓熱導管更貼近 Ryzen compute dies。",
+      "source": "KitGuru / RSS",
+      "sourceUrl": "https://www.kitguru.net/components/cooling/joao-silva/id-cooling-reveals-thick-single-tower-frozen-510-cpu-cooler/"
+    },
+    {
+      "title": "Arctic 發表 Liquid Freezer WS360，AIO 水冷往工作站平台延伸",
+      "takeaway": "**AIO 水冷市場正從玩家平台擴大到更吃重長時間穩定性的 workstation 場景。**",
+      "summary": "根據 TechPowerUp 的 RSS 新聞，Arctic 推出 Liquid Freezer WS360，名稱就直接指向 workstation 用途，反映高核心數工作站與內容創作平台對 360mm 一體式水冷需求持續升高。",
+      "source": "TechPowerUp / RSS",
+      "sourceUrl": "https://www.techpowerup.com/347233/arctic-announces-liquid-freezer-ws360-cpu-cooler-for-workstation-platforms"
+    },
+    {
+      "title": "Alphacool 推出 RTX 6000 Pro GPU 水冷頭，專業卡也加速走向液冷",
+      "takeaway": "**液冷正從遊戲顯卡擴散到專業繪圖與 AI 工作站 GPU。**",
+      "summary": "TechPowerUp 的 RSS 顯示 Alphacool 發表 ES RTX 6000 Pro GPU water blocks，意味著高價專業卡的散熱升級需求已經足以支撐更細分的 aftermarket 水冷配件。",
+      "source": "TechPowerUp / RSS",
+      "sourceUrl": "https://www.techpowerup.com/347223/alphacool-unveils-es-rtx-6000-pro-gpu-water-blocks"
+    }
+  ]
+}
