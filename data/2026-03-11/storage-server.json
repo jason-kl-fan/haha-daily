@@ -1,0 +1,90 @@
+{
+  "slug": "storage-server",
+  "name": "Storage / Server",
+  "date": "2026-03-11",
+  "count": 11,
+  "searchNotes": {
+    "webSearch": "Used Gemini web_search for vendor/news discovery and cross-checking",
+    "rss": "Used blogwatcher tracked RSS/blog sources including TechPowerUp and Data Center Dynamics",
+    "workflow": "Search first, text draft second, HTML update last"
+  },
+  "items": [
+    {
+      "title": "Seagate 44TB Mozaic 4+ HAMR 硬碟正式進入 hyperscaler 量產",
+      "takeaway": "**大容量 HDD 仍是 AI 時代冷資料與訓練資料池的關鍵基礎設施。**",
+      "summary": "Seagate 表示 44TB HAMR 硬碟已在兩家大型雲端客戶完成資格認證並量產，還拋出朝 100TB 路線前進的 roadmap，代表大規模資料中心仍需要更便宜的大容量儲存層。",
+      "source": "Gemini web_search + Seagate",
+      "sourceUrl": "https://www.seagate.com/stories/articles/seagate-delivers-industrys-highest-capacity-hard-drives-with-next-generation-mozaic-4/"
+    },
+    {
+      "title": "QNAP 把 NAS 變成 NDR 節點，推出免費 ADRA NDR Standalone",
+      "takeaway": "**NAS 廠商開始把安全偵測一起包進儲存基礎設施。**",
+      "summary": "QNAP 新工具可直接部署在 NAS 上做內網威脅偵測、AI 輔助分析與自動隔離，重點是免額外專用設備與授權費，讓中小企業更容易把儲存設備升級成安全節點。",
+      "source": "Gemini web_search + QNAP",
+      "sourceUrl": "https://www.qnap.com/en-us/news/2026/qnap-turns-nas-into-ndr-adra-ndr-standalone-lowers-the-barrier-to-internal-network-security"
+    },
+    {
+      "title": "HPE 警告記憶體與 NAND 漲價將延續，伺服器與儲存訂單可在出貨前重報價",
+      "takeaway": "**企業硬體採購正在從『報價即鎖價』走向更動態、風險更高的模式。**",
+      "summary": "HPE 說 DRAM 與 NAND 成本壓力可能一路延續到 2027，甚至修改條款保留出貨前調價空間；對企業 IT 來說，refresh 與資本支出規劃會更難抓。",
+      "source": "Gemini web_search + Network World / CRN",
+      "sourceUrl": "https://www.networkworld.com/article/4142928/hpes-server-and-storage-prices-can-change-after-you-place-an-order.html"
+    },
+    {
+      "title": "Dell 把 2026 年投資重點放在 storage、AI Factory 與可擴展運算",
+      "takeaway": "**Dell 想把 AI 需求直接轉成整套資料中心升級訂單。**",
+      "summary": "Michael Dell 明講今年會重壓高效能儲存、AI Factory 與更自動化的資料處理，反映 Dell 不只賣 AI 伺服器，而是想吃下從運算到資料層的整體基建預算。",
+      "source": "Gemini web_search + CRN",
+      "sourceUrl": "https://www.crn.com/news/computing/2026/michael-dell-on-biggest-2026-investments-in-storage-ai-and-partners"
+    },
+    {
+      "title": "Nutanix Enterprise Cloud Index：AI 正加速容器化，但多數本地基礎設施還沒準備好",
+      "takeaway": "**企業想跑 AI，不只缺 GPU，也缺能同時管 VM、容器與資料主權的底層平台。**",
+      "summary": "Nutanix 調查顯示 85% 受訪者認為 AI 正推動容器採用，但 82% 也承認自家 on-prem 基礎設施還沒準備好支撐 AI 工作負載，顯示現代化壓力仍很大。",
+      "source": "Gemini web_search + Nutanix",
+      "sourceUrl": "https://www.nutanix.com/press-releases/2026/nutanix-enterprise-cloud-index-finds-ai-is-driving-rapid-container-adoption"
+    },
+    {
+      "title": "AMD 與 Nutanix 建立多年度合作，推開放式 enterprise AI 基礎設施平台",
+      "takeaway": "**企業 AI 平台競爭正從單機硬體，升級成 CPU、GPU、Kubernetes 與雲平台整合戰。**",
+      "summary": "雙方宣布用 AMD EPYC、Instinct、ROCm 與 Nutanix Cloud / Kubernetes 平台打造 agentic AI 基礎設施，AMD 還將投資與補助合計最高 2.5 億美元。",
+      "source": "Gemini web_search + StorageNewsletter",
+      "sourceUrl": "https://www.storagenewsletter.com/2026/03/06/amd-and-nutanix-announce-strategic-partnership-to-advance-an-open-and-scalable-platform-for-enterprise-ai/"
+    },
+    {
+      "title": "Broadcom 看好 VMware 會因 generative AI 與 agentic AI 需求繼續成長",
+      "takeaway": "**私有雲與虛擬化平台沒有被 AI 邊緣化，反而想成為 AI 軟硬體之間那層不可替代的底座。**",
+      "summary": "Broadcom 認為 VMware Cloud Foundation 能幫企業承接生成式 AI 與代理式 AI 工作負載，代表 VMware 正把自己重新定位成企業 AI 私有雲控制層。",
+      "source": "Gemini web_search + CIO Dive",
+      "sourceUrl": "https://www.ciodive.com/news/broadcom-ceo-expects-vmware-revenue-boost-ai/813972/"
+    },
+    {
+      "title": "Supermicro 擴大 AI-RAN 與 sovereign AI 基礎設施布局",
+      "takeaway": "**伺服器廠不只賣機器，也在吃下電信 AI 與主權算力建設的新需求。**",
+      "summary": "Supermicro 在 MWC 強調 AI-RAN 與主權 AI 方案，結合最新 CPU / GPU 與夥伴展示實際部署案例，顯示電信網路與國家級 AI 基建正變成新 server 戰場。",
+      "source": "Gemini web_search + PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/supermicro-expands-support-for-ai-ran-and-sovereign-ai-solutions-to-deliver-high-performance-efficient-and-scalable-ai-infrastructure-302700132.html"
+    },
+    {
+      "title": "Oracle 單季新增 400MW 資料中心容量，並稱未來三年已鎖定 10GW 電力",
+      "takeaway": "**AI 雲端擴張現在真正卡的不是機櫃，而是電力與土地。**",
+      "summary": "Data Center Dynamics 報導 Oracle 上季新增 400MW 容量，且已為未來三年 확보 10GW 電力，說明大型雲端基礎設施競賽已進入 power procurement 與園區級擴張階段。",
+      "source": "blogwatcher / Data Center Dynamics RSS",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/oracle-stood-up-400mw-of-data-center-capacity-in-latest-quarter-has-secured-10gw-of-power-for-the-next-three-years/"
+    },
+    {
+      "title": "Micron 推出 256GB LPDRAM SOCAMM2，鎖定資料中心基礎設施",
+      "takeaway": "**AI 伺服器帶動的不是只有 GPU，記憶體模組形態也在快速進化。**",
+      "summary": "Micron 針對資料中心基建推出高容量 256GB LPDRAM SOCAMM2，代表 server 記憶體正在往更高密度、更節能與更適合新型系統設計的方向走。",
+      "source": "blogwatcher / TechPowerUp RSS",
+      "sourceUrl": "https://www.techpowerup.com/346999/micron-releases-worlds-first-high-capacity-256-gb-lpdram-socamm2-for-data-center-infrastructure"
+    },
+    {
+      "title": "QNAP 發表 TS-h1077AFU 全快閃高密度 NAS，瞄準企業與邊緣場景",
+      "takeaway": "**中型企業儲存也在往高密度、低延遲與 ZFS 化升級。**",
+      "summary": "這台 10-bay all-flash NAS 採 AMD Ryzen PRO 7000 並搭配 QuTS hero，反映 NAS 市場不再只談備份，而是更積極切入正式業務工作負載與邊緣基建。",
+      "source": "blogwatcher / TechPowerUp RSS",
+      "sourceUrl": "https://www.techpowerup.com/347035/qnap-releases-ts-h1077afu-10-bay-high-density-all-flash-nas-with-amd-ryzen-pro-7000-cpus"
+    }
+  ]
+}
