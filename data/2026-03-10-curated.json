@@ -4,9 +4,9 @@
     "date": "2026-03-10",
     "dateLabel": "2026 年 3 月 10 日",
     "weekday": "星期二",
-    "intro": "今天先看 AI 主題重跑版：模型、辦公代理、開發工作流與算力平台消息特別密集。",
+    "intro": "今天的 AI 主題依照新規則重整：先用 Tavily 與 RSS 蒐集，再整理成文字稿，最後才更新頁面。",
     "overview": [
-      "**AI**：OpenAI 安全併購、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與大型算力合作同步推進。",
+      "**AI**：OpenAI 安全整合、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與垂直 AI 助手同步推進。",
       "**基礎設施**：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。",
       "**政策與風險**：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。"
     ]
@@ -19,73 +19,73 @@
       "items": [
         {
           "title": "OpenAI 將收購 Promptfoo",
-          "takeaway": "**OpenAI 開始把 AI 安全測試與評估能力直接內建到企業 agent 平台。**",
-          "summary": "OpenAI 表示會把 Promptfoo 的紅隊測試、評估與治理能力整合進 Frontier，代表企業導入 AI coworkers 時，安全驗證將更前置化與平台化。",
-          "source": "OpenAI",
+          "takeaway": "**OpenAI 開始把 AI 安全測試與治理能力直接收進企業 agent 平台。**",
+          "summary": "這代表未來企業導入 AI coworker 時，安全驗證、紅隊測試與合規追蹤會更像平台內建功能，而不是外掛工具。",
+          "source": "OpenAI / RSS",
           "url": "https://openai.com/index/openai-to-acquire-promptfoo"
         },
         {
           "title": "OpenAI 發表 GPT-5.4",
-          "takeaway": "**GPT-5.4 把推理、編碼、工具操作與長上下文整合成更完整的工作型模型。**",
-          "summary": "OpenAI 將 GPT-5.4 定位為更適合專業知識工作與 agent workflow 的旗艦模型，並強調更高工具使用能力、1M context 與更好的 token 效率。",
-          "source": "OpenAI",
+          "takeaway": "**GPT-5.4 明顯朝專業知識工作、工具操作與長流程任務整合前進。**",
+          "summary": "官方重點放在 reasoning、coding、tool use、computer use 與更高 token 效率，顯示模型競爭已進入真實工作流落地階段。",
+          "source": "OpenAI / RSS",
           "url": "https://openai.com/index/introducing-gpt-5-4"
         },
         {
-          "title": "Gemini 在 Google Sheets 達到接近專家級的試算表能力",
-          "takeaway": "**Google 正把 Gemini 從聊天助手往真正的表格操作代理推進。**",
-          "summary": "Google 表示 Gemini in Sheets 在 SpreadsheetBench 上達到 70.48% 成功率，已逼近人類專家水準，顯示 AI 正更深入辦公資料處理核心。",
-          "source": "Google",
-          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
-        },
-        {
-          "title": "Google 為 Docs、Sheets、Slides、Drive 推出新一批 Gemini 能力",
-          "takeaway": "**Workspace 的生成式 AI 正從『輔助』升級成跨應用內容組裝層。**",
-          "summary": "新能力可從 Gmail、Chat、Drive 與搜尋拉資料，直接產生文件、試算表與簡報，代表 Google 想把 Gemini 變成整個 Workspace 的工作流編排器。",
-          "source": "TechCrunch",
+          "title": "Google 擴大 Gemini 在 Workspace 的能力",
+          "takeaway": "**Gemini 正從聊天助手升級成 Workspace 的跨應用工作流引擎。**",
+          "summary": "Docs、Sheets、Slides、Drive 都在擴展，代表 Google 想把搜尋、郵件、文件、簡報和資料表串成單一 AI 操作層。",
+          "source": "TechCrunch / RSS",
           "url": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/"
         },
         {
-          "title": "Google 為 Ask Photos 加回更明顯的經典搜尋切換",
-          "takeaway": "**生成式 AI 功能如果又慢又不準，主流用戶會直接要求退回傳統體驗。**",
-          "summary": "Google 因使用者抱怨 Ask Photos 速度與準確度問題，新增更顯眼的切換方式，說明高頻產品場景下 AI 仍必須服從實用性。",
-          "source": "TechCrunch",
+          "title": "Gemini in Sheets 達到接近專家級試算表能力",
+          "takeaway": "**Google 正把 AI 推進到高摩擦、真實辦公資料處理核心。**",
+          "summary": "這不只是生成內容，而是更接近可執行表格工作的代理化能力，對企業內部分析流程影響會很大。",
+          "source": "Google Blog / RSS",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+        },
+        {
+          "title": "Google 為 Ask Photos 加回更明顯的傳統搜尋切換",
+          "takeaway": "**AI 功能如果又慢又不準，主流產品使用者會直接反彈。**",
+          "summary": "這條很重要，因為它說明生成式 AI 在高頻產品場景裡，不能只靠新奇，還是得回到速度、準確與可控性。",
+          "source": "TechCrunch / RSS",
           "url": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/"
         },
         {
-          "title": "Adobe 在 Photoshop 推出 AI assistant",
-          "takeaway": "**創意軟體的 AI 競爭已經進入『直接用自然語言操作編修流程』階段。**",
-          "summary": "Adobe 讓 Photoshop 使用者可用提示詞完成去背、調光、改色與生成式編修，同時也把更多生成式能力帶進 Firefly，進一步強化工作流綁定。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/"
-        },
-        {
-          "title": "Zoom 推出 AI office suite 與會議替身 avatar",
-          "takeaway": "**Zoom 不只想做會議工具，而是想用 AI 擴成整套辦公與代理工作平台。**",
-          "summary": "Zoom 宣布 AI Docs、Slides、Sheets、meeting avatar、voice translation 與 agent builder，顯示會議平台正把 AI 當成產品線延伸的核心引擎。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/"
-        },
-        {
-          "title": "Anthropic 為 Claude Code 推出多代理 Code Review",
-          "takeaway": "**AI 公司正在把模型能力包成更昂貴、但更完整的開發工作流產品。**",
-          "summary": "Anthropic 的 Code Review 會派出多個 agent 平行審查 pull request，再交叉驗證與排序問題嚴重度，明顯瞄準企業級高價值開發流程。",
-          "source": "VentureBeat",
+          "title": "Anthropic 為 Claude Code 推出 Code Review",
+          "takeaway": "**AI 公司正在把模型能力封裝成高價值、可收費的開發流程產品。**",
+          "summary": "多代理平行審查 PR、再做交叉驗證，這已經不是單純聊天模型，而是直接切進企業工程流程。",
+          "source": "VentureBeat / RSS",
           "url": "https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon"
         },
         {
           "title": "Nvidia 傳將推出開源 AI agent 平台",
-          "takeaway": "**Nvidia 正從算力供應商進一步往 agent 軟體平台層延伸。**",
-          "summary": "WIRED 報導 Nvidia 正準備推出面向企業的開源 agent 平台，並接觸多家大型軟體公司，意味其戰略重心正在往『晶片 + 平台』雙棲發展。",
-          "source": "WIRED",
+          "takeaway": "**Nvidia 不只賣晶片，也開始往 agent 軟體平台層擴張。**",
+          "summary": "如果這件事成真，Nvidia 會從基礎算力供應商更往上走，變成晶片、agent platform 與生態整合的三層角色。",
+          "source": "WIRED / RSS",
           "url": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/"
         },
         {
           "title": "Thinking Machines Lab 與 Nvidia 簽下大型算力合作",
-          "takeaway": "**頂級 AI 實驗室之間的競爭，核心仍是先進算力與長期供應保障。**",
-          "summary": "Mira Murati 的 Thinking Machines Lab 與 Nvidia 建立多年合作，並將部署至少 1GW Vera Rubin 系統，反映大型研究團隊正持續搶占未來算力產能。",
-          "source": "TechCrunch",
+          "takeaway": "**頂級 AI 團隊競爭的核心，仍然是先進算力的長期保障。**",
+          "summary": "Mira Murati 的團隊拿到大規模 Nvidia 資源，說明模型競賽背後的真正稀缺資源還是 compute。",
+          "source": "TechCrunch / RSS",
           "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/"
+        },
+        {
+          "title": "Amazon 推出 healthcare AI assistant",
+          "takeaway": "**AI 助手正快速滲透到垂直場景，而不只是通用聊天。**",
+          "summary": "醫療健康這種高敏感、高流程的場景如果開始導入，代表 AI 助手商品化會更進一步往實際服務入口走。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/"
+        },
+        {
+          "title": "ChatGPT 新增互動式視覺化學習能力",
+          "takeaway": "**通用 AI 正從回答問題，往教學介面進化。**",
+          "summary": "這種能力對教育、科普、知識工作都很有延伸性，也代表產品競爭已經不只是模型分數，而是互動體驗。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/"
         }
       ]
     },

@@ -7,12 +7,12 @@ DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-10-curated.json')))
 DATE = DATA['site']['date']
 DATE_LABEL = DATA['site']['dateLabel']
 TOPICS = DATA['topics']
-UPDATED = '2026-03-10 10:02 America/Los_Angeles'
+UPDATED = '2026-03-10 21:40 America/Los_Angeles'
 STATS = {
     'total': '約 18k',
     'input': '約 14k',
     'output': '約 4k',
-    'duration': 'AI 重跑',
+    'duration': 'AI Tavily 重整',
     'status': 'published'
 }
 TOPIC_ORDER = [t['slug'] for t in TOPICS]
