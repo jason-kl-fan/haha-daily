@@ -4,7 +4,7 @@
     "date": "2026-03-10",
     "dateLabel": "2026 年 3 月 10 日",
     "weekday": "星期二",
-    "intro": "今天的 AI、Big Tech、Semiconductor、Storage/Server、Cooling、Security 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。",
+    "intro": "今天的 AI、Big Tech、Semiconductor、Storage/Server、Cooling、Security、Startup 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。",
     "overview": [
       "**AI**：OpenAI 安全整合、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與垂直 AI 助手同步推進。",
       "**Big Tech / 晶片**：Meta / Nvidia 長約、Oracle 擴大晶片供應鏈，半導體面則集中在 HBM、Rubin、封裝與地緣供應風險。",
@@ -480,32 +480,74 @@
       "desc": "新創融資、產品、合作、轉型與併購。",
       "items": [
         {
-          "title": "Eridu 以超過 2 億美元 A 輪走出隱身模式",
-          "takeaway": "**AI 基礎設施新創現在連網路層都能拿到超大額資金。**",
-          "summary": "Eridu 主打突破 AI 叢集的網路瓶頸，代表資本市場已經不只追模型，而是開始深挖底層互連與效率痛點。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/"
-        },
-        {
-          "title": "Legora 估值升至 55.5 億美元",
-          "takeaway": "**AI 法律科技仍是高估值熱門賽道。**",
-          "summary": "Legora 的最新估值顯示，能直接切入高單價專業服務流程的 AI 新創，仍最容易獲得市場高倍數定價。",
-          "source": "TechCrunch",
+          "title": "瑞典法律科技新創 Legora 融資 5.5 億美元，估值達 55.5 億美元",
+          "takeaway": "**AI 法律科技賽道持續升溫，具備垂直整合能力的工具最受資本青睞。**",
+          "summary": "Legora 獲得大規模 Series D 融資，旨在加速美國擴張。儘管面臨微軟 Copilot 等通用模型的競爭，Legora 憑藉深耕法律專業流程的優勢，成功維持高估值。",
+          "source": "TechCrunch / Tavily",
           "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/"
         },
         {
-          "title": "Yann LeCun 的 AMI Labs 傳出募得 10.3 億美元",
-          "takeaway": "**市場願意繼續押注大型研究型新創與非主流 AI 路線。**",
-          "summary": "若這筆資金規模屬實，AMI Labs 代表的不只是資本熱度，也是在『LLM 之外還有沒有下一條大路徑』上的高額下注。",
-          "source": "TechCrunch / Google News",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHNjBvMUtxY0xSLUNNYjliSWdvYjNodEpBNFBjN2hPS1RKcjFtU3dwVDFjWm9iM09RV1JkMlB4UV9QX1hHdE4wTzFqWGdaMXJldk1IT3M3N0xmVWh0WjUzd0twYjVHMXd0NmlOR3dEbExPMTRZa01nVVRKZFFwZWg?oc=5"
+          "title": "Yann LeCun 的 AMI Labs 完成 10.3 億美元種子輪融資",
+          "takeaway": "**非主流 AI 路線（世界模型）正吸引大規模長期資本押注，試圖突破 LLM 的瓶頸。**",
+          "summary": "由前 Meta 首席科學家 Yann LeCun 創立的 AMI Labs，以 35 億美元估值獲得巨額資金，這標誌著歐洲史上最大規模的種子輪 deal，主打建立能理解物理世界的 AI 模型。",
+          "source": "Bloomberg / Tavily",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding"
         },
         {
-          "title": "Bluesky 執行長 Jay Graber 請辭",
-          "takeaway": "**社群新創在成長期仍要面對治理與領導層穩定性考驗。**",
-          "summary": "Bluesky 正處於產品定位與生態擴張的重要階段，管理層變動會影響外界對其長期競爭力與商業化節奏的判斷。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down/"
+          "title": "AI 網路新創 Eridu 以 2 億美元 A 輪融資走出隱身模式",
+          "takeaway": "**AI 基礎設施的競爭重心正從模型計算延伸到資料中心內部的網路互連效率。**",
+          "summary": "Eridu 致力於開發 AI 原生網路晶片與系統，旨在消除 AI 叢集在處理大規模任務時的網路瓶頸，獲得超額認購顯示市場對底層硬體創新的渴求。",
+          "source": "TechCrunch / Tavily",
+          "url": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/"
+        },
+        {
+          "title": "AgentMail 融資 600 萬美元，為 AI agent 提供專用郵件服務",
+          "takeaway": "**AI 代理人正逐漸擁有自己的數位身份與通訊基礎設施。**",
+          "summary": "AgentMail 提供 API 平台讓 AI 代理人擁有獨立收件匣，支援自動解析、對話追蹤與回覆，這是 agent 從輔助工具轉變為獨立數位員工的重要一步。",
+          "source": "TechCrunch / Tavily",
+          "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/"
+        },
+        {
+          "title": "Lux Aeterna 融資 1,000 萬美元，研發可重複使用衛星",
+          "takeaway": "**商業航太新創正透過可重複利用技術，試圖大幅降低太空經濟的進入門檻。**",
+          "summary": "這家科羅拉多新創獲得種子輪資金，目標是開發能重返大氣層並再次發射的衛星平台，計劃在 2027 年進行首飛展示。",
+          "source": "SpaceNews / Tavily",
+          "url": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/"
+        },
+        {
+          "title": "Sandbar 完成 2,300 萬美元 A 輪融資，開發 AI 錄音戒指",
+          "takeaway": "**穿戴式裝置正成為 AI 捕捉日常資料與提供即時輔助的新戰場。**",
+          "summary": "Sandbar 的 AI 戒指主打隱蔽、持久的錄音與筆記整理能力，顯示 AI 硬體正在從大型穿戴設備往更極簡、專業化的形態演進。",
+          "source": "TechCrunch / 歷史覆蓋",
+          "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/"
+        },
+        {
+          "title": "Lantern Partners AI 推出面向農業的 AI 原生業務規劃平台",
+          "takeaway": "**AI 新創正加速滲透至農業等傳統產業，提供更精準的資源配置方案。**",
+          "summary": "新推出的 LanternBRP™ 平台旨在幫農業企業進行智慧化的資源與產能規劃，反映出 AI 在優化實體產業效率上的實踐。",
+          "source": "WFXG / Tavily",
+          "url": "https://www.wfxg.com/online_features/press_releases/lantern-partners-ai-enters-agriculture-with-lanternbrp/article_5dc12d4c-48a6-52ef-bf49-563db961a31f.html"
+        },
+        {
+          "title": "前 Google 研究員創立的 Integral AI 致力於用 AI 改造日本工業機器人",
+          "takeaway": "**AI 軟體優勢正與日本強大的機器人供應鏈結合，試圖重新定義自動化生產。**",
+          "summary": "Integral AI 專注於將先進 AI 模型引入工業機器人，以實現更靈活、可重新編程的製造流程，這對應對勞動力短缺具有重要意義。",
+          "source": "Bloomberg Law / Tavily",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/ex-google-researcher-seeks-to-transform-japans-robots-with-ai"
+        },
+        {
+          "title": "Galaxy Corporation 獲 Nasdaq 副主席訪問，展示 AI 娛樂成長野心",
+          "takeaway": "**韓國 AI 新創正積極利用文化影響力與 AI 技術結合，進軍全球娛樂市場。**",
+          "summary": "Nasdaq 高層訪問其首爾總部，探討業務策略與在美上市可能，顯示韓國 AI 娛樂技術已獲得國際資本市場的嚴肅關注。",
+          "source": "Business Insider / Tavily",
+          "url": "https://markets.businessinsider.com/news/stocks/galaxy-corporation-hosts-nasdaq-vice-chairman-in-seoul-as-company-highlights-growth-and-u-s-listing-ambitions-1035905415"
+        },
+        {
+          "title": "AI 應用程式面臨用戶留存挑戰，新報告揭示「新奇感」後的倦怠期",
+          "takeaway": "**AI 新創在度過產品爆發期後，如何從『有趣』轉變為『不可或缺』是存活關鍵。**",
+          "summary": "最新研究指出，許多 AI 原生應用在初期爆紅後用戶流失嚴重，這迫使新創必須重新思考如何深度嵌入用戶的長期工作流與生活習慣。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/ai-powered-apps-struggle-with-long-term-retention-new-report-shows/"
         }
       ]
     },
