@@ -5,78 +5,78 @@
   "count": 10,
   "searchNotes": {
     "search": "Gemini web_search",
-    "rss": "blogwatcher tracked feeds and scan results"
+    "rss": "blogwatcher tracked feeds and RSS scans"
   },
   "items": [
     {
-      "title": "微軟 3 月 Patch Tuesday 修補 82 個漏洞",
-      "takeaway": "**企業 Windows 與 Microsoft 服務面仍是本月修補重點，EoP 與 RCE 風險特別高。**",
-      "summary": "CrowdStrike 分析指出，微軟 3 月安全更新涵蓋 82 個漏洞，其中含 8 個 Critical 與 2 個已公開漏洞；Windows 與 Azure 仍是主要修補面向。",
-      "source": "CrowdStrike",
-      "sourceUrl": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/"
+      "title": "微軟 3 月 Patch Tuesday 修補 84 個漏洞，含 2 個已公開零時差",
+      "takeaway": "**本月企業修補優先序仍是 Windows、SQL Server 與權限提升鏈。**",
+      "summary": "The Hacker News 指出，微軟本月修補 84 個漏洞，其中 46 個是權限提升、18 個是 RCE，另含 .NET 與 SQL Server 兩個已公開漏洞；代表企業仍要先補核心平台。",
+      "source": "The Hacker News / Gemini web_search",
+      "sourceUrl": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html"
     },
     {
-      "title": "SAP 修補 FS-QUO 與 NetWeaver 相關高風險漏洞",
-      "takeaway": "**SAP 核心系統漏洞仍然是大型企業最不能拖延的修補項。**",
-      "summary": "Gemini 搜尋彙整顯示，SAP 3 月 Patch Day 處理了 NetWeaver 與相關產品的關鍵與高優先級漏洞，包含反序列化、SQL Injection 與授權檢查缺失等問題。",
+      "title": "n8n 修補 2 個 Critical 漏洞，最糟可直接遠端執行命令",
+      "takeaway": "**把工作流平台直接暴露到外網，現在已經是高風險做法。**",
+      "summary": "研究人員揭露 n8n 兩個已修補漏洞：一個可讓已驗證使用者逃逸 expression sandbox 執行系統命令，另一個則可透過公開表單節點觸發未授權表達式評估。",
+      "source": "The Hacker News / RSS",
+      "sourceUrl": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html"
+    },
+    {
+      "title": "nx npm 供應鏈事件後續：攻擊者 72 小時內拿下 AWS 管理權",
+      "takeaway": "**開發者 token 外洩，現在足以一路打穿 GitHub 到雲端身分信任鏈。**",
+      "summary": "Google 威脅報告顯示，UNC6426 利用先前 nx npm 供應鏈攻擊偷來的金鑰，先奪走 GitHub token，再濫用 GitHub 對 AWS 的 OIDC 信任建立新管理角色，最後外洩與破壞生產資料。",
+      "source": "The Hacker News / RSS",
+      "sourceUrl": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html"
+    },
+    {
+      "title": "5 個惡意 Rust 套件假裝時間工具，實際在偷 .env 機密",
+      "takeaway": "**開發者供應鏈風險已經細到連冷門套件都不能亂裝。**",
+      "summary": "Socket 發現多個上架到 crates.io 的 Rust 套件偽裝成時間同步工具，會把 .env 與其他敏感資料送往攻擊者控制的基礎設施，明顯瞄準 CI/CD 與開發環境機密。",
+      "source": "The Hacker News / RSS",
+      "sourceUrl": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html"
+    },
+    {
+      "title": "FortiGate 被拿來當入侵跳板，服務帳號憑證也成為目標",
+      "takeaway": "**邊界設備一旦被攻陷，傷害常常比單一端點中毒更深。**",
+      "summary": "SentinelOne 指出，攻擊者正利用已知漏洞或弱密碼入侵 FortiGate，進一步擷取設定檔中的服務帳號憑證與網路拓樸資訊，受害對象涵蓋醫療、政府與 MSP。",
+      "source": "The Hacker News / RSS",
+      "sourceUrl": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html"
+    },
+    {
+      "title": "CISA 再把 3 個已遭利用漏洞加入 KEV 目錄",
+      "takeaway": "**修補節奏慢的企業，會越來越常直接落在已知攻擊路線上。**",
+      "summary": "CISA 新增 Omnissa Workspace ONE、SolarWinds Web Help Desk 與 Ivanti Endpoint Manager 等 3 個已遭利用漏洞進 KEV，提醒企業應把『有實際利用證據』的漏洞排進最高優先級。",
+      "source": "CISA / RSS",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/03/09/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "title": "SIM swap 再被點名是身份安全結構性弱點",
+      "takeaway": "**把手機號碼當高信任身份因子，本身就是一個舊時代假設。**",
+      "summary": "SecurityWeek 指出，SIM swap 依然能靠電信客服流程與社交工程奪走高價值帳號；只要企業還依賴簡訊作為關鍵驗證或復原機制，就還在承受同一個結構性風險。",
       "source": "SecurityWeek / Gemini web_search",
-      "sourceUrl": "https://www.securityweek.com/sap-patches-critical-fs-quo-netweaver-vulnerabilities/"
+      "sourceUrl": "https://www.securityweek.com/sim-swaps-expose-a-critical-flaw-in-identity-security/"
     },
     {
-      "title": "全球網攻強度仍維持高檔，2 月平均每組織每週 2,086 次攻擊",
-      "takeaway": "**整體攻擊面壓力沒有明顯降溫，企業應把高強度攻擊視為常態。**",
-      "summary": "Check Point 指出，2026 年 2 月全球平均每個組織每週遭遇 2,086 次攻擊，年增 9.6%，即使勒索活動放緩，總體威脅仍維持接近歷史高點。",
-      "source": "Check Point Research",
-      "sourceUrl": "https://blog.checkpoint.com/research/global-cyber-attacks-remain-near-record-highs-in-february-2026-despite-ransomware-decline/"
+      "title": "SailPoint 擴大 AI 身份治理，開始把 AI agents 納入管控",
+      "takeaway": "**身份治理的邊界，正從人類帳號擴到 agent 與機器身分。**",
+      "summary": "SailPoint 新功能加入 privilege discovery、非人類身分治理與 AI agent 連接器，可針對 Copilot、Bedrock、Vertex AI 等平台上的代理與機器帳號做可見性與生命週期管理。",
+      "source": "Help Net Security / Gemini web_search",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/03/10/sailpoint-expands-ai-powered-identity-security-with-adaptive-identity-framework/"
     },
     {
-      "title": "俄羅斯駭客被指鎖定 Signal 與 WhatsApp 使用者",
-      "takeaway": "**社交工程與帳號接管依然比惡意程式更容易成功打進高價值目標。**",
-      "summary": "荷蘭情報單位警告，俄羅斯國家級駭客透過假冒客服、索取簡訊驗證碼與 PIN，鎖定政府、軍方與記者的 Signal / WhatsApp 帳號。",
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/"
+      "title": "伊朗關聯駭客聲稱攻擊阿爾巴尼亞國會郵件系統",
+      "takeaway": "**地緣政治衝突下，政府郵件與內部協作系統仍是首波打擊目標。**",
+      "summary": "The Record 報導，阿爾巴尼亞國會表示遭到意圖刪除資料與破壞內部系統的複雜攻擊，行政郵件服務一度中斷；先前與伊朗有關的 Homeland Justice 已公開聲稱負責。",
+      "source": "The Record / RSS",
+      "sourceUrl": "https://therecord.media/iran-linked-hackers-claim-cyberattack-albania-parliament"
     },
     {
-      "title": "CrowdStrike 推出 FalconID 強化抗釣魚 MFA",
-      "takeaway": "**身份安全正從登入驗證走向持續授權與即時風險判斷。**",
-      "summary": "CrowdStrike 將 FalconID 定位為釣魚抗性更高的 FIDO2 驗證方案，並結合端點、身分與 SaaS 風險訊號做持續授權，對抗 MFA fatigue 與 session hijacking。",
-      "source": "CrowdStrike",
-      "sourceUrl": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-id-brings-phishing-resistant-mfa-to-falcon-next-gen-identity-security/"
-    },
-    {
-      "title": "企業身份系統正面臨 AI agent 帶來的新信任問題",
-      "takeaway": "**未來身份治理不只管理人，也必須管理會自動行動的代理。**",
-      "summary": "VentureBeat 指出，傳統 IAM 預設主體是人類，但 agentic workflow 需要短時、可驗證、可追責的非人類身分，否則權限邊界會快速失控。",
-      "source": "VentureBeat",
-      "sourceUrl": "https://venturebeat.com/security/enterprise-identity-was-built-for-humans-not-ai-agents"
-    },
-    {
-      "title": "LexisNexis 等大型資料外洩事件顯示第三方與舊洞仍是主因",
-      "takeaway": "**企業真正麻煩的不是單一新型攻擊，而是老問題一直沒補乾淨。**",
-      "summary": "Gemini web_search 匯總提到多起 2026 年 3 月重大外洩案例，包括 LexisNexis、Ericsson 與其他大型機構，凸顯未修補漏洞與第三方供應商風險仍是核心來源。",
-      "source": "Gemini web_search",
-      "sourceUrl": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/"
-    },
-    {
-      "title": "Cisco SD-WAN 與相關基礎設施漏洞仍受高度關注",
-      "takeaway": "**網路設備與邊界基建弱點，一旦被利用，影響常比一般端點更廣。**",
-      "summary": "Gemini 搜尋整理顯示，Cisco 多個 SD-WAN 漏洞在 3 月仍是安全圈焦點，部分問題甚至已遭利用，聯邦單位也被要求快速盤點與修補。",
-      "source": "Gemini web_search",
-      "sourceUrl": "https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-mar-9-2026-cisa-warns-of-ios-flaws-lexisnexis-confirms-data-breach-fbi-investigates-breach-of-surveillance-and-wiretap-systems-and-more/"
-    },
-    {
-      "title": "Mandiant 創辦人募資做 autonomous AI agent security startup",
-      "takeaway": "**資安市場正在把 AI agent 從威脅來源，同時也變成新的防禦產品方向。**",
-      "summary": "TechCrunch 報導，Mandiant 創辦人募得 1.9 億美元打造自動化 AI agent 資安新創，顯示 SOC 自動化與 agent 安控正快速升溫。",
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/"
-    },
-    {
-      "title": "SentinelOne 與 Check Point 持續強調 AI security 與國家級韌性",
-      "takeaway": "**資安產業的主軸已從單點防毒轉成整體韌性、可觀測性與 AI 治理。**",
-      "summary": "從 SentinelOne 的 AI security / agent hardening 論述，到 Check Point 的 national cyber resilience 與高強度攻擊報告，可以看出供應商都在往更高層的風險治理敘事移動。",
-      "source": "SentinelOne / Check Point / RSS",
-      "sourceUrl": "https://www.sentinelone.com/blog/ai-security-from-data-to-runtime-a-holistic-defense-approach/"
+      "title": "INC 勒索集團 48 小時內連掛 10 家律所",
+      "takeaway": "**法律服務業已被當成高價值、可高壓施壓的穩定獵物。**",
+      "summary": "Halcyon 警告，INC 勒索集團在短時間內連續宣稱入侵 10 家律師事務所與法律服務機構，規模與時間點都像是協同行動，甚至不排除共用供應商被打穿。",
+      "source": "Halcyon / Gemini web_search",
+      "sourceUrl": "https://www.halcyon.ai/ransomware-alerts/inc-ransom-group-mounts-rapid-campaign-against-law-firms"
     }
   ]
 }
