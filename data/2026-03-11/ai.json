@@ -1,0 +1,98 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "date": "2026-03-11",
+  "count": 12,
+  "searchNotes": {
+    "search": "Gemini web_search for March 2026 AI developments",
+    "rss": "blogwatcher tracked feeds/articles across OpenAI, Google, NVIDIA, WIRED, VentureBeat, TechCrunch and others",
+    "workflow": "Search first, draft JSON second, HTML update last",
+    "dedupe": "Deduplicated overlapping items from web_search citations and blogwatcher RSS candidates before drafting"
+  },
+  "items": [
+    {
+      "title": "OpenAI 發表 GPT-5.4",
+      "takeaway": "**GPT-5.4 把推理、編碼、工具操作與長上下文整合成更完整的工作型模型。**",
+      "summary": "OpenAI 將 GPT-5.4 定位為專業工作用旗艦模型，支援 1M context、原生 computer use，並強調在工具鏈與長流程任務上的效率提升。",
+      "source": "OpenAI / web_search + RSS",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4"
+    },
+    {
+      "title": "OpenAI 收購 Promptfoo",
+      "takeaway": "**AI 安全測試與治理能力，正被直接收進企業 agent 平台本體。**",
+      "summary": "OpenAI 表示會把 Promptfoo 的紅隊測試、評估與追蹤能力整合進 Frontier，讓企業在部署 AI coworkers 前就能更系統化地做安全與合規驗證。",
+      "source": "OpenAI / web_search + RSS",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-promptfoo"
+    },
+    {
+      "title": "Gemini in Sheets 達到接近專家級試算表能力",
+      "takeaway": "**Google 正把 AI 從聊天助手推進到真正能處理高摩擦辦公資料的代理層。**",
+      "summary": "Google 表示 Gemini in Sheets 在 SpreadsheetBench 達到 70.48% 成功率，已逼近人類專家水準，代表 AI 正更深入分析、整理與編修真實表格工作。",
+      "source": "Google Blog / RSS",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+    },
+    {
+      "title": "Google 擴大 Gemini 在 Docs、Sheets、Slides、Drive 的能力",
+      "takeaway": "**Workspace 的生成式 AI 正從單點輔助，升級成跨應用的工作流編排層。**",
+      "summary": "新功能可從 Gmail、Chat、Drive 與搜尋抓資料，直接產出文件、試算表與簡報，顯示 Google 想把 Gemini 做成整套辦公流程的操作界面。",
+      "source": "TechCrunch / RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/"
+    },
+    {
+      "title": "Google 為 Ask Photos 加回更明顯的經典搜尋切換",
+      "takeaway": "**AI 產品一旦犧牲速度與準確度，主流用戶會直接要求退回傳統體驗。**",
+      "summary": "Google 因使用者持續抱怨 Ask Photos 不夠快也不夠準，新增更可見的切換按鈕，這提醒大家：高頻產品場景最終還是要服從實用性。",
+      "source": "TechCrunch / RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/"
+    },
+    {
+      "title": "Gemini in Chrome 擴展到印度、加拿大與紐西蘭",
+      "takeaway": "**Google 正把 Gemini 從單一聊天入口，擴成瀏覽器級的常駐助手。**",
+      "summary": "新版可在 Chrome 側欄讀取當前頁面、跨分頁比對內容，並連動 Gmail、Drive、YouTube 等服務，代表瀏覽器正變成 AI 原生工作入口。",
+      "source": "TechCrunch / RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/"
+    },
+    {
+      "title": "Anthropic 為 Claude Code 推出多代理 Code Review",
+      "takeaway": "**AI 公司正在把模型能力封裝成可直接收費的工程流程產品。**",
+      "summary": "Claude Code 的 Code Review 會派出多個 agent 平行審查 PR、交叉驗證並排序問題嚴重度，明顯瞄準企業團隊願意付費的高價值開發環節。",
+      "source": "VentureBeat / RSS",
+      "sourceUrl": "https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon"
+    },
+    {
+      "title": "Anthropic 面臨美國政府進一步限制風險",
+      "takeaway": "**AI 監管與國安政治，已經開始直接改寫模型公司的商業邊界。**",
+      "summary": "WIRED 指出，美國政府不排除對 Anthropic 採取更多限制措施，甚至可能以行政命令擴大禁用範圍，凸顯 AI 公司已深度捲入國安與政府採購風險。",
+      "source": "WIRED / RSS + web_search",
+      "sourceUrl": "https://www.wired.com/story/trump-administration-refuses-to-say-it-wont-take-further-action-against-anthropic/"
+    },
+    {
+      "title": "Nvidia 傳將推出開源 AI agent 平台",
+      "takeaway": "**Nvidia 不只賣晶片，也在往 agent 軟體平台層上移。**",
+      "summary": "WIRED 報導 Nvidia 正籌備面向企業的開源 agent 平台，並接觸多家大型軟體公司，顯示其戰略正從算力供應商延伸到 AI 工作流平台。",
+      "source": "WIRED / RSS + web_search",
+      "sourceUrl": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/"
+    },
+    {
+      "title": "Thinking Machines Lab 與 Nvidia 建立 GW 級算力合作",
+      "takeaway": "**最頂級 AI 團隊的核心競爭，依然是長期先進算力保障。**",
+      "summary": "Nvidia 宣布與 Mira Murati 的 Thinking Machines Lab 建立多年合作，將部署至少 1GW Vera Rubin 系統，並同步投資該公司，顯示 frontier 模型競賽仍由 compute 驅動。",
+      "source": "NVIDIA Blog / RSS",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    },
+    {
+      "title": "Meta 收購 AI agent 社群 Moltbook",
+      "takeaway": "**Meta 想搶的不只是模型能力，還包括 agent 之間如何被組織與連結。**",
+      "summary": "Meta 已把 Moltbook 團隊納入 Superintelligence Labs。這類 agent directory／社群概念雖然還很早期，但已開始被大型平台視為未來 agent 生態的一部分。",
+      "source": "TechCrunch / RSS",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/"
+    },
+    {
+      "title": "YouTube 擴大 AI deepfake 偵測到政要、官員與記者",
+      "takeaway": "**生成式 AI 的下一個主戰場，不只是創作效率，而是公共資訊可信度。**",
+      "summary": "YouTube 把 AI 假冒偵測工具擴大到政治人物、政府官員與記者，並允許符合資格者請求移除未授權內容，反映平台正加速補上深偽治理機制。",
+      "source": "TechCrunch / RSS + web_search",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/"
+    }
+  ]
+}
