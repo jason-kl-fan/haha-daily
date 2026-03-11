@@ -20,11 +20,7 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
 .small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
 .footer{font-size:.95rem;color:var(--muted)}
 @media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}
-.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}
-.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}
-</style>
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
   <main class="wrap">
@@ -34,35 +30,64 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
       <p>全球大型科技公司產品、策略、AI 與監管更新。</p>
     </section>
     <section class="card"><article class="story">
-      <h3>Microsoft 推出 Frontier Suite</h3>
-      <p><strong>微軟把 AI 套件打包成更高層的企業方案，賣點是 intelligence + trust。</strong></p>
-      <p class="small">Frontier Suite 明顯不是單點功能，而是把 Copilot、代理與治理能力整合成新一層企業產品，瞄準大客戶標案與平台綁定。</p>
-      <p class="source">來源：<strong>Microsoft</strong> · <a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">原文連結</a></p>
+      <h3>Meta 與 Nvidia 擴大多年 AI 基礎設施合作</h3>
+      <p><strong>Big Tech 的 AI 競爭已經從買 GPU，升級成多年期基礎設施綁定。</strong></p>
+      <p class="small">Meta 與 Nvidia 的合作涵蓋 Blackwell、Rubin、Grace CPU 與網通，顯示大型平台正在用長約鎖定算力、供應鏈與擴張速度。</p>
+      <p class="source">來源：<strong>Forbes / Tavily</strong> · <a href="https://www.forbes.com/sites/jonmarkman/2026/03/09/metas-most-efficient-ai-infrastructure-for-digital-intelligence/">原文連結</a></p>
     </article><article class="story">
-      <h3>OpenAI 與 Microsoft 再次重申合作關係</h3>
-      <p><strong>市場雜音很多，但雙方仍需要彼此的算力、渠道與商業化能力。</strong></p>
-      <p class="small">雙方聯合聲明主要在穩定預期，代表合作模式雖在調整，但至少短中期內仍是產業核心聯盟之一。</p>
-      <p class="source">來源：<strong>OpenAI</strong> · <a href="https://openai.com/index/microsoft-and-openai-joint-statement-on-continuing-partnership">原文連結</a></p>
+      <h3>Oracle 在財報會議點名 Cerebras 與 Nvidia、AMD 並列</h3>
+      <p><strong>Big Tech 雲端陣營正在擴大 AI 晶片供應商名單，不再只押單一巨頭。</strong></p>
+      <p class="small">Oracle 把 Cerebras 與 Nvidia、AMD 並列，代表大型雲平台已經開始更公開地培養 alternative AI hardware 供應鏈。</p>
+      <p class="source">來源：<strong>CNBC / Tavily</strong> · <a href="https://www.cnbc.com/2026/03/10/ai-chipmaker-cerebras-namedropped-by-oracle-alongside-nvidia-and-amd-.html">原文連結</a></p>
     </article><article class="story">
-      <h3>Google 因用戶抱怨調整 AI 版 Ask Photos</h3>
-      <p><strong>生成式 AI 進入主流產品後，體驗不夠好就會立刻被真實用戶打回票。</strong></p>
-      <p class="small">Google 對 Ask Photos 的調整，反映 AI 搜尋 / 相簿這類高頻工具不能只靠炫技，速度與準確性仍是核心。</p>
-      <p class="source">來源：<strong>TechCrunch</strong> · <a href="https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/">原文連結</a></p>
+      <h3>Google 擴大 Gemini 在 Workspace 的能力</h3>
+      <p><strong>Google 想把 Workspace 變成 AI 原生辦公平台，而不是只加聊天功能。</strong></p>
+      <p class="small">Docs、Sheets、Slides、Drive 的 Gemini 更新顯示，Google 正把搜尋、郵件、文件與資料表串成一套可直接執行工作的操作層。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/">原文連結</a></p>
     </article><article class="story">
-      <h3>Meta 強調資料中心對能源、就業與地方社群的價值</h3>
-      <p><strong>大型平台正提前為資料中心擴張做社會與政策溝通。</strong></p>
-      <p class="small">Meta 這篇論述重點不在新技術，而在為 AI 時代更大規模的基礎設施投資建立政治與社會正當性。</p>
-      <p class="source">來源：<strong>Meta</strong> · <a href="https://about.fb.com/news/2026/03/meta-data-centers-support-energy-jobs-environment-local-communities/">原文連結</a></p>
+      <h3>Google 將 Gemini in Chrome 擴展到更多國家</h3>
+      <p><strong>Google 正把 Gemini 從單點產品推向瀏覽器級入口。</strong></p>
+      <p class="small">Gemini in Chrome 持續擴區，代表 Google 不只要在 Workspace 內部署 AI，也想把瀏覽器本身變成更高頻的 AI 接觸面。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Google Cloud 提出讓電信業更自主的雲端與 AI 路線</h3>
+      <p><strong>Google 正用雲端加 AI 重新包裝傳統產業升級敘事。</strong></p>
+      <p class="small">對 Google Cloud 來說，telco automation 不只是產業方案，而是把雲端、資料、網路與 AI 綁成一個長期營收故事。</p>
+      <p class="source">來源：<strong>Data Center Dynamics / RSS</strong> · <a href="https://www.datacenterdynamics.com/en/news/google-cloud-lays-out-plans-to-help-telcos-become-more-autonomous/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Amazon 推出 healthcare AI assistant</h3>
+      <p><strong>Amazon 正把 AI 助手能力往高價值垂直場景延伸。</strong></p>
+      <p class="small">醫療健康是高流程、高敏感度場景，Amazon 直接把 AI 助手放進官網與 app，代表它不想只做通用型聊天，而想卡住特定服務入口。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Amazon 對 AI 輔助程式變更收緊工程審批</h3>
+      <p><strong>Big Tech 開始面對 AI 寫程式帶來的真實營運風險，而不只是宣傳效益。</strong></p>
+      <p class="small">Amazon 因高爆炸半徑的 AI 輔助變更事件，要求資深工程師更嚴格簽核，反映大型公司已進入 AI 開發治理期。</p>
+      <p class="source">來源：<strong>Ars Technica / RSS</strong> · <a href="https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Meta 收購 AI agent 社群產品 Moltbook</h3>
+      <p><strong>Meta 對 agent 型社交產品有興趣，代表 AI social 仍被視為下一波入口。</strong></p>
+      <p class="small">Moltbook 雖然帶有實驗色彩，但 Meta 願意出手收購，顯示它仍想抓住 AI 代理人在社交與內容分發上的潛在新形態。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Adobe 在 Photoshop 推出 AI assistant</h3>
+      <p><strong>Adobe 正把創意軟體從工具箱改造成自然語言可操作的工作流平台。</strong></p>
+      <p class="small">這不只是加一個生成按鈕，而是讓 Photoshop 直接接受語意指令完成編修工作，進一步提高使用者對 Adobe 生態的依賴。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Zoom 推出 AI office suite 與會議 avatar</h3>
+      <p><strong>Zoom 想從視訊會議工具升級成 AI 辦公平台。</strong></p>
+      <p class="small">Docs、Slides、Sheets、avatar、voice translation 與 agent builder 一起推出，顯示 Zoom 正用 AI 擴大產品邊界，對抗更大平台型對手。</p>
+      <p class="source">來源：<strong>TechCrunch / RSS</strong> · <a href="https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/">原文連結</a></p>
     </article></section>
-    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-10 09:18 America/Los_Angeles</p><div class="stat small">
+    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-10 21:45 America/Los_Angeles</p><div class="stat small">
       <div><b>total token</b>約 18k</div>
       <div><b>input token</b>約 14k</div>
       <div><b>output token</b>約 4k</div>
-      <div><b>duration</b>約 18 分</div>
+      <div><b>duration</b>AI + Big Tech Tavily 重整</div>
       <div><b>status</b>published</div>
     </div></section>
     </main>
-
-<script src="../../assets/saved.js"></script>
+  <script src="../../assets/saved.js"></script>
 </body>
 </html>

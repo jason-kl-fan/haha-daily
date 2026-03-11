@@ -4,10 +4,10 @@
     "date": "2026-03-10",
     "dateLabel": "2026 年 3 月 10 日",
     "weekday": "星期二",
-    "intro": "今天的 AI 主題依照新規則重整：先用 Tavily 與 RSS 蒐集，再整理成文字稿，最後才更新頁面。",
+    "intro": "今天的 AI 與 Big Tech 主題已依新規則重整：先用 Tavily 與 RSS 蒐集，再整理文字稿，最後才更新頁面。",
     "overview": [
       "**AI**：OpenAI 安全整合、GPT-5.4、Gemini 辦公擴張、Claude Code 審查、Nvidia agent 平台與垂直 AI 助手同步推進。",
-      "**基礎設施**：Nvidia / Thinking Machines、阿里雲、VAST Data、Vertiv / Trane 等消息，顯示算力、機櫃、液冷仍在持續加碼。",
+      "**Big Tech**：Meta / Nvidia 長約、Oracle 擴大晶片供應鏈、Google / Amazon / Adobe / Zoom 全面把 AI 往平台層推。",
       "**政策與風險**：中國 / 美國 / 台灣相關談判、出口管制與軍事壓力仍是市場主要不確定因子。"
     ]
   },
@@ -95,32 +95,74 @@
       "desc": "全球大型科技公司產品、策略、AI 與監管更新。",
       "items": [
         {
-          "title": "Microsoft 推出 Frontier Suite",
-          "takeaway": "**微軟把 AI 套件打包成更高層的企業方案，賣點是 intelligence + trust。**",
-          "summary": "Frontier Suite 明顯不是單點功能，而是把 Copilot、代理與治理能力整合成新一層企業產品，瞄準大客戶標案與平台綁定。",
-          "source": "Microsoft",
-          "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
+          "title": "Meta 與 Nvidia 擴大多年 AI 基礎設施合作",
+          "takeaway": "**Big Tech 的 AI 競爭已經從買 GPU，升級成多年期基礎設施綁定。**",
+          "summary": "Meta 與 Nvidia 的合作涵蓋 Blackwell、Rubin、Grace CPU 與網通，顯示大型平台正在用長約鎖定算力、供應鏈與擴張速度。",
+          "source": "Forbes / Tavily",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/03/09/metas-most-efficient-ai-infrastructure-for-digital-intelligence/"
         },
         {
-          "title": "OpenAI 與 Microsoft 再次重申合作關係",
-          "takeaway": "**市場雜音很多，但雙方仍需要彼此的算力、渠道與商業化能力。**",
-          "summary": "雙方聯合聲明主要在穩定預期，代表合作模式雖在調整，但至少短中期內仍是產業核心聯盟之一。",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/microsoft-and-openai-joint-statement-on-continuing-partnership"
+          "title": "Oracle 在財報會議點名 Cerebras 與 Nvidia、AMD 並列",
+          "takeaway": "**Big Tech 雲端陣營正在擴大 AI 晶片供應商名單，不再只押單一巨頭。**",
+          "summary": "Oracle 把 Cerebras 與 Nvidia、AMD 並列，代表大型雲平台已經開始更公開地培養 alternative AI hardware 供應鏈。",
+          "source": "CNBC / Tavily",
+          "url": "https://www.cnbc.com/2026/03/10/ai-chipmaker-cerebras-namedropped-by-oracle-alongside-nvidia-and-amd-.html"
         },
         {
-          "title": "Google 因用戶抱怨調整 AI 版 Ask Photos",
-          "takeaway": "**生成式 AI 進入主流產品後，體驗不夠好就會立刻被真實用戶打回票。**",
-          "summary": "Google 對 Ask Photos 的調整，反映 AI 搜尋 / 相簿這類高頻工具不能只靠炫技，速度與準確性仍是核心。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/"
+          "title": "Google 擴大 Gemini 在 Workspace 的能力",
+          "takeaway": "**Google 想把 Workspace 變成 AI 原生辦公平台，而不是只加聊天功能。**",
+          "summary": "Docs、Sheets、Slides、Drive 的 Gemini 更新顯示，Google 正把搜尋、郵件、文件與資料表串成一套可直接執行工作的操作層。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/"
         },
         {
-          "title": "Meta 強調資料中心對能源、就業與地方社群的價值",
-          "takeaway": "**大型平台正提前為資料中心擴張做社會與政策溝通。**",
-          "summary": "Meta 這篇論述重點不在新技術，而在為 AI 時代更大規模的基礎設施投資建立政治與社會正當性。",
-          "source": "Meta",
-          "url": "https://about.fb.com/news/2026/03/meta-data-centers-support-energy-jobs-environment-local-communities/"
+          "title": "Google 將 Gemini in Chrome 擴展到更多國家",
+          "takeaway": "**Google 正把 Gemini 從單點產品推向瀏覽器級入口。**",
+          "summary": "Gemini in Chrome 持續擴區，代表 Google 不只要在 Workspace 內部署 AI，也想把瀏覽器本身變成更高頻的 AI 接觸面。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/"
+        },
+        {
+          "title": "Google Cloud 提出讓電信業更自主的雲端與 AI 路線",
+          "takeaway": "**Google 正用雲端加 AI 重新包裝傳統產業升級敘事。**",
+          "summary": "對 Google Cloud 來說，telco automation 不只是產業方案，而是把雲端、資料、網路與 AI 綁成一個長期營收故事。",
+          "source": "Data Center Dynamics / RSS",
+          "url": "https://www.datacenterdynamics.com/en/news/google-cloud-lays-out-plans-to-help-telcos-become-more-autonomous/"
+        },
+        {
+          "title": "Amazon 推出 healthcare AI assistant",
+          "takeaway": "**Amazon 正把 AI 助手能力往高價值垂直場景延伸。**",
+          "summary": "醫療健康是高流程、高敏感度場景，Amazon 直接把 AI 助手放進官網與 app，代表它不想只做通用型聊天，而想卡住特定服務入口。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/"
+        },
+        {
+          "title": "Amazon 對 AI 輔助程式變更收緊工程審批",
+          "takeaway": "**Big Tech 開始面對 AI 寫程式帶來的真實營運風險，而不只是宣傳效益。**",
+          "summary": "Amazon 因高爆炸半徑的 AI 輔助變更事件，要求資深工程師更嚴格簽核，反映大型公司已進入 AI 開發治理期。",
+          "source": "Ars Technica / RSS",
+          "url": "https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/"
+        },
+        {
+          "title": "Meta 收購 AI agent 社群產品 Moltbook",
+          "takeaway": "**Meta 對 agent 型社交產品有興趣，代表 AI social 仍被視為下一波入口。**",
+          "summary": "Moltbook 雖然帶有實驗色彩，但 Meta 願意出手收購，顯示它仍想抓住 AI 代理人在社交與內容分發上的潛在新形態。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/"
+        },
+        {
+          "title": "Adobe 在 Photoshop 推出 AI assistant",
+          "takeaway": "**Adobe 正把創意軟體從工具箱改造成自然語言可操作的工作流平台。**",
+          "summary": "這不只是加一個生成按鈕，而是讓 Photoshop 直接接受語意指令完成編修工作，進一步提高使用者對 Adobe 生態的依賴。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/"
+        },
+        {
+          "title": "Zoom 推出 AI office suite 與會議 avatar",
+          "takeaway": "**Zoom 想從視訊會議工具升級成 AI 辦公平台。**",
+          "summary": "Docs、Slides、Sheets、avatar、voice translation 與 agent builder 一起推出，顯示 Zoom 正用 AI 擴大產品邊界，對抗更大平台型對手。",
+          "source": "TechCrunch / RSS",
+          "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/"
         }
       ]
     },
