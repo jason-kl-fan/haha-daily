@@ -1,0 +1,103 @@
+{
+  "slug": "big-tech",
+  "name": "Big Tech",
+  "date": "2026-03-11",
+  "count": 10,
+  "searchNotes": {
+    "workflow": "Search first, text draft second, HTML update last",
+    "geminiWebSearch": [
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/",
+      "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/",
+      "https://blogs.oracle.com/cloud-infrastructure/oracle-multicloud-universal-credits-ga",
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-CEO-Jensen-Huang-and-Global-Technology-Leaders-to-Showcase-Age-of-AI-at-GTC-2026/default.aspx",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/"
+    ],
+    "rssBlogwatcher": [
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/",
+      "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/",
+      "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+      "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/",
+      "https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/",
+      "https://about.fb.com/news/2026/03/meta-launches-new-anti-scam-tools-deploys-ai-technology-to-fight-scammers-and-protect-people/",
+      "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/",
+      "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
+      "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/"
+    ],
+    "dedupedCandidateCount": 10,
+    "note": "Candidates were gathered from both Gemini web_search and blogwatcher/RSS, then deduplicated before drafting."
+  },
+  "items": [
+    {
+      "title": "Google 完成對 Wiz 的收購",
+      "takeaway": "**Google 正把雲端安全直接綁進 AI 與多雲戰略，而不是只補一塊產品拼圖。**",
+      "summary": "Wiz 併入 Google Cloud 後仍維持跨 AWS、Azure、Oracle Cloud 的支援，代表 Google 想用開放多雲安全平台強化自家雲端與 AI 競爭力。",
+      "source": "Google Blog / RSS + Gemini web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/"
+    },
+    {
+      "title": "Chrome 的 AI 體驗擴展到印度、紐西蘭與加拿大",
+      "takeaway": "**Google 正把 Gemini 從聊天工具推向瀏覽器級入口。**",
+      "summary": "Gemini in Chrome 可在當前分頁摘要內容、跨分頁比較資訊，並連動 Gmail、Maps、Calendar、YouTube，讓 Chrome 更像常駐工作助手。",
+      "source": "Google Blog / RSS",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/"
+    },
+    {
+      "title": "Google 推出 Gemini Embedding 2",
+      "takeaway": "**Google 想先搶多模態基礎層，讓下一波 AI 檢索與代理工作流更依賴自家模型。**",
+      "summary": "Gemini Embedding 2 把文字、圖片、影片、音訊與文件映射到同一嵌入空間，並支援超過 100 種語言，主打多模態檢索、RAG 與分類任務。",
+      "source": "Google Blog / RSS + Gemini web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/"
+    },
+    {
+      "title": "Gemini in Sheets 達到接近專家級的試算表表現",
+      "takeaway": "**Google 正把 AI 從『會聊』推進到『會真的做辦公雜活』。**",
+      "summary": "Google 表示 Gemini in Sheets 在 SpreadsheetBench 達到 70.48% 成功率，已接近人類專家能力，代表高摩擦辦公任務開始能被更可靠地自動化。",
+      "source": "Google Blog / RSS",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+    },
+    {
+      "title": "Google 擴大 Gemini 在 Docs、Sheets、Slides 與 Drive 的能力",
+      "takeaway": "**Workspace 正從應用套件升級成 AI 工作流編排層。**",
+      "summary": "新功能可從檔案、Email 與網頁抓取上下文，自動起草文件、補全表格與生成簡報，顯示 Google 持續把 Gemini 深嵌進日常知識工作。",
+      "source": "Google Blog / RSS",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/"
+    },
+    {
+      "title": "Meta 加速自研 MTIA 晶片路線",
+      "takeaway": "**Meta 不想永遠只當 GPU 大客戶，而是要把 AI 基礎設施做成自家護城河。**",
+      "summary": "Meta 表示未來兩年將部署四代新晶片，並以推論優先的策略支撐排序、推薦與生成式 AI 工作負載，降低對通用晶片的長期依賴。",
+      "source": "Meta Newsroom / RSS + Gemini web_search",
+      "sourceUrl": "https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/"
+    },
+    {
+      "title": "Meta 推出新一波反詐工具並加強 AI 偵測",
+      "takeaway": "**大型平台的 AI 軍備競賽，現在也明顯轉向信任與內容治理。**",
+      "summary": "Meta 在 WhatsApp、Facebook、Messenger 加入更多可疑裝置連結與詐騙警示，也用 AI 分析文字、圖片與上下文來抓名人冒充與品牌詐騙。",
+      "source": "Meta Newsroom / RSS",
+      "sourceUrl": "https://about.fb.com/news/2026/03/meta-launches-new-anti-scam-tools-deploys-ai-technology-to-fight-scammers-and-protect-people/"
+    },
+    {
+      "title": "Microsoft 發表 Frontier Suite 與 Copilot Wave 3",
+      "takeaway": "**Microsoft 正把 Copilot 從功能集合包成企業 AI 作業系統。**",
+      "summary": "Microsoft 365 E7 Frontier Suite、Agent 365 與 Copilot Wave 3 一起推出，並同時提供 OpenAI 與 Claude 模型，強調企業級的模型多樣性、管理與信任。",
+      "source": "Microsoft Blog / RSS + Gemini web_search",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
+    },
+    {
+      "title": "NVIDIA 發表 Nemotron 3 Super 開源模型",
+      "takeaway": "**NVIDIA 不只賣算力，還在往 agent 軟體與模型平台層上移。**",
+      "summary": "這款 1200 億參數、100 萬 token 上下文的開放模型主打多代理工作流，宣稱在吞吐量與效率上大幅提升，並已被多家企業平台導入。",
+      "source": "NVIDIA Blog / RSS",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Runtime 支援 stateful MCP server",
+      "takeaway": "**AWS 正把 agent 基礎設施產品化，想卡住企業代理系統的執行層。**",
+      "summary": "新功能讓開發者能在專用 microVM 內維持 session 狀態、互動收集使用者輸入、請求模型生成內容並回報進度，讓企業 agent 更適合長流程任務。",
+      "source": "AWS Blog / RSS + Gemini web_search",
+      "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/"
+    }
+  ]
+}
