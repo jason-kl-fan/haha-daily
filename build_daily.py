@@ -165,14 +165,14 @@ home=f'''
   <ul class="list">{''.join(f'<li>{rich(x)}</li>' for x in DATA['site']['overview'])}</ul>
 </section>
 <section class="card">
-  <h2>今日八大主題</h2>
+  <h2>今日主題</h2>
   <div class="grid">{''.join(cards)}</div>
 </section>
 <section class="card">
   <h2>站點導覽</h2>
   <ul class="list">
-    <li><a href="./{DATE}/">今日總覽</a>：固定八大主題、每則精簡摘要。</li>
-    <li>主題歷史頁：<a href="./ai/">AI</a> / <a href="./big-tech/">Big Tech</a> / <a href="./semiconductor/">Semiconductor</a> / <a href="./storage-server/">Storage / Server</a> / <a href="./cooling/">Cooling</a> / <a href="./security/">Security</a> / <a href="./startup/">Startup</a> / <a href="./geopolitics/">Geopolitics</a></li>
+    <li><a href="./{DATE}/">今日總覽</a>：聚焦保留主題、每則精簡摘要。</li>
+    <li>主題歷史頁：<a href="./ai/">AI</a> / <a href="./storage-server/">Storage / Server</a> / <a href="./cooling/">Cooling</a> / <a href="./security/">Security</a> / <a href="./startup/">Startup</a></li>
     <li><a href="./saved/">Saved</a> 僅保留手動收藏，不會自動加入。</li>
   </ul>
 </section>
