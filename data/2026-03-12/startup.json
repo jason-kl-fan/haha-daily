@@ -1,0 +1,92 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-12",
+  "count": 10,
+  "searchNotes": {
+    "search": "Gemini web_search for March 2026 startup funding, launches, partnerships, acquisitions and pivots; used returned citations/candidate lists as the web-search side of sourcing",
+    "rss": "blogwatcher tracked feeds and RSS candidates across TechCrunch Startups, Crunchbase News, EU-Startups and related startup sources",
+    "workflow": "Search first, draft JSON second, HTML update last",
+    "dedupe": "Read 2026-03-10 and 2026-03-11 startup drafts plus today's AI, Big Tech, Cooling, Security and Storage/Server drafts; removed repeats by title/company-event/sourceUrl and kept overlap stories only in their best-fit section"
+  },
+  "items": [
+    {
+      "title": "Rebar 募得 1,400 萬美元 A 輪，要把商用 HVAC 報價流程 AI 化",
+      "takeaway": "**垂直 SaaS 新創仍能拿到錢，只要它真的把一個又慢又痛的產業流程直接縮到幾分鐘。**",
+      "summary": "Rebar 用電腦視覺讀藍圖、整理設備清單並自動生成商用 HVAC 報價，宣稱可把流程加快 60% 到 70%。資金將用於從 HVAC 再往更多機電品類擴張。",
+      "source": "Crunchbase News / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://news.crunchbase.com/real-estate-property-tech/ai-generated-hvac-quotes-rebar-seriesa/"
+    },
+    {
+      "title": "PLD Space 完成 2.09 億美元新融資，加速 Miura 5 商轉",
+      "takeaway": "**歐洲太空新創的下一步不只是發射成功，而是把量產與可靠商業營運能力真正做出來。**",
+      "summary": "西班牙火箭新創 PLD Space 取得約 1.8 億歐元新資金，包含三菱電機投資，用來擴大製造與發射基礎設施，推進 Miura 5 在 2026 年首飛與後續商業化。",
+      "source": "Spaceflight Now / Gemini web_search citations + RSS candidates",
+      "sourceUrl": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production/"
+    },
+    {
+      "title": "Airmo 融資 500 萬歐元，準備把甲烷偵測帶上太空",
+      "takeaway": "**氣候科技新創還是有資本窗口，但前提是技術已經能從 pilot 走向可部署的商用任務。**",
+      "summary": "這家慕尼黑 SpaceTech 新創把 SWIR 成像與微型 LiDAR 縮進小衛星載荷，目標在 2027 年首發衛星任務，用更高精度追蹤甲烷外洩並擴張到中東與中亞市場。",
+      "source": "Trending Topics / Gemini web_search citations + RSS candidates",
+      "sourceUrl": "https://www.trendingtopics.eu/airmo-raises-e5m-to-detect-methane-leaks-from-space/"
+    },
+    {
+      "title": "Escape 完成 1,540 萬歐元 A 輪，要用 AI agents 自動化 offensive security",
+      "takeaway": "**AI 安全新創的賣點，正從『幫你看 code』往『直接在真實系統裡模擬攻擊與修補』升級。**",
+      "summary": "巴黎新創 Escape 主打以 AI agents 取代傳統 scanner 與部分人工滲透流程，把 attack surface discovery、測試與 remediation 串進工程工作流，瞄準人手嚴重不足的安全團隊。",
+      "source": "EU-Startups / blogwatcher RSS + Gemini web_search citations",
+      "sourceUrl": "https://www.eu-startups.com/2026/03/yc-backed-escape-raises-e15-4m-series-a-led-by-balderton-for-its-ai-powered-offensive-security-engineering-platform/"
+    },
+    {
+      "title": "Qevlar AI 募得 2,580 萬歐元，想把 SOC 調查工作變成 agentic 平台",
+      "takeaway": "**資安新創現在不只賣 copilot，而是直接承諾把調查流程大段自動化。**",
+      "summary": "Qevlar AI 表示其平台能自動拉取安全堆疊資料、補充證據並給出明確判斷，讓 SOC 團隊把時間從大量 triage 轉去做威脅狩獵與整體防禦改善。",
+      "source": "EU-Startups / blogwatcher RSS + Gemini web_search citations",
+      "sourceUrl": "https://www.eu-startups.com/2026/03/paris-based-qevlar-ai-raises-e25-8-million-to-automate-security-operations-centre-investigations-with-agentic-ai/"
+    },
+    {
+      "title": "Outpost 募得 1,500 萬歐元，要做『無責任負擔』跨境電商基礎設施",
+      "takeaway": "**跨境電商的下一波機會，越來越像是在賣合規、稅務與本地支付的一站式抽象層。**",
+      "summary": "Outpost 主打自己承接支付、稅務與合規責任，幫商家直接接上各市場的本地實體與支付軌。它想賣的不只是金流，而是把國際擴張的麻煩整包外包掉。",
+      "source": "EU-Startups / blogwatcher RSS + Gemini web_search citations",
+      "sourceUrl": "https://www.eu-startups.com/2026/03/british-startup-outpost-raises-e15-million-to-build-liability-free-cross-border-commerce-platform/"
+    },
+    {
+      "title": "Techstars 與 Global Brain 建立策略合作，強化日本與全球早期新創連結",
+      "takeaway": "**新創生態系的合作也在升級成『加速器 + CVC + 跨市場資本通道』的整合打法。**",
+      "summary": "這項合作涵蓋企業加速器、Founder Catalyst、CVC fund formation 與對 Techstars 生態的資本部署，目標是把日本企業與全球早期新創更直接接起來。",
+      "source": "Techstars / Gemini web_search citations + startup RSS research",
+      "sourceUrl": "https://www.techstars.com/newsroom/techstars-global-brain-formalize-strategic-partnership-to-accelerate-innovation"
+    },
+    {
+      "title": "VAST Data 再拿 5 億美元資金，估值報到 300 億美元",
+      "takeaway": "**只要能把 AI 基建講成平台級作業系統，超大額成長資金還是會追著跑。**",
+      "summary": "AlleyWatch 彙整顯示，VAST Data 取得額外 5 億美元資金，並伴隨 5 億美元 secondary。它把儲存、資料庫與運算整成 AI data stack 的野心，仍然很吃資本市場買單。",
+      "source": "AlleyWatch / Gemini web_search citations + startup funding roundup",
+      "sourceUrl": "https://alleywatch.com/2026/03/the-alleywatch-startup-daily-funding-report-3-11-2026/"
+    },
+    {
+      "title": "Legora 收購加拿大法律科技新創 Walter",
+      "takeaway": "**法律科技開始進入整併期，募到大錢的玩家會先拿產品與人才做外延擴張。**",
+      "summary": "Legora 在剛完成大額融資後，立刻出手收購 Walter，把後者在 Word 與 Outlook 內執行多步驟法律工作的 agent 能力納入版圖。這是比單純募資更有今天感的新發展。",
+      "source": "Business Insider / Gemini web_search citations + startup RSS research",
+      "sourceUrl": "https://www.businessinsider.com/legora-first-acquisition-and-the-great-legal-tech-rollup-continues-2026-3"
+    },
+    {
+      "title": "Samaipata 推出 1.1 億歐元第三支基金，鎖定 AI-native 早期新創",
+      "takeaway": "**即使市場更挑案子，歐洲早期資本仍在主動為 AI-native application layer 新創備糧。**",
+      "summary": "這家泛歐 VC 啟動第三支基金，目標投 25 到 30 家早期公司，重點放在能把 AI 複雜度抽象成真實商業產品的團隊。它雖是 fund launch，但本身就是今天 startup 融資環境的重要訊號。",
+      "source": "EU-Startups / blogwatcher RSS + Gemini web_search citations",
+      "sourceUrl": "https://www.eu-startups.com/2026/03/samaipata-launches-e110m-fund-iii-to-back-early-stage-ai-native-startups-across-europe/"
+    }
+  ],
+  "meta": {
+    "researchWorkflow": [
+      "Gemini web_search",
+      "blogwatcher RSS"
+    ],
+    "draftCompletedAt": "2026-03-12 09:40 America/Los_Angeles",
+    "status": "draft-finalized"
+  }
+}
