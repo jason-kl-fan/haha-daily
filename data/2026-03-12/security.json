@@ -1,0 +1,64 @@
+{
+  "slug": "security",
+  "name": "Security",
+  "date": "2026-03-12",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search for fresh March 12, 2026 security developments",
+    "rss": "blogwatcher RSS from The Hacker News, SecurityWeek, The Record, and CISA Alerts",
+    "workflow": "Search first, draft JSON second, HTML update last",
+    "dedupe": "Read 2026-03-10 and 2026-03-11 security drafts plus today's AI, Big Tech, Cooling, and Storage/Server drafts; removed cross-topic overlaps and avoided repeat stories unless there was a material new development"
+  },
+  "items": [
+    {
+      "title": "Polyfill 供應鏈事件有了新歸因：研究指向北韓鏈路",
+      "takeaway": "**拖了兩年的前端供應鏈事件，現在被重新拉回國安級威脅視角。**",
+      "summary": "SecurityWeek 引述 Hudson Rock 指出，2024 年影響超過 10 萬網站的 Polyfill 事件，不只像中國 CDN 收購後的廣告／導流濫用，背後更可能牽出北韓資金與基礎設施鏈路。這讓舊事件從『供應鏈事故』升級成更值得重查的國家級風險。",
+      "source": "SecurityWeek / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://www.securityweek.com/polyfill-supply-chain-attack-impacting-100k-sites-linked-to-north-korea/"
+    },
+    {
+      "title": "Stryker 向 SEC 表示：全球資安事件完整復原時程仍未知",
+      "takeaway": "**當端點管理系統疑似被反向武器化，破壞力會比一般勒索更像企業級停擺。**",
+      "summary": "The Record 報導，Stryker 在 8-K 文件中承認此次事件造成全球 Microsoft 環境中斷，完整復原時程仍不明。多方研判攻擊者可能濫用 Intune 等企業管理工具大規模清空裝置，代表身份與裝置管理層一旦失守，營運衝擊會非常直接。",
+      "source": "The Record / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://therecord.media/stryker-tells-sec-unknown-timeline-recovery"
+    },
+    {
+      "title": "Splunk 與 Zoom 同日修補高風險漏洞",
+      "takeaway": "**企業協作與可觀測平台本身，就是高權限攻擊面的核心。**",
+      "summary": "SecurityWeek 指出，Zoom 修補 Workplace for Windows 的重大權限提升漏洞，Splunk 也修掉可經 REST 端點觸發任意 shell 指令的高風險缺陷。這類產品通常位於企業日常營運核心，一旦延遲更新，橫向移動與高權限濫用風險很高。",
+      "source": "SecurityWeek / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://www.securityweek.com/splunk-zoom-patch-severe-vulnerabilities/"
+    },
+    {
+      "title": "Ally WordPress 外掛 SQL injection 仍讓逾 20 萬網站暴露中",
+      "takeaway": "**開外掛修補不難，難的是網站生態系永遠有大量沒跟上的安裝。**",
+      "summary": "SecurityWeek 指出，Elementor 旗下 Ally 無障礙外掛的未授權 SQL injection 缺陷可讓攻擊者讀出敏感資料，雖然 2 月已修補，但仍有超過 20 萬網站未更新。這種『已有 patch、仍大量暴露』的長尾風險，往往最容易變成自動化掃描目標。",
+      "source": "SecurityWeek / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks/"
+    },
+    {
+      "title": "Cisco 修補 IOS XR 高風險漏洞，最嚴重可提權到 root",
+      "takeaway": "**網路設備不是配角；一旦被提權拿下，影響通常是整段基礎設施。**",
+      "summary": "SecurityWeek 整理 Cisco 本次 IOS XR 安全更新，重點漏洞可讓低權限使用者執行任意命令、升到 root，或讓鄰近攻擊者造成路由程序重啟。對電信、服務供應商與大型企業網路來說，這類修補優先序應該非常前面。",
+      "source": "SecurityWeek / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://www.securityweek.com/cisco-patches-high-severity-ios-xr-vulnerabilities-2/"
+    },
+    {
+      "title": "假政府與 Starlink App 在巴西散播 Android 惡意程式",
+      "takeaway": "**行動金融攻擊正在把假官方服務、銀行木馬與挖礦一次打包。**",
+      "summary": "The Record 引述 Kaspersky 指出，攻擊者用仿冒政府入口與 Starlink App 的假下載頁，在巴西散播 BeatBanker 與 BTMOB 等 Android 惡意程式，能竊取銀行憑證、竄改加密貨幣轉帳，甚至暗中挖礦。這類攻擊很適合快速複製到其他地區。",
+      "source": "The Record / Gemini web_search + blogwatcher RSS",
+      "sourceUrl": "https://therecord.media/fake-gov-apps-malware-android-brazil"
+    }
+  ],
+  "meta": {
+    "researchWorkflow": [
+      "Gemini web_search",
+      "blogwatcher RSS"
+    ],
+    "draftCompletedAt": "2026-03-12 09:31 America/Los_Angeles",
+    "status": "draft-finalized"
+  }
+}
