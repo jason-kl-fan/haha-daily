@@ -1,0 +1,98 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "date": "2026-03-12",
+  "count": 12,
+  "searchNotes": {
+    "search": "Gemini web_search for March 2026 AI model, product, company, research, and regulation updates",
+    "rss": "blogwatcher scan/articles across Google Blog, NVIDIA Blog, Microsoft Blog, TechCrunch, WIRED, VentureBeat, Meta Newsroom and related tracked feeds",
+    "workflow": "Search first, draft JSON second, HTML update last",
+    "dedupe": "Deduplicated overlapping Google Maps / flood research / Nvidia model and policy items across Gemini web_search citations and blogwatcher RSS candidates before drafting"
+  },
+  "items": [
+    {
+      "title": "OpenAI 發表 GPT-5.4",
+      "takeaway": "**OpenAI 把推理、編碼、電腦操作與長上下文整成更完整的工作型旗艦模型。**",
+      "summary": "GPT-5.4 已進入 ChatGPT、API 與 Codex，支援 1M context、原生 computer use，並更強調長流程任務、工具搜尋與 token 效率，明顯朝專業知識工作與 agent workflow 推進。",
+      "source": "OpenAI / web_search + RSS",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4"
+    },
+    {
+      "title": "OpenAI 收購 Promptfoo",
+      "takeaway": "**AI 安全測試與治理正在被直接內建進企業 agent 平台。**",
+      "summary": "OpenAI 將把 Promptfoo 的紅隊測試、評估、追蹤與合規能力整合進 Frontier，目標是在部署 AI coworkers 前就把 prompt injection、資料外洩與工具濫用風險前置處理。",
+      "source": "OpenAI / web_search + RSS",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-promptfoo"
+    },
+    {
+      "title": "Google Maps 推出 Gemini 驅動的 Ask Maps",
+      "takeaway": "**Google 正把 Gemini 從聊天入口推向地圖與實體世界決策介面。**",
+      "summary": "Ask Maps 讓使用者用自然語言問『附近哪裡能充電又不用排隊』這種真實場景問題，並直接回傳個人化地圖、路線與建議，代表 AI 正更深入高頻生活工具。",
+      "source": "Google Blog / TechCrunch / RSS + web_search",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/"
+    },
+    {
+      "title": "Google 用 Gemini 與新聞資料做都市閃洪預測",
+      "takeaway": "**生成式 AI 不只做聊天，也開始補足原本不存在的訓練資料。**",
+      "summary": "Google 的 Groundsource 用 Gemini 解析數百萬篇公開報導，整理出 260 萬筆歷史洪災事件，進一步訓練 24 小時前的都市閃洪預測模型，並放進 Flood Hub，屬於研究落地型進展。",
+      "source": "Google Research / TechCrunch / RSS + web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/research/gemini-help-communities-predict-crisis/"
+    },
+    {
+      "title": "Google 提出青少年生成式 AI 安全路線圖",
+      "takeaway": "**AI 產品競爭已不只比能力，也開始比未成年保護與政策可交代性。**",
+      "summary": "Google 在都柏林數位世代峰會上強調年齡適配、隱私保護、分類器攔截與對青少年專門評測，代表生成式 AI 的安全設計正從原則宣示往更明確的產品治理走。",
+      "source": "Google Blog / RSS + web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/families/growing-up-digital-age-gemini-youth/"
+    },
+    {
+      "title": "Microsoft 發表 Frontier Suite 與 Copilot Wave 3",
+      "takeaway": "**Microsoft 想把 Copilot 從功能組合包升級成企業 AI 作業層。**",
+      "summary": "新方案把 Microsoft 365 Copilot、Agent 365、模型多樣性與安全治理打包，並同時支援 OpenAI 與 Claude，主打『Intelligence + Trust』的企業採購敘事。",
+      "source": "Microsoft Blog / RSS + web_search",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
+    },
+    {
+      "title": "Meta 公布四代 MTIA 自研 AI 晶片路線",
+      "takeaway": "**大型平台越來越不想只當 GPU 客戶，而是要把 AI 基礎設施變成自家護城河。**",
+      "summary": "Meta 表示未來兩年將更快節奏部署 MTIA 300、400、450、500，主打推論優先與模組化上架，目標是降低對通用 GPU 的長期依賴並優化推薦與 GenAI 成本。",
+      "source": "Meta Newsroom / RSS + web_search",
+      "sourceUrl": "https://about.fb.com/news/2026/03/expanding-metas-custom-silicon-to-power-our-ai-workloads/"
+    },
+    {
+      "title": "NVIDIA 發表 Nemotron 3 Super 開放權重模型",
+      "takeaway": "**NVIDIA 不只賣算力，也在用開源模型往 agent 軟體層上移。**",
+      "summary": "Nemotron 3 Super 是 120B 參數、1M token context 的開放模型，主打多代理工作流的吞吐量與效率，並已被 Perplexity、CodeRabbit、Palantir 等公司導入。",
+      "source": "NVIDIA Blog / RSS",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/"
+    },
+    {
+      "title": "NVIDIA 與 Thinking Machines Lab 建立 GW 級合作",
+      "takeaway": "**最頂級 AI 團隊的核心競爭，依然是長期先進算力保證。**",
+      "summary": "NVIDIA 將與 Mira Murati 的 Thinking Machines Lab 合作部署至少 1GW Vera Rubin 系統，並同步投資該公司，顯示 frontier 模型競賽仍深度綁定供應與資本。",
+      "source": "NVIDIA Blog / RSS",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    },
+    {
+      "title": "Anthropic 成立 Anthropic Institute 研究 AI 風險",
+      "takeaway": "**前沿模型公司開始把公共利益、經濟影響與政策研究正式組織化。**",
+      "summary": "Anthropic 把紅隊、社會影響與經濟研究力量整合為 Anthropic Institute，由 Jack Clark 領軍，顯示 AI 公司正把風險研究與政策互動變成更核心的戰略職能。",
+      "source": "Gemini web_search + cited reporting",
+      "sourceUrl": "https://siliconangle.com/2026/03/11/anthropic-launches-anthropic-institute-tackle-ai-risks/"
+    },
+    {
+      "title": "Zoom 擴大 agentic AI 平台與 AI Companion 3.0",
+      "takeaway": "**Zoom 不只想做會議工具，而是想把對話直接接上工作流執行。**",
+      "summary": "Zoom 在 EC26 宣布自訂與預建 AI agents、AI Docs／Sheets／Slides、跨系統 workflow orchestration 與 CX 強化，明顯把定位從協作軟體往 AI work orchestrator 推進。",
+      "source": "Gemini web_search + Zoom citation / RSS candidates",
+      "sourceUrl": "https://news.zoom.com/ec26-agentic-ai-platform-announcements/"
+    },
+    {
+      "title": "歐盟 AI Act 進一步進入落地執行期",
+      "takeaway": "**AI 監管現在已從抽象討論，進入企業必須對照風險等級落地 compliance 的階段。**",
+      "summary": "歐盟持續發布禁止性做法與 AI 系統定義相關指引，高風險與 GPAI 模型義務也在分階段推進，對模型供應商與部署企業來說，2026 已是不能再拖的準備期。",
+      "source": "EU Commission / Gemini web_search",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    }
+  ]
+}
