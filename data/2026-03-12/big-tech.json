@@ -1,0 +1,89 @@
+{
+  "slug": "big-tech",
+  "name": "Big Tech",
+  "date": "2026-03-12",
+  "count": 9,
+  "searchNotes": {
+    "workflow": "Query both web_search and blogwatcher/RSS, keep only same-day items first, exclude 2026-03-11 repeated events unless materially new, and do not use anything older than 24h.",
+    "geminiWebSearch": [
+      "https://openai.com/index/introducing-gpt-5-4/",
+      "https://openai.com/index/openai-to-acquire-promptfoo/",
+      "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/"
+    ],
+    "rssBlogwatcher": [
+      "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/",
+      "https://blog.google/innovation-and-ai/technology/research/gemini-help-communities-predict-crisis/",
+      "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/",
+      "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/",
+      "https://blogs.nvidia.com/blog/industrial-ai-digital-twins-omniverse/"
+    ],
+    "dedupedCandidateCount": 9,
+    "note": "All selected items were published on 2026-03-12 America/Los_Angeles date after checking both web_search and blogwatcher/RSS. Repeated 2026-03-11 events like Wiz, MTIA roadmap, Nemotron 3 Super, and Microsoft Frontier Suite were excluded."
+  },
+  "items": [
+    {
+      "title": "OpenAI 發表 GPT-5.4",
+      "takeaway": "**OpenAI 把推理、編碼、長上下文與原生電腦操作整成更完整的工作型旗艦模型。**",
+      "summary": "GPT-5.4 今日進入 ChatGPT、API 與 Codex，支援 1M context、native computer use、tool search 與更高 token 效率，明顯朝專業知識工作與 agent workflow 推進。",
+      "source": "OpenAI / Gemini web_search",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "title": "OpenAI 收購 Promptfoo",
+      "takeaway": "**AI 安全測試與治理正在被直接內建進企業 agent 平台。**",
+      "summary": "OpenAI 將把 Promptfoo 的 red-team、evaluation、追蹤與合規能力整合進 Frontier，讓 prompt injection、資料外洩與工具濫用風險能更早在開發流程中被發現。",
+      "source": "OpenAI / Gemini web_search",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-promptfoo/"
+    },
+    {
+      "title": "Google Maps 推出 Gemini 驅動的 Ask Maps 與 Immersive Navigation",
+      "takeaway": "**Google 正把 Gemini 從聊天入口推向地圖與真實世界決策介面。**",
+      "summary": "Ask Maps 可回答充電、排隊、停靠點這類複合情境問題並回傳個人化地圖；Immersive Navigation 則把 3D 視覺、路線取捨與停車提示拉進導航主流程。",
+      "source": "Google Blog / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/"
+    },
+    {
+      "title": "Google 發表 Groundsource，用 Gemini 補齊都市閃洪預測資料",
+      "takeaway": "**生成式 AI 開始補足原本不存在的高品質資料集，而不只是做聊天。**",
+      "summary": "Google 用 Gemini 分析多年公開報導，整理出超過 260 萬筆歷史洪災事件，再訓練可提前 24 小時預測都市閃洪的模型，並把結果放進 Flood Hub。",
+      "source": "Google Blog / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/research/gemini-help-communities-predict-crisis/"
+    },
+    {
+      "title": "Google 在澳洲啟動 AI 心血管風險計畫",
+      "takeaway": "**Google for Health 正把地理資料、醫療資料與 AI 分析綁成公共健康基礎設施。**",
+      "summary": "Google 與澳洲健康機構合作，用 Population Health AI 與 Earth AI 模型分析去識別化社區資料，想把偏鄉心血管風險管理從被動治療轉成前置預防。",
+      "source": "Google Blog / blogwatcher RSS",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/"
+    },
+    {
+      "title": "Google 公布倫敦 Platform 37 與 AI Exchange 計畫",
+      "takeaway": "**Google 不只在蓋辦公室，而是在為歐洲 AI 研究、品牌敘事與公共對話打造實體據點。**",
+      "summary": "Google 將把 King’s Cross 新總部命名為 Platform 37，並在地面層設置面向公眾的 AI Exchange，主打 AI 教育、展覽與社會討論空間。",
+      "source": "Google Blog / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/"
+    },
+    {
+      "title": "Meta 把生成式 AI 導入 Facebook Marketplace 賣家工具",
+      "takeaway": "**Meta 正把生成式 AI 從內容創作延伸到交易轉化與平台效率。**",
+      "summary": "新工具可自動草擬商品頁、補齊細節、建議價格、產生自動回覆與賣家摘要，讓 Marketplace 更像內建 AI 協作助手的交易平台。",
+      "source": "Meta Newsroom / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/"
+    },
+    {
+      "title": "NVIDIA 擴大 Omniverse 與工業數位孿生敘事",
+      "takeaway": "**NVIDIA 想把 AI 的價值從模型訓練往工業設計、模擬與製造流程全面外溢。**",
+      "summary": "NVIDIA 以 Omniverse、CUDA-X 與 AI physics 強調工業 AI 和 digital twins，串聯 Dassault、Lucid、生命科學與 AI factory 等場景，推銷從設計到製造的整套平台位置。",
+      "source": "NVIDIA Blog / blogwatcher RSS",
+      "sourceUrl": "https://blogs.nvidia.com/blog/industrial-ai-digital-twins-omniverse/"
+    },
+    {
+      "title": "Microsoft 宣布 Experiences + Devices 高層改組",
+      "takeaway": "**Microsoft 在 AI 轉型期同步重整產品決策權與高層分工。**",
+      "summary": "Rajesh Jha 宣布退休轉任顧問，Perry Clarke、Charles Lamanna、Pavan Davuluri、Ryan Roslansky 等人將直接向 Satya Nadella 匯報，顯示微軟在 Copilot 與產品線整合期調整組織中樞。",
+      "source": "Microsoft Blog / Gemini web_search",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/"
+    }
+  ]
+}
