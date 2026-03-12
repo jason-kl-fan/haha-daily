@@ -1,0 +1,101 @@
+{
+  "date": "2026-03-12",
+  "topic": {
+    "slug": "storage-server",
+    "name": "Storage / Server",
+    "description": "存儲、伺服器、企業基礎設施軟硬體與供應鏈。",
+    "intro": "今天主線很明確：**AI 基建擴張**正在同時推動容量升級、邊緣節點、支援服務、雲端儲存軟體與主權基礎設施重新定價。",
+    "tldr": [
+      "**容量與成本一起升壓**：Seagate 往 44TB/100TB 走，HPE 與 Lenovo 則提醒記憶體、NAND 與維運成本壓力會持續。",
+      "**企業基建從硬體走向整包化**：Lenovo、NetApp、QNAP 都把支援、雲端控制面與高密度儲存一起往上賣。",
+      "**AI 伺服器不再只是 GPU 問題**：Supermicro、Dell、NVIDIA 與 AWS 都在強化資料中心可擴展性、儲存彈性與工作負載調度。"
+    ]
+  },
+  "items": [
+    {
+      "title": "Seagate 44TB Mozaic 4+ HAMR 硬碟正式進入 hyperscaler 量產",
+      "takeaway": "**大容量 HDD 仍是 AI 時代冷資料與訓練資料池的關鍵基礎設施。**",
+      "summary": "Seagate 表示 Mozaic 4+ 已在兩家大型雲端客戶完成資格認證並量產，現階段支援 44TB，並把 roadmap 指向 100TB。這代表大規模資料中心仍需要更便宜、每瓦容量更高的儲存層。",
+      "source": "Gemini web_search + Seagate",
+      "sourceUrl": "https://www.seagate.com/stories/articles/seagate-delivers-industrys-highest-capacity-hard-drives-with-next-generation-mozaic-4/"
+    },
+    {
+      "title": "HPE 警告記憶體與 NAND 漲價將延續，伺服器與儲存訂單可在出貨前重報價",
+      "takeaway": "**企業硬體採購正在從『報價即鎖價』走向更動態、風險更高的模式。**",
+      "summary": "HPE 說 DRAM 與 NAND 成本壓力可能延續到 2027，甚至修改條款保留出貨前調價空間。對企業 IT 來說，伺服器與儲存 refresh 的預算不確定性明顯提高。",
+      "source": "Gemini web_search + Network World",
+      "sourceUrl": "https://www.networkworld.com/article/4142928/hpes-server-and-storage-prices-can-change-after-you-place-an-order.html"
+    },
+    {
+      "title": "Lenovo 推出 Premier Support Plus for Servers，主打 AI 驅動的主動式維運",
+      "takeaway": "**伺服器廠商不只賣硬體，也開始把 uptime 與預測維修包成更高價值的服務層。**",
+      "summary": "Lenovo 新服務把 AI 驅動監測、預防性維護、4 小時 onsite 回應目標與專屬服務經理打包，鎖定『永不中斷』的企業伺服器環境。硬體競爭正往支援體驗與營運保證延伸。",
+      "source": "blogwatcher RSS + Lenovo",
+      "sourceUrl": "https://news.lenovo.com/pressroom/press-releases/always-on-infrastructure-premier-support-plus-proactive-ai/"
+    },
+    {
+      "title": "Lenovo 擴大 ThinkEdge 產品線，推新一代 AI 驅動邊緣運算節點",
+      "takeaway": "**企業 AI 基建正在往工廠、倉儲與現場設備下沉，邊緣伺服器成為新主戰場。**",
+      "summary": "Lenovo 發表 SE10n Gen 2、SE30n Gen 2、SE60n Gen 2 與工業 AIO，強調低延遲、在地資料處理與可長期 24/7 運行。這類產品明顯瞄準把 AI 從雲端推向實體場域。",
+      "source": "blogwatcher RSS + Lenovo",
+      "sourceUrl": "https://news.lenovo.com/pressroom/press-releases/data-potential-next-generation-ai-driven-thinkedge-solutions/"
+    },
+    {
+      "title": "NetApp 推出新一代 Cloud Volumes ONTAP for Google Cloud",
+      "takeaway": "**企業儲存軟體的競爭點，越來越在雲端效能、擴展性與操作簡化。**",
+      "summary": "NetApp 把 CVO Single Node 架構升級到 Google Cloud C3 與 Hyperdisk，主打更高效能、可擴展性與更低營運複雜度。對混合雲客戶來說，這是把傳統資料管理能力搬到公有雲的延伸。",
+      "source": "Gemini web_search + NetApp",
+      "sourceUrl": "https://www.netapp.com/product-updates/cvo-next-gen-cloud-storage/"
+    },
+    {
+      "title": "NetApp 第三季全快閃營收創新高，顯示企業儲存升級仍在持續",
+      "takeaway": "**AI 與混合雲需求，正在把高階全快閃陣列重新推回企業投資核心。**",
+      "summary": "NetApp FY2026 Q3 財報顯示 all-flash array 營收達 10 億美元、年增 11%，公有雲儲存服務也同步成長。這說明企業並沒有停止買儲存，只是更集中在高效能與雲鄰接產品。",
+      "source": "Gemini web_search + NetApp Investors",
+      "sourceUrl": "https://investors.netapp.com/news/news-details/2026/NetApp-Reports-Third-Quarter-of-Fiscal-Year-2026-Results/default.aspx"
+    },
+    {
+      "title": "QNAP 發表 TS-h1077AFU 全快閃高密度 NAS，鎖定企業與邊緣場景",
+      "takeaway": "**中型企業儲存也在往高密度、低延遲與 ZFS 化升級。**",
+      "summary": "這台 10-bay all-flash NAS 採 AMD Ryzen PRO 7000、ECC DDR5 與 QuTS hero，並支援高可用與大容量擴充。QNAP 顯然不只想做備份盒子，而是更積極切進正式業務工作負載。",
+      "source": "Gemini web_search + QNAP",
+      "sourceUrl": "https://www.qnap.com/en-us/news/2026/qnap-releases-the-10-bay-zfs-based-high-density-all-flash-ts-h1077afu-sata-ssd-nas-powered-by-amd-ryzen-pro-7000-series-processors"
+    },
+    {
+      "title": "Supermicro 擴大 AI-RAN 與 sovereign AI 基礎設施布局",
+      "takeaway": "**伺服器廠不只賣機器，也在吃下電信 AI 與主權算力建設的新需求。**",
+      "summary": "Supermicro 在 MWC 強調 AI-RAN 與主權 AI 解決方案，主打高效能、可擴展與區域合規部署。這顯示 server 市場正在從企業機房外溢到電信與國家級 AI 基建。",
+      "source": "Gemini web_search + Supermicro",
+      "sourceUrl": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Expands-Support-for-AI-RAN-and-Sovereign-AI-Solutions-to-Deliver-High-Performance-Efficient-and-Scalable-AI-Infrastructure/default.aspx"
+    },
+    {
+      "title": "NVIDIA 用 RTX PRO Server 推虛擬化工作站與集中式 GPU 基建",
+      "takeaway": "**資料中心 GPU 正從 AI 訓練延伸到開發、設計、QA 與跨地團隊協作。**",
+      "summary": "NVIDIA 在 GDC 展示以 RTX PRO 6000 Blackwell Server Edition 與 vGPU 軟體組成的 RTX PRO Server，讓工作站型 3D、AI 與測試工作流集中到資料中心。重點是提高利用率、資料安全與跨團隊一致性。",
+      "source": "blogwatcher RSS + NVIDIA",
+      "sourceUrl": "https://blogs.nvidia.com/blog/gdc-2026-virtual-game-development/"
+    },
+    {
+      "title": "Dell FY2026 財報顯示 AI 伺服器需求強到主導整體系統業務",
+      "takeaway": "**AI 伺服器已不是加分項，而是大型基建廠營收結構的主引擎。**",
+      "summary": "Dell 第四季基礎設施事業營收大增，其中 AI 最佳化伺服器佔比極高，全年 AI 訂單與 backlog 都創新高。雖然 storage 成長較溫和，但整體訊號很清楚：企業與雲端還在持續加碼 AI 機櫃。",
+      "source": "Gemini web_search + TechPowerUp / cited Dell release",
+      "sourceUrl": "https://www.techpowerup.com/346815/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2026-results"
+    },
+    {
+      "title": "Amazon OpenSearch Service 開放所有容量級別的 in-place volume increase",
+      "takeaway": "**雲端基礎設施競爭也在比『擴容時要不要停機』這種營運細節。**",
+      "summary": "AWS 取消 OpenSearch 過去超過 3 TiB 常需 blue/green deployment 的限制，多數情況下可以直接擴容。對搜尋、日誌與觀測性工作負載來說，這種小改動其實很影響實際維運成本。",
+      "source": "Gemini web_search + AWS What's New",
+      "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-in-place-volume/"
+    }
+  ],
+  "meta": {
+    "researchWorkflow": [
+      "Gemini web_search",
+      "blogwatcher RSS"
+    ],
+    "draftCompletedAt": "2026-03-12 09:16 America/Los_Angeles",
+    "status": "draft-finalized"
+  }
+}
