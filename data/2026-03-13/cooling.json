@@ -1,0 +1,70 @@
+{
+  "slug": "cooling",
+  "name": "Cooling",
+  "date": "2026-03-13",
+  "count": 8,
+  "searchNotes": {
+    "search": "Used BOTH Gemini web_search/web_fetch and blogwatcher RSS/article sources; prioritized items published on 2026-03-13 in America/Los_Angeles and only used freshest <24h material when same-day supply was thin.",
+    "rss": "Reviewed blogwatcher candidates from Data Center Dynamics and TechPowerUp; favored 2026-03-13 items first, then selected a few 2026-03-12 items still within the most recent 24 hours.",
+    "workflow": "Search first, dedupe second, text draft saved to JSON third, HTML updated last.",
+    "dedupe": "Excluded yesterday's repeated Panasonic Europe launch story, avoided overlap with today's AI and Storage/Server drafts, and deduplicated by event/company/title plus URL/domain coverage."
+  },
+  "items": [
+    {
+      "title": "DCX 推出 600kW 到 2.6MW 的 ECDU 組合，瞄準更高密度 AI 機房",
+      "takeaway": "**CDU 正在從單一配件升級成可模組化擴張的資料中心級基建。**",
+      "summary": "DCD 今天報導 DCX 一口氣推出三款 enterprise-class coolant distribution units，涵蓋 600kW 到 2.6MW 容量。這類產品愈來愈像『液冷配電盤』：不是只解一個機櫃，而是替整段高密度 AI 區域預留成長空間。",
+      "source": "Data Center Dynamics / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/dcx-launches-three-cdus-offering-600kw-26mw-cooling-capacities/"
+    },
+    {
+      "title": "Frore Systems 發表 LiquidJet Nexus，把 1/2U AI 伺服器熱堆疊做成整體方案",
+      "takeaway": "**AI 伺服器散熱不再只是冷板零件，而是整個 thermal stack 的系統工程。**",
+      "summary": "Frore 3/13 發表 LiquidJet Nexus，主打把多個冷板、流路與結構整成一套 1/2U 運算托盤方案，可直接對應 GPU、CPU、NIC 與供電元件。它強調 75% 更高熱傳效率、元件溫度再降約 8°C，也試圖減少管路與接頭帶來的裝配複雜度。",
+      "source": "PRNewswire / Gemini web_search + web_fetch；TechPowerUp RSS 交叉核對",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/frore-systems-introduces-liquidjet-nexus---defining-the-ai-thermal-stack-for-next-generation--u-ai-server-systems-like-nvidia-kyber-302713164.html"
+    },
+    {
+      "title": "Refroid 與 Technavious 在印度合作，想把液冷從機櫃一路做到機房驗證流程",
+      "takeaway": "**液冷落地卡的不只硬體，還包括機電整合、驗證與交付標準化。**",
+      "summary": "兩家公司 3/13 宣布要做 AI-ready data centres 的『brick-to-chip』框架：一邊把 CDU 納入 hyperscale 設計，一邊為 enterprise/edge 場景提供 immersion pods，還把 hybrid load bank 與 commissioning 流程綁在一起。重點是把液冷從概念展示往可驗證、可交付的工程方法推進。",
+      "source": "PRNewswire / Gemini web_search + web_fetch",
+      "sourceUrl": "https://www.prnewswire.com/in/news-releases/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres-302713016.html"
+    },
+    {
+      "title": "緬因外海出現潮汐供電海底機房提案，直接把海水冷卻與 AI 算力綁在一起",
+      "takeaway": "**最激進的 cooling 想像，已經不是改風扇，而是把機房整個搬進天然冷源裡。**",
+      "summary": "DCD 3/13 提到，美國緬因 Eastport 外海有結合潮汐發電與海底資料中心的提案，計畫把 subsea compute pods 與潮汐能平台一起部署。案子仍很早期，但它把『低碳電力 + 海水散熱 + 高密度 AI』三件事打包成同一個基建敘事，值得追。",
+      "source": "Data Center Dynamics / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/underwater-data-center-powered-by-tidal-energy-proposed-off-the-coast-of-maine/"
+    },
+    {
+      "title": "DDC 擴充 S-Series 機櫃封閉平台，替下一代 GPU 叢集預留直液冷接口",
+      "takeaway": "**高密度 GPU 基建開始把『氣流控制 + 資產保護 + 液冷接口』一起設計。**",
+      "summary": "在最近 24 小時內的 DCD product news 裡，DDC 把 S-Series 擴到 S-5 與 GPUVault 兩種配置，除了做更高密度 airside cooling，也明確加入 optional 1MW+ direct-to-chip integration。這類平台反映，很多機房升級不會一步跳全浸沒，而是先把封閉、氣流與液冷相容性準備好。",
+      "source": "Data Center Dynamics / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/product-news/ddc-expands-s-series-rack-containment-platform-to-protect-and-cool-next-generation-gpu-infrastructure/"
+    },
+    {
+      "title": "MHI 要把 10MW 級離心式冷水機帶進北美 AI 資料中心市場",
+      "takeaway": "**AI 機房的冷卻競爭，正在往超大型 plant 級設備而不是只有機櫃端元件延伸。**",
+      "summary": "三菱重工 3/12 宣布，正推進面向北美 next-generation AI data centers 的 10MW 級 centrifugal chiller，強調高效率、低耗水與 free-cooling 運轉模式。這代表大型資料中心 cooling conversation 已從 cold plate/CDU 進一步拉到整廠等級的 WUE、PUE 與可複製部署能力。",
+      "source": "Mitsubishi Heavy Industries / Gemini web_search + web_fetch",
+      "sourceUrl": "https://www.mhi.com/news/26031202.html"
+    },
+    {
+      "title": "Eaton 完成收購 Boyd Thermal，想把資料中心方案一路做到 grid-to-chip",
+      "takeaway": "**液冷供應鏈正在整併，電力與散熱會越來越像同一筆基建採購。**",
+      "summary": "Eaton 3/12 完成收購 Boyd Thermal，直接把 liquid cooling 能力補進自己的資料中心版圖。這筆交易的訊號很清楚：AI 基建客戶不只想買單點零件，而是更想要從配電、保護到 thermal management 一次打包的端到端方案。",
+      "source": "Eaton / Gemini web_search + web_fetch",
+      "sourceUrl": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-completes-acquisition-of-leading-liquid-cooling-solutions-provider-boyd-thermal.html"
+    },
+    {
+      "title": "Alphacool 推出 Apex Stealth Metal 140mm 風扇，PC 散熱繼續往高剛性低震動走",
+      "takeaway": "**PC DIY 散熱的下一步不是更花，而是把噪音、震動與結構質感一起做上去。**",
+      "summary": "TechPowerUp 3/12 條目顯示，Alphacool 新推 140mm Apex Stealth Metal 風扇，延續金屬框體、解耦結構與高轉速靜音路線。這不是顛覆性新品，但很能代表 DIY cooling 市場現在的方向：高效能之外，也更重視振動控制與整機聲學表現。",
+      "source": "TechPowerUp / blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://www.techpowerup.com/347314/alphacool-introduces-apex-stealth-metal-140-mm-fans"
+    }
+  ]
+}
