@@ -1,0 +1,70 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "date": "2026-03-13",
+  "count": 8,
+  "searchNotes": {
+    "search": "Used BOTH Gemini web_search and blogwatcher RSS/article sources; prioritized items published on 2026-03-13 in America/Los_Angeles and only used freshest <24h material when necessary.",
+    "rss": "blogwatcher scan/articles reviewed Google Blog, Meta Newsroom, WIRED, Data Center Dynamics, TechCrunch, VentureBeat and related tracked feeds; selected only distinct AI items from 2026-03-13 or latest <24h.",
+    "workflow": "Deduplicated early by normalized title, company+event, and URL/domain coverage; excluded yesterday's repeated events like Ask Maps, Marketplace AI, Bumble Bee, Webflow/Vidoso, Atlassian layoffs, Claude visuals, and MTIA roadmap.",
+    "dedupe": "Also checked 2026-03-12 other topic drafts to avoid cross-topic overlap; left infra-heavy stories to other sections unless the AI angle itself was the news peg."
+  },
+  "items": [
+    {
+      "title": "Meta 擴大 Meta AI 的即時新聞與國際內容來源",
+      "takeaway": "**Meta 想把 Meta AI 從聊天工具，往即時資訊入口再推一步。**",
+      "summary": "Meta 3/13 宣布與 News Corp、Le Figaro、Prisa、Süddeutsche Zeitung 等媒體合作，讓 Meta AI 回答新聞相關問題時可引用更多即時與國際內容，並導流回合作媒體網站；重點不只是內容量，而是 Meta 開始補強 AI 在即時資訊上的可信度與覆蓋面。",
+      "source": "Meta Newsroom / blogwatcher RSS + web_fetch",
+      "sourceUrl": "https://about.fb.com/news/2026/03/bringing-more-international-news-and-content-to-meta-ai/"
+    },
+    {
+      "title": "Google Earth AI 把地理模型往公共衛生預測推進",
+      "takeaway": "**Google 正把 AI 能力從搜尋與助手，延伸到疾病預測與公共資源配置。**",
+      "summary": "Google 3/13 介紹 Earth AI 如何結合地理、人口流動與環境資料，支援登革熱、霍亂、麻疹與診所利用率等公共衛生預測。這類更新代表大型模型競賽之外，Google 也在強化『AI + 真實世界決策』的專用場景敘事。",
+      "source": "Google Blog / blogwatcher RSS + web_fetch",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/"
+    },
+    {
+      "title": "WIRED 指 Google 的 AI 搜尋結果越來越常把流量導回 Google 自家服務",
+      "takeaway": "**生成式搜尋不只是在回答問題，也正在重寫流量分配規則。**",
+      "summary": "WIRED 3/13 引述 SE Ranking 研究指出，Google AI Mode 的引用連結愈來愈常回到 Google Search 與 YouTube，自家站點占比明顯上升。對出版商與內容站來說，這比單純『有沒有 AI 摘要』更關鍵，因為它直接影響誰還能拿到點擊。",
+      "source": "WIRED / blogwatcher RSS + web_fetch",
+      "sourceUrl": "https://www.wired.com/story/google-ai-searches-love-to-refer-you-back-to-google/"
+    },
+    {
+      "title": "Palantir 示範用 Anthropic Claude 協助軍事情報分析與戰爭規劃",
+      "takeaway": "**軍事 AI 的爭議，正在從抽象倫理題變成具體產品與部署題。**",
+      "summary": "WIRED 3/13 報導，Palantir 的示範與五角大廈文件顯示，像 Claude 這類聊天式模型已可被用於整理情報、提出行動選項，甚至生成戰爭規劃草案。這讓 Anthropic 與美國國防部的衝突，從原則之爭變成更實際的使用邊界問題。",
+      "source": "WIRED / blogwatcher RSS + web_fetch + web_search",
+      "sourceUrl": "https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/"
+    },
+    {
+      "title": "Meta 延後 Avocado 模型，且傳出討論暫時授權 Google Gemini",
+      "takeaway": "**連最敢砸錢的大平台，也不保證能順利追上前沿模型節奏。**",
+      "summary": "Reuters 系列轉載 3/13 指出，Meta 代號 Avocado 的新模型至少延到 5 月，原因是表現未達預期；報導並稱 Meta AI 團隊曾討論短期導入 Google Gemini 來支撐部分產品。這比單純延期更重要，因為它透露模型競爭已開始碰到『自研不夠快就先借別人的』現實壓力。",
+      "source": "Gemini web_search + Reuters/The Hindu",
+      "sourceUrl": "https://www.thehindu.com/sci-tech/technology/meta-delays-rollout-of-new-ai-model-code-named-avocado-report/article70737906.ece"
+    },
+    {
+      "title": "Anthropic 推出 Claude Partner Network，先投入 1 億美元擴大企業導入",
+      "takeaway": "**Anthropic 現在不只賣模型，也開始補齊企業落地的通路與服務層。**",
+      "summary": "Anthropic 3/13 推出 Claude Partner Network，承諾 2026 年先投入 1 億美元，用於訓練、技術支援與共同市場拓展，並計畫把 partner-facing 團隊擴到原本五倍。這顯示前沿模型公司競爭焦點，正從能力跑分往『誰更容易被企業真正導入』移動。",
+      "source": "Gemini web_search + Reuters/The Hindu",
+      "sourceUrl": "https://www.thehindu.com/sci-tech/technology/anthropic-invests-100-million-into-claude-ai-programme/article70737917.ece"
+    },
+    {
+      "title": "Experian 與 OpenAI 把英國信用分數工具放進 ChatGPT",
+      "takeaway": "**ChatGPT 正從通用問答入口，往受監管資料服務的分發層延伸。**",
+      "summary": "Experian 3/13 宣布在 ChatGPT 內推出英國首個信用分數 app，使用者可透過 @Experian UK 查詢依郵遞區號與年齡層聚合、匿名化後的信用分數比較。這類合作代表 AI app 生態開始往金融資訊這種更高信任門檻場景滲透。",
+      "source": "Gemini web_search + Experian press release",
+      "sourceUrl": "https://www.experianplc.com/newsroom/press-releases/2026/experian-and-openai-launch-the-uk-s-first-credit-score-app-in-ch0"
+    },
+    {
+      "title": "Synopsys 把 AI-powered EDA 與整合後的 Ansys 工具一起推上台面",
+      "takeaway": "**AI 晶片競賽的下一段，會越來越看設計工具鏈能不能一起提速。**",
+      "summary": "3/13 的 Synopsys Converge 後續消息顯示，Synopsys 正把 AI-powered EDA、AgentEngineer 工作流與整合後的 Ansys 多物理模擬工具捆在一起推出，瞄準 AI 硬體與多晶粒系統的複雜設計需求。這不是單一功能更新，而是整條工程鏈加速。",
+      "source": "blogwatcher RSS + Gemini web_search",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/synopsys-launches-ai-powered-eda-solutions-including-first-integrated-ansys-tools-since-acquisition/"
+    }
+  ]
+}
