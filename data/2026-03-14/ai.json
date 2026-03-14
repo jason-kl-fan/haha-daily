@@ -1,0 +1,69 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "date": "2026-03-14",
+  "count": 8,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select 8 distinct items -> write ai.json only.",
+    "dedupe": "Skipped overlap and kept broad, distinct AI company/product/policy developments."
+  },
+  "items": [
+    {
+      "title": "Google 推出 Earth AI，主打疾病爆發預測",
+      "takeaway": "**Google 把 AI 從通用助手往公共衛生決策工具延伸。**",
+      "summary": "Google 發表 Earth AI，利用衛星影像與環境資料來預測疾病爆發，主打公共衛生應用。這代表大型 AI 平台競爭不只在聊天機器人，也在更具體的真實世界場景落地。",
+      "source": "Google Blog / Gemini web_search",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/"
+    },
+    {
+      "title": "Anthropic 啟動 Claude Partner Network，先投入 1 億美元",
+      "takeaway": "**Anthropic 正加速把 Claude 往企業導入通路推進。**",
+      "summary": "Anthropic 宣布 Claude Partner Network，並承諾先投入 1 億美元擴大合作夥伴生態。重點不是單純賣模型，而是補齊企業部署、支援與商務落地能力。",
+      "source": "Forbes / Gemini web_search",
+      "sourceUrl": "https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work/"
+    },
+    {
+      "title": "Meta 傳出延後 Avocado 模型，並評估導入 Gemini 支撐部分產品",
+      "takeaway": "**自研模型進度壓力，已逼大型平台考慮暫時借力競品。**",
+      "summary": "多家媒體報導 Meta 新一代 AI 模型 Avocado 上線延後，內部也討論過是否短期引入 Google Gemini 支援部分產品。這顯示前沿模型競賽已從單純比能力，走向比交付速度與產品韌性。",
+      "source": "PYMNTS / Gemini web_search",
+      "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/"
+    },
+    {
+      "title": "美國商務部撤回 AI 晶片出口許可草案",
+      "takeaway": "**AI 供應鏈監管仍在拉扯，晶片出口政策暫時鬆了一口氣。**",
+      "summary": "美國商務部撤回一項原本要求全球 AI 晶片出口許可的草案。對晶片、雲端與模型公司來說，這是重要政策訊號，因為出口審查節奏會直接影響 AI 基礎設施擴張。",
+      "source": "Business Standard / Gemini web_search",
+      "sourceUrl": "https://www.business-standard.com/world-news/us-withdraws-draft-rule-that-called-for-permits-for-global-ai-chip-exports-126031400109_1.html"
+    },
+    {
+      "title": "Panasonic 全球推出 AI 視覺檢測平台授權方案",
+      "takeaway": "**AI 應用持續往工業檢測與現場作業場景滲透。**",
+      "summary": "Panasonic 宣布其 AI Platform for Visual Inspection 開始全球授權，瞄準基礎建設、施工品質與工廠安全檢測。這類消息雖然不如大模型吸睛，但更接近企業可直接採用的 AI 生產力工具。",
+      "source": "Panasonic / Gemini web_search",
+      "sourceUrl": "https://news.panasonic.com/global/press/en260313-2"
+    },
+    {
+      "title": "OpenAI 收購 Promptfoo，補強企業 AI 安全與評測能力",
+      "takeaway": "**OpenAI 開始補強企業導入 AI agent 時最缺的安全與評測層。**",
+      "summary": "根據近 24 小時報導，OpenAI 收購 AI 安全與評測新創 Promptfoo，預計把相關技術整合進企業 agent 平台。這顯示 AI 競爭不再只有模型本體，也開始拼治理、測試與部署可靠度。",
+      "source": "TechInformed / Gemini web_search",
+      "sourceUrl": "https://techinformed.com/openai-moves-to-bring-promptfoo-into-frontier/"
+    },
+    {
+      "title": "Databricks 推出 Genie Code，讓資料團隊用 agent 協助開發與除錯",
+      "takeaway": "**資料平台正把 AI agent 直接嵌進日常工程工作流。**",
+      "summary": "Databricks 發表 Genie Code，讓資料團隊可用 agent 幫忙設計 pipeline、除錯失敗流程與建立儀表板。這類產品動向說明企業 AI 已從聊天介面往更實際的開發與營運工具前進。",
+      "source": "Solutions Review / Gemini web_search",
+      "sourceUrl": "https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-march-13-updates-from-databricks-alteryx-thoughtspot-more/"
+    },
+    {
+      "title": "Yann LeCun 新創 AMI Labs 傳出募得逾 10 億美元種子輪",
+      "takeaway": "**市場仍願意重押不走傳統 LLM 路線的下一代 AI 架構。**",
+      "summary": "AMI Labs 據報完成約 10.3 億美元種子輪，主打 world models，而非傳統大型語言模型。這筆超大規模早期資金代表資本市場仍在下注『後 LLM 時代』的 AI 方向，尤其是機器人與真實世界理解。",
+      "source": "Crunchbase News / Gemini web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/"
+    }
+  ]
+}
