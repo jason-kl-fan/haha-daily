@@ -1,0 +1,55 @@
+{
+  "slug": "security",
+  "name": "Security",
+  "date": "2026-03-14",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select distinct security items -> write JSON first.",
+    "dedupe": "Kept major strategic updates, critical Zero-days, and high-impact enterprise breaches."
+  },
+  "items": [
+    {
+      "title": "白宮發佈《美國 2026 網路戰略》，強化攻擊性行動與基建防禦",
+      "takeaway": "**美國網路防禦正從「被動守備」轉向更主動的「威懾與打擊」。**",
+      "summary": "白宮正式發佈 2026 年度網路戰略，主軸包含強化關鍵基礎設施保護、提升技術領先地位，並明確強調將運用「攻擊性網路行動」來應對威脅。這代表國家級網路對抗將進入更主動、更具攻擊性的階段。",
+      "source": "White House / Gemini web_search",
+      "sourceUrl": "https://www.fmglaw.com/cyber-privacy-security/white-house-unveils-2026-cyber-strategy/"
+    },
+    {
+      "title": "醫療技術巨頭 Stryker 疑遭伊朗駭客攻擊，系統運作大範圍受阻",
+      "takeaway": "**地緣政治緊張正直接外溢，醫療供應鏈成為高度脆弱的攻擊目標。**",
+      "summary": "醫療設備商 Stryker Corp. 傳出遭與伊朗有關的駭客組織 Handala 攻擊，據報有 50TB 資料遭外洩，且部分企業裝置遭遠端抹除。事件顯示，駭客正利用現成的端點管理工具（如 Microsoft Intune）進行破壞，而非傳統惡意程式，防禦難度更高。",
+      "source": "SecurityWeek / Industrial Cyber / Gemini web_search",
+      "sourceUrl": "https://www.securityweek.com/iran-linked-hacker-attack-on-stryker-disrupted-manufacturing-and-shipping/"
+    },
+    {
+      "title": "Google Chrome 發佈緊急更新，修補兩個已在野外遭利用的 0-day",
+      "takeaway": "**瀏覽器仍是企業內部最容易被「一鍵攻破」的關鍵入口。**",
+      "summary": "Google 緊急修補 Chrome 146 版中兩個高風險零時差漏洞（CVE-2026-3909、CVE-2026-3910），分別涉及圖像庫記憶體損壞與 JavaScript 引擎缺陷。這兩個漏洞均已證實遭實際利用，建議所有企業用戶立刻更新。",
+      "source": "Forbes / SecurityWeek / Gemini web_search",
+      "sourceUrl": "https://www.securityweek.com/chrome-146-update-patches-two-exploited-zero-days/"
+    },
+    {
+      "title": "Microsoft 3 月 Patch Tuesday 修補 79 個漏洞，含 SQL Server 權限提升",
+      "takeaway": "**SQL Server 與 .NET 基礎層的修補，往往是企業內部防禦最容易遺漏的一環。**",
+      "summary": "微軟本月例行修補處理了 79 個漏洞，重點包含 SQL Server 權限提升（CVE-2026-21262）與 .NET 拒絕服務漏洞。雖然目前尚未傳出大規模利用，但對維持企業後端資料庫穩定與權限管控至關重要。",
+      "source": "Cyber Press / Gemini web_search",
+      "sourceUrl": "https://cyberpress.org/microsoft-patch-79-vulnerabilities/"
+    },
+    {
+      "title": "LockBit5 勒索軟體組織攻擊泰國橡膠大廠 Thai Hua Rubber",
+      "takeaway": "**即便經歷多次執法掃蕩，LockBit 變體仍持續鎖定全球製造業供應鏈。**",
+      "summary": "泰國主要天然橡膠生產商 Thai Hua Rubber 傳出遭 LockBit5 攻擊，駭客威脅若不交贖金將公開敏感數據。這再次證明製造業基礎設施在勒索軟體面前的曝險程度，特別是具備全球出口影響力的供應鏈企業。",
+      "source": "Dexpose / Gemini web_search",
+      "sourceUrl": "https://www.dexpose.io/lockbit5-strikes-thai-hua-rubber-public-company-limited/"
+    },
+    {
+      "title": "Nametag 與 Persona 推出生物辨識驗證方案，防範 AI 深偽詐騙",
+      "takeaway": "**當傳統驗證已無法分辨「真假員工」，硬體式生物辨識將成為身份防禦的核心。**",
+      "summary": "因應 AI 生成式深偽（Deepfake）技術日益成熟，Nametag 等公司正推出結合生物辨識的身份驗證工具，鎖定遠端入職與敏感系統存取流程。這類工具試圖在 AI 欺詐盛行的環境下，重建「人與系統」之間的基礎信任層。",
+      "source": "Biometric Update / Gemini web_search",
+      "sourceUrl": "https://www.biometricupdate.com/202603/biometric-idv-helps-secure-enterprise-identity-workflow"
+    }
+  ]
+}
