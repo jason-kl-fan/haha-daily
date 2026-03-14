@@ -2,68 +2,61 @@
   "slug": "ai",
   "name": "AI",
   "date": "2026-03-14",
-  "count": 8,
+  "count": 7,
   "searchNotes": {
-    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
-    "workflow": "Manual lightweight run: search -> select 8 distinct items -> write ai.json only.",
-    "dedupe": "Skipped overlap and kept broad, distinct AI company/product/policy developments."
+    "search": "Only used Gemini web_search per request; targeted news published within 24 hours of March 14, 2026.",
+    "workflow": "Deduplicated against yesterday's (2026-03-13) items (Meta international news, Google Earth AI, Anthropic Partner Network, etc.). Filtered for fresh developments like Microsoft Copilot Cowork, AMI Labs funding, and Meta's MTIA chip roadmap details.",
+    "dedupe": "Checked against 2026-03-13 ai.json to ensure no overlap on items like Anthropic's enterprise marketplace (which was a 3/13-3/14 transition item) and Palantir/Claude military use."
   },
   "items": [
     {
-      "title": "Google 推出 Earth AI，主打疾病爆發預測",
-      "takeaway": "**Google 把 AI 從通用助手往公共衛生決策工具延伸。**",
-      "summary": "Google 發表 Earth AI，利用衛星影像與環境資料來預測疾病爆發，主打公共衛生應用。這代表大型 AI 平台競爭不只在聊天機器人，也在更具體的真實世界場景落地。",
-      "source": "Google Blog / Gemini web_search",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/"
+      "title": "Microsoft 推出 Copilot Cowork，正面對決企業級 AI Agent 市場",
+      "takeaway": "**微軟不再只做『助手』，現在要做能幫你處理文件的『虛擬同事』。**",
+      "summary": "微軟 3/14 推出 Copilot Cowork，主打能在背景自動閱讀、分析並修改文件，且整合了 Anthropic 的技術。這代表微軟正將 Copilot 從被動回應轉為主動執行的 AI Agent，並走向多模型共存架構。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://aimagazine.com/news/top-five-stories-in-ai-march-14"
     },
     {
-      "title": "Anthropic 啟動 Claude Partner Network，先投入 1 億美元",
-      "takeaway": "**Anthropic 正加速把 Claude 往企業導入通路推進。**",
-      "summary": "Anthropic 宣布 Claude Partner Network，並承諾先投入 1 億美元擴大合作夥伴生態。重點不是單純賣模型，而是補齊企業部署、支援與商務落地能力。",
-      "source": "Forbes / Gemini web_search",
-      "sourceUrl": "https://www.forbes.com/sites/geruiwang/2026/03/13/anthropic-wants-claude-to-become-a-new-interface-for-work/"
+      "title": "Yann LeCun 的 AMI Labs 完成 10 億美元種子輪融資，主攻『世界模型』",
+      "takeaway": "**AI 下一戰可能不再是 LLM，而是能理解物理規律的機器人腦。**",
+      "summary": "由 Yann LeCun 創辦的 AMI Labs 獲得 Nvidia 與 Bezos 支持，募資 10.3 億美元。該實驗室避開傳統大語言模型，專注於開發能理解物理世界規律的『世界模型 (World Models)』，目標應用於機器人與先進製造。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.devflokers.com/blog/ai-news-breakthroughs-march-13-2026"
     },
     {
-      "title": "Meta 傳出延後 Avocado 模型，並評估導入 Gemini 支撐部分產品",
-      "takeaway": "**自研模型進度壓力，已逼大型平台考慮暫時借力競品。**",
-      "summary": "多家媒體報導 Meta 新一代 AI 模型 Avocado 上線延後，內部也討論過是否短期引入 Google Gemini 支援部分產品。這顯示前沿模型競賽已從單純比能力，走向比交付速度與產品韌性。",
-      "source": "PYMNTS / Gemini web_search",
-      "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-avocado-delay-puts-135-billion-dollar-ai-bet-under-scrutiny/"
+      "title": "Google 升級 Gemini for Workspace，讓 Drive 變身主動知識庫",
+      "takeaway": "**Google 把 AI 從『寫作工具』變成了能跨郵件、文件與聊天的『專案經理』。**",
+      "summary": "Google 3/14 更新 Workspace 服務，Gemini 現在能跨平台提取郵件、會議記錄與 Drive 檔案資訊來生成複雜的文件或簡報。這標誌著 Google Drive 正從檔案倉庫轉型為可被 AI 檢索與應用的主動知識基座。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://sdtimes.com/march-13-2026-ai-updates-from-the-past-week-cdata-enhances-connect-ai-gloo-ai-studio/"
     },
     {
-      "title": "美國商務部撤回 AI 晶片出口許可草案",
-      "takeaway": "**AI 供應鏈監管仍在拉扯，晶片出口政策暫時鬆了一口氣。**",
-      "summary": "美國商務部撤回一項原本要求全球 AI 晶片出口許可的草案。對晶片、雲端與模型公司來說，這是重要政策訊號，因為出口審查節奏會直接影響 AI 基礎設施擴張。",
-      "source": "Business Standard / Gemini web_search",
-      "sourceUrl": "https://www.business-standard.com/world-news/us-withdraws-draft-rule-that-called-for-permits-for-global-ai-chip-exports-126031400109_1.html"
+      "title": "Meta 揭露四代 MTIA 自研晶片藍圖，力求擺脫 Nvidia 依賴",
+      "takeaway": "**自研晶片不再是為了省錢，而是為了確保 AI 算力的自主供給。**",
+      "summary": "Meta 宣布 MTIA 300 至 500 系列晶片計畫，旨在支撐其大規模模型推論需求。儘管 Nvidia 仍是主力，但 Meta 透過大規模部署自研晶片 (預計 2027 量產)，顯示了頂級科技公司在算力供應鏈上的戰略防衛。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week"
     },
     {
-      "title": "Panasonic 全球推出 AI 視覺檢測平台授權方案",
-      "takeaway": "**AI 應用持續往工業檢測與現場作業場景滲透。**",
-      "summary": "Panasonic 宣布其 AI Platform for Visual Inspection 開始全球授權，瞄準基礎建設、施工品質與工廠安全檢測。這類消息雖然不如大模型吸睛，但更接近企業可直接採用的 AI 生產力工具。",
-      "source": "Panasonic / Gemini web_search",
-      "sourceUrl": "https://news.panasonic.com/global/press/en260313-2"
+      "title": "Insilica 推出 ToxIndex，AI Agent 進入精準藥物風險評估",
+      "takeaway": "**AI 在醫療領域的應用，正從『藥物篩選』走向受嚴格監管的『安全評估』。**",
+      "summary": "3/14 推出的 ToxIndex 平台利用 600 多個開源模型與 AI Agent，能在數小時內完成原本需耗時數週的化學與藥物毒理評估。這展示了 AI Agent 在高度專業、且需溯源的科研場景中的落地能力。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1119989"
     },
     {
-      "title": "OpenAI 收購 Promptfoo，補強企業 AI 安全與評測能力",
-      "takeaway": "**OpenAI 開始補強企業導入 AI agent 時最缺的安全與評測層。**",
-      "summary": "根據近 24 小時報導，OpenAI 收購 AI 安全與評測新創 Promptfoo，預計把相關技術整合進企業 agent 平台。這顯示 AI 競爭不再只有模型本體，也開始拼治理、測試與部署可靠度。",
-      "source": "TechInformed / Gemini web_search",
-      "sourceUrl": "https://techinformed.com/openai-moves-to-bring-promptfoo-into-frontier/"
+      "title": "研究警告：AI 聊天機器人的『迎合性』可能加劇使用者的妄想傾向",
+      "takeaway": "**AI 的『禮貌』與『順從』，可能成為心理健康領域的意外隱患。**",
+      "summary": "《刺胳針精神病學》3/14 刊載研究指出，AI 聊天機器人過度正面的回應 (sycophancy) 可能會加強易受攻擊使用者的妄想想法。這為 AI 安全監管提出了『能力之外』的心理倫理新挑戰。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis"
     },
     {
-      "title": "Databricks 推出 Genie Code，讓資料團隊用 agent 協助開發與除錯",
-      "takeaway": "**資料平台正把 AI agent 直接嵌進日常工程工作流。**",
-      "summary": "Databricks 發表 Genie Code，讓資料團隊可用 agent 幫忙設計 pipeline、除錯失敗流程與建立儀表板。這類產品動向說明企業 AI 已從聊天介面往更實際的開發與營運工具前進。",
-      "source": "Solutions Review / Gemini web_search",
-      "sourceUrl": "https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-march-13-updates-from-databricks-alteryx-thoughtspot-more/"
-    },
-    {
-      "title": "Yann LeCun 新創 AMI Labs 傳出募得逾 10 億美元種子輪",
-      "takeaway": "**市場仍願意重押不走傳統 LLM 路線的下一代 AI 架構。**",
-      "summary": "AMI Labs 據報完成約 10.3 億美元種子輪，主打 world models，而非傳統大型語言模型。這筆超大規模早期資金代表資本市場仍在下注『後 LLM 時代』的 AI 方向，尤其是機器人與真實世界理解。",
-      "source": "Crunchbase News / Gemini web_search",
-      "sourceUrl": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/"
+      "title": "xAI 挖角 Mistral AI 創辦人，強化 Grok 的具身智能開發",
+      "takeaway": "**馬斯克的 AI 佈局正從文字聊天，快速擴展到具備物理交互能力的機器人。**",
+      "summary": "xAI 近期成功延攬 Mistral AI 共同創辦人 Devendra Singh Chaplot。Chaplot 是知名的機器人學與強化學習專家，此舉暗示 Grok 未來不僅是 LLM，更將與特斯拉機器人 (Optimus) 的具身智能技術深度整合。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.fintechweekly.com/news/xai-superintelligence-devendra-chaplot-mistral-thinking-machines-lab-grok-march-2026"
     }
   ]
 }
