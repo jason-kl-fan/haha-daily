@@ -1,0 +1,55 @@
+{
+  "slug": "cooling",
+  "name": "Cooling",
+  "date": "2026-03-14",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select distinct cooling items -> write JSON first.",
+    "dedupe": "Kept data-center and infrastructure-relevant cooling developments, with one broader policy/resource item only where it clearly affected cooling operations."
+  },
+  "items": [
+    {
+      "title": "Endress+Hauser 推出 Picomag 液冷專用版本，瞄準資料中心冷卻系統",
+      "takeaway": "**液冷基建開始往更細的量測與控制元件標準化。**",
+      "summary": "Endress+Hauser 為美國市場推出 OEM 配置的 Picomag 流量計版本，特別鎖定資料中心液冷應用，能量測流量、溫度與導電度。這類產品雖然低調，但其實很關鍵，因為液冷一旦變成大規模部署，感測與監控精度就是穩定性的基礎。",
+      "source": "AZoM / Gemini web_search",
+      "sourceUrl": "https://www.azom.com/news.aspx?newsID=65268"
+    },
+    {
+      "title": "Frore Systems 發表 LiquidJet Nexus，主打 1/2U AI 伺服器整體液冷堆疊",
+      "takeaway": "**AI 伺服器散熱不再只是冷板，而是整套 thermal stack 設計。**",
+      "summary": "Frore Systems 推出 LiquidJet Nexus，主打直接冷卻 GPU、CPU、DPU 與 NIC，並強調更高熱傳效率與更輕的整體結構。這代表高密度 AI 伺服器的散熱競賽，已經走到整機設計與系統工程層級。",
+      "source": "PR Newswire / Gemini web_search",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/frore-systems-introduces-liquidjet-nexus---defining-the-ai-thermal-stack-for-next-generation--u-ai-server-systems-like-nvidia-kyber-302713164.html"
+    },
+    {
+      "title": "Refroid 與 Technavious 在印度合作，推動 AI 資料中心液冷基建",
+      "takeaway": "**液冷落地不只靠產品，還要靠設計、驗證與交付整合。**",
+      "summary": "Refroid 與 Technavious 宣布合作，想把 AI-ready data center 的液冷基建從設計一路做進驗證與交付流程。重點不是單賣液冷零件，而是把 hyperscale 與 edge 場景需要的工程能力一起包成可落地方案。",
+      "source": "PR Newswire / Gemini web_search",
+      "sourceUrl": "https://www.prnewswire.com/in/news-releases/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres-302713016.html"
+    },
+    {
+      "title": "Eaton 完成收購 Boyd Thermal，強化資料中心 grid-to-chip 冷卻能力",
+      "takeaway": "**電力與散熱供應鏈正在整併，資料中心客戶更想買一整套方案。**",
+      "summary": "Eaton 完成收購 Boyd Thermal，把液冷能力補進自己的資料中心產品組合。這筆交易反映 AI 基建採購正在從單點元件轉向端到端方案，從配電一路延伸到 chip-level thermal management。",
+      "source": "Business Wire / Gemini web_search",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260313093480/en/Eaton-Completes-Acquisition-of-Leading-Liquid-Cooling-Solutions-Provider-Boyd-Thermal"
+    },
+    {
+      "title": "Compal 預告在 GTC 2026 展示整合式 rack-level AI 基建與液冷架構",
+      "takeaway": "**AI 機櫃競爭已經變成 compute、power、cooling 一起賣。**",
+      "summary": "Compal 預告在 GTC 2026 展示 One Integrated Solution，主打把高密度運算、供電與液冷整合成 rack-level AI 基建架構。這種展示重點不是單一零件，而是整櫃式部署怎麼更快被客戶採用。",
+      "source": "PR Newswire Asia / Gemini web_search",
+      "sourceUrl": "https://www.prnasia.com/story/536847-0.shtml"
+    },
+    {
+      "title": "美國新聯邦政策討論把油田廢水再利用於資料中心冷卻",
+      "takeaway": "**AI 機房的 cooling 議題，正從技術問題變成資源與政策問題。**",
+      "summary": "最新政策討論指出，美國可能鼓勵把 produced water 再利用於資料中心冷卻，以舒緩缺水地區的水資源壓力。這顯示 AI 資料中心的冷卻挑戰，已經不只是在機房內部，而是牽動整體水資源與法規配置。",
+      "source": "Shumaker / Gemini web_search",
+      "sourceUrl": "https://www.shumaker.com/insight/client-alert-new-federal-policy-could-unlock-alternative-water-supplies-for-data-centers/"
+    }
+  ]
+}
