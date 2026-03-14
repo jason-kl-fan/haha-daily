@@ -1,0 +1,55 @@
+{
+  "slug": "semiconductor",
+  "name": "Semiconductor",
+  "date": "2026-03-14",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select distinct semiconductor items -> write JSON first.",
+    "dedupe": "Kept foundry, advanced packaging, EDA, and AI chip manufacturing items with clear industry signal."
+  },
+  "items": [
+    {
+      "title": "TSMC 全球晶圓代工市占逼近七成，AI 需求繼續拉大領先幅度",
+      "takeaway": "**AI 熱潮不只推升出貨，也正在重畫晶圓代工版圖。**",
+      "summary": "最新報導指出，TSMC 在 2025 年全球晶圓代工市場占比已逼近 70%，主因正是 AI 晶片需求爆發。這代表先進製程與 AI 客戶綁定效應還在持續擴大，短期內其他代工廠要縮小差距會更難。",
+      "source": "Focus Taiwan / Gemini web_search",
+      "sourceUrl": "https://focustaiwan.tw/business/202603130009"
+    },
+    {
+      "title": "Micron 推進收購 PSMC Tongluo P5 廠，朝 DRAM 與先進封裝擴產",
+      "takeaway": "**記憶體大廠的下一步，不只是擴產，更是在搶先進封裝能力。**",
+      "summary": "TrendForce 指出 Micron 正推進收購 PSMC 的 Tongluo P5 廠，並排定 3 月底進行設備進場。這不只是在補 DRAM 產能，更是在為 AI 時代需要的先進記憶體與封裝能力做準備。",
+      "source": "TrendForce / Gemini web_search",
+      "sourceUrl": "https://www.trendforce.com/news/2026/03/13/news-micron-reportedly-schedules-march-26-tool-move-in-at-psmc-tongluo-fab-signaling-next-deal-phase/"
+    },
+    {
+      "title": "IBM 與 Lam Research 合作推進 sub-1nm 邏輯製程材料與流程",
+      "takeaway": "**1 奈米以下競賽，材料與設備協同開發會變得比單純縮線寬更重要。**",
+      "summary": "IBM 與 Lam Research 宣布合作，鎖定 sub-1nm 邏輯製程所需的新材料與新流程。這代表先進製程競爭已經不只是晶片設計或單一設備升級，而是更緊密的跨公司研發聯盟。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.semiconductorpackagingnews.com/"
+    },
+    {
+      "title": "ASE 在高雄新建 AI / HPC 封裝測試廠，強化高階封裝產能",
+      "takeaway": "**AI 晶片競賽的下一段，會越來越看誰能吃下高階封裝與測試需求。**",
+      "summary": "ASE 在台灣高雄新建高階 AI 與 HPC 封裝測試設施，投資規模約 5.4 億美元。這類投資說明，封裝與測試早就不再是後段配角，而是 AI 晶片供應鏈最容易卡脖子的關鍵環節之一。",
+      "source": "Gemini web_search",
+      "sourceUrl": "https://www.asiatechlens.com/p/the-wrap-7-13-march-2026-midea-china-openclaw-chip-ase-sapiens-china-singapore-tech-asia"
+    },
+    {
+      "title": "Innolux 推出 Fan-Out Panel Level Packaging，新封裝路線瞄準更高密度與更低成本",
+      "takeaway": "**先進封裝戰場已經從圓晶圓走向大尺寸面板，成本曲線可能被重新改寫。**",
+      "summary": "Innolux 發表 Fan-Out Panel Level Packaging 技術，試圖用面板取代傳統圓形晶圓載體，改善連接密度、傳輸速度與成本效率。若順利擴產，這會對先進封裝供應鏈帶來很大影響。",
+      "source": "Taiwan News / Gemini web_search",
+      "sourceUrl": "https://www.taiwannews.com.tw/news/6320066"
+    },
+    {
+      "title": "Synopsys 在 Converge 2026 強推 AI 驅動的 silicon-to-systems 設計平台",
+      "takeaway": "**EDA 競爭已經從單點工具，走向整條設計鏈加上多物理模擬的整合平台。**",
+      "summary": "Synopsys 在 Converge 2026 進一步展示收購 Ansys 後的『New Synopsys』願景，主打 AI-enabled silicon-to-systems 設計流程，包含多物理整合與 AgentEngineer。這反映 EDA 正在進入更高階的設計協同時代。",
+      "source": "Futurum / Gemini web_search",
+      "sourceUrl": "https://futurumgroup.com/insights/synopsys-converge-is-the-new-synopsys-ready-to-own-multi-physics-design/"
+    }
+  ]
+}
