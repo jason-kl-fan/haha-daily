@@ -1,56 +1,61 @@
-<!doctype html>
-<html lang="zh-Hant">
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>哈哈狗報｜Cooling</title>
-  <style>
-:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
-*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
-a{color:var(--accent);text-decoration:none} strong{font-weight:800}
-.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
-.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
-h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
-p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
-.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
-.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
-.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
-.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
-.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
-.footer{font-size:.95rem;color:var(--muted)}
-@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哈哈狗報 - Cooling 技術專刊 (2026-03-14)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
+        .news-item { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .news-title { font-weight: bold; font-size: 1.1em; color: #222; text-decoration: none; display: block; margin-bottom: 5px; }
+        .news-summary { font-size: 0.95em; color: #555; }
+        .news-date { font-size: 0.8em; color: #999; margin-top: 5px; }
+        footer { text-align: center; margin-top: 30px; font-size: 0.8em; color: #777; }
+    </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="card">
-      <div class="kicker"><span class="pill"><a href="../">← 回首頁</a></span></div>
-      <h1>Cooling</h1>
-      <p>資料中心液冷、熱管理與有意義的 PC 散熱動態。</p>
-      <p class="muted">主題歷史頁：目前先保留最新一期與入口，後續會持續累積。</p>
-    </section>
-    <section class="card">
-      <h2>最新一期</h2>
-      <p><a href="../2026-03-10/cooling/"><strong>2026 年 3 月 10 日</strong> · Cooling 專頁 →</a></p>
-      <article class="story">
-      <h3>Vertiv 與 Generate Capital 推出資料中心『電力 + 冷卻』打包方案</h3>
-      <p><strong>AI 機房競爭已從伺服器延伸到整套電力與散熱交付能力。</strong></p>
-      <p class="small">Vertiv 與資本方合作，意味大型客戶要的不只是設備，而是更快落地的整包供電與冷卻能力。</p>
-      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/vertiv-generate-capital-team-up-on-bring-your-own-power-cooling-offering-for-data-centers/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Trane 收購 LiquidStack，切入 AI 資料中心液冷</h3>
-      <p><strong>傳統 HVAC 大廠正在正面押注液冷。</strong></p>
-      <p class="small">Trane 直接收購 LiquidStack，顯示液冷已經不是周邊選項，而是會被併入大型熱管理公司主戰略的核心能力。</p>
-      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/trane-acquires-cooling-firm-liquidstack/">原文連結</a></p>
-    </article><article class="story">
-      <h3>Submer 與印度 Anant Raj 合作推進 immersion cooling 資料中心</h3>
-      <p><strong>液冷與浸沒式方案開始往新興市場複製。</strong></p>
-      <p class="small">印度資料中心建設加速下，Submer 這類玩家正把浸沒式冷卻從概念驗證推向區域級部署。</p>
-      <p class="source">來源：<strong>Data Center Dynamics</strong> · <a href="https://www.datacenterdynamics.com/en/news/immersion-cooling-firm-submer-partners-with-indian-real-estate-developer-anant-raj-for-data-center-venture/">原文連結</a></p>
-    </article>
-    </section>
-    </main>
-  <script src="../assets/saved.js"></script>
+    <h1>🐶 哈哈狗報 - Cooling</h1>
+    <p>日期：2026-03-14</p>
+    
+    <div class="news-item">
+        <a class="news-title" href="https://www.techpowerup.com/347352/frore-systems-introduces-liquidjet-nexus-defining-the-ai-thermal-stack-for-next-generation-1-2-u-ai-server-systems-like-nvidia-kyber" target="_blank">Frore Systems 發表 LiquidJet Nexus 液冷系統</a>
+        <div class="news-summary">專為 1/2 U AI 伺服器設計，散熱效率提升 75%，可使機架運算密度翻倍並減少 10% 能耗。</div>
+        <div class="news-date">2026-03-13</div>
+    </div>
+
+    <div class="news-item">
+        <a class="news-title" href="https://en.antaranews.com/news/408482/trane-launches-hsag-air-cooled-magnetic-bearing-chiller-to-drive-asia-pacific-data-center-growth" target="_blank">Trane 推出亞太市場專用 HSAG 磁懸浮離心式冰水機</a>
+        <div class="news-summary">結合無油磁懸浮技術與低 GWP 冷媒，為超大規模與託管資料中心提供領先的高效節能方案。</div>
+        <div class="news-date">2026-03-14</div>
+    </div>
+
+    <div class="news-item">
+        <a class="news-title" href="https://www.ptinews.com/press-release/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres/3462026" target="_blank">Refroid 與 Technavious 合作建構印度 AI 液冷基礎設施</a>
+        <div class="news-summary">雙方達成戰略聯盟，推出自給式液冷吊艙（Pods），解決新一代處理器超過 500W TDP 的熱極限問題。</div>
+        <div class="news-date">2026-03-13</div>
+    </div>
+
+    <div class="news-item">
+        <a class="news-title" href="https://www.datacenterknowledge.com/build-design/ntt-data-lands-115-mw-in-us-data-center-deals-as-part-of-10b-ai-push" target="_blank">NTT Data 擴展全球 AI 基礎設施以支援液冷部署</a>
+        <div class="news-summary">簽署 115 MW 資料中心協議，採用靈活設計支援高密度運算集群，隨時適配空氣與液體冷卻切換。</div>
+        <div class="news-date">2026-03-13</div>
+    </div>
+
+    <div class="news-item">
+        <a class="news-title" href="https://www.miragenews.com/rice-unveils-affordable-high-performance-1635382/" target="_blank">萊斯大學開發低成本聚合物換熱器</a>
+        <div class="news-summary">研究顯示新型聚合物換熱器散熱能力是金屬版的 2-4 倍，且具輕巧、耐腐蝕及可伸縮特性。</div>
+        <div class="news-date">2026-03-11</div>
+    </div>
+
+    <div class="news-item">
+        <a class="news-title" href="https://www.mhi.com/news/26031202.html" target="_blank">三菱重工將在北美推出 10MW 級離心式冰水機</a>
+        <div class="news-summary">鎖定下一代 AI 資料中心，強調高效率與節水特性，應對吉瓦級運算規模的熱挑戰。</div>
+        <div class="news-date">2026-03-12</div>
+    </div>
+
+    <footer>
+        <p>© 2026 哈哈狗報 | 生成時間：2026-03-14 09:30 AM</p>
+    </footer>
 </body>
 </html>
