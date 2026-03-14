@@ -1,0 +1,55 @@
+{
+  "slug": "server-hardware-vendors",
+  "name": "Server Hardware Vendors",
+  "date": "2026-03-14",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select distinct server vendor items -> write JSON first.",
+    "dedupe": "Focused on OEM/ODM/server platform vendor moves; avoided overlap with generic storage-server and semiconductor stories."
+  },
+  "items": [
+    {
+      "title": "Dell 傳出 AI 伺服器訂單積壓龐大，並釋出伺服器價格上行訊號",
+      "takeaway": "**AI 伺服器熱潮已經直接反映在整機廠的訂單能見度與定價權上。**",
+      "summary": "市場資訊顯示，Dell 的 AI server backlog 持續擴大，並釋出伺服器硬體價格走升訊號。這說明整機供應商在 AI 建設潮下，不只出貨變多，連報價主導權也在同步增強。",
+      "source": "AI Certs / Gemini web_search",
+      "sourceUrl": "https://www.aicerts.ai/news/dell-signals-rising-server-hardware-pricing-amid-ai-boom/"
+    },
+    {
+      "title": "Dell 推出 PowerEdge XR9700，主打戶外與極端環境部署",
+      "takeaway": "**伺服器廠商開始把 AI 與邊緣部署場景一起納進產品線設計。**",
+      "summary": "Dell 新推 PowerEdge XR9700，瞄準極端天候與戶外邊緣環境，並採液冷設計。這類產品反映整機廠不只是拚資料中心，也在提前卡位 AI edge 與特殊場域部署。",
+      "source": "Investing.com / Gemini web_search",
+      "sourceUrl": "https://www.investing.com/news/company-news/dell-unveils-outdoor-server-for-extreme-weather-deployments-93CH-4524475"
+    },
+    {
+      "title": "HPE 警告記憶體短缺恐拉長，伺服器與儲存價格壓力延續",
+      "takeaway": "**伺服器整機廠現在最頭痛的，不只是賣不賣得掉，而是零組件能不能穩定供貨。**",
+      "summary": "HPE 表示記憶體供應吃緊狀況可能比預期更久，並已調整 server / storage 報價條款。這意味著 OEM 廠商未來幾季的毛利與交期管理，會更受 DRAM / NAND 成本波動牽動。",
+      "source": "Network World / Gemini web_search",
+      "sourceUrl": "https://www.networkworld.com/article/4142928/hpes-server-and-storage-prices-can-change-after-you-place-an-order.html"
+    },
+    {
+      "title": "Lenovo 對夥伴預警 3 月起伺服器價格調漲",
+      "takeaway": "**記憶體缺貨壓力，已經從供應鏈上游一路傳導到品牌伺服器售價。**",
+      "summary": "Lenovo 傳出通知合作夥伴，3 月起將調漲 PC 與 server 產品價格，主因是記憶體與儲存元件成本上升。對企業客戶來說，這代表採購 timing 會變得更重要。",
+      "source": "CRN / Gemini web_search",
+      "sourceUrl": "https://www.crn.com/news/computing/2026/exclusive-lenovo-warns-partners-of-device-price-changes-in-march-amid-memory-crunch"
+    },
+    {
+      "title": "Supermicro 與 BlockchAIn 合作，供應高密度 AI 資料中心運算硬體",
+      "takeaway": "**Supermicro 正在把自己從伺服器供應商，往 AI 基建核心夥伴位置推進。**",
+      "summary": "Supermicro 與 BlockchAIn LLC 合作，為其 end-to-end AI data center 平台供應高密度運算硬體。這不只是一次出貨，而是整機廠更深度參與 AI 基建方案銷售的訊號。",
+      "source": "Market Chameleon / Gemini web_search",
+      "sourceUrl": "https://marketchameleon.com/articles/b/2026/3/11/supermicro-blockchain-collaboration-accelerates-ai-data-center-growth"
+    },
+    {
+      "title": "Wiwynn 擴充 AI 伺服器產能，德州新製造園區投資逾 1.5 億美元",
+      "takeaway": "**ODM 大廠的擴產節奏，正是 AI 伺服器真實需求最直接的晴雨表。**",
+      "summary": "Wiwynn 持續擴充 AI server 產能，並在德州推進新製造園區投資。對市場來說，ODM 廠的實際擴產動作往往比財測更能反映雲端客戶與 ASIC / GPU 伺服器需求的真實強度。",
+      "source": "EIN News / Gemini web_search",
+      "sourceUrl": "https://www.einnews.com/pr_news/899199775/a-one-janitorial-llc-selected-to-service-152-million-866-000-square-foot-ai-server-manufacturing-campus"
+    }
+  ]
+}
