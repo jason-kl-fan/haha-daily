@@ -1,0 +1,55 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-14",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. Prioritized items described as published in the last 24 hours around 2026-03-14.",
+    "workflow": "Manual lightweight run: search -> select distinct startup items -> write JSON first.",
+    "dedupe": "Kept startup-specific funding, launches, acquisitions, and commercialization moves rather than generic market roundups."
+  },
+  "items": [
+    {
+      "title": "AMI Labs 完成 10.3 億美元種子輪，押注 world models",
+      "takeaway": "**資本市場仍願意重押『後 LLM 時代』的新 AI 架構。**",
+      "summary": "由 Yann LeCun 共同創辦的 AMI Labs 完成約 10.3 億美元種子輪，主打 world models。這不只是超大型融資，更代表投資人仍願意下注不走傳統 LLM 路線、但可能更適合機器人與真實世界理解的下一代 AI 架構。",
+      "source": "Crunchbase / Gemini web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/"
+    },
+    {
+      "title": "Nscale 拿下 20 億美元 Series C，AI 基建新創估值衝上 146 億美元",
+      "takeaway": "**AI 熱潮最大的贏家之一，還是那些賣基建而不是賣 app 的公司。**",
+      "summary": "英國 AI infrastructure hyperscaler Nscale 宣布完成 20 億美元 Series C，估值達 146 億美元。這筆超大融資反映市場對 AI 訓練與推論基建的胃口仍很強，尤其是能承接大模型基礎設施需求的新創。",
+      "source": "Crunchbase / Gemini web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/"
+    },
+    {
+      "title": "Motional 的 robotaxi 正式接入 Uber 拉斯維加斯服務",
+      "takeaway": "**自駕新創現在比的不只是技術，而是能不能接上現成流量入口開始真商轉。**",
+      "summary": "Motional 正式把 robotaxi 服務接進 Uber 拉斯維加斯平台，先由有安全員版本上線，之後再走向 fully driverless。對自駕新創來說，這比 demo 更重要，因為它意味著開始真正測試使用者、訂單與營運效率。",
+      "source": "TechBuzz / Gemini web_search",
+      "sourceUrl": "https://www.techbuzz.ai/articles/motional-robotaxis-launch-on-uber-in-vegas-after-comeback"
+    },
+    {
+      "title": "Travis Kalanick 推出新機器人新創 Atoms，吸收自動駕駛與配送資產",
+      "takeaway": "**創業老兵又回來了，而且這次想直接從機器人平台切進現實世界物流。**",
+      "summary": "Uber 共同創辦人 Travis Kalanick 推出新的 robotics venture『Atoms』，據報結合了 City Storage Systems 與 Pronto AI 資產。這類動作顯示，物流與實體世界自動化仍是創投市場願意長期投入的主題。",
+      "source": "SiliconANGLE / Gemini web_search",
+      "sourceUrl": "https://siliconangle.com/2026/03/13/uber-co-founder-travis-kalanick-launches-robotics-venture-atoms/"
+    },
+    {
+      "title": "Spiritt.io 發表 human-assisted AI 平台，想讓創業者不用寫程式也能上線產品",
+      "takeaway": "**AI 創業工具正在從『幫你寫 code』進化成『幫你直接把產品做出來』。**",
+      "summary": "Spiritt.io 宣布推出 human-assisted AI 平台，讓創業者與早期團隊不用自己寫大量程式，也能建立 Android、iOS 與 Web 產品。這種工具若成熟，會直接壓縮 startup 的 MVP 成本與時間。",
+      "source": "AI Journal / Gemini web_search",
+      "sourceUrl": "https://aijourn.com/spiritt-io-announces-launch-of-human-assisted-ai-platform-to-accelerate-startup-launches-without-coding-expertise/"
+    },
+    {
+      "title": "Webflow 收購 AI 新創 Vidoso，要把行銷平台往 agentic 方向推進",
+      "takeaway": "**成熟 SaaS 正透過收購 AI 新創，加速把既有產品改造成 agentic 平台。**",
+      "summary": "Webflow 收購 AI 新創 Vidoso，目標是補強品牌一致內容生成能力，並把行銷套件往 agentic marketing platform 推進。這類併購反映 AI 新創的一大退出路徑，就是成為成熟 SaaS 平台的加速器。",
+      "source": "Startup Researcher / Gemini web_search",
+      "sourceUrl": "https://www.startupresearcher.com/news/webflow-acquires-ai-startup-vidoso-to-enhance-marketing-suite"
+    }
+  ]
+}
