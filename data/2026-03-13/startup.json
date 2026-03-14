@@ -1,0 +1,78 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-13",
+  "count": 8,
+  "searchNotes": {
+    "search": "Used BOTH Gemini web_search and blogwatcher RSS/article sources; prioritized 2026-03-13 items in America/Los_Angeles and only used freshest <24h fallback from 2026-03-12 when same-day qualified startup items were limited.",
+    "rss": "blogwatcher tracked and scanned Crunchbase News, Tech.eu, and TechCrunch Startups feeds; selected only distinct funding / launches / partnerships / M&A items from today first, then newest <24h.",
+    "workflow": "Search first, dedupe second, full text draft saved to JSON third, HTML updated last.",
+    "dedupe": "Excluded yesterday's startup events like Rebar, PLD Space, Airmo, Escape, Qevlar AI, Outpost, Techstars/Global Brain, VAST Data, Legora/Walter, and Samaipata; also checked today's AI, Security, Cooling, and Storage/Server drafts to avoid cross-topic overlap."
+  },
+  "items": [
+    {
+      "title": "Ramp 收購 Billhop，正式把費控戰線推進英國與歐洲",
+      "takeaway": "**美國財務軟體新創的下一步，不只是多賣功能，而是直接買下進入新市場需要的牌照與在地能力。**",
+      "summary": "Ramp 3/13 宣布收購 Billhop，拿下其在英國與瑞典的支付牌照與團隊，並將在倫敦與斯德哥爾摩設首批海外辦公室。這筆交易讓 Ramp 不只是服務美國企業跨境付款，而是準備在今夏直接承接英國與歐盟總部客戶。",
+      "source": "PR Newswire + Tech.eu / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ramp-acquires-billhop-to-expand-access-for-uk-and-european-customers-302712928.html"
+    },
+    {
+      "title": "Energy Aspects 將收購 Kayrros，把衛星與地理空間分析直接併進能源情報產品",
+      "takeaway": "**資料與分析新創一旦走到成熟期，最有價值的退出方式往往不是賣模型，而是賣獨家的觀測能力。**",
+      "summary": "英國能源情報商 Energy Aspects 3/13 同意收購巴黎新創 Kayrros。Kayrros 的衛星監測、地理空間資料與機器學習能力，將被整合進能源市場分析產品，讓『遙測 + 市場情報』變成同一套商業服務。",
+      "source": "Tech.eu / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://tech.eu/2026/03/13/energy-aspects-to-buy-paris-based-kayrros-to-add-satellite-and-geospatial-analytics-capabilities/"
+    },
+    {
+      "title": "Tower 募得 550 萬歐元，要補上 AI 時代資料工程的最後一哩",
+      "takeaway": "**AI app 很會生成，但真正值錢的基建層，還是在把公司自己的資料可靠地接進生產環境。**",
+      "summary": "柏林新創 Tower 3/13 公布完成合計 550 萬歐元的 pre-seed 與 seed 融資，主打把儲存、計算與資料工程工作流整在一起，讓資料團隊與 AI agents 能把生成出來的 pipeline 真正部署到 production。",
+      "source": "Tech.eu / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://tech.eu/2026/03/13/tower-secures-eur55m-to-support-data-engineers-in-the-ai-era/"
+    },
+    {
+      "title": "Motional 機器人計程車正式上架 Uber 拉斯維加斯服務",
+      "takeaway": "**自駕新創現在拚的不是 demo，而是能不能真的掛進既有流量入口開始跑商業服務。**",
+      "summary": "Motional 與 Uber 3/13 在拉斯維加斯啟動 robotaxi 服務，先以有安全員版本上線，並規劃年底前轉向 fully driverless。對 Motional 來說，這不只是產品回歸，也是經歷大重整後重新回到商業化軌道的重要節點。",
+      "source": "TechCrunch + Uber / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://techcrunch.com/2026/03/13/motional-robotaxis-join-the-uber-app-in-vegas-two-years-after-major-reset/"
+    },
+    {
+      "title": "Every 推出 AI-native back-office agents，想把中小企業後台團隊產品化",
+      "takeaway": "**AI 新創越來越常賣的不是單點 copilot，而是一整組可直接接手營運雜務的『虛擬部門』。**",
+      "summary": "Every 3/13 發表面向 startups 與 small businesses 的 AI CFO、AI Bookkeeper 與 AI CHRO 等 back-office agents，把銀行、薪資、福利、HR 合規、會計與稅務整到同一平台上。它賣的是『不用先多請人，也能把行政運轉起來』。",
+      "source": "PR Newswire citation via Gemini web_search + startup RSS research",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/every-launches-ai-native-back-office-agents-for-startups-and-small-business-owners-302713133.html"
+    },
+    {
+      "title": "Sunday 完成 1.65 億美元 B 輪，估值來到 11.5 億美元",
+      "takeaway": "**家用機器人這條線又有人願意砸大錢，前提是市場開始相信模型、資料收集與真實部署終於能接上。**",
+      "summary": "家務機器人新創 Sunday 在最近 24 小時內宣布完成超額認購的 1.65 億美元 B 輪，將 Memo 家用機器人估值推到 11.5 億美元。資金會用於加速 beta 部署，代表『家裡真的會放一台機器人』這件事又往前挪了一格。",
+      "source": "TechCrunch / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/"
+    },
+    {
+      "title": "SkySelect 募得 900 萬美元，要把航空零件採購從人工比價改成 AI 配對",
+      "takeaway": "**真正有價值的產業 AI，不一定最花俏，但只要它能直接減少停機與庫存，就很容易被企業買單。**",
+      "summary": "SkySelect 在最近 24 小時內公布新一輪 900 萬美元資金，用來擴充航空維修零件採購平台的 AI 搜尋與優化能力。它瞄準的不是一般電商，而是每次延誤都很貴的 AOG 場景，這也是它比較容易證明 ROI 的原因。",
+      "source": "Tech.eu / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://tech.eu/2026/03/12/skyselect-raises-9m-to-modernise-aircraft-parts-procurement-with-ai/"
+    },
+    {
+      "title": "Qdrant 完成 5,000 萬美元 B 輪，繼續押注 production-grade vector search",
+      "takeaway": "**AI 基礎設施新創的融資焦點，正從『有沒有向量資料庫』變成『能不能真的扛住生產環境檢索』。**",
+      "summary": "Qdrant 在最近 24 小時內宣布 5,000 萬美元 B 輪，由 AVP 領投，主打 composable vector search。這筆錢不是去追新名詞，而是押注 RAG、agents 與多模態檢索走進 production 後，企業會更在意彈性、延遲與成本控制。",
+      "source": "Tech.eu / blogwatcher RSS + Gemini web_search + web_fetch",
+      "sourceUrl": "https://tech.eu/2026/03/12/qdrant-closes-50m-series-b-to-expand-vector-search-infrastructure/"
+    }
+  ],
+  "meta": {
+    "researchWorkflow": [
+      "Gemini web_search",
+      "blogwatcher RSS"
+    ],
+    "draftCompletedAt": "2026-03-13 09:35 America/Los_Angeles",
+    "status": "draft-finalized"
+  }
+}
