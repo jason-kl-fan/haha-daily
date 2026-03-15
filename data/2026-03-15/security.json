@@ -1,0 +1,44 @@
+[
+  {
+    "title": "土耳其連鎖餐廳 Baydöner 遭駭，120 萬用戶個資與明文密碼外洩",
+    "summary": "土耳其知名餐廳 Baydöner 發生大規模數據洩露，包含 120 萬筆電子郵件、姓名、電話及「明文密碼」。部分記錄更包含身分證字號與生日。",
+    "url": "https://haveibeenpwned.com/Breach/Baydoner",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "加拿大零售巨頭 Loblaw 證實個資外洩，涉及顧客聯絡資訊",
+    "summary": "Loblaw 披露其系統遭非法存取，導致顧客姓名、電子郵件與電話號碼外洩。公司已開始通知受影響用戶並加強安全監控。",
+    "url": "https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Lloyds 銀行集團調查行動 App 數據暴露事件，多間英國銀行受累",
+    "summary": "Lloyds 正調查其行動銀行 App 的數據暴露漏洞。該漏洞可能影響集團旗下多個銀行品牌的客戶隱私，目前正評估外洩範疇。",
+    "url": "https://securityboulevard.com/2026/03/lloyds-banking-group-investigates-mobile-app-data-exposure-affecting-multiple-uk-banks/",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "新型 AiTM 網路釣魚套件現蹤，專門劫持 AWS 管理帳戶",
+    "summary": "安全研究人員發現一種專為劫持 AWS 帳號設計的 Adversary-in-the-Middle (AiTM) 釣魚工具。該工具能繞過傳統 MFA，鎖定雲端管理員權限。",
+    "url": "https://www.helpnetsecurity.com/2026/03/15/week-in-review-aitm-phishing-kit-used-to-hijack-aws-accounts-year-long-malware-campaign-targets-hr/",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "勒索軟體組織 ShinyHunters 宣稱攻陷 Wynn Resorts 飯店集團",
+    "summary": "惡名昭彰的 ShinyHunters 聲稱已入侵 Wynn Resorts，並竊取超過 80 萬條敏感記錄。目前飯店集團尚未正式證實外洩細節。",
+    "url": "https://sharkstriker.com/blog/march-data-breaches-today-2026/",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Palo Alto 揭露中國間諜行動，利用新款後門鎖定東南亞軍方",
+    "summary": "Unit 42 偵測到一場針對東南亞軍事組織的間諜活動。駭客使用 AppleChris 和 MemFun 等新型後門程式，以及特製的憑證竊取工具進行精準攻擊。",
+    "url": "https://cybermagazine.com/news/palo-alto-networks-inside-the-winter-olympics-of-cybercrime",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Michelin 輪胎與 Ericsson 電信商證實遭 Oracle 供應鏈攻擊波及",
+    "summary": "Michelin 與 Ericsson 先後確認發生數據外洩，原因與 Oracle EBS (E-Business Suite) 系統遭受攻擊有關，顯示供應鏈安全風險持續擴大。",
+    "url": "https://sharkstriker.com/blog/march-data-breaches-today-2026/",
+    "date": "2026-03-15"
+  }
+]
