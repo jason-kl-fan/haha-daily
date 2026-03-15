@@ -1,0 +1,65 @@
+{
+  "site": {
+    "name": "哈哈狗報",
+    "date": "2026-03-15",
+    "dateLabel": "2026 年 3 月 15 日",
+    "weekday": "星期日",
+    "intro": "今日聚焦半導體產業動態：三星 HBM 產能獲國家級關注、NVIDIA GTC 2026 前夕的推論平台預期，以及邊緣運算處理器的新競爭。",
+    "overview": [
+      "**Semiconductor**：三星平澤 P5 廠迎來金融高層視察以支援 HBM，Intel 推出 Core Series 2 強化邊緣 AI，AMD 則提出 Agent Computer 新概念。",
+      "**GTC 2026**：明日開幕的 NVIDIA 大會預計聚焦 Vera Rubin 架構與高效能推論，AI 龍頭地位依然穩固。",
+      "**Supply Chain**：中東局勢引發半導體上游化學品供應隱憂，成為 2026 年成本與穩定性的新變數。"
+    ]
+  },
+  "topics": [
+    {
+      "slug": "semiconductor",
+      "name": "Semiconductor",
+      "desc": "晶圓代工、記憶體、封裝、設備與晶片公司消息。",
+      "items": [
+        {
+          "title": "韓國金融監管機構將偕同銀行高層視察三星平澤 P5 廠，聚焦 HBM 產能",
+          "takeaway": "**國家級力量介入：HBM 不只是三星的產品，更是韓國的國家競爭力指標。**",
+          "summary": "韓國金融監管機構計劃於今日視察三星電子的平澤 P5 廠（AI 記憶體關鍵中心），並帶領銀行高層討論對戰略產業的支持。這反映出韓國政府正積極確保三星在 HBM 與 AI 晶片競賽中獲得充足金融後援。",
+          "source": "Seoul Daily",
+          "url": "https://en.sedaily.com/finance/2026/03/15/financial-regulator-to-visit-samsung-chip-plant-with-bank"
+        },
+        {
+          "title": "NVIDIA GTC 2026 明日開幕，市場聚焦 Vera Rubin 架構與 AI 推論新平台",
+          "takeaway": "**AI 龍頭的新底牌：不只是訓練，黃仁勳這次可能更強調推論效率。**",
+          "summary": "NVIDIA 年度盛會 GTC 2026 將於 3 月 16 日正式展開。市場預期黃仁勳將揭露針對「推論」優化的平台，並深入探討 Vera Rubin 架構。此外，NVIDIA 最近剛與 Nebius Group 達成 20 億美元合作，其生態系擴張速度仍是焦點。",
+          "source": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/03/14/nvda-stock-gtc-2026-dates-best-ai-stocks/"
+        },
+        {
+          "title": "Intel 擴大 Edge AI 佈局，推出新一代 Core Series 2 嵌入式處理器",
+          "takeaway": "**Intel 的突圍戰：雖然代工部門巨虧，但在邊緣運算的產品更新上仍具備殺傷力。**",
+          "summary": "Intel 在 Embedded World 2026 期間發布了專為即時邊緣工作負載設計的 Core Series 2 處理器。面對代工業務數十億美元的虧損，Intel 正試圖透過強化在工業 AI 與嵌入式市場的處理器市佔來維持營收增長。",
+          "source": "eeNews Europe",
+          "url": "https://www.eenewseurope.com/en/intel-introduces-core-series-2-processor-expands-edge-ai-portfolio/"
+        },
+        {
+          "title": "AMD 鎖定「Agent Computer」新類別，強化在地端運行 AI Agent 的硬體優勢",
+          "takeaway": "**PC 演進新名詞：AMD 認為 AI PC 下一階段是具備自主能力的 Agent Computer。**",
+          "summary": "AMD 正積極推廣「Agent Computer」概念，發布針對 Ryzen AI 與 Radeon 硬體優化本地 AI 代理工作負載的指南。這顯示 AMD 試圖在隱私與成本優勢上與雲端 AI 做出區隔，搶攻本地端自主運算的商機。",
+          "source": "PCMag",
+          "url": "https://www.pcmag.com/news/amd-pushes-a-new-category-of-pcs-the-agent-computer"
+        },
+        {
+          "title": "三星加速代工業務盈虧平衡目標至 2026 年，2 奈米 SF2P 製程吸引 AMD 洽談",
+          "takeaway": "**三星的反擊：製程良率改善與高階客戶接軌，2026 將是其代工存亡戰。**",
+          "summary": "三星報導稱其 2 奈米製程良率已達 55-60%，並正與 AMD 洽談使用 SF2P 製程。三星已將代工業務的盈虧平衡目標提前至 2026 年，顯示其對於先進製程產能利用率提升的強大信心。",
+          "source": "XTB",
+          "url": "https://www.xtb.com/"
+        },
+        {
+          "title": "紅海海峽局勢緊張威脅亞洲晶片供應鏈，能源與化學品供應隱憂浮現",
+          "takeaway": "**半導體隱憂：地緣政治不只影響終端出貨，正從上游化學供應鏈滲透。**",
+          "summary": "霍爾木茲海峽與紅海的供應鏈隱憂正衝擊亞洲晶片製造商。除了能源價格，製造晶片所需的關鍵化學品供應穩定性也受到關注，這可能成為 2026 年除了產能外，另一個推升晶片成本的變數。",
+          "source": "Turkiye Today",
+          "url": "https://www.turkiyetoday.com/business/hormuz-choke-ripples-through-asias-chipmakers-as-supply-fears-grow-3216285"
+        }
+      ]
+    }
+  ]
+}

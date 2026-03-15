@@ -3,11 +3,11 @@ import json, html, os
 from datetime import datetime
 
 ROOT = os.path.dirname(__file__)
-DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-10-curated.json')))
+DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-15-curated.json')))
 DATE = DATA['site']['date']
 DATE_LABEL = DATA['site']['dateLabel']
 TOPICS = DATA['topics']
-UPDATED = '2026-03-11 00:36 America/Los_Angeles'
+UPDATED = '2026-03-15 09:40 America/Los_Angeles'
 STATS = {
     'total': '約 18k',
     'input': '約 14k',
