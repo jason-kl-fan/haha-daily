@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-15",
+  "topic": "AI",
+  "news": [
+    {
+      "title": "$6500億美元基建投資",
+      "summary": "Google、Amazon、Meta 及 Microsoft 計劃到 2026 年投入超過 6500 億美元於 AI 雲端基建，推動全球 IT 支出預計增長 10.8%。",
+      "url": "https://www.fool.com/investing/2026/03/14/it-spending-will-exceed-6-trillion-for-the-first-t/"
+    },
+    {
+      "title": "Meta 自研 AI 晶片發表",
+      "summary": "Meta 發表 MTIA 300 至 500 系列自研晶片，旨在優化排名與推薦工作負載，並提升生成式 AI 的推理運算效率。",
+      "url": "https://www.fool.com/investing/2026/03/15/should-nvidia-be-worried-meta-platforms-ai-chips/"
+    },
+    {
+      "title": "AI 泡沫化疑慮增加",
+      "summary": "OpenAI 與 Oracle 關於大規模數據中心的談判陷入僵局，加上基礎設施不穩，引發分析師對 AI 投資過熱與泡沫破裂的擔憂。",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/mar/14/datacentre-boom-is-uk-ai-bubble-about-to-burst/"
+    },
+    {
+      "title": "向自主 AI 智能體轉型",
+      "summary": "業界觀察 AI 技術正從簡單生成內容轉向自主執行複雜任務的「智能代理」，Anthropic 與 OpenAI 的競爭重點轉向政府與倫理定位。",
+      "url": "https://www.devflokers.com/blog/latest-ai-news-technology-developments-march-14-2026"
+    },
+    {
+      "title": "X 平台更新 AI 影音政策",
+      "summary": "針對 AI 生成戰爭假影片頻傳，X 宣布若創作者未標註 AI 生成內容而發布衝突影片，將被暫停廣告分潤計畫。",
+      "url": "https://www.japantimes.co.jp/business/2026/03/15/tech/ai-fakes-iran-us-war-x/"
+    },
+    {
+      "title": "Musk 預測 AI 讓工作變選項",
+      "summary": "Elon Musk 指出 AI 代理的普及可能使工作成為可選項，政府可能需要透過對高獲利 AI 公司徵稅來實現全民基本收入。",
+      "url": "https://www.theguardian.com/business/2026/mar/15/ai-future-of-work"
+    }
+  ]
+}
