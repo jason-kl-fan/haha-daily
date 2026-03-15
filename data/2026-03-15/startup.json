@@ -1,0 +1,61 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-15",
+  "count": 7,
+  "searchNotes": {
+    "search": "Gemini web_search only. 24h filter focused on March 14-15 news.",
+    "dedupe": "Excluded AMI Labs seed (yesterday) and Nscale (yesterday). Included new deals, acquisitions, and official launch details."
+  },
+  "items": [
+    {
+      "title": "Google 正式完成 320 億美元 Wiz 收購案，創下歷來最大併購紀錄",
+      "takeaway": "**AI 時代的安全溢價：雲端巨頭必須掌握最核心的新型資安基建。**",
+      "summary": "Google (Alphabet) 於 3 月 11 日至 15 日間完成對雲端資安新創 Wiz 的收購。這不僅是 Google 史上最大收購，也顯示在 AI 工作負載暴增下，雲端巨頭願意支付極高溢價來整合企業級資安，以應對日益複雜的 AI 威脅。",
+      "source": "TechBuzz / Gemini web_search",
+      "sourceUrl": "https://www.techbuzz.ai/articles/google-closes-32b-wiz-deal-in-largest-acquisition-ever"
+    },
+    {
+      "title": "Perplexity 推出『企業電腦』AI Agent，進軍自動化商業工作流",
+      "takeaway": "**搜尋新創正從『找答案』轉向『幫你把工作做完』的行動代理。**",
+      "summary": "Perplexity 正式發布『Computer for Enterprise』，這是一款高階 AI Agent，能整合企業內部系統並自動執行複雜的多步驟商務流程。這標誌著 Perplexity 正從搜尋工具轉型為生產力行動中樞，直接競爭企業級自動化市場。",
+      "source": "Startup Researcher / Gemini web_search",
+      "sourceUrl": "https://www.startupresearcher.com/news/perplexity-launches-ai-agent-computer-for-enterprise"
+    },
+    {
+      "title": "Travis Kalanick 正式發表機器人公司 Atoms，並傳出收購 Pronto",
+      "takeaway": "**Uber 創辦人重回戰場，鎖定物流與重工業自動化。**",
+      "summary": "Travis Kalanick 於 3 月 13 日正式啟動機器人公司 Atoms。該公司整合了 CloudKitchens 資源，並正在收購自駕新創 Pronto，目標是為礦業、運輸及食品產業打造專用工業機器人，顯示其對實體世界自動化的巨大野心。",
+      "source": "Indian Express / Gemini web_search",
+      "sourceUrl": "https://indianexpress.com/article/technology/tech-news-technology/ex-uber-ceo-robotics-startup-atoms-automation-10583154/"
+    },
+    {
+      "title": "Netflix 以 6 億美元收購 Ben Affleck 的 AI 製片新創 InterPositive",
+      "takeaway": "**好萊塢與矽谷的融合：串流巨頭正透過併購將 AI 嵌入內容生產管線。**",
+      "summary": "Netflix 斥資 6 億美元併購由 Ben Affleck 創辦的 AI 影像製作新創 InterPositive。此舉旨在將 AI 驅動的創意工具直接整合進 Netflix 的拍片流程中，透過技術手段降低高成本內容製作的門檻與週期。",
+      "source": "ChatGPT Is Eating The World / Gemini web_search",
+      "sourceUrl": "https://chatgptiseatingtheworld.com/2026/03/14/after-losing-bid-for-warner-brothers-netflix-acquires-ben-afflecks-ai-moviemaking-startup-interpositive-for-600m-did-netflix-win/"
+    },
+    {
+      "title": "法律科技新創 Legora 完成 5.5 億美元 D 輪，估值衝上 56 億美元",
+      "takeaway": "**法律服務是 GenAI 最能變現的場景之一，估值持續翻倍。**",
+      "summary": "Legal tech 新創 Legora 宣布 5.5 億美元融資，估值較前一輪幾乎翻倍。融資後隨即收購了溫哥華的 Walter AI，顯示法律科技正進入快速整合期，利用 AI 自動化處理合約與法律調研已成為企業剛需。",
+      "source": "Best Practice AI / Gemini web_search",
+      "sourceUrl": "https://bestpracticeai.substack.com/p/legora-acquires-its-first-startup"
+    },
+    {
+      "title": "前 Anthropic 研究員創立 Mirendil，專攻科學研發 AI 並尋求 1.75 億美元融資",
+      "takeaway": "**頂級人才流向科學 AI（AI for Science），估值起跳即為獨角獸等級。**",
+      "summary": "由前 Anthropic 研究團隊創立的 Mirendil 正式曝光，專注於生物與材料科學研究。該公司正洽談一筆 1.75 億美元的融資，投後估值預計達 10 億美元。這類針對科學特定領域的基礎模型是當前人才最密集的賽道。",
+      "source": "The Decoder / Gemini web_search",
+      "sourceUrl": "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/"
+    },
+    {
+      "title": "印度新創 OSRE 成功發射首枚私人探空火箭，印度太空商業化加速",
+      "takeaway": "**印度正試圖複製 SpaceX 模式，私人航太新創在地方政府支持下崛起。**",
+      "summary": "位於阿美達巴德的新創 Omspace Rocket (OSRE) 於 3 月 14 日成功發射古吉拉特邦首枚探空火箭。這是印度私人航太領域的重要進展，象徵著印度新創在衛星與發射市場中的參與度正從服務轉向核心硬體開發。",
+      "source": "DeshGujarat / Gemini web_search",
+      "sourceUrl": "https://deshgujarat.com/2026/03/14/gujarats-first-sounding-rocket-launched-at-dholera/"
+    }
+  ]
+}
