@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Nvidia 確認液冷已成為 GB 架構 AI 伺服器標準配置",
+    "summary": "Nvidia 官方於 3 月初確認，其新一代 GB 架構 AI 伺服器將全面採用液冷技術作為標準，象徵液冷正式從利基市場走向主流骨幹。",
+    "url": "https://www.digitimes.com/news/a20260302PD225/nvidia-liquid-cooling-revenue-2026-earnings.html",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Vertiv 完成 46 億美元資金調整，全力衝刺液冷產能",
+    "summary": "Vertiv 完成資金重組以擴大液冷基礎設施產能，應對 hyperscale 訂單積壓。預計 2026 年液冷 AI 伺服器佔比將攀升至 76%。",
+    "url": "https://scienceshot.com/post/high-density-liquid-cooling-the-4-6-billion-bet-on-gigawatt-scale-ai-factories",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Panasonic 轉型進軍 AI 液冷，推出新一代循環泵與 CDU",
+    "summary": "Panasonic 宣布策略重心從消費級 HVAC 轉向高密度 AI 液冷，正式在歐洲啟動液冷業務，並推出高效能冷卻水循環泵及分配單元 (CDU)。",
+    "url": "https://enkiai.com/data-center/panasonics-2025-data-center-cooling-strategy-unveiled",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Schneider Electric 於印度啟用首座 Motivair 液冷生產基地",
+    "summary": "施耐德電機在班加羅爾啟用其全球第三座液冷工廠，旨在實現高密度冷卻系統本土化，支援印度快速增長的 AI 數位基礎設施。",
+    "url": "https://powerline.net.in/2026/03/06/schneider-electric-launches-liquid-cooling-solutions-factory-in-bengaluru-for-ai-ready-data-centres/",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "CtrlS 打造 40 英畝資料中心園區，支援 300KW 浸沒式液冷",
+    "summary": "CtrlS 於海德拉巴宣布新園區，配備直接液冷與浸沒式液冷系統，可支援單機櫃 135KW 至 300KW 的極高密度散熱需求。",
+    "url": "https://dcnnmagazine.com/data-centres/ctrls-announces-40-acre-datacenter-park-near-hyderabad/",
+    "date": "2026-03-14"
+  },
+  {
+    "title": "BAC 展示 CorTex 技術浸沒式液冷箱，節能效率提升 51%",
+    "summary": "Baltimore Aircoil 展示新型 immersion tank，相較傳統設計可減少 51% 總能耗與 95% 冷卻能耗，且無需使用冰水機。",
+    "url": "https://dcnnmagazine.com/data-centres/bac-to-showcase-new-immersion-cooling-tank/",
+    "date": "2026-03-14"
+  },
+  {
+    "title": "AirTrunk 馬來西亞 150MW 資料中心採用「間接蒸發 + 晶片液冷」方案",
+    "summary": "AirTrunk 新建 150MW 資料中心結合 IEC 與 DTC 液冷技術，協助客戶部署高密度機櫃並降低 20% 能耗。",
+    "url": "https://dcnnmagazine.com/data-centres/airtrunk-malaysia-data-centre/",
+    "date": "2026-03-14"
+  }
+]
