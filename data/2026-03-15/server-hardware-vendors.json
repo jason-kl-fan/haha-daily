@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Dell Technologies Increases AI & Hyperscale Server Production",
+    "summary": "Dell expanded production for AI and hyperscale servers to meet growing cloud demand; price hikes (~15%) expected due to memory shortages.",
+    "vendor": "Dell",
+    "date": "2026-03-15",
+    "source": "https://www.theitvortex.com/rising-server-hardware-prices-2026/"
+  },
+  {
+    "title": "HPE ProLiant Gen12 Premier Solutions for Azure Local Launching",
+    "summary": "HPE ProLiant Compute DL380 Gen12 Server Premier Solutions for Azure Local set for availability in March; MWC edge/vRAN products shipping.",
+    "vendor": "HPE",
+    "date": "2026-03-15",
+    "source": "https://nand-research.com/hpe-connectivity-and-compute-announcements-mwc-2026/"
+  },
+  {
+    "title": "Lenovo Signals Server Repricing Due to Memory Crisis",
+    "summary": "Lenovo implemented strict quote validity (14-30 days) and warned of repricing for undelivered servers as DRAM/NAND costs surge 60%.",
+    "vendor": "Lenovo",
+    "date": "2026-03-15",
+    "source": "https://www.tomshardware.com/desktops/lenovo-alerts-partners-to-looming-price-hikes-on-consumer-and-server-products-soaring-memory-costs-drive-the-surge"
+  },
+  {
+    "title": "Supermicro Expands High-Density Blade Platforms",
+    "summary": "Supermicro introduced new modular blade systems for cloud and enterprise, leveraging 'white-box' style open architecture hardware.",
+    "vendor": "Supermicro",
+    "date": "2026-03-15",
+    "source": "https://www.openpr.com/news/4423674/united-states-white-box-server-market-2026-growth-drivers"
+  },
+  {
+    "title": "Quanta AI Server Revenue Surges 43% Year-over-Year",
+    "summary": "Quanta's AI server momentum continues with Q1 rack shipments hitting 4,500 units; full-year AI server target set for 70k-80k units.",
+    "vendor": "Quanta",
+    "date": "2026-03-15",
+    "source": "https://www.digitimes.com/news/a20260309PD236/quanta-ai-server-revenue-demand-2026.html"
+  },
+  {
+    "title": "Gigabyte B683-Z80-LAS1 High-Density Blade Shipments Begin",
+    "summary": "Gigabyte started shipping its 6U, 10-node AMD EPYC blade system featuring direct liquid cooling for telco and edge AI applications.",
+    "vendor": "Gigabyte",
+    "date": "2026-03-15",
+    "source": "https://www.gigabyte.com/Press/News/2368"
+  },
+  {
+    "title": "Global AI Server Shipments Hit New Peak in Q1 2026",
+    "summary": "High-end rack production (GB200/GB300) hit 6,500 units in February, up 6% MoM; lead times extending as server costs rise 15%.",
+    "vendor": "General",
+    "date": "2026-03-15",
+    "source": "https://www.technetbooks.com/2026/03/ai-server-market-shipment-growth-2026.html"
+  }
+]
