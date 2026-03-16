@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-16",
+  "topic": "AI",
+  "news": [
+    {
+      "title": "Nvidia GTC 2026 開幕",
+      "summary": "AI 年度盛事 GTC 2026 今日於聖荷西登場，執行長黃仁勳發表主題演講，聚焦新一代 AI 架構與軟體生態系。",
+      "url": "https://www.fool.com/investing/2026/03/14/why-march-16-could-be-a-big-day-for-the-stock-mark/"
+    },
+    {
+      "title": "Nebius 與 Meta 簽署 $120億協議",
+      "summary": "Nebius Group 宣布與 Meta 達成五年期、價值 120 億美元的 AI 基礎設施供應合約，將部署 NVIDIA Vera Rubin 平台。",
+      "url": "https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta"
+    },
+    {
+      "title": "開源 AI 迎來「黃金時代」",
+      "summary": "DeepSeek V4 (1兆參數) 與 OpenAI GPT-OSS 等多款高效能開源模型密集發布，大幅降低了本地運行 AI 的門檻。",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1rv9odx/the_open_source_ai_situation_in_march_2026_is/"
+    },
+    {
+      "title": "研究指 ChatGPT 驗證科學假設仍欠精準",
+      "summary": "華盛頓州立大學研究顯示，ChatGPT 判斷科學假設的準確率雖升至 80%，但在識別錯誤假設方面僅有 16.4% 的成功率。",
+      "url": "https://news.wsu.edu/press-release/2026/03/16/ai-gets-a-d-study-shows-inaccuracies-inconsistency-in-chatgpt-answers/"
+    },
+    {
+      "title": "大華科技發表星漢 AI 模型 2.0",
+      "summary": "大華在 Intertraffic Amsterdam 展示針對智慧交通優化的 Xinghan 大模型，提升道路安全與城市管理效率。",
+      "url": "https://www.newswire.ca/news-releases/dahua-technology-showcases-ai-powered-its-solutions-at-intertraffic-2026-880483169.html"
+    },
+    {
+      "title": "Teradyne 推出 AI 專用測試平台 Omnyx",
+      "summary": "Teradyne 發布 Omnyx 平台，專為 AI 與數據中心架構的電路板組裝 (PCBA) 提供高整合度的自動化測試解決方案。",
+      "url": "https://investors.teradyne.com/news-events/press-releases/detail/435/teradyne-introduces-omnyx-redefining-board-test-for-the-ai-era"
+    }
+  ]
+}
