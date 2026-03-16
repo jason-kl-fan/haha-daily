@@ -1,0 +1,51 @@
+[
+  {
+    "vendor": "Dell Technologies",
+    "title": "Dell FY2026 AI Server Shipments Target $25B",
+    "summary": "Dell reports record revenue for FY2026, with Infrastructure Solutions Group (ISG) revenue jumping 73%. AI-optimized server shipments hit $9.5B in Q4, with a backlog now reaching $43B.",
+    "date": "2026-03-16",
+    "link": "https://www.financialcontent.com/article/marketminute-2026-3-3-dell-technologies-emerges-as-ai-infrastructure-titan-record-earnings-fuel-march-tech-rally"
+  },
+  {
+    "vendor": "HPE",
+    "title": "HPE Showcases AI-Native Networking & Compute at MWC 2026",
+    "summary": "HPE unveiled new AI infrastructure solutions designed for service providers to reduce costs and automate operations. The company currently holds a $5B server order backlog.",
+    "date": "2026-03-16",
+    "link": "https://www.cxoinsightme.com/business/channel/hpe-accelerates-service-provider-modernisation-with-ai-infrastructure-innovations-at-mwc-2026/"
+  },
+  {
+    "vendor": "Lenovo",
+    "title": "Lenovo Signals Price Hikes Across Server Lineup",
+    "summary": "Lenovo ISG warned partners of impending price increases for servers and client devices starting March 2026, citing significant spikes in DRAM costs and a global memory chip shortage.",
+    "date": "2026-03-16",
+    "link": "https://www.trendforce.com/news/2026/02/24/news-lenovo-reportedly-signals-march-price-hikes-on-select-commercial-devices-amid-memory-shortage/"
+  },
+  {
+    "vendor": "Wiwynn",
+    "title": "Wiwynn Partners with Ayar Labs for Co-Packaged Optics",
+    "summary": "Wiwynn is integrating co-packaged optics into rack-scale AI systems to handle hyperscale workloads. The company also noted memory price increases are starting to impact server costs.",
+    "date": "2026-03-12",
+    "link": "https://www.digitimes.com/news/a20260302PD228/price-memory-wiwynn-cost-2026.html"
+  },
+  {
+    "vendor": "Gigabyte",
+    "title": "Gigabyte Launches GB300 NVL72 Liquid-Cooled AI Rack",
+    "summary": "Showcased at MWC 2026, the GB300 NVL72 integrates 72 NVIDIA Blackwell Ultra GPUs and 36 Grace CPUs, optimized for large-scale telecom AI training and inference.",
+    "date": "2026-03-16",
+    "link": "https://www.gigabyte.com/Press/News/2368"
+  },
+  {
+    "vendor": "Supermicro",
+    "title": "Supermicro Delivers Scalable AI Infrastructure for AI-RAN",
+    "summary": "Supermicro expanded its support for AI-RAN and sovereign AI solutions using the latest CPUs/GPUs to power telecom networks and secure AI factories.",
+    "date": "2026-03-01",
+    "link": "https://www.supermicro.com/en/newsroom/pressreleases"
+  },
+  {
+    "vendor": "Quanta (QCT)",
+    "title": "QCT Debuts QuantaEdge EGN77C AI-RAN Server",
+    "summary": "Quanta Cloud Technology highlighted its 'application-ready' 2U AI-RAN server at MWC 2026, supporting Nokia anyRAN and NVIDIA ARC-Pro frameworks.",
+    "date": "2026-03-16",
+    "link": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Application-Ready-5G-and-AI-Solutions-Accelerate-Edge-Innovations-at-MWC-2026/1/"
+  }
+]
