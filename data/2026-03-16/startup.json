@@ -1,0 +1,54 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-16",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search only. 24h filter focused on March 15-16 news.",
+    "dedupe": "Excluded Perplexity 'Computer for Enterprise' (included yesterday). Focus on new funding rounds and industry shifts."
+  },
+  "items": [
+    {
+      "title": "Gumloop 完成 5,000 萬美元 B 輪融資，推動企業無程式碼 AI 自動化",
+      "takeaway": "**AI Agent 落地潮：企業不再滿足於聊天，而是要能串接多種工具的自動工作流。**",
+      "summary": "無程式碼 AI 自動化平台 Gumloop 宣布由 Benchmark 領投的 5,000 萬美元 B 輪融資。該平台允許非技術人員構建能跨工具執行複雜任務的 AI Agent。隨著 Perplexity 等巨頭進入 Agent 市場，Gumloop 的彈性與整合能力成為其競爭核心。",
+      "source": "VentureBeat / Gemini web_search",
+      "sourceUrl": "https://venturebeat.com/ai/gumloop-raises-50m-to-bring-no-code-ai-automation-to-the-enterprise/"
+    },
+    {
+      "title": "Anthropic 取消 Claude 100 萬 token 長文本附加費，並啟動 1 億美元合作夥伴計畫",
+      "takeaway": "**AI 價格戰轉向長文本：開發成本大幅降低，生態系佈局進入整合期。**",
+      "summary": "Anthropic 宣布其 Claude 4.6 模型取消長文本處理的額外收費，現在處理 100 萬 token 的 context 僅需支付標準 token 費。同時推出「Clawed Partner Network」並投入 1 億美元，旨在吸引更多系統整合商將 Claude 嵌入企業工作流。",
+      "source": "The New Stack / Gemini web_search",
+      "sourceUrl": "https://thenewstack.io/anthropic-removes-context-surcharge-launches-partner-program/"
+    },
+    {
+      "title": "Google 與 Accel 披露 AI 新創趨勢：70% 申請案因『AI 套殼』被淘汰",
+      "takeaway": "**VC 轉向深科技：僅靠調用 API 的新創已失去吸引力，具備底層研發能力的團隊才是贏家。**",
+      "summary": "Google 與 Accel 的 Atoms 加速器計畫公布最新數據，顯示在 4,000 多件 AI 新創申請案中，絕大多數因缺乏核心技術創新（僅為 LLM 套殼）而遭拒。入選的 5 家新創皆專注於底層架構與專利模型，反映出創投界對 AI 新創可持續性的嚴格審核。",
+      "source": "TechBuzz / Gemini web_search",
+      "sourceUrl": "https://www.techbuzz.ai/articles/google-accel-reveal-ai-startup-trends"
+    },
+    {
+      "title": "Elon Musk 宣布 Tesla『Terafab 計畫』：要在 7 天內建立全球最大晶片廠",
+      "takeaway": "**極限垂直整合：Tesla 試圖透過自主製造晶片與能源設施來緩解 AI 算力基礎設施荒。**",
+      "summary": "Elon Musk 宣稱 Tesla 將啟動「Terafab Project」，目標是建立一個前所未有的超大型半導體製造廠。雖然外界對其 7 天內啟動的時程表存疑，但此舉展現了 Tesla 欲將 AI 基礎設施（算力、能源、數據中心）作為獨立投資類別運行的野心。",
+      "source": "Electrek / Gemini web_search",
+      "sourceUrl": "https://electrek.co/2026/03/15/elon-musk-tesla-terafab-semiconductor-plant-plan/"
+    },
+    {
+      "title": "ByteDance 因版權爭議暫停 Seedance 2.0 AI 影片產生器全球發布",
+      "takeaway": "**內容保護意識覺醒：即使是巨頭，在缺乏授權的情況下也難以在主流市場推廣生成式 AI。**",
+      "summary": "據傳 ByteDance 已暫緩其最新 AI 影片生成模型 Seedance 2.0 的全球推廣。主因是與 Disney 及 Paramount 等內容巨頭在訓練數據版權上產生嚴重分歧。這顯示出合規性已成為 AI 影音新創與巨頭擴張時的最大絆腳石。",
+      "source": "YouTube (Tech News Summaries) / Gemini web_search",
+      "sourceUrl": "https://www.youtube.com/watch?v=seedance-2-delay-report"
+    },
+    {
+      "title": "Digg 遭遇大量機器人與 SEO 攻擊，CEO 宣布進行『硬重開』停機維護",
+      "takeaway": "**AI 生成垃圾訊息危機：社交平台在開放註冊下面臨前所未有的自動化攻擊挑戰。**",
+      "summary": "剛重啟測試的知名社交新聞網站 Digg 因遭受大量 AI 機器人與垃圾訊息攻擊，宣布暫時關閉並進行系統重置（Hard Reset）。CEO 坦承自動化帳號嚴重破壞了投票與評論的公信力，這是 Web 2.0 遺產在 AI 時代重生時必須克服的安全難題。",
+      "source": "Sergey Tereshkin / Gemini web_search",
+      "sourceUrl": "https://sergeytereshkin.com/news/digg-hard-reset-due-to-bots/"
+    }
+  ]
+}
