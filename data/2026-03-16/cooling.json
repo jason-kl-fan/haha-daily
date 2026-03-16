@@ -1,0 +1,38 @@
+[
+  {
+    "title": "2026 數據中心趨勢：液冷與浸沒式冷卻成為 AI 時代標準",
+    "summary": "最新產業報告指出，隨 AI 工作負載密度飆升至每機櫃 50-100kW+，傳統風冷已達極限。液冷（含冷板與浸沒式）正從實驗性方案轉向強制性架構，預計市場規模將於 2033 年突破 384 億美元。",
+    "url": "https://www.facilitiesnet.com/datacenter/article/Liquid-Cooling-Crucial-for-High-Density-AI-Data-Centers--20297",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "浸沒式冷卻液市場爆發：氟化液需求預計增長 27%",
+    "summary": "由於高密度 GPU（TDP 破 1000W）需求，3 月 16 日最新預測顯示氟化浸沒式冷卻液市場將在 2026-2034 年間顯著成長。浸沒式技術可提升 40-50% 的能源效率。",
+    "url": "https://www.intelmarketresearch.com/market-reports/fluorinated-immersion-cooling-fluids-market",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "Midas Immersion 展示 XCI 專利技術：大幅削減基礎設施成本",
+    "summary": "Midas 於 3 月 12-16 日展示其單相浸沒式冷卻系統。專利的 XCI 儲液槽設計可大幅提升運算密度，同時降低 90% 以上的冷卻能耗，專攻企業級 GPU 運算市場。",
+    "url": "https://www.manufacturing-today.com/news/midas-immersion-cooling-leading-the-way-in-innovation/",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "MWC 2026 亮點：Kixx 展示 AI 環境專用浸沒式液冷解決方案",
+    "summary": "在剛結束的 MWC 2026 中，Kixx 實機展示將運算晶片直接浸入非導電液體的冷卻方案，強調在極端高熱 AI 環境下的穩定性與能源節約優勢。",
+    "url": "https://www.kixxoil.com/innovation/mwc-2026-showcase-immersion-cooling",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "研究顯示：自然循環 + 單相浸沒式冷卻可實現「零水耗」潛力",
+    "summary": "3 月份發布的最新學術研究探索了開放式自然循環系統與浸沒式冷卻的結合。此架構能提供更均勻的溫度控制，並顯著減少數據中心對電網與冷卻水資源的依賴。",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/cooling-innovation-2026",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "永續資料中心新標準：水效、熱能回收與液冷深度整合",
+    "summary": "3 月 16 日最新產業評論強調，未來資料中心將轉向高度整合的水效管理。浸沒式液冷不僅能提高熱移除效率，更具備直接將廢熱轉化為區域供暖系統熱源的優勢。",
+    "url": "https://www.intelligentliving.co/water-efficient-and-sustainable-data-centers/",
+    "date": "2026-03-16"
+  }
+]
