@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Gartner 預測 2028 年 AI 應用將主導 50% 資安事件應變",
+    "point": "企業面臨自建 AI 應用帶來的全新攻擊面與應變挑戰。",
+    "summary": "研究指出隨著企業加速導入自定義 AI 服務，資安團隊必須針對模型污染與對抗性攻擊建立防護體系。此外，超過半數企業預期將透過專門的 AI 安全平台管理第三方服務風險。",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-17-gartner-predicts-ai-applications-will-drive-50-percent-of-cybersecurity-incident-response-efforts-by-2028"
+  },
+  {
+    "title": "Armis 警告 AI 加速全球網路戰爭進入「爆發臨界點」",
+    "point": "AI 大幅縮短了攻擊者從侵入到造成破壞的時間窗口。",
+    "summary": "專家警告國家級駭客正利用 AI 自動化尋找關鍵基礎設施漏洞，使傳統人力防禦難以招架。IT 決策者對於國家背景攻擊者的精密化手段感到憂慮，迫切需要即時 AI 防禦機制。",
+    "url": "https://www.armis.com/newsroom/press/armis-warns-cyberwarfare-threats-at-global-tipping-point-as-ai-accelerates-escalation/"
+  },
+  {
+    "title": "Fortinet 發布 FortiOS 8.0：強化 AI 治理與安全組網",
+    "point": "新系統導入 AI 治理控制台，提升企業對內部模型使用的可見度。",
+    "summary": "Fortinet 試圖透過新版本解決 AI 帶來的合規與資料外洩風險，提供自動化分析與回應功能。此更新旨在將網路基礎設施與安全策略深度整合，以對抗高速演進的 AI 威脅。",
+    "url": "https://futurumgroup.com/insights/fortinets-fortios-8-0-pushes-secure-networking-toward-ai-governance/"
+  },
+  {
+    "title": "中資背景駭客針對亞洲多國軍方進行長期間諜活動",
+    "point": "攻擊者在受害者環境中潛伏數月，部署客製化工具進行情資竊取。",
+    "summary": "報告顯示這是一場極具耐心且隱蔽的行動，駭客鎖定特定軍事單位以收集戰略情報。目前已發現多款專屬惡意軟體，顯示該組織具備高度開發能力與戰略目的。",
+    "url": "https://www.securityweek.com/china-linked-hackers-hit-asian-militaries-in-patient-espionage-operation/"
+  },
+  {
+    "title": "n8n 工作流平台修復已被利用的關鍵 RCE 漏洞",
+    "point": "CVE-2025-68613 漏洞允許攻擊者遠端執行任意程式碼。",
+    "summary": "自動化平台 n8n 發布緊急補丁，修復已被駭客在野利用的嚴重安全瑕疵。建議所有企業用戶立即更新至最新版本，並檢查系統日誌中是否存在異常存取跡象。",
+    "url": "https://research.checkpoint.com/2026/16th-march-threat-intelligence-report/"
+  },
+  {
+    "title": "惡意軟體新手法「Zombie ZIP」可規避防毒軟體初掃",
+    "point": "利用 ZIP 壓縮格式特性，讓惡意檔案在掃描時呈現「無效」假象。",
+    "summary": "Malwarebytes 揭露一種欺騙掃描引擎的技巧，使檔案在初步分析中被判定為安全。一旦用戶手動解壓縮或特定工具處理，惡意負載便會被啟動，大幅提升了社交工程的成功率。",
+    "url": "https://www.malwarebytes.com/blog/news/2026/03/zombie-zip-method-can-fool-antivirus-during-the-first-scan"
+  },
+  {
+    "title": "SecurityBridge 發布 SAP 網路韌性指數 (CRIS)",
+    "point": "為企業 SAP 環境提供資安基準評估報告。",
+    "summary": "該指數旨在協助企業量化其關鍵 ERP 系統的防禦能力，並找出潛在的安全短板。報告強調了 SAP 系統在現代供應鏈攻擊中的脆弱性，呼籲企業強化基礎架構的安全監控。",
+    "url": "https://lasvegassun.com/news/2026/mar/17/securitybridge-releases-the-cybersecurity-resilien/"
+  }
+]
