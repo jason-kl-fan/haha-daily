@@ -1,0 +1,55 @@
+{
+  "slug": "semiconductor",
+  "name": "Semiconductor",
+  "date": "2026-03-17",
+  "count": 6,
+  "searchNotes": {
+    "search": "Gemini web_search (24h priority).",
+    "workflow": "Search -> filter (exclude Mar 16 items) -> focus on AI data center & manufacturing updates.",
+    "dedupe": "Excluded NVIDIA GTC Day 1 and Intel IBOT covered yesterday."
+  },
+  "items": [
+    {
+      "title": "Tower Semiconductor 推出 Gen3 LDMOS 技術，直擊 AI 數據中心電力需求",
+      "takeaway": "**AI 電源管理進化：隨着 AI 算力飆升，高效率的電源晶片正成為數據中心穩定的關鍵。**",
+      "summary": "Tower Semiconductor 發布全新 Gen3 LDMOS 技術，加入其電源管理平台。此技術專為滿足 AI 數據中心及高端移動設備日益增長的電力需求而設計，旨在提升能源轉換效率。",
+      "source": "GlobeNewswire / Tower Semi",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/03/17/3257005/0/en/Tower-Semiconductor-Extends-its-Leadership-in-BCD-Performance-with-New-Gen3-LDMOS-Technology-Addressing-the-AI-Power-Wall.html"
+    },
+    {
+      "title": "Marvell 發布全球首款 260 線 PCIe 6.0 交換晶片，優化 AI 擴展架構",
+      "takeaway": "**傳輸瓶頸突破：260 線的高頻寬交換技術，讓大規模 AI 伺服器集群的數據流動更順暢。**",
+      "summary": "Marvell 推出 Structera S 60260，標榜為業界首款具備 260 條通道的 PCIe 6.0 交換晶片。該產品鎖定 AI 數據中心的擴展基礎設施，協助提升處理兆級參數模型時的系統傳輸效率。",
+      "source": "Marvell Investor Relations",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1016/marvell-launches-industrys-first-260-lane-pcie-6-0-switch-for-ai-data-center-scale-up-infrastructure"
+    },
+    {
+      "title": "SK 海力士董事長崔泰源警告：全球半導體晶圓短缺將持續至 2030 年",
+      "takeaway": "**長期的供應挑戰：AI 需求遠超產能擴充速度，晶圓缺口可能成為未來五年的常態。**",
+      "summary": "SK 海力士董事長崔泰源表示，受 AI 需求爆炸式增長影響，全球半導體晶圓短缺問題預計將延續到 2030 年。他指出，目前的晶圓製造能力擴展速度尚不足以填補 AI 浪潮帶來的巨大缺口。",
+      "source": "Network World",
+      "sourceUrl": "https://www.networkworld.com/article/4146270/chip-wafer-shortage-will-run-through-2030-as-ai-demand-overwhelms-supply-sk-hynix-chief.html"
+    },
+    {
+      "title": "SEMI Europe 與波台商會合作，加速波蘭半導體生態系擴張",
+      "takeaway": "**歐洲製造佈局：波蘭正透過國際合作，強化其在歐洲半導體供應鏈中的戰略地位。**",
+      "summary": "SEMI Europe 與波蘭-台灣商會簽署為期兩年的合作協議。雙方將共同推動波蘭半導體產業的發展，重點放在供應鏈擴張、技術合作以及支援產業的綠色轉型。",
+      "source": "EE News Europe",
+      "sourceUrl": "https://www.eenewseurope.com/en/new-semi-europe-partnership-targets-semiconductor-expansion-in-poland/"
+    },
+    {
+      "title": "印度 Agnit Semiconductor 宣佈擴產，目標兩年內生產 10 萬顆氮化鎵晶片",
+      "takeaway": "**第三代半導體崛起：印度本土初創公司正積極搶佔通訊與電力電子市場的 GaN 商機。**",
+      "summary": "印度初創公司 Agnit Semiconductor 計劃在未來兩年內將氮化鎵 (GaN) 晶片產量提升至 10 萬顆。該公司旨在擴大其在電信及電力電子領域的市場佔有率，推動印度半導體製造自給率。",
+      "source": "Business Standard",
+      "sourceUrl": "https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html"
+    },
+    {
+      "title": "設備商財報對決：Kulicke & Soffa 營收超預期，ACM Research 毛利面臨壓力",
+      "takeaway": "**封裝與設備市場分化：先進封裝需求推動 K&S 成長，而競爭激烈則影響了 ACMR 的獲利能力。**",
+      "summary": "半導體封裝設備大廠 Kulicke & Soffa (KLIC) 最新財報營收超出市場預期，顯示先進封裝市場動能強勁。相比之下，ACM Research (ACMR) 雖然營收創新高，但毛利率出現下滑，反映出設備市場的競爭加劇。",
+      "source": "24/7 Wall St",
+      "sourceUrl": "https://247wallst.com/investing/2026/03/17/acmr-vs-klic-battle-of-the-semiconductor-equipment-stocks/"
+    }
+  ]
+}
