@@ -4,14 +4,161 @@
     "date": "2026-03-16",
     "dateLabel": "2026 年 3 月 16 日",
     "weekday": "星期一",
-    "intro": "今日安全專題：醫療巨頭 Stryker 遭毀滅性攻擊、Android 實體漏洞 60 秒破加密，以及 Chrome 紧急修復 0-day 漏洞。",
+    "intro": "今天整理 7 個主題，首頁、日期頁與主題頁入口已同步補齊。",
     "overview": [
-      "**Security**：Stryker 遭伊朗駭客 Wiper 攻擊損失慘重，Android 爆發 60 秒可破實體加密之漏洞。",
-      "**Vulnerabilities**：Microsoft 與 Google 同步發布重大更新，修復包含已在野利用的 0-day 漏洞。",
-      "**Operations**：國際刑警組織 Operation Synergia III 橫跨 72 國，成功癱瘓逾 4.5 萬個惡意 IP。"
+      "**今日已整理 7 個主題**：AI、Storage / Server、Cooling、Security、Startup、Semiconductor、Server Hardware Vendors。",
+      "**首頁與日期頁已同步修正**：避免只剩單一主題導致入口缺失。",
+      "**各主題頁保留原風格**：僅修正內容與站內連結同步。"
     ]
   },
   "topics": [
+    {
+      "slug": "ai",
+      "name": "AI",
+      "desc": "模型、產品、公司與監管動態。",
+      "items": [
+        {
+          "title": "Nvidia GTC 2026 開幕",
+          "takeaway": "**AI 年度盛事 GTC 2026 今日於聖荷西登場，執行長黃仁勳發表主題演講，聚焦新一代 AI 架構與軟體生態系。**",
+          "summary": "AI 年度盛事 GTC 2026 今日於聖荷西登場，執行長黃仁勳發表主題演講，聚焦新一代 AI 架構與軟體生態系。",
+          "source": "來源待補",
+          "url": "https://www.fool.com/investing/2026/03/14/why-march-16-could-be-a-big-day-for-the-stock-mark/"
+        },
+        {
+          "title": "Nebius 與 Meta 簽署 $120億協議",
+          "takeaway": "**Nebius Group 宣布與 Meta 達成五年期、價值 120 億美元的 AI 基礎設施供應合約，將部署 NVIDIA Vera Rubin 平台。**",
+          "summary": "Nebius Group 宣布與 Meta 達成五年期、價值 120 億美元的 AI 基礎設施供應合約，將部署 NVIDIA Vera Rubin 平台。",
+          "source": "來源待補",
+          "url": "https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta"
+        },
+        {
+          "title": "開源 AI 迎來「黃金時代」",
+          "takeaway": "**DeepSeek V4 (1兆參數) 與 OpenAI GPT-OSS 等多款高效能開源模型密集發布，大幅降低了本地運行 AI 的門檻。**",
+          "summary": "DeepSeek V4 (1兆參數) 與 OpenAI GPT-OSS 等多款高效能開源模型密集發布，大幅降低了本地運行 AI 的門檻。",
+          "source": "來源待補",
+          "url": "https://www.reddit.com/r/PromptEngineering/comments/1rv9odx/the_open_source_ai_situation_in_march_2026_is/"
+        },
+        {
+          "title": "研究指 ChatGPT 驗證科學假設仍欠精準",
+          "takeaway": "**華盛頓州立大學研究顯示，ChatGPT 判斷科學假設的準確率雖升至 80%，但在識別錯誤假設方面僅有 16.4% 的成功率。**",
+          "summary": "華盛頓州立大學研究顯示，ChatGPT 判斷科學假設的準確率雖升至 80%，但在識別錯誤假設方面僅有 16.4% 的成功率。",
+          "source": "來源待補",
+          "url": "https://news.wsu.edu/press-release/2026/03/16/ai-gets-a-d-study-shows-inaccuracies-inconsistency-in-chatgpt-answers/"
+        },
+        {
+          "title": "大華科技發表星漢 AI 模型 2.0",
+          "takeaway": "**大華在 Intertraffic Amsterdam 展示針對智慧交通優化的 Xinghan 大模型，提升道路安全與城市管理效率。**",
+          "summary": "大華在 Intertraffic Amsterdam 展示針對智慧交通優化的 Xinghan 大模型，提升道路安全與城市管理效率。",
+          "source": "來源待補",
+          "url": "https://www.newswire.ca/news-releases/dahua-technology-showcases-ai-powered-its-solutions-at-intertraffic-2026-880483169.html"
+        },
+        {
+          "title": "Teradyne 推出 AI 專用測試平台 Omnyx",
+          "takeaway": "**Teradyne 發布 Omnyx 平台，專為 AI 與數據中心架構的電路板組裝 (PCBA) 提供高整合度的自動化測試解決方案。**",
+          "summary": "Teradyne 發布 Omnyx 平台，專為 AI 與數據中心架構的電路板組裝 (PCBA) 提供高整合度的自動化測試解決方案。",
+          "source": "來源待補",
+          "url": "https://investors.teradyne.com/news-events/press-releases/detail/435/teradyne-introduces-omnyx-redefining-board-test-for-the-ai-era"
+        }
+      ]
+    },
+    {
+      "slug": "storage-server",
+      "name": "Storage / Server",
+      "desc": "存儲、伺服器、企業基礎設施軟硬體與供應鏈。",
+      "items": [
+        {
+          "title": "WD 與 Seagate 2026 全年產能售罄，HDD 供應面臨兩年延遲",
+          "takeaway": "**AI 與雲端需求爆發，硬碟大廠 2026 產能全數售罄，訂單排至 2028 年，企業級硬碟交期最長達兩年。**",
+          "summary": "AI 與雲端需求爆發，硬碟大廠 2026 產能全數售罄，訂單排至 2028 年，企業級硬碟交期最長達兩年。",
+          "source": "來源待補",
+          "url": "https://www.aicerts.ai/news/hdd-sold-out-trend-reshapes-2026-storage-market/"
+        },
+        {
+          "title": "企業級 SSD 市場營收預計翻倍，三星與 SK Hynix 競爭加劇",
+          "takeaway": "**AI 經濟帶動 SSD 需求，市場營收預計明年翻倍，NAND 閃存價格出現單日漲幅達 50% 的極端波動。**",
+          "summary": "AI 經濟帶動 SSD 需求，市場營收預計明年翻倍，NAND 閃存價格出現單日漲幅達 50% 的極端波動。",
+          "source": "來源待補",
+          "url": "https://www.digitimes.com/news/a20260316VL202/digitimes-weekly-news-roundup-nand-memory-chips-price-2026.html"
+        },
+        {
+          "title": "IT 分銷商警告：2026 第一季記憶體價格已翻倍",
+          "takeaway": "**供應鏈受壓，記憶體與存儲價格在今年第一季大幅上漲 100%，對數據中心基礎設施建設造成巨大成本壓力。**",
+          "summary": "供應鏈受壓，記憶體與存儲價格在今年第一季大幅上漲 100%，對數據中心基礎設施建設造成巨大成本壓力。",
+          "source": "來源待補",
+          "url": "https://www.crn.com/news/data-center/2026/it-distributors-warn-memory-shortages-supply-chain-strains-impacting-the-channel"
+        },
+        {
+          "title": "SATA HDD 連接器市場意外增長，預計 2032 年達 14.7 億美元",
+          "takeaway": "**儘管新協定不斷湧現，SATA 介面在傳統基礎設施中的地位依然穩固，市場規模持續擴張。**",
+          "summary": "儘管新協定不斷湧現，SATA 介面在傳統基礎設施中的地位依然穩固，市場規模持續擴張。",
+          "source": "來源待補",
+          "url": "https://www.globenewswire.com/news-release/2026/03/16/3256452/0/en/SATA-HDD-Connector-Market-Trends-and-Opportunities-Worldwide-2026-2032.html"
+        },
+        {
+          "title": "SilverStone 推出 RM100 1U 伺服器機殼，採可翻轉 I/O 設計",
+          "takeaway": "**新型 1U 機殼支持 ATX 主機板，並提供 3.5 吋 HDD 與 2.5 吋 SSD 靈活配置，適合緊湊型伺服器部署。**",
+          "summary": "新型 1U 機殼支持 ATX 主機板，並提供 3.5 吋 HDD 與 2.5 吋 SSD 靈活配置，適合緊湊型伺服器部署。",
+          "source": "來源待補",
+          "url": "https://www.techpowerup.com/347410/silverstone-releases-rm100-1u-rackmount-server-chassis-with-reversible-i-o-design"
+        },
+        {
+          "title": "北美的數據中心建設熱潮：2026 年 3 月新動向",
+          "takeaway": "**Hyperscale 與 AI 需求持續驅動北美數據中心大規模擴張，多個超大型園區在本月啟動新建工程。**",
+          "summary": "Hyperscale 與 AI 需求持續驅動北美數據中心大規模擴張，多個超大型園區在本月啟動新建工程。",
+          "source": "來源待補",
+          "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-march-2026"
+        }
+      ]
+    },
+    {
+      "slug": "cooling",
+      "name": "Cooling",
+      "desc": "資料中心液冷、熱管理與散熱供應鏈。",
+      "items": [
+        {
+          "title": "2026 數據中心趨勢：液冷與浸沒式冷卻成為 AI 時代標準",
+          "takeaway": "**最新產業報告指出，隨 AI 工作負載密度飆升至每機櫃 50-100kW+，傳統風冷已達極限。液冷（含冷板與浸沒式）正從實驗性方案轉向強制性架構，預計市場規模將於 2033 年突破 384 億美元。**",
+          "summary": "最新產業報告指出，隨 AI 工作負載密度飆升至每機櫃 50-100kW+，傳統風冷已達極限。液冷（含冷板與浸沒式）正從實驗性方案轉向強制性架構，預計市場規模將於 2033 年突破 384 億美元。",
+          "source": "來源待補",
+          "url": "https://www.facilitiesnet.com/datacenter/article/Liquid-Cooling-Crucial-for-High-Density-AI-Data-Centers--20297"
+        },
+        {
+          "title": "浸沒式冷卻液市場爆發：氟化液需求預計增長 27%",
+          "takeaway": "**由於高密度 GPU（TDP 破 1000W）需求，3 月 16 日最新預測顯示氟化浸沒式冷卻液市場將在 2026-2034 年間顯著成長。浸沒式技術可提升 40-50% 的能源效率。**",
+          "summary": "由於高密度 GPU（TDP 破 1000W）需求，3 月 16 日最新預測顯示氟化浸沒式冷卻液市場將在 2026-2034 年間顯著成長。浸沒式技術可提升 40-50% 的能源效率。",
+          "source": "來源待補",
+          "url": "https://www.intelmarketresearch.com/market-reports/fluorinated-immersion-cooling-fluids-market"
+        },
+        {
+          "title": "Midas Immersion 展示 XCI 專利技術：大幅削減基礎設施成本",
+          "takeaway": "**Midas 於 3 月 12-16 日展示其單相浸沒式冷卻系統。專利的 XCI 儲液槽設計可大幅提升運算密度，同時降低 90% 以上的冷卻能耗，專攻企業級 GPU 運算市場。**",
+          "summary": "Midas 於 3 月 12-16 日展示其單相浸沒式冷卻系統。專利的 XCI 儲液槽設計可大幅提升運算密度，同時降低 90% 以上的冷卻能耗，專攻企業級 GPU 運算市場。",
+          "source": "來源待補",
+          "url": "https://www.manufacturing-today.com/news/midas-immersion-cooling-leading-the-way-in-innovation/"
+        },
+        {
+          "title": "MWC 2026 亮點：Kixx 展示 AI 環境專用浸沒式液冷解決方案",
+          "takeaway": "**在剛結束的 MWC 2026 中，Kixx 實機展示將運算晶片直接浸入非導電液體的冷卻方案，強調在極端高熱 AI 環境下的穩定性與能源節約優勢。**",
+          "summary": "在剛結束的 MWC 2026 中，Kixx 實機展示將運算晶片直接浸入非導電液體的冷卻方案，強調在極端高熱 AI 環境下的穩定性與能源節約優勢。",
+          "source": "來源待補",
+          "url": "https://www.kixxoil.com/innovation/mwc-2026-showcase-immersion-cooling"
+        },
+        {
+          "title": "研究顯示：自然循環 + 單相浸沒式冷卻可實現「零水耗」潛力",
+          "takeaway": "**3 月份發布的最新學術研究探索了開放式自然循環系統與浸沒式冷卻的結合。此架構能提供更均勻的溫度控制，並顯著減少數據中心對電網與冷卻水資源的依賴。**",
+          "summary": "3 月份發布的最新學術研究探索了開放式自然循環系統與浸沒式冷卻的結合。此架構能提供更均勻的溫度控制，並顯著減少數據中心對電網與冷卻水資源的依賴。",
+          "source": "來源待補",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/cooling-innovation-2026"
+        },
+        {
+          "title": "永續資料中心新標準：水效、熱能回收與液冷深度整合",
+          "takeaway": "**3 月 16 日最新產業評論強調，未來資料中心將轉向高度整合的水效管理。浸沒式液冷不僅能提高熱移除效率，更具備直接將廢熱轉化為區域供暖系統熱源的優勢。**",
+          "summary": "3 月 16 日最新產業評論強調，未來資料中心將轉向高度整合的水效管理。浸沒式液冷不僅能提高熱移除效率，更具備直接將廢熱轉化為區域供暖系統熱源的優勢。",
+          "source": "來源待補",
+          "url": "https://www.intelligentliving.co/water-efficient-and-sustainable-data-centers/"
+        }
+      ]
+    },
     {
       "slug": "security",
       "name": "Security",
@@ -19,52 +166,206 @@
       "items": [
         {
           "title": "Stryker 遭伊朗駭客 Handala 毀滅性攻擊",
-          "takeaway": "**毀滅性威脅：這不只是勒索，更是針對關鍵基礎設施的數據抹除行動。**",
+          "takeaway": "**醫療科技巨頭 Stryker 證實遭伊朗相關組織 Handala Hack 攻擊。駭客聲稱摧毀數千台伺服器並竊取 50TB 數據，目前看來是以資料破壞（Wiper）為主的針對性行動。**",
           "summary": "醫療科技巨頭 Stryker 證實遭伊朗相關組織 Handala Hack 攻擊。駭客聲稱摧毀數千台伺服器並竊取 50TB 數據，目前看來是以資料破壞（Wiper）為主的針對性行動。",
-          "source": "Cybersecurity News",
+          "source": "來源待補",
           "url": "https://cybersecuritynews.com/stryker-wiper-attack/"
         },
         {
-          "title": "Android 手機爆嚴重漏洞：60 秒可破加密",
-          "takeaway": "**實體安全警告：具備實體接觸的攻擊者可繞過全磁碟加密。**",
-          "summary": "CVE-2025-20435 影響多款 MediaTek 晶片手機。駭客可透過實體 USB 在 60 秒內提取根金鑰並繞過全磁碟加密，即使手機處於鎖定狀態亦有效。",
-          "source": "Forbes",
-          "url": "https://www.forbes.com/sites/daveywinder/2026/03/16/critical-flaw-875-million-android-phones-at-risk-of-60-second-hack/"
-        },
-        {
           "title": "Telus Digital 遭駭客索資 6,500 萬美元",
-          "takeaway": "**天價勒索：駭客宣稱竊取 1PB 資料，顯示大型企業供應鏈仍是重災區。**",
-          "summary": "電信龍頭 Telus 子公司證實系統遭未授權存取。駭客組織 ShinyHunters 宣稱竊取近 1PB 客戶及通話記錄，目前公司尚未證實資料遺失量。",
-          "source": "SharkStriker",
+          "takeaway": "**電信龍頭 Telus 的子公司證實系統遭未授權存取。駭客組織 ShinyHunters 宣稱竊取近 1PB 的客戶及通話記錄，並開出天價贖金，目前公司尚未證實資料遺失量。**",
+          "summary": "電信龍頭 Telus 的子公司證實系統遭未授權存取。駭客組織 ShinyHunters 宣稱竊取近 1PB 的客戶及通話記錄，並開出天價贖金，目前公司尚未證實資料遺失量。",
+          "source": "來源待補",
           "url": "https://sharkstriker.com/blog/march-data-breaches-today-2026/"
         },
         {
+          "title": "Android 手機爆嚴重漏洞：60 秒可破加密",
+          "takeaway": "**CVE-2025-20435 影響多款 MediaTek 晶片手機。駭客可透過實體 USB 在 60 秒內提取根金鑰並繞過全磁碟加密，即使手機處於鎖定狀態或重啟前亦有效。**",
+          "summary": "CVE-2025-20435 影響多款 MediaTek 晶片手機。駭客可透過實體 USB 在 60 秒內提取根金鑰並繞過全磁碟加密，即使手機處於鎖定狀態或重啟前亦有效。",
+          "source": "來源待補",
+          "url": "https://www.forbes.com/sites/daveywinder/2026/03/16/critical-flaw-875-million-android-phones-at-risk-of-60-second-hack/"
+        },
+        {
           "title": "Signal 遭遇針對性網路釣魚，多位名人帳號被盜",
-          "takeaway": "**社交工程不敗：即便通訊軟體加密再強，也擋不住用戶自行交出驗證碼。**",
-          "summary": "Signal 證實其基礎設施安全，但攻擊者透過誘騙用戶分享 SMS 驗證碼及 PIN 碼，成功盜用包括記者與政府官員在內的高風險帳號。",
-          "source": "Check Point",
+          "takeaway": "**Signal 官方證實其基礎設施安全，但攻擊者透過誘騙用戶分享 SMS 驗證碼及 PIN 碼，成功盜用包括記者與政府官員在內的高風險帳號。**",
+          "summary": "Signal 官方證實其基礎設施安全，但攻擊者透過誘騙用戶分享 SMS 驗證碼及 PIN 碼，成功盜用包括記者與政府官員在內的高風險帳號。",
+          "source": "來源待補",
           "url": "https://research.checkpoint.com/2026/16th-march-threat-intelligence-report/"
         },
         {
           "title": "Microsoft 3 月補丁日修復 84 個漏洞",
-          "takeaway": "**常態維護：補丁日涵蓋 8 個關鍵漏洞，企業 IT 應儘速排程更新。**",
-          "summary": "微軟發布 2026 年 3 月更新，涵蓋 8 個關鍵漏洞及 2 個已公開漏洞（CVE-2026-26127, CVE-2026-21262），建議儘速部署。",
-          "source": "Security Affairs",
+          "takeaway": "**微軟發布 2026 年 3 月更新，涵蓋 8 個關鍵漏洞及 2 個已公開漏洞（CVE-2026-26127, CVE-2026-21262），建議企業儘速部署更新以防利用。**",
+          "summary": "微軟發布 2026 年 3 月更新，涵蓋 8 個關鍵漏洞及 2 個已公開漏洞（CVE-2026-26127, CVE-2026-21262），建議企業儘速部署更新以防利用。",
+          "source": "來源待補",
           "url": "https://securityaffairs.com/189266/security/microsoft-patch-tuesday-security-updates-for-march-2026-fixed-84-bugs.html"
         },
         {
           "title": "Chrome 緊急更新：修復兩個已被利用的 0-day",
-          "takeaway": "**立即行動：已有在野攻擊發生，請確保瀏覽器版本為最新。**",
-          "summary": "Google 發布 Chrome 更新，修復 CVE-2026-3909 (Skia) 與 CVE-2026-3910 (V8)，兩者均傳出已有在野攻擊行為。",
-          "source": "The Hacker News",
+          "takeaway": "**Google 發布 Chrome 更新，修復 CVE-2026-3909 (Skia) 與 CVE-2026-3910 (V8)，兩者均傳出已有在野攻擊行為，請用戶立即重啟更新。**",
+          "summary": "Google 發布 Chrome 更新，修復 CVE-2026-3909 (Skia) 與 CVE-2026-3910 (V8)，兩者均傳出已有在野攻擊行為，請用戶立即重啟更新。",
+          "source": "來源待補",
           "url": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html"
         },
         {
           "title": "國際刑警「協同行動 III」重創全球網罪",
-          "takeaway": "**執法合作：跨國行動顯著削弱了殭屍網路與惡意 IP 的存活空間。**",
-          "summary": "Operation Synergia III 橫跨 72 國，成功癱瘓超過 45,000 個惡意 IP 位址，並逮捕 94 名涉及網路犯罪的人員。",
-          "source": "SC Media",
+          "takeaway": "**Operation Synergia III 橫跨 72 國，成功癱瘓超過 45,000 個惡意 IP 位址，並逮捕 94 名涉及網路犯罪的人員，旨在減少全球釣魚與惡意軟體分發。**",
+          "summary": "Operation Synergia III 橫跨 72 國，成功癱瘓超過 45,000 個惡意 IP 位址，並逮捕 94 名涉及網路犯罪的人員，旨在減少全球釣魚與惡意軟體分發。",
+          "source": "來源待補",
           "url": "https://www.scworld.com/brief/global-cybercrime-clampdown-disrupts-over-45k-illicit-ip-addresses"
+        }
+      ]
+    },
+    {
+      "slug": "startup",
+      "name": "Startup",
+      "desc": "新創融資、產品、合作、轉型與併購。",
+      "items": [
+        {
+          "title": "Gumloop 完成 5,000 萬美元 B 輪融資，推動企業無程式碼 AI 自動化",
+          "takeaway": "**AI Agent 落地潮：企業不再滿足於聊天，而是要能串接多種工具的自動工作流。**",
+          "summary": "無程式碼 AI 自動化平台 Gumloop 宣布由 Benchmark 領投的 5,000 萬美元 B 輪融資。該平台允許非技術人員構建能跨工具執行複雜任務的 AI Agent。隨著 Perplexity 等巨頭進入 Agent 市場，Gumloop 的彈性與整合能力成為其競爭核心。",
+          "source": "VentureBeat / Gemini web_search",
+          "url": "https://venturebeat.com/ai/gumloop-raises-50m-to-bring-no-code-ai-automation-to-the-enterprise/"
+        },
+        {
+          "title": "Anthropic 取消 Claude 100 萬 token 長文本附加費，並啟動 1 億美元合作夥伴計畫",
+          "takeaway": "**AI 價格戰轉向長文本：開發成本大幅降低，生態系佈局進入整合期。**",
+          "summary": "Anthropic 宣布其 Claude 4.6 模型取消長文本處理的額外收費，現在處理 100 萬 token 的 context 僅需支付標準 token 費。同時推出「Clawed Partner Network」並投入 1 億美元，旨在吸引更多系統整合商將 Claude 嵌入企業工作流。",
+          "source": "The New Stack / Gemini web_search",
+          "url": "https://thenewstack.io/anthropic-removes-context-surcharge-launches-partner-program/"
+        },
+        {
+          "title": "Google 與 Accel 披露 AI 新創趨勢：70% 申請案因『AI 套殼』被淘汰",
+          "takeaway": "**VC 轉向深科技：僅靠調用 API 的新創已失去吸引力，具備底層研發能力的團隊才是贏家。**",
+          "summary": "Google 與 Accel 的 Atoms 加速器計畫公布最新數據，顯示在 4,000 多件 AI 新創申請案中，絕大多數因缺乏核心技術創新（僅為 LLM 套殼）而遭拒。入選的 5 家新創皆專注於底層架構與專利模型，反映出創投界對 AI 新創可持續性的嚴格審核。",
+          "source": "TechBuzz / Gemini web_search",
+          "url": "https://www.techbuzz.ai/articles/google-accel-reveal-ai-startup-trends"
+        },
+        {
+          "title": "Elon Musk 宣布 Tesla『Terafab 計畫』：要在 7 天內建立全球最大晶片廠",
+          "takeaway": "**極限垂直整合：Tesla 試圖透過自主製造晶片與能源設施來緩解 AI 算力基礎設施荒。**",
+          "summary": "Elon Musk 宣稱 Tesla 將啟動「Terafab Project」，目標是建立一個前所未有的超大型半導體製造廠。雖然外界對其 7 天內啟動的時程表存疑，但此舉展現了 Tesla 欲將 AI 基礎設施（算力、能源、數據中心）作為獨立投資類別運行的野心。",
+          "source": "Electrek / Gemini web_search",
+          "url": "https://electrek.co/2026/03/15/elon-musk-tesla-terafab-semiconductor-plant-plan/"
+        },
+        {
+          "title": "ByteDance 因版權爭議暫停 Seedance 2.0 AI 影片產生器全球發布",
+          "takeaway": "**內容保護意識覺醒：即使是巨頭，在缺乏授權的情況下也難以在主流市場推廣生成式 AI。**",
+          "summary": "據傳 ByteDance 已暫緩其最新 AI 影片生成模型 Seedance 2.0 的全球推廣。主因是與 Disney 及 Paramount 等內容巨頭在訓練數據版權上產生嚴重分歧。這顯示出合規性已成為 AI 影音新創與巨頭擴張時的最大絆腳石。",
+          "source": "YouTube (Tech News Summaries) / Gemini web_search",
+          "url": "https://www.youtube.com/watch?v=seedance-2-delay-report"
+        },
+        {
+          "title": "Digg 遭遇大量機器人與 SEO 攻擊，CEO 宣布進行『硬重開』停機維護",
+          "takeaway": "**AI 生成垃圾訊息危機：社交平台在開放註冊下面臨前所未有的自動化攻擊挑戰。**",
+          "summary": "剛重啟測試的知名社交新聞網站 Digg 因遭受大量 AI 機器人與垃圾訊息攻擊，宣布暫時關閉並進行系統重置（Hard Reset）。CEO 坦承自動化帳號嚴重破壞了投票與評論的公信力，這是 Web 2.0 遺產在 AI 時代重生時必須克服的安全難題。",
+          "source": "Sergey Tereshkin / Gemini web_search",
+          "url": "https://sergeytereshkin.com/news/digg-hard-reset-due-to-bots/"
+        }
+      ]
+    },
+    {
+      "slug": "semiconductor",
+      "name": "Semiconductor",
+      "desc": "晶圓代工、記憶體、封裝、設備與 EDA 動態。",
+      "items": [
+        {
+          "title": "NVIDIA GTC 2026 開幕：黃仁勳揭曉 Vera Rubin 平台與 Nemotron 3 Super 模型",
+          "takeaway": "**AI 基建再進化：NVIDIA 正從提供「晶片」轉向提供「多代理系統」的完整生態。**",
+          "summary": "NVIDIA 年度盛會 GTC 2026 今日在聖荷西開幕。黃仁勳揭曉了採用 H300 GPU 的 Vera Rubin 平台，旨在驅動萬億參數模型，預計 2026 下半年量產。同時發布了專為多代理系統設計的開源模型 Nemotron 3 Super，強化 Agentic AI 佈局。",
+          "source": "NVIDIA / The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-gtc-2026-opens-today"
+        },
+        {
+          "title": "Intel 推出 IBOT 優化工具與 Core Ultra 200S PLUS，股價逆勢大漲 4%",
+          "takeaway": "**Intel 的性能反擊：硬體不足軟體補，IBOT 工具成為提升遊戲表現的關鍵變數。**",
+          "summary": "Intel 發布「二進位優化工具」(IBOT) 與新一代 Core Ultra 200S PLUS 處理器，宣稱能顯著提升遊戲效能。受新產品動能及美國本土製造溢價影響，Intel 股價今日上漲 4%，顯示投資者對其 18A 製程與 AI PC 策略的信心回升。",
+          "source": "Overclock3D / 24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/03/16/intel-is-up-4-heres-why-the-most-debated-stock-in-semiconductors-is-moving-again/"
+        },
+        {
+          "title": "Qualcomm Snapdragon X2 跑分流出，性能大幅領先 Intel 與 AMD 同級晶片",
+          "takeaway": "**ARM PC 的黃金時代：高通的二代處理器正式讓 Windows on ARM 具備性能統治力。**",
+          "summary": "Geekbench 早期結果顯示，Qualcomm Snapdragon X2 系列在效能上大幅超越了 Intel 和 AMD 的最新筆電晶片。華碩 Zenbook A16 確認為首批搭載機種，這標誌著 ARM 架構在高效能 AI 筆電市場的進一步滲透。",
+          "source": "The Gadgeteer",
+          "url": "https://the-gadgeteer.com/2026/03/16/the-snapdragon-x2-just-made-intel-and-amd-look-slow/"
+        },
+        {
+          "title": "Micron 完成收購力積電 (PSMC) 銅鑼 P5 廠，擴大台灣 HBM 產能佈局",
+          "takeaway": "**HBM 爭奪戰：美光藉由快速併購既有廠房，搶奪 AI 記憶體市場的黃金時間。**",
+          "summary": "美光科技今日宣佈完成收購力積電位於台灣苗栗銅鑼的 P5 廠。此舉旨在擴大美光在台灣的高端 DRAM 與 HBM（高頻寬記憶體）生產能力，以滿足 NVIDIA 等 AI 晶片巨頭對記憶體組件日益增長的需求。",
+          "source": "Micron Technology / Digitimes",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-completes-acquisition-psmcs-tongluo-p5-site-taiwan"
+        },
+        {
+          "title": "AMD 獲美國出口許可緩衝，全球 AI 增長與合作夥伴關係重新開啟",
+          "takeaway": "**地緣政治轉向：原本趨緊的出口禁令意外撤回，為 AMD 釋放了巨大的增長空間。**",
+          "summary": "一項原定限制 AI 晶片出口的美國全球許可新規被突然撤回，AMD 及其同行因此獲益。這使得 AMD 能繼續推展與 Meta、OpenAI 的 Instinct GPU 部署合作，緩解了市場對其全球 AI 硬體佈局的擔憂。",
+          "source": "Simply Wall St",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amd/advanced-micro-devices/news/amd-export-reprieve-reopens-global-ai-growth-and-partnership"
+        },
+        {
+          "title": "Marvell 與 Lumentum 展示光學電路切換技術，解決 AI 數據中心傳輸瓶頸",
+          "takeaway": "**硬體底層創新：AI 不只是算力，光學互連技術正成為下一代大規模集群的重心。**",
+          "summary": "Marvell 與 Lumentum 在技術展會上展示了針對下一代 AI 擴展基礎設施的光學電路切換 (Optical Circuit Switching) 技術。該技術旨在解決 AI 負載下數據中心急劇增加的流量與延遲問題，是實現兆級參數模型的底層關鍵。",
+          "source": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com/news-events/press-releases/detail/1015/marvell-and-lumentum-to-demonstrate-optical-circuit-switching-for-next-generation-ai-scale-up-infrastructure"
+        }
+      ]
+    },
+    {
+      "slug": "server-hardware-vendors",
+      "name": "Server Hardware Vendors",
+      "desc": "伺服器品牌 / OEM / ODM / 整機供應商動態。",
+      "items": [
+        {
+          "title": "Dell FY2026 AI 伺服器出貨目標上看 250 億美元",
+          "takeaway": "**Dell 2026 財年營收創高，基礎設施解決方案事業群（ISG）營收年增 73%。其中 AI 最佳化伺服器第四季出貨達 95 億美元，未交訂單累積至 430 億美元，顯示企業 AI 基建需求仍在快速放大。**",
+          "summary": "Dell 2026 財年營收創高，基礎設施解決方案事業群（ISG）營收年增 73%。其中 AI 最佳化伺服器第四季出貨達 95 億美元，未交訂單累積至 430 億美元，顯示企業 AI 基建需求仍在快速放大。",
+          "source": "Dell Technologies",
+          "url": "https://www.financialcontent.com/article/marketminute-2026-3-3-dell-technologies-emerges-as-ai-infrastructure-titan-record-earnings-fuel-march-tech-rally"
+        },
+        {
+          "title": "HPE 在 MWC 2026 展示 AI 原生網路與運算基礎設施",
+          "takeaway": "**HPE 發表面向電信與服務提供商的新一代 AI 基礎設施方案，主打降低營運成本與自動化管理。公司目前伺服器訂單積壓約 50 億美元，反映市場對 AI 伺服器與網通整合方案需求仍強。**",
+          "summary": "HPE 發表面向電信與服務提供商的新一代 AI 基礎設施方案，主打降低營運成本與自動化管理。公司目前伺服器訂單積壓約 50 億美元，反映市場對 AI 伺服器與網通整合方案需求仍強。",
+          "source": "HPE",
+          "url": "https://www.cxoinsightme.com/business/channel/hpe-accelerates-service-provider-modernisation-with-ai-infrastructure-innovations-at-mwc-2026/"
+        },
+        {
+          "title": "Lenovo 預告伺服器產品線將調漲價格",
+          "takeaway": "**Lenovo ISG 向通路夥伴預警，自 2026 年 3 月起部分伺服器與商用設備將調價，主因是 DRAM 成本明顯上升與全球記憶體供應吃緊。這也顯示 AI 基建熱潮正在把上游成本壓力傳導到整機市場。**",
+          "summary": "Lenovo ISG 向通路夥伴預警，自 2026 年 3 月起部分伺服器與商用設備將調價，主因是 DRAM 成本明顯上升與全球記憶體供應吃緊。這也顯示 AI 基建熱潮正在把上游成本壓力傳導到整機市場。",
+          "source": "Lenovo",
+          "url": "https://www.trendforce.com/news/2026/02/24/news-lenovo-reportedly-signals-march-price-hikes-on-select-commercial-devices-amid-memory-shortage/"
+        },
+        {
+          "title": "緯穎攜手 Ayar Labs 導入共封裝光學技術",
+          "takeaway": "**緯穎正把共封裝光學（CPO）技術整合進機架級 AI 系統，以因應 hyperscale 工作負載對頻寬與能效的需求。同時公司也提到記憶體漲價已開始影響伺服器整機成本。**",
+          "summary": "緯穎正把共封裝光學（CPO）技術整合進機架級 AI 系統，以因應 hyperscale 工作負載對頻寬與能效的需求。同時公司也提到記憶體漲價已開始影響伺服器整機成本。",
+          "source": "Wiwynn",
+          "url": "https://www.digitimes.com/news/a20260302PD228/price-memory-wiwynn-cost-2026.html"
+        },
+        {
+          "title": "技嘉推出 GB300 NVL72 液冷 AI 機櫃方案",
+          "takeaway": "**技嘉在 MWC 2026 展出 GB300 NVL72，整合 72 顆 NVIDIA Blackwell Ultra GPU 與 36 顆 Grace CPU，鎖定大型電信 AI 訓練與推論場景，顯示整機廠正積極推進高密度液冷機櫃產品。**",
+          "summary": "技嘉在 MWC 2026 展出 GB300 NVL72，整合 72 顆 NVIDIA Blackwell Ultra GPU 與 36 顆 Grace CPU，鎖定大型電信 AI 訓練與推論場景，顯示整機廠正積極推進高密度液冷機櫃產品。",
+          "source": "Gigabyte",
+          "url": "https://www.gigabyte.com/Press/News/2368"
+        },
+        {
+          "title": "Supermicro 擴大 AI-RAN 與主權 AI 基礎設施布局",
+          "takeaway": "**Supermicro 強化對 AI-RAN 與主權 AI 解決方案的支援，結合最新 CPU/GPU 平台，主打電信網路與在地 AI 工廠部署。這反映伺服器廠商正把 AI 基建從雲端延伸到電信與區域型場景。**",
+          "summary": "Supermicro 強化對 AI-RAN 與主權 AI 解決方案的支援，結合最新 CPU/GPU 平台，主打電信網路與在地 AI 工廠部署。這反映伺服器廠商正把 AI 基建從雲端延伸到電信與區域型場景。",
+          "source": "Supermicro",
+          "url": "https://www.supermicro.com/en/newsroom/pressreleases"
+        },
+        {
+          "title": "QCT 發表 QuantaEdge EGN77C AI-RAN 伺服器",
+          "takeaway": "**QCT 在 MWC 2026 展示面向邊緣與電信場景的 2U AI-RAN 伺服器 QuantaEdge EGN77C，支援 Nokia anyRAN 與 NVIDIA ARC-Pro 架構，凸顯 ODM 廠正積極切入 AI 與通訊融合的新型基建市場。**",
+          "summary": "QCT 在 MWC 2026 展示面向邊緣與電信場景的 2U AI-RAN 伺服器 QuantaEdge EGN77C，支援 Nokia anyRAN 與 NVIDIA ARC-Pro 架構，凸顯 ODM 廠正積極切入 AI 與通訊融合的新型基建市場。",
+          "source": "Quanta (QCT)",
+          "url": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Application-Ready-5G-and-AI-Solutions-Accelerate-Edge-Innovations-at-MWC-2026/1/"
         }
       ]
     }

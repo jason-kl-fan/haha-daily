@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-17",
+  "topic": "AI",
+  "news": [
+    {
+      "title": "IBM 完成收購 Confluent，推動即時 AI 數據引擎",
+      "point": "IBM 正式完成對數據流平台 Confluent 的收購，強化企業級 AI 與代理程式的即時數據處理能力。",
+      "summary": "此舉旨在為 AI 模型提供持續更新且可信的數據流，讓企業能更有效地實踐大規模 AI 應用。IBM 同時宣布將在 2026 年第二季於雲端服務中提供 NVIDIA Blackwell Ultra GPU。",
+      "url": "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents"
+    },
+    {
+      "title": "Supermicro 推出七款 NVIDIA 加速 AI 數據平台",
+      "point": "Supermicro 聯手 NVIDIA 與 IBM 等夥伴推出全新 AI 數據平台解決方案，加速企業 AI 創新進程。",
+      "summary": "這些平台整合了 NVIDIA RTX PRO GPU 與專業 AI 軟體，提供可擴展且預整合的基礎設施。新方案針對數據分析與智慧文件處理優化，幫助企業快速部署高效能 AI 環境。",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Launches-Seven-AI-Data-Platform-Solutions-with-NVIDIA-and-Leading-Ecosystem-Partners-to-Accelerate-Enterprise-AI-Innovation/default.aspx"
+    },
+    {
+      "title": "NVIDIA 發布物理 AI 數據工廠藍圖",
+      "point": "NVIDIA 推出開放參考架構藍圖，旨在加速機器人、視覺 AI 代理與自動駕駛車輛的開發。",
+      "summary": "該藍圖透過自動化生成與評估訓練數據，解決物理 AI 發展中的數據瓶頸。目前微軟 Azure 與 Nebius 已率先採用此架構，打造新一代 AI 生產環境。",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development"
+    },
+    {
+      "title": "核能 AI 工廠：AtkinsRéalis 與 NVIDIA 展開合作",
+      "point": "AtkinsRéalis 探索將核能技術與 NVIDIA 加速運算結合，打造核動力驅動的 AI 數據中心。",
+      "summary": "這項合作旨在解決 AI 基礎設施對電力需求增長過快、能源供應不足的困境。雙方預期核能可提供穩定且乾淨的電力，支持大規模 AI 運算工廠的運作。",
+      "url": "https://www.bnnbloomberg.ca/business/2026/03/17/atkinsrealis-announces-collaboration-with-nvidia-on-nuclear-powered-ai-factories/"
+    },
+    {
+      "title": "Gartner 預測：2028 年半數資安事件將與自建 AI 應用有關",
+      "point": "資安研究機構預估，自定義 AI 驅動應用的興起將大幅改變企業的網路安全維運焦點。",
+      "summary": "Gartner 指出企業將投入大量人力處理「AI 數據債」，並需依賴專門的 AI 安全平台管理風險。此外，到 2030 年將有三分之一的 IT 工作專注於修復與 AI 系統相關的數據漏洞。",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-17-gartner-predicts-ai-applications-will-drive-50-percent-of-cybersecurity-incident-response-efforts-by-2028"
+    },
+    {
+      "title": "黃仁勳指 AI 進入「推理拐點」：訂單積壓達萬億美元",
+      "point": "NVIDIA 執行長預言推理需求將成為下一波 AI 爆發點，未來一年訂單量極為樂觀。",
+      "summary": "黃仁勳認為隨著 AI 應用從訓練轉向大規模推理，市場對算力的需求將迎來新的指數級增長。他預測全球企業對 AI 基礎設施的升級將帶動長期且強勁的硬體需求。",
+      "url": "https://www.ksat.com/business/2026/03/16/nvidia-ceo-heralds-inference-inflection-as-next-phase-of-ai-boom-backed-by-1-trillion-in-orders/"
+    }
+  ]
+}
