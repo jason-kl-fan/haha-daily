@@ -1,79 +1,62 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
+<!doctype html>
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈哈狗報 - 伺服器硬體商動態 (2026-03-16)</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        header { border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px; }
-        h1 { font-size: 1.5rem; color: #007bff; margin: 0; }
-        .date { font-size: 0.9rem; color: #666; }
-        .news-item { background: #fff; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .vendor { font-weight: bold; color: #e67e22; font-size: 0.8rem; text-transform: uppercase; }
-        .title { font-size: 1.1rem; font-weight: bold; margin: 5px 0; color: #2c3e50; }
-        .summary { font-size: 0.95rem; color: #555; }
-        .link { font-size: 0.8rem; color: #007bff; text-decoration: none; display: block; margin-top: 10px; }
-        footer { font-size: 0.8rem; text-align: center; color: #888; margin-top: 40px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>哈哈狗報</title>
+  <style>
+:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
+*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
+a{color:var(--accent);text-decoration:none} strong{font-weight:800}
+.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
+.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
+h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
-    <header>
-        <h1>哈哈狗報 🐶</h1>
-        <div class="date">主題：伺服器硬體商動態 | 2026-03-16</div>
-    </header>
-
-    <div class="news-item">
-        <div class="vendor">Dell Technologies</div>
-        <div class="title">Dell FY2026 AI Server Shipments Target $25B</div>
-        <div class="summary">Dell 報告 FY2026 營收創新高，ISG 部門增長 73%。Q4 AI 伺服器出貨達 95 億美元，積壓訂單高達 430 億美元。</div>
-        <a class="link" href="https://www.financialcontent.com/article/marketminute-2026-3-3-dell-technologies-emerges-as-ai-infrastructure-titan-record-earnings-fuel-march-tech-rally">Read More &rarr;</a>
+  <main class="wrap">
+<section class="card">
+  <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="./assets/husky-logo.png" alt="哈哈狗報 Logo" style="width:72px;height:72px;filter:drop-shadow(0 8px 18px rgba(125,211,252,.18))" /><div><div class="pill">哈哈狗報</div><h1>每日科技・產業・地緣情報整理</h1></div></div>
+  <p>今日安全專題：醫療巨頭 Stryker 遭毀滅性攻擊、Android 實體漏洞 60 秒破加密，以及 Chrome 紧急修復 0-day 漏洞。</p>
+  <p><a href="./2026-03-16/"><strong>進入今日主頁：2026 年 3 月 16 日</strong></a></p>
+  <p class="muted">最新更新：2026-03-16 22:15 America/Los_Angeles</p>
+</section>
+<section class="card">
+  <h2>快速導讀 / TL;DR</h2>
+  <ul class="list"><li><strong>Security</strong>：Stryker 遭伊朗駭客 Wiper 攻擊損失慘重，Android 爆發 60 秒可破實體加密之漏洞。</li><li><strong>Vulnerabilities</strong>：Microsoft 與 Google 同步發布重大更新，修復包含已在野利用的 0-day 漏洞。</li><li><strong>Operations</strong>：國際刑警組織 Operation Synergia III 橫跨 72 國，成功癱瘓逾 4.5 萬個惡意 IP。</li></ul>
+</section>
+<section class="card">
+  <h2>今日主題</h2>
+  <div class="grid"><a class="card topic-card" href="./2026-03-16/security/"><h3>Security</h3><p><strong>毀滅性威脅：這不只是勒索，更是針對關鍵基礎設施的數據抹除行動。</strong></p><p class="muted small">最新：Stryker 遭伊朗駭客 Handala 毀滅性攻擊</p></a></div>
+</section>
+<section class="card">
+  <h2>站點導覽</h2>
+  <ul class="list">
+    <li><a href="./2026-03-16/">今日總覽</a>：聚焦保留主題、每則精簡摘要。</li>
+    <li>主題歷史頁：<a href="./ai/">AI</a> / <a href="./storage-server/">Storage / Server</a> / <a href="./cooling/">Cooling</a> / <a href="./security/">Security</a> / <a href="./startup/">Startup</a></li>
+    <li><a href="./saved/">Saved</a> 僅保留手動收藏，不會自動加入。</li>
+  </ul>
+</section>
+<section class="card">
+  <h2>任務資訊</h2>
+  <div class="stat small">
+      <div><b>total token</b>約 25k</div>
+      <div><b>input token</b>約 20k</div>
+      <div><b>output token</b>約 5k</div>
+      <div><b>duration</b>Security 專題更新</div>
+      <div><b>status</b>published</div>
     </div>
-
-    <div class="news-item">
-        <div class="vendor">HPE</div>
-        <div class="title">HPE Showcases AI-Native Networking & Compute at MWC 2026</div>
-        <div class="summary">HPE 在 MWC 2026 展示專為電信商設計的 AI 原生基礎架構，旨在降低成本。目前擁有 50 億美元伺服器訂單積壓。</div>
-        <a class="link" href="https://www.cxoinsightme.com/business/channel/hpe-accelerates-service-provider-modernisation-with-ai-infrastructure-innovations-at-mwc-2026/">Read More &rarr;</a>
-    </div>
-
-    <div class="news-item">
-        <div class="vendor">Lenovo</div>
-        <div class="title">Lenovo Signals Price Hikes Across Server Lineup</div>
-        <div class="summary">Lenovo 警告合作夥伴 3 月起伺服器將漲價，主因是 DRAM 成本飆升及全球記憶體晶片短缺。</div>
-        <a class="link" href="https://www.trendforce.com/news/2026/02/24/news-lenovo-reportedly-signals-march-price-hikes-on-select-commercial-devices-amid-memory-shortage/">Read More &rarr;</a>
-    </div>
-
-    <div class="news-item">
-        <div class="vendor">Gigabyte (技嘉)</div>
-        <div class="title">Gigabyte Launches GB300 NVL72 Liquid-Cooled AI Rack</div>
-        <div class="summary">技嘉於 MWC 2026 發表 GB300 NVL72 液冷機櫃，整合 72 顆 NVIDIA Blackwell Ultra GPU，優化電信 AI 訓練。</div>
-        <a class="link" href="https://www.gigabyte.com/Press/News/2368">Read More &rarr;</a>
-    </div>
-
-    <div class="news-item">
-        <div class="vendor">Wiwynn (緯穎)</div>
-        <div class="title">Wiwynn Partners with Ayar Labs for Co-Packaged Optics</div>
-        <div class="summary">緯穎將共同封裝光學 (CPO) 技術導入 AI 系統。另指出記憶體漲價已開始影響伺服器成本。</div>
-        <a class="link" href="https://www.digitimes.com/news/a20260302PD228/price-memory-wiwynn-cost-2026.html">Read More &rarr;</a>
-    </div>
-
-    <div class="news-item">
-        <div class="vendor">Quanta (廣達/QCT)</div>
-        <div class="title">QCT Debuts QuantaEdge EGN77C AI-RAN Server</div>
-        <div class="summary">廣達旗下 QCT 在 MWC 展出 2U AI-RAN 伺服器，支援 Nokia anyRAN 與 NVIDIA ARC-Pro 架構。</div>
-        <a class="link" href="https://www.qct.io/Press-Releases/index/PR/Server/QCT-Application-Ready-5G-and-AI-Solutions-Accelerate-Edge-Innovations-at-MWC-2026/1/">Read More &rarr;</a>
-    </div>
-
-    <div class="news-item">
-        <div class="vendor">Supermicro</div>
-        <div class="title">Supermicro Delivers Scalable AI Infrastructure for AI-RAN</div>
-        <div class="summary">美超微擴大支援 AI-RAN 與主權 AI 方案，採用最新 CPU/GPU 驅動電信網絡與安全 AI 工廠。</div>
-        <a class="link" href="https://www.supermicro.com/en/newsroom/pressreleases">Read More &rarr;</a>
-    </div>
-
-    <footer>
-        哈哈狗報 &copy; 2026 | 自動更新
-    </footer>
+</section>
+</main>
+  <script src="./assets/saved.js"></script>
 </body>
 </html>

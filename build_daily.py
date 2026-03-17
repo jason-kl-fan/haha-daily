@@ -3,16 +3,16 @@ import json, html, os
 from datetime import datetime
 
 ROOT = os.path.dirname(__file__)
-DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-15-curated.json')))
+DATA = json.load(open(os.path.join(ROOT, 'data', '2026-03-16-curated.json')))
 DATE = DATA['site']['date']
 DATE_LABEL = DATA['site']['dateLabel']
 TOPICS = DATA['topics']
-UPDATED = '2026-03-15 09:40 America/Los_Angeles'
+UPDATED = '2026-03-16 22:15 America/Los_Angeles'
 STATS = {
-    'total': '約 18k',
-    'input': '約 14k',
-    'output': '約 4k',
-    'duration': 'Security 手動重跑',
+    'total': '約 25k',
+    'input': '約 20k',
+    'output': '約 5k',
+    'duration': 'Security 專題更新',
     'status': 'published'
 }
 TOPIC_ORDER = [t['slug'] for t in TOPICS]

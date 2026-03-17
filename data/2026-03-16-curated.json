@@ -1,0 +1,72 @@
+{
+  "site": {
+    "name": "哈哈狗報",
+    "date": "2026-03-16",
+    "dateLabel": "2026 年 3 月 16 日",
+    "weekday": "星期一",
+    "intro": "今日安全專題：醫療巨頭 Stryker 遭毀滅性攻擊、Android 實體漏洞 60 秒破加密，以及 Chrome 紧急修復 0-day 漏洞。",
+    "overview": [
+      "**Security**：Stryker 遭伊朗駭客 Wiper 攻擊損失慘重，Android 爆發 60 秒可破實體加密之漏洞。",
+      "**Vulnerabilities**：Microsoft 與 Google 同步發布重大更新，修復包含已在野利用的 0-day 漏洞。",
+      "**Operations**：國際刑警組織 Operation Synergia III 橫跨 72 國，成功癱瘓逾 4.5 萬個惡意 IP。"
+    ]
+  },
+  "topics": [
+    {
+      "slug": "security",
+      "name": "Security",
+      "desc": "資安事故、漏洞通報、駭客行動與防禦技術。",
+      "items": [
+        {
+          "title": "Stryker 遭伊朗駭客 Handala 毀滅性攻擊",
+          "takeaway": "**毀滅性威脅：這不只是勒索，更是針對關鍵基礎設施的數據抹除行動。**",
+          "summary": "醫療科技巨頭 Stryker 證實遭伊朗相關組織 Handala Hack 攻擊。駭客聲稱摧毀數千台伺服器並竊取 50TB 數據，目前看來是以資料破壞（Wiper）為主的針對性行動。",
+          "source": "Cybersecurity News",
+          "url": "https://cybersecuritynews.com/stryker-wiper-attack/"
+        },
+        {
+          "title": "Android 手機爆嚴重漏洞：60 秒可破加密",
+          "takeaway": "**實體安全警告：具備實體接觸的攻擊者可繞過全磁碟加密。**",
+          "summary": "CVE-2025-20435 影響多款 MediaTek 晶片手機。駭客可透過實體 USB 在 60 秒內提取根金鑰並繞過全磁碟加密，即使手機處於鎖定狀態亦有效。",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/daveywinder/2026/03/16/critical-flaw-875-million-android-phones-at-risk-of-60-second-hack/"
+        },
+        {
+          "title": "Telus Digital 遭駭客索資 6,500 萬美元",
+          "takeaway": "**天價勒索：駭客宣稱竊取 1PB 資料，顯示大型企業供應鏈仍是重災區。**",
+          "summary": "電信龍頭 Telus 子公司證實系統遭未授權存取。駭客組織 ShinyHunters 宣稱竊取近 1PB 客戶及通話記錄，目前公司尚未證實資料遺失量。",
+          "source": "SharkStriker",
+          "url": "https://sharkstriker.com/blog/march-data-breaches-today-2026/"
+        },
+        {
+          "title": "Signal 遭遇針對性網路釣魚，多位名人帳號被盜",
+          "takeaway": "**社交工程不敗：即便通訊軟體加密再強，也擋不住用戶自行交出驗證碼。**",
+          "summary": "Signal 證實其基礎設施安全，但攻擊者透過誘騙用戶分享 SMS 驗證碼及 PIN 碼，成功盜用包括記者與政府官員在內的高風險帳號。",
+          "source": "Check Point",
+          "url": "https://research.checkpoint.com/2026/16th-march-threat-intelligence-report/"
+        },
+        {
+          "title": "Microsoft 3 月補丁日修復 84 個漏洞",
+          "takeaway": "**常態維護：補丁日涵蓋 8 個關鍵漏洞，企業 IT 應儘速排程更新。**",
+          "summary": "微軟發布 2026 年 3 月更新，涵蓋 8 個關鍵漏洞及 2 個已公開漏洞（CVE-2026-26127, CVE-2026-21262），建議儘速部署。",
+          "source": "Security Affairs",
+          "url": "https://securityaffairs.com/189266/security/microsoft-patch-tuesday-security-updates-for-march-2026-fixed-84-bugs.html"
+        },
+        {
+          "title": "Chrome 緊急更新：修復兩個已被利用的 0-day",
+          "takeaway": "**立即行動：已有在野攻擊發生，請確保瀏覽器版本為最新。**",
+          "summary": "Google 發布 Chrome 更新，修復 CVE-2026-3909 (Skia) 與 CVE-2026-3910 (V8)，兩者均傳出已有在野攻擊行為。",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html"
+        },
+        {
+          "title": "國際刑警「協同行動 III」重創全球網罪",
+          "takeaway": "**執法合作：跨國行動顯著削弱了殭屍網路與惡意 IP 的存活空間。**",
+          "summary": "Operation Synergia III 橫跨 72 國，成功癱瘓超過 45,000 個惡意 IP 位址，並逮捕 94 名涉及網路犯罪的人員。",
+          "source": "SC Media",
+          "url": "https://www.scworld.com/brief/global-cybercrime-clampdown-disrupts-over-45k-illicit-ip-addresses"
+        }
+      ]
+    }
+  ]
+}
