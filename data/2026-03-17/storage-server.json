@@ -1,0 +1,51 @@
+[
+  {
+    "title": "NVIDIA 推出 BlueField-4 STX：為代理型 AI 推論加速的存儲架構",
+    "key_point": "NVIDIA 發表 BlueField-4 STX 模組化架構，顯著提升 AI 存儲效能。",
+    "summary": "此架構提供高達 5 倍的 Token 吞吐量與 4 倍的能源效率。其資料攝取速度翻倍，專為應對生成式 AI 與代理型 AI 的龐大數據需求而設計。",
+    "url": "https://www.storagenewsletter.com/2026/03/17/nvidia-gtc-2026-nvidia-launches-bluefield-4-stx-storage-architecture-with-broad-industry-adoption/",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Supermicro 率先推出支援 NVIDIA STX 的 Context Memory 存儲伺服器",
+    "key_point": "Supermicro 整合 NVIDIA Vera CPU 與 ConnectX-9，提升 AI 推論表現。",
+    "summary": "新伺服器採用 NVIDIA STX 參考架構，專為 Context Memory (CMX) 最佳化。旨在優化大型語言模型的檢索增強生成 (RAG) 流程與即時數據處理。",
+    "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Among-First-to-Unveil-NVIDIA-BlueField-4-STX-Storage-Server-to-Improve-AI-Inference-Performance/default.aspx",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "NetApp 發表 EF50 與 EF80：讀寫效能大幅提升 250%",
+    "key_point": "NetApp 下一代全快閃存儲系統，讀取速度突破 110GBps。",
+    "summary": "新機型針對 AI 與 HPC 等高效能工作負載設計，提供卓越的存儲密度。除了速度提升外，更優化了電力效率，協助企業降低數據中心營運成本。",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh35xZuNF9IEHji6tHh3E_TemOVwK7SjIJTDhdsIhN-RG4ffdsvTwo9B60u3zOkXZw24DsNTa0IxWTkgBAkIIfCZXknIHgT0oUVf6AB6wMOyPyoo2YKBdO6dAe9UgLQ0QIG1GYdXB3zhFbVtPF9HDlw_i_q6yhSFVcTr7XLYjisnSweF5PecZJYihkqpuznCfE4mFEpzlJOhsGfk4sigbggY89mOb25Q==",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "慧榮科技展示新款企業級 SSD 控制晶片與 PCIe NVMe 啟動硬碟",
+    "key_point": "Silicon Motion 在 GTC 2026 展示專為 NVIDIA AI 生態系設計的存儲方案。",
+    "summary": "展示內容包含高效能 SSD 控制器與 BGA 封裝的啟動磁碟。這些方案能有效應對 AI 推論架構中，對 NAND 存儲效能日益增加的嚴苛要求。",
+    "url": "https://www.techpowerup.com/347449/silicon-motion-showcases-enterprise-ssd-controllers-and-pcie-nvme-boot-drive-solutions-at-gtc-2026",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "OSNexus 釋出 QuantaStor v6.6.11：強化 Ceph 擴充性與硬體整合",
+    "key_point": "存儲軟體更新提升安全性監測，並擴大支援 Seagate 與 WD 硬體。",
+    "summary": "新版本優化了大規模物件存儲環境，並強化平台穩定性。正式支援 Seagate CORVAULT 與 WD Data24 NVMe-oF 等高效能硬體設備。",
+    "url": "https://www.prnewswire.com/news-releases/osnexus-announces-quantastor-v6-6-11-with-scalability-enhancements-for-ceph-deployments-and-expanded-hardware-integration-302714855.html",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Marvell 推出 Structera S 30260 CXL 交換晶片：打破 AI 記憶體牆",
+    "key_point": "新款 260 通道 CXL Switch 支援機架級記憶體池化技術。",
+    "summary": "此晶片允許數據中心存取解耦的記憶體資源，提升記憶體頻寬與容量。能有效解決 AI 運算中常見的記憶體瓶頸，並提高硬體資源利用率。",
+    "url": "https://investor.marvell.com/news-events/press-releases/detail/1017/marvell-launches-next-generation-cxl-switch-enabling-memory-pooling-to-break-through-the-ai-memory-wall",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "HPE Alletra Storage MP X10000 獲 NVIDIA 認證，加速 AI 生產環境",
+    "key_point": "HPE 擴展 AI 運算產品線，提供首款獲 NVIDIA 認證的物件存儲平台。",
+    "summary": "該平台通過效能與安全性驗證，適合大規模 AI 部署。同時，HPE 亦更新了 ProLiant 伺服器，全面支援 NVIDIA 最新 AI 技術。",
+    "url": "https://www.tradingview.com/news/reuters.com,2026-03-17:newsml_Zaw3B7Fl6:0-zawya-pressr-hpe-accelerates-secure-scalable-production-ready-ai-through-new-innovations-with-nvidia/",
+    "date": "2026-03-17"
+  }
+]
