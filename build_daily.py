@@ -86,8 +86,8 @@ def load_json(path):
 
 def normalize_item(raw):
     title = raw.get('title') or raw.get('headline') or 'Untitled'
-    summary = raw.get('summary') or raw.get('desc') or raw.get('description') or ''
-    takeaway = raw.get('takeaway') or f'**{summary or title}**'
+    summary = (raw.get('summary') or raw.get('desc') or raw.get('description') or '').strip()
+    takeaway = (raw.get('takeaway') or f'**{summary or title}**').strip()
     source = raw.get('source') or raw.get('vendor') or raw.get('topic') or '來源待補'
     url = raw.get('url') or raw.get('link') or raw.get('sourceUrl') or '#'
     return {
@@ -154,7 +154,14 @@ def item_html(item):
     takeaway_html = rich(item['takeaway'])
     summary_text = (item.get('summary') or '').strip()
     takeaway_text = (item.get('takeaway') or '').replace('**', '').strip()
-    summary_block = '' if (not summary_text or summary_text == takeaway_text) else f'\n      <p class="small">{html.escape(summary_text)}</p>'
+
+    sentences = []
+    if summary_text and summary_text != takeaway_text:
+        normalized = summary_text.replace('。', '。|').replace('！', '！|').replace('？', '？|')
+        sentences = [s.strip() for s in normalized.split('|') if s.strip()]
+        sentences = sentences[:3]
+    summary_block = '' if not sentences else f'\n      <p class="small">{" ".join(html.escape(s) for s in sentences)}</p>'
+
     return f'''<article class="story">
       <h3>{html.escape(item['title'])}</h3>
       <p>{takeaway_html}</p>{summary_block}
