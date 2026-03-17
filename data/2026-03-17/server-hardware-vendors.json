@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Supermicro 推出 NVIDIA BlueField-4 STX AI 存儲伺服器",
+    "highlight": "Supermicro 於 NVIDIA GTC 2026 發表全新 BlueField-4 STX 存儲伺服器，顯著提升 AI 推論效能。",
+    "summary": [
+      "該系統專為加速 AI 推論任務設計，整合上下文記憶體存儲技術。",
+      "同步展示全新液冷 DCBBS® 解決方案，支援 NVIDIA Vera Rubin NVL72 平台。",
+      "與 Cloudian 及 Nutanix 等夥伴合作，提供基於 Blackwell GPU 的完整 AI 數據平台。"
+    ],
+    "link": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Among-First-to-Unveil-NVIDIA-BlueField-4-STX-Storage-Server-to-Improve-AI-Inference-Performance/default.aspx"
+  },
+  {
+    "title": "HPE 發表次世代 AI 工廠與超算進展，導入液冷 Vera CPU 刀鋒系統",
+    "highlight": "HPE 擴展 NVIDIA AI 運算組合，推出液冷 HPE Cray Supercomputing GX240 運算刀鋒。",
+    "summary": [
+      "全新系統搭載多達 16 顆 NVIDIA Vera CPU，預計於 2026 年底陸續供貨。",
+      "推出 NVIDIA Vera Rubin NVL72 規格之機櫃級解決方案，專攻大型 AI 工廠。",
+      "私有雲 AI 系列新增氣隙（Air-gapped）配置，強化主權 AI 與數據安全。"
+    ],
+    "link": "https://www.techpowerup.com/347438/hpe-announces-next-generation-ai-factory-and-supercomputing-advancements-with-nvidia"
+  },
+  {
+    "title": "鴻海（Foxconn）看好 AI 伺服器出貨量翻倍，美產線週產 2,000 櫃",
+    "highlight": "鴻海預計 2026 年 AI 伺服器機櫃出貨將呈現高雙位數增長，全年有望翻倍。",
+    "summary": [
+      "目前鴻海在全球 AI 伺服器市場佔有率約 40%，居領導地位。",
+      "美國生產基地預計於 2026 年達到每週產出 2,000 套 AI 伺服器機櫃的能力。",
+      "雲端網路事業部營收佔比首度超越消費電子，成為集團主要增長動力。"
+    ],
+    "link": "https://www.taipeitimes.com/News/biz/archives/2026/03/17/2003853939"
+  },
+  {
+    "title": "Lenovo 推出 Hybrid AI Advantage 方案，並警示伺服器價格將調漲",
+    "highlight": "Lenovo 於 GTC 2026 發表混合 AI 優化平台，同時因記憶體短缺通知合作夥伴調漲售價。",
+    "summary": [
+      "全新 AI 雲端巨型工廠系統將採用 NVIDIA Vera Rubin NVL72 架構。",
+      "受全球記憶體組件缺貨影響，Lenovo 已向通路發出 3 月起調漲 PC 與伺服器價格的通知。",
+      "推論平台整合 NVIDIA NIM 服務，旨在加速企業端的 AI 應用落地。"
+    ],
+    "link": "https://itdaily.com/news/business/lenovo-to-hike-pc-and-server-prices-starting-in-march/"
+  },
+  {
+    "title": "緯穎（Wiwynn）展示全液冷 AI 工廠架構與 GPU 直接存取技術",
+    "highlight": "緯穎與緯創聯手展出 Vera Rubin NVL72 全液冷機櫃解決方案。",
+    "summary": [
+      "展示「Storage-Next」架構，實現 GPU 直接啟動存取的存儲系統。",
+      "與 Ayar Labs 合作開發光學共同封裝（CPO）技術，提升機櫃級連網效能。",
+      "產品線全面轉向高能效液冷設計，以應對次世代 AI 算力中心散熱需求。"
+    ],
+    "link": "https://www.marketscreener.com/news/wiwynn-showcases-nvidia-vera-rubin-nvl72-ai-factory-infrastructure-at-nvidia-gtc-2026-ce7e5edbdb8bfe2d"
+  },
+  {
+    "title": "技嘉科技發表 GAIFA 加速器計畫，強化台灣 AI 工廠供應鏈",
+    "highlight": "技嘉旗下技鋼（Giga Computing）發表支援 NVIDIA Vera 平台之企業級 AI 解決方案。",
+    "summary": [
+      "於台灣成立「AI 工廠加速器」（GAIFA），作為全球 AI 基礎設施優化中心。",
+      "推出多款基於 Vera Rubin 平台的新型伺服器，涵蓋塔式到機櫃級產品。",
+      "聚焦快速部署與規模化生產，協助客戶構建高效能運算集群。"
+    ],
+    "link": "https://www.techpowerup.com/347445/giga-computing-shows-data-center-portfolio-and-infrastructure-at-nvidia-gtc-2026-including-new-nvidia-rubin-platforms"
+  },
+  {
+    "title": "Dell 戰略轉型 AI 基礎設施，目標 2027 財年 AI 伺服器營收翻倍",
+    "highlight": "Dell 雖然在 2026 財年裁員 10%，但 AI 優化伺服器業務需求強勁，營收展望樂觀。",
+    "summary": [
+      "宣布整合 ObjectScale 與 PowerScale 等存儲產品之伺服器硬體基礎，提升部署靈活度。",
+      "單季 AI 伺服器訂單創歷史新高，帶動整體基礎設施解決方案部門增長。",
+      "持續推動以 Lightning 平台為核心的 AI 伺服器產品組合轉型。"
+    ],
+    "link": "https://www.blocksandfiles.com/ai-ml/2026/03/16/dells-ai-story-electrified-by-lightning/5209387"
+  }
+]
