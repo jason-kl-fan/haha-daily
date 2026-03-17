@@ -1,0 +1,58 @@
+[
+  {
+    "title": "施耐德電機聯手 NVIDIA 打造「AI 工廠」基礎設施藍圖",
+    "point": "施耐德電機與 NVIDIA 深度合作，推出支援百萬瓦級 AI 工廠的驗證設計藍圖。",
+    "summary": "此藍圖針對 NVIDIA Vera Rubin NVL72 架構優化電力與冷卻配置，並結合數位分身技術。雙方旨在縮短數據中心建設週期，解決高密度 AI 運算帶來的極端散熱挑戰。",
+    "url": "https://www.globenewswire.com/news-release/2026/03/16/3256775/0/en/Schneider-Electric-teams-with-NVIDIA-to-develop-validated-blueprints-to-design-simulate-build-operate-and-maintain-gigawatt-scale-AI-Factories.html",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Google 傳向英維克採購液冷設備，確保 AI 供應鏈穩定",
+    "point": "消息指出 Google 正與英維克等中國供應商洽談，採購符合規格的液冷分配單元（CDU）。",
+    "summary": "隨 AI 晶片功耗飆升，液冷設備已成稀缺資源。英維克展示的 CDU 方案契合 Google 數據中心標準，預計將帶動其液冷營收與全球市場佔有率成長。",
+    "url": "https://seekingalpha.com/news/4565057-google-explores-liquid-cooling-equipment-deals-with-envicool-other-chinese-firms-report",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "三菱重工發表 10MW 級大型冷水機，專供次世代 AI 數據中心",
+    "point": "三菱重工推出具備 10MW 制冷能力的工業級冷水機，應對 AI 算力造成的巨大熱負荷。",
+    "summary": "該系統專為高密度伺服器環境設計，整合先進節能與智慧監控技術。面對 AI 數據中心日益增長的耗電與熱度，大型冷卻基礎設施正朝向更高效能、低成本營運演進。",
+    "url": "https://itbusinesstoday.com/industrial-tech/semiconductorandelectronics/mitsubishi-heavy-industries-unveils-10mw-class-chiller-for-next-gen-ai-data-centers/",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Frore Systems 獲 1.43 億美元融資，躍升液冷技術獨角獸",
+    "point": "晶片液冷新創 Frore Systems 估值突破 16.4 億美元，全力投入 AI 硬體散熱研發。",
+    "summary": "由 NVIDIA 執行長黃仁勳啟發，該公司致力於開發適用於 AI 晶片的微型化、高效能液冷方案。此輪融資反映市場對能突破物理散熱極限、延長硬體壽命技術的強大信心。",
+    "url": "https://www.techbuzz.ai/articles/frore-systems-hits-1-64b-unicorn-status-on-liquid-cooling-bet",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "ASUS 展示 NVIDIA Vera Rubin 平台全液冷 AI 基礎設施",
+    "point": "華碩於 GTC 2026 發表採用 NVIDIA 最新平台的 AI Pod，整合端到端液冷技術。",
+    "summary": "該方案搭載 HGX Rubin NVL8 伺服器，旨在提供最強大的 AI 運算密度與極致冷卻效率。全液冷設計不僅降低 PUE 值，也為企業級高效能運算環境提供穩定的運行保障。",
+    "url": "https://press.asus.com/news/press-releases/asus-ai-pod-nvidia-vera-rubin-nvl72/",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "光寶科技 GTC 發表 2.1 MW 高規格 CDU 與液冷機櫃方案",
+    "point": "光寶科技展示針對 NVIDIA MGX 架構設計的次世代液冷系統，展現超高散熱功率。",
+    "summary": "新推出的 2.1 MW 列間 CDU 可支援極大規模的 AI 運算叢集，大幅提升熱能轉移效率。此舉展現光寶在液冷基礎設施從組件供應轉向完整系統整合的技術優勢。",
+    "url": "https://www.liteon.com/en/news/press-center/content/liteon-nvidia-gtc-2026",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Accelsius 推出插拔即用型 150kW 機櫃級冷卻系統",
+    "point": "Accelsius 發表 NeuCool IR150，整合雙相冷卻 CDU 與機櫃歧管，支援 150kW 功耗。",
+    "summary": "該解決方案採模組化設計，提供免複雜佈線的「插拔即用」體驗，方便現有機房快速升級。其兩相相變冷卻技術可顯著降低營運支出，並提升高密度伺服器的散熱一致性。",
+    "url": "https://www.climatecontrolnews.com.au/air-conditioning/rack-level-liquid-cooling",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "KROHNE 於 DCD 紐約展示液冷數據中心精密流量監測技術",
+    "point": "精密儀表大廠 KROHNE 強調，完善的流量數據是優化液冷數據中心 PUE 的關鍵。",
+    "summary": "隨 AI 晶片轉向液冷與浸沒式冷卻，營運商需要精確的可視化數據來管理熱流。KROHNE 的電磁流量計提供即時監控，協助設施在達成效能目標的同時，也符合日益嚴格的水效（WUE）法規。",
+    "url": "https://www.jsa.net/optimizing-ai-ready-cooling-meet-krohne-at-dcd-new-york/",
+    "date": "2026-03-17"
+  }
+]
