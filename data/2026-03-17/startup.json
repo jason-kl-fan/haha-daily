@@ -1,0 +1,61 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-17",
+  "count": 7,
+  "searchNotes": {
+    "search": "Gemini web_search only. Focus on March 16-17 news.",
+    "dedupe": "Excluded Gumloop and Tesla Terafab from yesterday. Focus on new funding (Candex, Rubi, Blify) and NVIDIA GTC 2026 reveals."
+  },
+  "items": [
+    {
+      "title": "Candex 獲 HSBC 領投 4,000 萬美元 C 輪擴展融資，加速企業供應商支付自動化",
+      "takeaway": "**Fintech 剛需轉強：大型企業對跨國供應商合規支付與自動化結算的需求正快速增長。**",
+      "summary": "供應商管理平台 Candex 獲得 HSBC 領投的最新資金，總融資額突破 1.2 億美元。該公司利用 AI 進行發票與稅務自動驗證，旨在協助全球化企業簡化採購流程。此輪資金將用於亞太及中東市場的戰略擴張。",
+      "source": "Crunchbase / Gemini web_search",
+      "sourceUrl": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/"
+    },
+    {
+      "title": "NVIDIA 發布 DLSS 5 神經渲染技術，實現即時光影與材質 AI 生成",
+      "takeaway": "**AI 視覺奇點：圖形處理不再僅靠計算，而是透過神經網絡預測與填充畫面的每個像素。**",
+      "summary": "NVIDIA 在 GTC 2026 大會揭曉 DLSS 5，引入全新的即時神經渲染模型。該技術能以 AI 直接生成具備物理真實感的照明與材質細節，大幅提升視覺保真度。執行長黃仁勳預測，受惠於 AI 晶片需求，NVIDIA 年營收有望於 2027 年翻倍至 1 兆美元。",
+      "source": "NVIDIA News / Gemini web_search",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games"
+    },
+    {
+      "title": "碳捕捉新創 Rubi 獲得 750 萬美元融資，將二氧化碳轉化為永續時尚纖維",
+      "takeaway": "**氣候科技商業化：透過與時尚品牌簽訂千萬美元採購協議，Rubi 證明了廢氣轉原料的可行性。**",
+      "summary": "Rubi 成功完成由 AP Ventures 與 H&M Group 參投的新一輪融資，並簽署價值 6,000 萬美元的採購意向書。該公司技術能將捕獲的碳排轉化為可紡織材料，減少對傳統棉花或化纖的依賴。這標誌著循環經濟在高端供應鏈中的進一步落地。",
+      "source": "TechFundingNews / Gemini web_search",
+      "sourceUrl": "https://techfundingnews.com/meet-the-sisters-behind-rubi-turning-co%E2%82%82-into-materials-with-7-5m-backing/"
+    },
+    {
+      "title": "巴黎新創 Blify 獲 210 萬美元融資，打造嵌入 Slack 與 Teams 的 AI 學習系統",
+      "takeaway": "**微學習興起：企業培訓正從獨立平台轉向員工日常使用的通訊工具中。**",
+      "summary": "AI 學習平台 Blify 宣布完成 Pre-seed 輪融資，投資方包含 Kima Ventures 與 50 多位天使投資人。Blify 的核心產品是「學習作業系統」，能直接在工作通訊軟體中推送個人化培訓內容。這反映出企業更傾向無縫整合、低摩擦的技能提升方案。",
+      "source": "TechFundingNews / Gemini web_search",
+      "sourceUrl": "https://techfundingnews.com/blify-lands-2-1m-for-ai-learning-in-slack-and-teams/"
+    },
+    {
+      "title": "NVIDIA 擴大與現代及起亞汽車合作，推動次世代 AI 自駕平台落地",
+      "takeaway": "**軟體定義汽車：傳統車廠正加速與 AI 巨頭深度綁定，以確保在自駕競賽中不掉隊。**",
+      "summary": "現代汽車集團宣布將在其未來車型中採用 NVIDIA DRIVE Hyperion 自動駕駛平台。雙方將共同開發整合感知、規劃與控制的端到端 AI 駕駛系統。這項合作也涵蓋了車內智慧座艙的體驗升級。",
+      "source": "NVIDIA News / Gemini web_search",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/hyundai-motor-kia-autonomous-driving"
+    },
+    {
+      "title": "Deep-tech 新創 Velmenni 融資 3,000 萬盧比，加速光通訊（Li-Fi）技術商用",
+      "takeaway": "**無線通訊新戰場：當電波頻譜擁擠，利用可見光傳輸數據的 Li-Fi 成為工業與國際互連的新選。**",
+      "summary": "印度新創 Velmenni 獲得 pi Ventures 領投的融資，專注於開發基於光的無線通訊解決方案。該技術具備高帶寬與防干擾特性，特別適合在電磁敏感區域使用。新資金將用於國際市場擴張與產品規模化生產。",
+      "source": "YourStory / Gemini web_search",
+      "sourceUrl": "https://yourstory.com/2026/03/startup-news-and-updates-daily-roundup-march-17-2026"
+    },
+    {
+      "title": "澳洲研究指出：科技巨頭正將大規模裁員歸咎於 AI 自動化帶來的效率提升",
+      "takeaway": "**勞動市場結構性陣痛：AI 在推升相關行業薪資的同時，正逐步取代部分初級與暴露職位。**",
+      "summary": "悉尼大學最新研究顯示，科技企業在 2025 年後的裁員多與「AI 替代」相關。雖然 AI 職位薪資增長顯著，但年輕工人在暴露於 AI 的職位中面臨更高的失業風險。研究警告企業需更透明地披露 AI 導向的組織轉型計畫。",
+      "source": "University of Sydney / Gemini web_search",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/03/17/tech-companies-are-blaming-massive-layoffs-on-ai.html"
+    }
+  ]
+}
