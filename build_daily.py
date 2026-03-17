@@ -152,15 +152,19 @@ def build_curated(date, topics):
 
 def item_html(item):
     takeaway_html = rich(item['takeaway'])
-    summary_text = (item.get('summary') or '').strip()
+    title_text = (item.get('title') or '').strip()
     takeaway_text = (item.get('takeaway') or '').replace('**', '').strip()
+    summary_text = (item.get('summary') or '').strip()
 
-    sentences = []
-    if summary_text and summary_text != takeaway_text:
-        normalized = summary_text.replace('。', '。|').replace('！', '！|').replace('？', '？|')
-        sentences = [s.strip() for s in normalized.split('|') if s.strip()]
-        sentences = sentences[:3]
-    summary_block = '' if not sentences else f'\n      <p class="small">{" ".join(html.escape(s) for s in sentences)}</p>'
+    normalized = summary_text.replace('。', '。|').replace('！', '！|').replace('？', '？|')
+    parts = [s.strip() for s in normalized.split('|') if s.strip()]
+    filtered = []
+    for s in parts:
+        plain = s.replace('**', '').strip()
+        if plain and plain != takeaway_text and plain != title_text:
+            filtered.append(plain)
+    summary_sentences = filtered[:3]
+    summary_block = f'\n      <p class="small">{" ".join(html.escape(s) for s in summary_sentences)}</p>' if len(summary_sentences) >= 2 else ''
 
     return f'''<article class="story">
       <h3>{html.escape(item['title'])}</h3>
