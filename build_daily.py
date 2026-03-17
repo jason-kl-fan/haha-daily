@@ -151,10 +151,13 @@ def build_curated(date, topics):
 
 
 def item_html(item):
+    takeaway_html = rich(item['takeaway'])
+    summary_text = (item.get('summary') or '').strip()
+    takeaway_text = (item.get('takeaway') or '').replace('**', '').strip()
+    summary_block = '' if (not summary_text or summary_text == takeaway_text) else f'\n      <p class="small">{html.escape(summary_text)}</p>'
     return f'''<article class="story">
       <h3>{html.escape(item['title'])}</h3>
-      <p>{rich(item['takeaway'])}</p>
-      <p class="small">{html.escape(item['summary'])}</p>
+      <p>{takeaway_html}</p>{summary_block}
       <p class="source">來源：<strong>{html.escape(item['source'])}</strong> · <a href="{html.escape(item['url'])}">原文連結</a></p>
     </article>'''
 
