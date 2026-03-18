@@ -1,57 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>哈哈狗報｜Semiconductor</title>
-  <style>
-:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
-*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
-a{color:var(--accent);text-decoration:none} strong{font-weight:800}
-.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
-.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
-h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
-p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
-.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
-.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
-.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
-.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
-.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
-.footer{font-size:.95rem;color:var(--muted)}
-@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哈哈狗報 - 半導體專欄 (2026-03-18)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .date { color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; }
+        .news-item { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .news-title { font-weight: bold; font-size: 1.1em; color: #2980b9; margin-bottom: 8px; }
+        .news-key { color: #e67e22; font-weight: 600; font-size: 0.95em; margin-bottom: 5px; }
+        .news-summary { font-size: 0.9em; color: #555; }
+        footer { text-align: center; margin-top: 30px; font-size: 0.8em; color: #95a5a6; }
+    </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="card">
-      <div class="kicker"><span class="pill"><a href="../">← 回首頁</a></span></div>
-      <h1>Semiconductor</h1>
-      <p>晶圓代工、記憶體、封裝、設備與 EDA 動態。</p>
-      <p class="muted">主題歷史頁：目前保留最新一期與入口。</p>
-    </section>
-    <section class="card">
-      <h2>最新一期</h2>
-      <p><a href="../2026-03-17/semiconductor/"><strong>2026 年 3 月 17 日</strong> · Semiconductor 專頁 →</a></p>
-      <article class="story">
-        <h3>Tower Semiconductor 推出 Gen3 LDMOS 技術，直擊 AI 數據中心電力需求</h3>
-        <p><strong>AI 電源管理進化：隨着 AI 算力飆升，高效率的電源晶片正成為數據中心穩定的關鍵。</strong></p>
-        <p class="small">Tower Semiconductor 發布全新 Gen3 LDMOS 技術，加入其電源管理平台。此技術專為滿足 AI 數據中心及高端移動設備日益增長的電力需求而設計，旨在提升能源轉換效率。</p>
-        <p class="source">來源：<strong>GlobeNewswire / Tower Semi</strong> · <a href="https://www.globenewswire.com/news-release/2026/03/17/3257005/0/en/Tower-Semiconductor-Extends-its-Leadership-in-BCD-Performance-with-New-Gen3-LDMOS-Technology-Addressing-the-AI-Power-Wall.html">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>Marvell 發布全球首款 260 線 PCIe 6.0 交換晶片，優化 AI 擴展架構</h3>
-        <p><strong>傳輸瓶頸突破：260 線的高頻寬交換技術，讓大規模 AI 伺服器集群的數據流動更順暢。</strong></p>
-        <p class="small">Marvell 推出 Structera S 60260，標榜為業界首款具備 260 條通道的 PCIe 6.0 交換晶片。該產品鎖定 AI 數據中心的擴展基礎設施，協助提升處理兆級參數模型時的系統傳輸效率。</p>
-        <p class="source">來源：<strong>Marvell Investor Relations</strong> · <a href="https://investor.marvell.com/news-events/press-releases/detail/1016/marvell-launches-industrys-first-260-lane-pcie-6-0-switch-for-ai-data-center-scale-up-infrastructure">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>SK 海力士董事長崔泰源警告：全球半導體晶圓短缺將持續至 2030 年</h3>
-        <p><strong>長期的供應挑戰：AI 需求遠超產能擴充速度，晶圓缺口可能成為未來五年的常態。</strong></p>
-        <p class="small">SK 海力士董事長崔泰源表示，受 AI 需求爆炸式增長影響，全球半導體晶圓短缺問題預計將延續到 2030 年。他指出，目前的晶圓製造能力擴展速度尚不足以填補 AI 浪潮帶來的巨大缺口。</p>
-        <p class="source">來源：<strong>Network World</strong> · <a href="https://www.networkworld.com/article/4146270/chip-wafer-shortage-will-run-through-2030-as-ai-demand-overwhelms-supply-sk-hynix-chief.html">原文連結</a></p>
-      </article>
-    </section>
-  </main>
+    <h1>哈哈狗報 - 半導體專欄</h1>
+    <div class="date">更新時間：2026-03-18 09:25 (PST)</div>
+    
+    <div class="news-item">
+        <div class="news-title">NVIDIA 預測 AI 浪潮下一階段將帶來 1 兆美元訂單</div>
+        <div class="news-key">重點：執行長黃仁勳看好 Blackwell 與 Rubin 平台需求，預計年底前訂單規模將達兆元級別。</div>
+        <div class="news-summary">摘要：NVIDIA 在 GTC 2026 大會確認 AI 推論轉折點已到，並宣布與 Groq 達成數十億美元授權協議。公司同時強化車用布局，與比亞迪、吉利及日產等車廠展開 Hyperion 平台合作。</div>
+    </div>
+
+    <div class="news-item">
+        <div class="news-title">三星推出第六代 HBM4 記憶體並量產，深化與 NVIDIA 夥伴關係</div>
+        <div class="news-key">重點：三星展示專為 NVIDIA Rubin 平台設計的 HBM4，傳輸速度達 11.7Gbps 且已進入量產。</div>
+        <div class="news-summary">摘要：除展示 16Gbps 頻寬的 HBM4E 外，執行長黃仁勳也證實三星正代工 NVIDIA 的推論專用晶片 Groq 3。儘管技術領先，三星工會計畫於 5 月投票表決罷工，恐威權平澤廠產出。</div>
+    </div>
+
+    <div class="news-item">
+        <div class="news-title">TSMC 獲 Bernstein 調升目標價至 351 美元，穩坐 AI 晶片代工首選</div>
+        <div class="news-key">重點：分析師看好 AI 處理器需求遠超產能，重申台積電「優於大盤」評級並上調目標價。</div>
+        <div class="news-summary">摘要：台積電受益於全球 AI 加速器需求，股價在除息後迅速回升，展現強勁投資信心。然而地緣政治局勢與能源成本波動，仍是未來 AI 供應鏈產能分配的潛在挑戰。</div>
+    </div>
+
+    <div class="news-item">
+        <div class="news-title">Intel 推出 Core Ultra 200HX Plus 行動處理器，強化電競與工作站效能</div>
+        <div class="news-key">重點：新系列處理器遊戲效能提升 8%，支援二進位優化工具並已由 OEM 夥伴開始出貨。</div>
+        <div class="news-summary">摘要：Intel 雖然發布高效能新品，但受第一季營收指引疲軟影響，股價在市場普漲下逆勢下跌。公司未來成長重心將依賴 $85 億美元晶片法案補助及 18A 製程的進度。</div>
+    </div>
+
+    <div class="news-item">
+        <div class="news-title">SK 集團董事長預測全球記憶體短缺將持續至 2030 年</div>
+        <div class="news-key">重點：受限於晶片生產的系統性瓶頸，DRAM、NAND 與 HBM 的價格預計將持續攀升。</div>
+        <div class="news-summary">摘要：崔泰源在 GTC 大會指出生產端的瓶頸難以在短期內解決，供不應求的情況將長期化。這使得伺服器與終端設備製造商面臨持續性成本壓力，同時推升存儲大廠獲利前景。</div>
+    </div>
+
+    <div class="news-item">
+        <div class="news-title">三星德州泰勒二廠準備動工，承接台積電滿載訂單</div>
+        <div class="news-key">重點：因台積電產能吃緊，美國科技巨頭紛紛下單三星，促使其加速德州二廠建置。</div>
+        <div class="news-summary">摘要：隨 AI 晶片需求暴增，三星計畫透過泰勒廠擴張在美代工版圖，以分散供應鏈風險。該廠將成為三星在全球 AI 晶片市場挑戰台積電領先地位的重要基地。</div>
+    </div>
+
+    <footer>
+        &copy; 2026 哈哈狗報 - 半導體專欄 (Generated by OpenClaw)
+    </footer>
 </body>
 </html>
