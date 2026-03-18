@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-18",
+  "topic": "AI",
+  "news": [
+    {
+      "title": "NVIDIA 發布 NemoClaw：單指令運行的開源 AI 代理框架",
+      "point": "NVIDIA 推出 NemoClaw 框架，讓開發者能以單一指令在本地或雲端運行 OpenClaw 代理。",
+      "summary": "執行長黃仁勳將此技術比作 AI 代理界的 Windows，稱其為「新型計算機」。該框架旨在簡化自主代理的管理複雜性，推動代理式 AI 的普及。",
+      "url": "https://radicaldatascience.wordpress.com/2026/03/17/ai-news-briefs-bulletin-board-for-march-2026/"
+    },
+    {
+      "title": "S&P Global 收購 Enertel AI，強化電力市場預測能力",
+      "point": "S&P Global 宣布收購 Enertel AI，利用機器學習技術優化北美電力市場的供應預測。",
+      "summary": "此舉將 AI 驅動的預測模型整合進 S&P 的能源分析服務，提升對複雜電網環境的掌握。這反映了金融與數據巨頭正加速佈局垂直領域的 AI 應用。",
+      "url": "https://press.spglobal.com/2026-03-18-S-P-Global-Acquires-Enertel-AI-Corporation-to-Enhance-Power-Market-Offering"
+    },
+    {
+      "title": "Google Cloud 與 Kingfisher 合作，推動歐洲 AI 零售新體驗",
+      "point": "零售巨頭 Kingfisher 採用 Google Vertex AI，為英國及歐洲市場提供 AI 驅動的智慧購物服務。",
+      "summary": "雙方將部署「代理式電商」系統，利用智慧搜索與個性化推薦提升購物效率。這標誌著生成式 AI 從單純的對話助手轉向具備實際交易能力的商務代理。",
+      "url": "https://www.googlecloudpresscorner.com/2026-03-18-Kingfisher-and-Google-Cloud-Partner-to-Deliver-AI-Powered-Shopping-Across-UK-and-Europe"
+    },
+    {
+      "title": "GXO 聯手 NVIDIA 測試 AI 自動化倉儲車輛",
+      "point": "全球物流巨頭 GXO 與 NVIDIA 及 KION 展開合作，在倉庫環境中測試新一代 AI 驅動自動導引車。",
+      "summary": "該計畫利用 AI 技術提升供應鏈效率，使車輛能在複雜動態環境中自主導航與作業。這是 AI 代理技術落實於實體工業自動化的重要里程碑。",
+      "url": "https://www.gxo.com"
+    },
+    {
+      "title": "Reco 推出 AI 代理安全功能，鎖定 Copilot 與 ChatGPT 盲點",
+      "point": "資安公司 Reco 發布「AI Agent Security」功能，強化企業對 SaaS 生態中 AI 代理的可視化與控制。",
+      "summary": "該功能針對企業內廣泛應用的 AI 助手提供安全監控，防止敏感數據外洩或越權操作。這解決了企業在快速導入 AI 代理時所面臨的治理與合規挑戰。",
+      "url": "https://www.csoonline.com/article/4146915/reco-targets-ai-agent-blind-spots-with-new-security-capability.html"
+    },
+    {
+      "title": "Google Pixel 獲 AI 代理重大更新，智慧手機邁向 AI 中心",
+      "point": "Google 發布 Pixel 系列 3 月更新，導入強大的代理式 AI 功能與升級版「畫圈搜尋」。",
+      "summary": "新功能包括可自動處理任務的 Magic Cue 建議，進一步強化手機作為個人 AI 助理的角色。Google 目標是將 Pixel 打造為市場上最以 AI 為核心的智慧終端設備。",
+      "url": "https://ubos.tech/news/google-unveils-gemini%E2%80%91powered-pixel-updates-for-march-2026/"
+    },
+    {
+      "title": "GPT-5.4 展現「原生電腦控制」能力，重塑專業工作流",
+      "point": "OpenAI 最新發布的 GPT-5.4 被證實具備自主操作電腦的能力，能跨應用完成複雜任務。",
+      "summary": "該模型支援 100 萬 token 長文本，並能自動與 Excel 等試算表工具整合進行數據分析。這標誌著 AI 正從「回答問題」進化為「實際操作工具」的 AI 員工。",
+      "url": "https://medium.com/illumination/whats-new-in-chatgpt-this-march-2026-809385aff27d"
+    }
+  ]
+}
