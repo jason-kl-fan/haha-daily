@@ -1,69 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈哈狗報 - Storage/Server 新聞 (2026-03-18)</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        h1 { color: #2c3e50; text-align: center; }
-        .date { text-align: center; color: #7f8c8d; margin-bottom: 30px; }
-        .news-item { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .news-title { font-size: 1.25rem; font-weight: bold; color: #2980b9; text-decoration: none; display: block; margin-bottom: 10px; }
-        .news-title:hover { text-decoration: underline; }
-        .news-highlight { font-weight: 600; color: #e67e22; margin-bottom: 8px; }
-        .news-summary { font-size: 0.95rem; color: #555; }
-        footer { text-align: center; margin-top: 40px; color: #bdc3c7; font-size: 0.8rem; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>哈哈狗報｜2026 年 3 月 18 日｜Storage / Server</title>
+  <style>
+:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
+*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
+a{color:var(--accent);text-decoration:none} strong{font-weight:800}
+.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
+.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
+h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
-    <h1>哈哈狗報 🐶</h1>
-    <div class="date">主題：Storage/Server | 2026年3月18日</div>
-
-    <div class="news-item">
-        <a href="https://www.tomshardware.com/pc-components/ssds/sandisk-to-double-price-of-3d-nand-for-enterprise-ssds-in-q1-2026-hyperscalers-to-pay-top-dollar-for-storage-as-ai-continues-to-roll" class="news-title">企業級 SSD 供應危機：SanDisk 預計 Q1 價格翻倍</a>
-        <div class="news-highlight">重點：受 AI 需求與產能限制影響，企業級 SSD 出現嚴重缺貨，SanDisk 計劃將價格調漲一倍。</div>
-        <div class="news-summary">摘要：NAND 均價較去年同期翻倍，SSD 與 HDD 的價差擴大至 13 倍，導致超大規模資料中心採購成本激增。記憶體相依基礎設施的成本漲幅預計達 30% 至 60%，甚至可能延誤部分伺服器部署時程。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://mlq.ai/news/nvidia-launches-bluefield-4-stx-storage-architecture-at-gtc-2026-supermicro-among-first-to-build-cmx-server/" class="news-title">NVIDIA 發表 BlueField-4 STX 存儲架構加速 AI 推論</a>
-        <div class="news-highlight">重點：NVIDIA 在 GTC 2026 推出模組化架構，將 KV 快取從 GPU 卸載至 NVMe SSD 以提升效率。</div>
-        <div class="news-summary">摘要：Supermicro 已基於此架構打造 CMX 存儲伺服器，旨在減少 GPU 記憶體壓力並加速 AI 模型推論。NVMe 2.0 ZNS 技術在此應用中扮演關鍵角色，能顯著改善存儲效能與磁碟耐用度。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://qz.com/ai-cpu-shortage-2026" class="news-title">伺服器 CPU 短缺危機：Intel 與 AMD 交期拉長</a>
-        <div class="news-highlight">重點：AI 硬體需求排擠一般伺服器資源，導致 Intel 與 AMD 伺服器 CPU 價格上漲且供貨延遲。</div>
-        <div class="news-summary">摘要：全球 AI 工廠建設潮造成關鍵組件短缺，部分伺服器訂單交期已延伸至 40 週以上。這迫使雲端服務商重新評估基礎設施部署策略，並轉向更高效能的專用處理器。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003853997" class="news-title">鴻海（Foxconn）稱霸全球 AI 伺服器四成市場</a>
-        <div class="news-highlight">重點：鴻海預計 2026 年營收持續強勁，主要受惠於 AI 伺服器市場超過 40% 的市佔率。</div>
-        <div class="news-summary">摘要：受惠於 NVIDIA Blackwell 等次世代伺服器訂單，鴻海在伺服器組裝與液冷方案的佈局已見成效。公司看好未來一年的資料中心設備需求，營收展望大幅調升。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.tekedia.com/google-turns-to-chinese-suppliers-for-ai-data-center-cooling-as-infrastructure-bottlenecks-deepen/" class="news-title">AI 伺服器液冷市場爆发：2026 年產值將突破 170 億美元</a>
-        <div class="news-highlight">重點：隨著 AI 晶片功耗飆升，液冷散熱已成為資料中心標配，Google 等大廠積極尋求新供應商。</div>
-        <div class="news-summary">摘要：Envicool 等散熱廠獲 Google 採購以克服基礎設施瓶頸，而 ASUS 也推出針對 Vera Rubin 伺服器優化的方案。次世代機架設計旨在支援更高溫的冷卻水，以減少對傳統空調製冷機的需求。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.prnewswire.com/news-releases/viavi-launches-testcenter-d2-1-6t-appliance-to-accelerate-ai-infrastructure-rollouts-across-hyperscale-and-cloud-data-center-environments-302710807.html" class="news-title">VIAVI 推出 1.6T 測試平台加速 AI 網路基礎設施部署</a>
-        <div class="news-highlight">重點：VIAVI 發布 TestCenter D2 1.6T 設備，協助雲端大廠模擬與測試超大規模 AI 工作負載。</div>
-        <div class="news-summary">摘要：該設備支援最新 1.6T 乙太網路標準，能確保資料中心在處理 AI 模型訓練時的網路穩定性與速度。此舉有助於減少次世代網路架構部署初期的錯誤，並提升整體資料中心效率。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dell-ai-data-platform-with-nvidia-supercharges-enterprise-ai-with-breakthrough-data-orchestration-and-storage-innovations/" class="news-title">Dell 推出 PowerEdge AI 資料平台強化存儲編排</a>
-        <div class="news-highlight">重點：Dell 與 NVIDIA 合作推出 AI 資料平台，利用 PowerEdge 伺服器實現高性能 AI 存儲自動化。</div>
-        <div class="news-summary">摘要：該平台整合了 Dell Exascale Storage 技術，旨在自動化管理 AI 數據的生命週期並提升檢索效率。透過軟硬體整合，企業能更輕鬆地在現有基礎設施上部署大規模 AI 應用。</div>
-    </div>
-
-    <footer>
-        &copy; 2026 哈哈狗報 | 自動更新於 2026-03-18 09:15
-    </footer>
+  <main class="wrap">
+    <section class="card">
+      <div class="kicker"><span class="pill">Storage / Server</span><a class="small" href="../">← 回今日總覽</a><a class="small" href="../../">回首頁</a></div>
+      <h1>2026 年 3 月 18 日｜Storage / Server</h1>
+      <p>存儲、伺服器、企業基礎設施軟硬體與供應鏈。</p>
+    </section>
+    <section class="card"><article class="story">
+      <h3>企業級 SSD 供應危機：SanDisk 預計 Q1 價格翻倍</h3>
+      <p><strong>NAND 均價較去年同期翻倍，SSD 與 HDD 的價差擴大至 13 倍，導致超大規模資料中心採購成本激增。記憶體相依基礎設施的成本漲幅預計達 30% 至 60%，甚至可能延誤部分伺服器部署時程。</strong></p>
+      <p class="small">NAND 均價較去年同期翻倍，SSD 與 HDD 的價差擴大至 13 倍，導致超大規模資料中心採購成本激增。 記憶體相依基礎設施的成本漲幅預計達 30% 至 60%，甚至可能延誤部分伺服器部署時程。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.tomshardware.com/pc-components/ssds/sandisk-to-double-price-of-3d-nand-for-enterprise-ssds-in-q1-2026-hyperscalers-to-pay-top-dollar-for-storage-as-ai-continues-to-roll">原文連結</a></p>
+    </article><article class="story">
+      <h3>NVIDIA 發表 BlueField-4 STX 存儲架構加速 AI 推論</h3>
+      <p><strong>Supermicro 已基於此架構打造 CMX 存儲伺服器，旨在減少 GPU 記憶體壓力並加速 AI 模型推論。NVMe 2.0 ZNS 技術在此應用中扮演關鍵角色，能顯著改善存儲效能與磁碟耐用度。</strong></p>
+      <p class="small">Supermicro 已基於此架構打造 CMX 存儲伺服器，旨在減少 GPU 記憶體壓力並加速 AI 模型推論。 NVMe 2.0 ZNS 技術在此應用中扮演關鍵角色，能顯著改善存儲效能與磁碟耐用度。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://mlq.ai/news/nvidia-launches-bluefield-4-stx-storage-architecture-at-gtc-2026-supermicro-among-first-to-build-cmx-server/">原文連結</a></p>
+    </article><article class="story">
+      <h3>伺服器 CPU 短缺危機：Intel 與 AMD 交期拉長</h3>
+      <p><strong>全球 AI 工廠建設潮造成關鍵組件短缺，部分伺服器訂單交期已延伸至 40 週以上。這迫使雲端服務商重新評估基礎設施部署策略，並轉向更高效能的專用處理器。</strong></p>
+      <p class="small">全球 AI 工廠建設潮造成關鍵組件短缺，部分伺服器訂單交期已延伸至 40 週以上。 這迫使雲端服務商重新評估基礎設施部署策略，並轉向更高效能的專用處理器。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://qz.com/ai-cpu-shortage-2026">原文連結</a></p>
+    </article><article class="story">
+      <h3>鴻海（Foxconn）稱霸全球 AI 伺服器四成市場</h3>
+      <p><strong>受惠於 NVIDIA Blackwell 等次世代伺服器訂單，鴻海在伺服器組裝與液冷方案的佈局已見成效。公司看好未來一年的資料中心設備需求，營收展望大幅調升。</strong></p>
+      <p class="small">受惠於 NVIDIA Blackwell 等次世代伺服器訂單，鴻海在伺服器組裝與液冷方案的佈局已見成效。 公司看好未來一年的資料中心設備需求，營收展望大幅調升。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003853997">原文連結</a></p>
+    </article><article class="story">
+      <h3>AI 伺服器液冷市場爆发：2026 年產值將突破 170 億美元</h3>
+      <p><strong>Envicool 等散熱廠獲 Google 採購以克服基礎設施瓶頸，而 ASUS 也推出針對 Vera Rubin 伺服器優化的方案。次世代機架設計旨在支援更高溫的冷卻水，以減少對傳統空調製冷機的需求。</strong></p>
+      <p class="small">Envicool 等散熱廠獲 Google 採購以克服基礎設施瓶頸，而 ASUS 也推出針對 Vera Rubin 伺服器優化的方案。 次世代機架設計旨在支援更高溫的冷卻水，以減少對傳統空調製冷機的需求。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.tekedia.com/google-turns-to-chinese-suppliers-for-ai-data-center-cooling-as-infrastructure-bottlenecks-deepen/">原文連結</a></p>
+    </article><article class="story">
+      <h3>VIAVI 推出 1.6T 測試平台加速 AI 網路基礎設施部署</h3>
+      <p><strong>該設備支援最新 1.6T 乙太網路標準，能確保資料中心在處理 AI 模型訓練時的網路穩定性與速度。此舉有助於減少次世代網路架構部署初期的錯誤，並提升整體資料中心效率。</strong></p>
+      <p class="small">該設備支援最新 1.6T 乙太網路標準，能確保資料中心在處理 AI 模型訓練時的網路穩定性與速度。 此舉有助於減少次世代網路架構部署初期的錯誤，並提升整體資料中心效率。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.prnewswire.com/news-releases/viavi-launches-testcenter-d2-1-6t-appliance-to-accelerate-ai-infrastructure-rollouts-across-hyperscale-and-cloud-data-center-environments-302710807.html">原文連結</a></p>
+    </article><article class="story">
+      <h3>Dell 推出 PowerEdge AI 資料平台強化存儲編排</h3>
+      <p><strong>該平台整合了 Dell Exascale Storage 技術，旨在自動化管理 AI 數據的生命週期並提升檢索效率。透過軟硬體整合，企業能更輕鬆地在現有基礎設施上部署大規模 AI 應用。</strong></p>
+      <p class="small">該平台整合了 Dell Exascale Storage 技術，旨在自動化管理 AI 數據的生命週期並提升檢索效率。 透過軟硬體整合，企業能更輕鬆地在現有基礎設施上部署大規模 AI 應用。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dell-ai-data-platform-with-nvidia-supercharges-enterprise-ai-with-breakthrough-data-orchestration-and-storage-innovations/">原文連結</a></p>
+    </article></section>
+    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-18 14:09 PDT</p><div class="stat small">
+      <div><b>topics</b>7</div>
+      <div><b>style</b>kept</div>
+      <div><b>links</b>synced</div>
+      <div><b>updated</b>14:09</div>
+      <div><b>status</b>published</div>
+    </div></section>
+    </main>
+  <script src="../../assets/saved.js"></script>
 </body>
 </html>

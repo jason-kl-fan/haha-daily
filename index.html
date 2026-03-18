@@ -1,77 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈哈狗報 - Server Hardware Vendors (2026-03-18)</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        h1 { color: #2c3e50; font-size: 1.5rem; text-align: center; margin-bottom: 30px; }
-        .date { text-align: center; color: #7f8c8d; font-size: 0.9rem; margin-top: -20px; margin-bottom: 30px; }
-        .news-item { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        .news-title { font-weight: bold; color: #2980b9; margin-bottom: 8px; font-size: 1.1rem; }
-        .news-highlight { font-weight: 600; color: #e67e22; margin-bottom: 8px; font-size: 0.95rem; border-left: 3px solid #e67e22; padding-left: 10px; }
-        .news-summary { color: #555; font-size: 0.9rem; margin-bottom: 12px; }
-        .news-link { display: inline-block; color: #3498db; text-decoration: none; font-size: 0.85rem; border: 1px solid #3498db; padding: 4px 10px; border-radius: 4px; }
-        .news-link:hover { background: #3498db; color: #fff; }
-        footer { text-align: center; font-size: 0.8rem; color: #bdc3c7; margin-top: 40px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>哈哈狗報</title>
+  <style>
+:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
+*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
+a{color:var(--accent);text-decoration:none} strong{font-weight:800}
+.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
+.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
+h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
-    <h1>哈哈狗報 🦴 Server Hardware</h1>
-    <div class="date">2026年3月18日</div>
-
-    <div class="news-item">
-        <div class="news-title">Dell 調整伺服器產品售價以應對組件成本上漲</div>
-        <div class="news-highlight">Dell 針對伺服器多條產品線實施價格調整，主要受記憶體與 Intel CPU 成本增加影響。</div>
-        <div class="news-summary">由於產業整體成本上升，Dell 已對包含伺服器記憶體、儲存裝置在內的產品線進行調價。預計新一波漲幅將於 3 月 30 日生效。目前 Dell 仍保有強勁的 AI 伺服器訂單積壓，顯示市場需求依然旺盛。</div>
-        <a href="https://www.wbm.ca/news/supply-chain-updates/it-procurement-update-march-2026/" class="news-link">閱讀原文</a>
+  <main class="wrap">
+<section class="card">
+  <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><img src="./assets/husky-logo.png" alt="哈哈狗報 Logo" style="width:72px;height:72px;filter:drop-shadow(0 8px 18px rgba(125,211,252,.18))" /><div><div class="pill">哈哈狗報</div><h1>每日科技・產業・地緣情報整理</h1></div></div>
+  <p>今天整理 7 個主題，首頁、日期頁與主題頁入口已同步補齊。</p>
+  <p><a href="./2026-03-18/"><strong>進入今日主頁：2026 年 3 月 18 日</strong></a></p>
+  <p class="muted">最新更新：2026-03-18 14:09 PDT</p>
+</section>
+<section class="card">
+  <h2>快速導讀 / TL;DR</h2>
+  <ul class="list"><li><strong>今日已整理 7 個主題</strong>：AI、Storage / Server、Cooling、Security、Startup、Semiconductor、Server Hardware Vendors。</li><li><strong>首頁與日期頁已同步修正</strong>：避免只剩單一主題導致入口缺失。</li><li><strong>各主題頁保留原風格</strong>：僅修正內容與站內連結同步。</li></ul>
+</section>
+<section class="card">
+  <h2>今日主題</h2>
+  <div class="grid"><a class="card topic-card" href="./2026-03-18/ai/"><h3>AI</h3><p><strong>執行長黃仁勳將此技術比作 AI 代理界的 Windows，稱其為「新型計算機」。該框架旨在簡化自主代理的管理複雜性，推動代理式 AI 的普及。</strong></p><p class="muted small">最新：NVIDIA 發布 NemoClaw：單指令運行的開源 AI 代理框架</p></a><a class="card topic-card" href="./2026-03-18/storage-server/"><h3>Storage / Server</h3><p><strong>NAND 均價較去年同期翻倍，SSD 與 HDD 的價差擴大至 13 倍，導致超大規模資料中心採購成本激增。記憶體相依基礎設施的成本漲幅預計達 30% 至 60%，甚至可能延誤部分伺服器部署時程。</strong></p><p class="muted small">最新：企業級 SSD 供應危機：SanDisk 預計 Q1 價格翻倍</p></a><a class="card topic-card" href="./2026-03-18/cooling/"><h3>Cooling</h3><p><strong>Vertiv 於摩根大通工業大會透露，液冷技術正從利基走向主流，增長率遠超傳統氣冷。該公司已籌集 46 億美元流動資金，專門用於升級製造設施，以消化巨量的超大規模數據中心訂單。</strong></p><p class="muted small">最新：Vertiv 加大液冷產能投入，應對 NVIDIA GTC 後的爆發需求</p></a><a class="card topic-card" href="./2026-03-18/security/"><h3>Security</h3><p><strong>微軟針對多款產品發布安全更新，其中 8 個被列為「關鍵」，涉及 CVSS 評分高達 9.8 的重大瑕疵。受影響範圍涵蓋 Windows 系統與 Microsoft 365 應用程式。</strong></p><p class="muted small">最新：Microsoft 2026 年 3 月修補週：修復 82 個漏洞，包含 8 個關鍵等級</p></a><a class="card topic-card" href="./2026-03-18/startup/"><h3>Startup</h3><p>AI 算力競賽外溢：投資者正從晶片轉向支持大模型運行的網絡與數據中心架構。</p><p class="muted small">最新：Nexthop AI 獲 5 億美元 B 輪融資，估值達 42 億美元衝刺 AI 數據中心基礎設施</p></a><a class="card topic-card" href="./2026-03-18/semiconductor/"><h3>Semiconductor</h3><p><strong>NVIDIA 在 GTC 2026 大會確認 AI 推論轉折點已到，並宣布與 Groq 達成數十億美元授權協議。公司同時強化車用布局，與比亞迪、吉利及日產等車廠展開 Hyperion 平台合作。</strong></p><p class="muted small">最新：NVIDIA 預測 AI 浪潮下一階段將帶來 1 兆美元訂單</p></a><a class="card topic-card" href="./2026-03-18/server-hardware-vendors/"><h3>Server Hardware Vendors</h3><p><strong>由於產業整體成本上升，Dell 已對包含伺服器記憶體、儲存裝置在內的產品線進行調價。預計新一波漲幅將於 3 月 30 日生效。目前 Dell 仍保有強勁的 AI 伺服器訂單積壓，顯示市場需求依然旺盛。</strong></p><p class="muted small">最新：Dell 調整伺服器產品售價以應對組件成本上漲</p></a></div>
+</section>
+<section class="card">
+  <h2>站點導覽</h2>
+  <ul class="list">
+    <li><a href="./2026-03-18/">今日總覽</a>：聚焦當日所有可閱讀主題。</li>
+    <li>主題歷史頁：<a href="./ai/">AI<\/a> / <a href="./storage-server/">Storage / Server<\/a> / <a href="./cooling/">Cooling<\/a> / <a href="./security/">Security<\/a> / <a href="./startup/">Startup<\/a> / <a href="./semiconductor/">Semiconductor<\/a> / <a href="./server-hardware-vendors/">Server Hardware Vendors<\/a></li>
+    <li><a href="./saved/">Saved</a> 僅保留手動收藏，不會自動加入。</li>
+  </ul>
+</section>
+<section class="card">
+  <h2>任務資訊</h2>
+  <div class="stat small">
+      <div><b>topics</b>7</div>
+      <div><b>style</b>kept</div>
+      <div><b>links</b>synced</div>
+      <div><b>updated</b>14:09</div>
+      <div><b>status</b>published</div>
     </div>
-
-    <div class="news-item">
-        <div class="news-title">HPE 警告 AI 伺服器積壓與供應短缺推升合約價格</div>
-        <div class="news-highlight">HPE 面對 DRAM 與 NAND 嚴重短缺，已修改報價條款以反映出貨前的價格波動。</div>
-        <div class="news-summary">HPE 目前擁有價值 50 億美元的 AI 系統積壓訂單，受大宗商品價格上漲影響，伺服器與儲存設備售價同步攀升。公司已調整條款，允許在報價與實際出貨之間根據組件成本變動調整最終售價。</div>
-        <a href="https://www.ciodive.com/news/hpe-warns-rising-server-storage-prices/814362/" class="news-link">閱讀原文</a>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">聯想 (Lenovo) 針對伺服器與 PC 發布 3 月全球價格更新</div>
-        <div class="news-highlight">聯想因應全球記憶體晶片短缺，宣布調高基礎設施解決方案（ISG）相關產品售價。</div>
-        <div class="news-summary">受記憶體成本飆升影響，聯想基礎設施解決方案集團已上調多項伺服器產品報價。由於市場價格波動劇烈，聯想目前限制了報價有效期限，以確保能及時反映組件市場的動態成本。</div>
-        <a href="https://itdaily.com/news/business/lenovo-to-hike-pc-and-server-prices-starting-in-march/" class="news-link">閱讀原文</a>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">美超微 (Supermicro) 於 GTC 2026 發表 NVIDIA Rubin 架構 AI 伺服器</div>
-        <div class="news-highlight">Supermicro 展示基於 NVIDIA Vera Rubin 架構的次世代液冷 AI 訓練平台。</div>
-        <div class="news-summary">美超微推出支援 NVIDIA HGX B300 與 GB300 NVL72 的高密度液冷解決方案，強化 AI 工廠基礎建設。此外，公司宣布與 BlockchAIn LLC 合作，共同開發針對數據中心優化的 AI 硬體平台。</div>
-        <a href="https://www.supermicro.com/en/event/gtc" class="news-link">閱讀原文</a>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">廣達 (Quanta) 看好 2026 年 AI 伺服器營收翻倍成長</div>
-        <div class="news-highlight">廣達預計 AI 相關業務將迎來三位數增長，並計劃 8 月開始出貨 NVIDIA Rubin 平台伺服器。</div>
-        <div class="news-summary">廣達強調 AI 市場並無泡沫，正加速從氣冷轉向液冷 AI 超級電腦方案。公司預估 2026 年 AI 伺服器將成為核心成長引擎，相關出貨將隨新一代 AI 晶片上市而放量。</div>
-        <a href="https://www.digitimes.com/news/a20260116PD225/quanta-qct-ai-capacity-expansion-2026.html" class="news-link">閱讀原文</a>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">緯穎 (Wiwynn) 展示全面液冷 Vera Rubin NVL72 AI 工廠架構</div>
-        <div class="news-highlight">緯穎於 GTC 2026 推出全機櫃液冷 AI 平台，旨在提升效能與能耗表現。</div>
-        <div class="news-summary">緯穎展示的 NVIDIA Vera Rubin NVL72 架構平台專為前沿 AI 模型訓練與推論設計。該方案透過全機櫃規模的液冷技術，顯著提升每瓦效能，以應對日益嚴峻的數據中心散熱需求。</div>
-        <a href="https://www.wiwynn.com/news/wiwynn-showcases-nvidia-vera-rubin-nvl72-ai-factory-infrastructure-at-nvidia-gtc-2026" class="news-link">閱讀原文</a>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">技嘉 (Gigabyte) 推動端到端 AI 基礎設施轉型方案</div>
-        <div class="news-highlight">技嘉整合 AI 硬體產品線，協助電信運營商建立全方位運算基礎設施。</div>
-        <div class="news-summary">技嘉持續推廣其「AI Forward」理念，在近期大型展會中展示了涵蓋從邊緣到雲端的 AI 伺服器組合。其方案重點在於提供靈活的異構運算架構，支援多樣化的 AI 開發與應用場景。</div>
-        <a href="https://www.gigabyte.com/Press/News/2351" class="news-link">閱讀原文</a>
-    </div>
-
-    <footer>
-        &copy; 2026 哈哈狗報 | Server Hardware Vendors
-    </footer>
+</section>
+</main>
+  <script src="./assets/saved.js"></script>
 </body>
 </html>

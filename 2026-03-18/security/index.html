@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>哈哈狗報｜Security (2026-03-18)</title>
+  <title>哈哈狗報｜2026 年 3 月 18 日｜Security</title>
   <style>
 :root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
 *{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
@@ -12,69 +12,72 @@ a{color:var(--accent);text-decoration:none} strong{font-weight:800}
 .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
 .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
 h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
-p{margin:.45em 0}.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
 .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
-.small{font-size:.95rem}
-@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}}
-</style>
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
   <main class="wrap">
     <section class="card">
-      <div class="kicker"><span class="pill"><a href="../../index.html">← 回首頁</a></span></div>
-      <h1>Security 專刊</h1>
-      <p>2026 年 3 月 18 日 · 資安事故、漏洞通報、駭客行動與防禦技術。</p>
+      <div class="kicker"><span class="pill">Security</span><a class="small" href="../">← 回今日總覽</a><a class="small" href="../../">回首頁</a></div>
+      <h1>2026 年 3 月 18 日｜Security</h1>
+      <p>資安事故、漏洞通報、駭客行動與防禦技術。</p>
     </section>
-    <section class="card">
-      <article class="story">
-        <h3>Microsoft 2026 年 3 月修補週：修復 82 個漏洞，包含 8 個關鍵等級</h3>
-        <p><strong>本月更新修補了多項遠端代碼執行 (RCE) 漏洞，包括 Office 與定價程序相關組件。</strong></p>
-        <p class="small">微軟針對多款產品發布安全更新，其中 8 個被列為「關鍵」，涉及 CVSS 評分高達 9.8 的重大瑕疵。受影響範圍涵蓋 Windows 系統與 Microsoft 365 應用程式。</p>
-        <p class="source"><a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>FBI 調查疑似中國背景的關鍵監控網路入侵事件</h3>
-        <p><strong>系統日誌顯示非分類環境中存在異常活動，涉及敏感調查對象資料。</strong></p>
-        <p class="small">FBI 正在處理一宗可能源自供應鏈漏洞的滲透案件，攻擊者似乎獲取了監視網絡的存取權限。目前正針對異常日誌進行溯源分析，以確認資料洩露的具體規模。</p>
-        <p class="source"><a href="https://www.malwarebytes.com/blog/data-breaches/2026/03/hackers-may-have-breached-fbi-wiretap-network-via-supply-chain" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>Cisco SD-WAN 遭廣泛漏洞攻擊，CISA 發布緊急更新指令</h3>
-        <p><strong>駭客利用 0-day 漏洞繞過身份驗證並獲取系統管理權限。</strong></p>
-        <p class="small">資安專家警告除了已知的 CVE-2026-20127 外，另一個涉及檔案系統權限的漏洞也正被積極利用。美國 CISA 已要求聯邦機構限期修補，以防核心網路基礎設施被完全控制。</p>
-        <p class="source"><a href="https://www.cybersecuritydive.com/news/security-teams-wider-threat-cisco-sd-wan/814934/" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>法國醫療體系遭大規模個資外洩，影響 1,580 萬份檔案</h3>
-        <p><strong>第三方軟體商漏洞導致病患姓名、地址及敏感健康紀錄暴露。</strong></p>
-        <p class="small">法商 Cegedim Santé 的系統遭侵入，導致法國近四分之一人口的醫療行政資料外流。這起事件再次引發大眾對醫療供應鏈安全以及三方軟體存取權限監控的強烈關注。</p>
-        <p class="source"><a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-18-26/" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>RondoDox 殭屍網路攻擊清單劇增，每日嘗試攻擊 1.5 萬次</h3>
-        <p><strong>該網路目前鎖定 174 個漏洞，展現極高自動化與漏洞跟進速度。</strong></p>
-        <p class="small">研究顯示 RondoDox 的運作者能在漏洞揭露後數小時內便開發出利用工具，甚至早於 CVE 編號分配。其高度針對性的攻擊模式讓許多尚未更新的企業措手不及。</p>
-        <p class="source"><a href="https://www.securityweek.com/rondodox-botnet-targeted-174-vulnerabilities/" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>醫材龍頭 Stryker 遭伊朗駭客攻擊，營運中斷逾一週</h3>
-        <p><strong>駭客宣稱已竊取並摧毀 50 TB 企業資料，目前工廠運作仍受影響。</strong></p>
-        <p class="small">名為 Handala 的威脅組織宣稱對此負責，疑似利用 Microsoft Intune 漏洞進行滲透。這次攻擊具有明顯的政治動機與破壞性，造成 Stryker 全球供應鏈與生產線嚴重混亂。</p>
-        <p class="source"><a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-18-26/" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>Rapid7 報告：2026 年高風險漏洞利用速度激增 105%</h3>
-        <p><strong>漏洞公開與被積極利用之間的時間差已縮短至數天甚至數小時。</strong></p>
-        <p class="small">最新威脅趨勢顯示攻擊者正迅速將新發現的漏洞轉化為攻擊行動，使企業傳統的修補排程完全失效。報告呼籲資安團隊必須轉向自動化修補與即時偵測以應對 collapsed 攻擊週期。</p>
-        <p class="source"><a href="https://markets.businessinsider.com/news/stocks/rapid7-2026-global-threat-landscape-report-shows-exploited-high-and-critical-severity-vulnerabilities-surged-105-as-attack-timelines-collapsed-1035941348" target="_blank">原文連結</a></p>
-      </article>
-      <article class="story">
-        <h3>Veracode 推出 AI 自動化修補方案，旨在解決開源漏洞積壓</h3>
-        <p><strong>透過 AI 模型自動產生並整合代碼補丁，將修補時間從週縮短至分鐘。</strong></p>
-        <p class="small">Veracode Fix for SCA 整合進開發者工作流，能在代碼部署前偵測並修復開源組件漏洞。此舉旨在應對因 AI 輔助開發導致的代碼產量大增，進而引發的安全漏洞泛濫問題。</p>
-        <p class="source"><a href="https://www.helpnetsecurity.com/2026/03/18/veracode-fix-for-sca/" target="_blank">原文連結</a></p>
-      </article>
-    </section>
-  </main>
+    <section class="card"><article class="story">
+      <h3>Microsoft 2026 年 3 月修補週：修復 82 個漏洞，包含 8 個關鍵等級</h3>
+      <p><strong>微軟針對多款產品發布安全更新，其中 8 個被列為「關鍵」，涉及 CVSS 評分高達 9.8 的重大瑕疵。受影響範圍涵蓋 Windows 系統與 Microsoft 365 應用程式。</strong></p>
+      <p class="small">微軟針對多款產品發布安全更新，其中 8 個被列為「關鍵」，涉及 CVSS 評分高達 9.8 的重大瑕疵。 受影響範圍涵蓋 Windows 系統與 Microsoft 365 應用程式。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/">原文連結</a></p>
+    </article><article class="story">
+      <h3>FBI 調查疑似中國背景的關鍵監控網路入侵事件</h3>
+      <p><strong>FBI 正在處理一宗可能源自供應鏈漏洞的滲透案件，攻擊者似乎獲取了監視網絡的存取權限。目前正針對異常日誌進行溯源分析，以確認資料洩露的具體規模。</strong></p>
+      <p class="small">FBI 正在處理一宗可能源自供應鏈漏洞的滲透案件，攻擊者似乎獲取了監視網絡的存取權限。 目前正針對異常日誌進行溯源分析，以確認資料洩露的具體規模。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.malwarebytes.com/blog/data-breaches/2026/03/hackers-may-have-breached-fbi-wiretap-network-via-supply-chain">原文連結</a></p>
+    </article><article class="story">
+      <h3>Cisco SD-WAN 遭廣泛漏洞攻擊，CISA 發布緊急更新指令</h3>
+      <p><strong>資安專家警告除了已知的 CVE-2026-20127 外，另一個涉及檔案系統權限的漏洞也正被積極利用。美國 CISA 已要求聯邦機構限期修補，以防核心網路基礎設施被完全控制。</strong></p>
+      <p class="small">資安專家警告除了已知的 CVE-2026-20127 外，另一個涉及檔案系統權限的漏洞也正被積極利用。 美國 CISA 已要求聯邦機構限期修補，以防核心網路基礎設施被完全控制。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.cybersecuritydive.com/news/security-teams-wider-threat-cisco-sd-wan/814934/">原文連結</a></p>
+    </article><article class="story">
+      <h3>法國醫療體系遭大規模個資外洩，影響 1,580 萬份檔案</h3>
+      <p><strong>法商 Cegedim Santé 的系統遭侵入，導致法國近四分之一人口的醫療行政資料外流。這起事件再次引發大眾對醫療供應鏈安全以及三方軟體存取權限監控的強烈關注。</strong></p>
+      <p class="small">法商 Cegedim Santé 的系統遭侵入，導致法國近四分之一人口的醫療行政資料外流。 這起事件再次引發大眾對醫療供應鏈安全以及三方軟體存取權限監控的強烈關注。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-18-26/">原文連結</a></p>
+    </article><article class="story">
+      <h3>RondoDox 殭屍網路攻擊清單劇增，每日嘗試攻擊 1.5 萬次</h3>
+      <p><strong>研究顯示 RondoDox 的運作者能在漏洞揭露後數小時內便開發出利用工具，甚至早於 CVE 編號分配。其高度針對性的攻擊模式讓許多尚未更新的企業措手不及。</strong></p>
+      <p class="small">研究顯示 RondoDox 的運作者能在漏洞揭露後數小時內便開發出利用工具，甚至早於 CVE 編號分配。 其高度針對性的攻擊模式讓許多尚未更新的企業措手不及。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.securityweek.com/rondodox-botnet-targeted-174-vulnerabilities/">原文連結</a></p>
+    </article><article class="story">
+      <h3>醫材龍頭 Stryker 遭伊朗駭客攻擊，營運中斷逾一週</h3>
+      <p><strong>名為 Handala 的威脅組織宣稱對此負責，疑似利用 Microsoft Intune 漏洞進行滲透。這次攻擊具有明顯的政治動機與破壞性，造成 Stryker 全球供應鏈與生產線嚴重混亂。</strong></p>
+      <p class="small">名為 Handala 的威脅組織宣稱對此負責，疑似利用 Microsoft Intune 漏洞進行滲透。 這次攻擊具有明顯的政治動機與破壞性，造成 Stryker 全球供應鏈與生產線嚴重混亂。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.kaseya.com/blog/the-week-in-breach-news-03-18-26/">原文連結</a></p>
+    </article><article class="story">
+      <h3>Rapid7 報告：2026 年高風險漏洞利用速度激增 105%</h3>
+      <p><strong>最新威脅趨勢顯示攻擊者正迅速將新發現的漏洞轉化為攻擊行動，使企業傳統的修補排程完全失效。報告呼籲資安團隊必須轉向自動化修補與即時偵測以應對 collapsed 攻擊週期。</strong></p>
+      <p class="small">最新威脅趨勢顯示攻擊者正迅速將新發現的漏洞轉化為攻擊行動，使企業傳統的修補排程完全失效。 報告呼籲資安團隊必須轉向自動化修補與即時偵測以應對 collapsed 攻擊週期。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://markets.businessinsider.com/news/stocks/rapid7-2026-global-threat-landscape-report-shows-exploited-high-and-critical-severity-vulnerabilities-surged-105-as-attack-timelines-collapsed-1035941348">原文連結</a></p>
+    </article><article class="story">
+      <h3>Veracode 推出 AI 自動化修補方案，旨在解決開源漏洞積壓</h3>
+      <p><strong>Veracode Fix for SCA 整合進開發者工作流，能在代碼部署前偵測並修復開源組件漏洞。此舉旨在應對因 AI 輔助開發導致的代碼產量大增，進而引發的安全漏洞泛濫問題。</strong></p>
+      <p class="small">Veracode Fix for SCA 整合進開發者工作流，能在代碼部署前偵測並修復開源組件漏洞。 此舉旨在應對因 AI 輔助開發導致的代碼產量大增，進而引發的安全漏洞泛濫問題。</p>
+      <p class="source">來源：<strong>來源待補</strong> · <a href="https://www.helpnetsecurity.com/2026/03/18/veracode-fix-for-sca/">原文連結</a></p>
+    </article></section>
+    <section class="card"><h2>任務資訊</h2><p class="muted">更新時間：2026-03-18 14:09 PDT</p><div class="stat small">
+      <div><b>topics</b>7</div>
+      <div><b>style</b>kept</div>
+      <div><b>links</b>synced</div>
+      <div><b>updated</b>14:09</div>
+      <div><b>status</b>published</div>
+    </div></section>
+    </main>
+  <script src="../../assets/saved.js"></script>
 </body>
 </html>

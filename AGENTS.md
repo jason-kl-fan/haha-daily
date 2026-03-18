@@ -207,6 +207,13 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## News Site Iron Rules
+
+- Every daily news update must verify saved/favorites still work.
+- Fixed checklist after publishing: root homepage, current date page, every topic page, and `/saved`.
+- If a page falls back to an old template, treat missing `saved.js` / missing save buttons as a shipping bug, not a nice-to-have.
+- New content is optional; broken favorites are not.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
