@@ -3,61 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈哈狗報 - Cooling 新聞 (2026-03-18)</title>
+    <title>哈哈狗報 - 綜合新聞 (2026-03-18)</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0fdf4; }
-        h1 { color: #166534; text-align: center; }
-        .date { text-align: center; color: #15803d; margin-bottom: 30px; font-weight: bold; }
-        .news-item { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 5px solid #22c55e; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f8fafc; }
+        h1 { color: #1e293b; text-align: center; margin-bottom: 5px; }
+        .date { text-align: center; color: #64748b; margin-bottom: 30px; font-weight: bold; }
+        .section-header { background: #1e293b; color: #fff; padding: 10px 15px; border-radius: 6px; margin-top: 30px; margin-bottom: 15px; font-weight: bold; }
+        .news-item { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 5px solid #3b82f6; }
+        .news-item.security { border-left-color: #ef4444; }
+        .news-item.cooling { border-left-color: #22c55e; }
         .news-title { font-size: 1.2rem; font-weight: bold; color: #111827; text-decoration: none; display: block; margin-bottom: 10px; }
-        .news-title:hover { color: #16a34a; }
-        .news-highlight { font-weight: 600; color: #15803d; margin-bottom: 8px; font-size: 0.95rem; }
+        .news-title:hover { color: #3b82f6; }
+        .news-highlight { font-weight: 600; color: #1e40af; margin-bottom: 8px; font-size: 0.95rem; }
+        .news-item.security .news-highlight { color: #991b1b; }
+        .news-item.cooling .news-highlight { color: #166534; }
         .news-summary { font-size: 0.9rem; color: #4b5563; }
-        footer { text-align: center; margin-top: 40px; color: #9ca3af; font-size: 0.8rem; }
+        .more-link { text-align: right; margin-top: -10px; margin-bottom: 20px; }
+        .more-link a { font-size: 0.9rem; color: #3b82f6; text-decoration: none; font-weight: bold; }
+        footer { text-align: center; margin-top: 40px; color: #9ca3af; font-size: 0.8rem; border-top: 1px solid #e2e8f0; padding-top: 20px; }
     </style>
 </head>
 <body>
-    <h1>哈哈狗報 ❄️</h1>
-    <div class="date">主題：Cooling | 2026年3月18日</div>
+    <h1>哈哈狗報 🐶</h1>
+    <div class="date">2026 年 3 月 18 日｜每日科技快訊</div>
 
-    <div class="news-item">
+    <div class="section-header">🛡️ Security 資安要聞</div>
+    
+    <div class="news-item security">
+        <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/" class="news-title">Microsoft 2026 年 3 月修補週：修復 82 個漏洞，包含 8 個關鍵等級</a>
+        <div class="news-highlight">重點：本月更新修補了多項遠端代碼執行 (RCE) 漏洞，包括 Office 與定價程序相關組件。</div>
+        <div class="news-summary">摘要：微軟針對多款產品發布安全更新，其中 8 個被列為「關鍵」，涉及 CVSS 評分高達 9.8 的重大瑕疵。受影響範圍涵蓋 Windows 系統與 Microsoft 365 應用程式。</div>
+    </div>
+
+    <div class="news-item security">
+        <a href="https://www.malwarebytes.com/blog/data-breaches/2026/03/hackers-may-have-breached-fbi-wiretap-network-via-supply-chain" class="news-title">FBI 調查疑似中國背景的關鍵監控網路入侵事件</a>
+        <div class="news-highlight">重點：系統日誌顯示非分類環境中存在異常活動，涉及敏感調查對象資料。</div>
+        <div class="news-summary">摘要：FBI 正在處理一宗可能源自供應鏈漏洞的滲透案件，攻擊者似乎獲取了監視網絡的存取權限。目前正針對異常日誌進行溯源分析，以確認資料洩露的具體規模。</div>
+    </div>
+
+    <div class="more-link">
+        <a href="./2026-03-18/security/">查看更多 Security 新聞 →</a>
+    </div>
+
+    <div class="section-header">❄️ Cooling 散熱動態</div>
+
+    <div class="news-item cooling">
         <a href="https://247wallst.com/investing/2026/03/18/vertiv-ceo-liquid-cooling-capacity-growing-really-really-really-rapidly/" class="news-title">Vertiv 加大液冷產能投入，應對 NVIDIA GTC 後的爆發需求</a>
         <div class="news-highlight">重點：Vertiv 執行長指出，受 AI 算力需求驅動，液冷產能正以「極快速度」持續擴張。</div>
         <div class="news-summary">摘要：Vertiv 於摩根大通工業大會透露，液冷技術正從利基走向主流，增長率遠超傳統氣冷。該公司已籌集 46 億美元流動資金，專門用於升級製造設施，以消化巨量的超大規模數據中心訂單。</div>
     </div>
 
-    <div class="news-item">
-        <a href="https://www.stocktitan.net/news/ETN/eaton-completes-acquisition-of-leading-liquid-cooling-solutions-1c2i9h803tmd.html" class="news-title">Eaton 完成收購 Boyd Thermal，深化數據中心「從電網到晶片」佈局</a>
-        <div class="news-highlight">重點：電源管理巨頭 Eaton 於 3 月 12 日完成對 Boyd Thermal 的收購，強化液冷解決方案實力。</div>
-        <div class="news-summary">摘要：透過整合 Boyd 在精密熱管理與液冷領域的專業技術，Eaton 旨在提供完整的數據中心散熱鏈條。此舉將協助營運商在高密度 AI 伺服器部署中，實現更穩定的熱能管控與能源效率。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.nvent.com/en-ph/data-solutions/next-generation-liquid-cooling-and-power-portfolios-coming-2026" class="news-title">nVent 聯手技嘉於 GTC 2026 展示次世代 CDU 液冷控制平台</a>
-        <div class="news-highlight">重點：nVent 展示新款 Row Based CDU CX121，並將於 2026 上半年推出統一智慧控制系統。</div>
-        <div class="news-summary">摘要：該方案包含針對 Google Project Deschutes 5.0 開發的列間型與機櫃型 CDU 產品。透過與技嘉合作，nVent 展現其在高效能液冷基礎設施中，實現精準自動化熱管理與規模化部署的能力。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.munters.com/en-us/news-media/stories/2026/we-are-in-the-middle-of-an-industrial-revolution/" class="news-title">Munters 獲得 hyperscale 客戶巨額訂單，冷水機組產能全力擴充</a>
-        <div class="news-highlight">重點：Munters 宣佈將於 2026 年第一季完成美國維吉尼亞州工廠擴建，支援液冷基礎設施。</div>
-        <div class="news-summary">摘要：該公司近期接獲價值數億美元的冷水機組與 CRAH 訂單，訂單能見度已延伸至 2028 年。Munters 正轉向處理距離熱源更近的冷卻需求，並透過收購 Geoclima 強化其冷卻水系統的產品廣度。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://www.techpowerup.com/327673/rittal-unveils-modular-cooling-distribution-unit-with-over-1-mw-capacity" class="news-title">Rittal 推出 1MW 模組化 CDU，專為 AI 數據中心直冷設計</a>
-        <div class="news-highlight">重點：Rittal 展示可支援超過 1MW 散熱能力的冷卻分配單元（CDU），強化 DLC 產品線。</div>
-        <div class="news-summary">摘要：該系統採模組化設計，相容 OCP ORV3 標準，能移除機櫃中因 AI 運算產生的極大熱負荷。Rittal 強調其直冷方案專為超大規模營運商設計，具備高可用性與無縫整合的優勢。</div>
-    </div>
-
-    <div class="news-item">
-        <a href="https://airsysnorthamerica.com/data-center-trends-cooling-strategies-to-watch-in-2026/" class="news-title">數據中心冷卻轉型：2026 年液冷伺服器市場佔比預計突破 76%</a>
-        <div class="news-highlight">重點：高盛預測 2026 年液冷 AI 伺服器將成市場主流，從 2024 年的 15% 呈爆炸式增長。</div>
-        <div class="news-summary">摘要：隨著單晶片功耗超過 700 瓦，氣冷已無法滿足散熱需求，促使液冷技術快速普及。新型膜技術與閉環系統正取代傳統冷卻塔，旨在降低水資源消耗並優化水效效能（WUE）。</div>
+    <div class="more-link">
+        <a href="./cooling/">查看更多 Cooling 新聞 →</a>
     </div>
 
     <footer>
-        &copy; 2026 哈哈狗報 | 自動更新於 2026-03-18 09:45
+        &copy; 2026 哈哈狗報 | <a href="./security/">Security 歷史</a> | <a href="./cooling/">Cooling 歷史</a><br>
+        自動更新於 2026-03-18 09:50
     </footer>
 </body>
 </html>
