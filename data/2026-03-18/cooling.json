@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Vertiv 加大液冷產能投入，應對 NVIDIA GTC 後的爆發需求",
+    "point": "Vertiv 執行長指出，受 AI 算力需求驅動，液冷產能正以「極快速度」持續擴張。",
+    "summary": "Vertiv 於摩根大通工業大會透露，液冷技術正從利基走向主流，增長率遠超傳統氣冷。該公司已籌集 46 億美元流動資金，專門用於升級製造設施，以消化巨量的超大規模數據中心訂單。",
+    "url": "https://247wallst.com/investing/2026/03/18/vertiv-ceo-liquid-cooling-capacity-growing-really-really-really-rapidly/",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "Eaton 完成收購 Boyd Thermal，深化數據中心「從電網到晶片」佈局",
+    "point": "電源管理巨頭 Eaton 於 3 月 12 日完成對 Boyd Thermal 的收購，強化液冷解決方案實力。",
+    "summary": "透過整合 Boyd 在精密熱管理與液冷領域的專業技術，Eaton 旨在提供完整的數據中心散熱鏈條。此舉將協助營運商在高密度 AI 伺服器部署中，實現更穩定的熱能管控與能源效率。",
+    "url": "https://www.stocktitan.net/news/ETN/eaton-completes-acquisition-of-leading-liquid-cooling-solutions-1c2i9h803tmd.html",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "nVent 聯手技嘉於 GTC 2026 展示次世代 CDU 液冷控制平台",
+    "point": "nVent 展示新款 Row Based CDU CX121，並將於 2026 上半年推出統一智慧控制系統。",
+    "summary": "該方案包含針對 Google Project Deschutes 5.0 開發的列間型與機櫃型 CDU 產品。透過與技嘉合作，nVent 展現其在高效能液冷基礎設施中，實現精準自動化熱管理與規模化部署的能力。",
+    "url": "https://www.nvent.com/en-ph/data-solutions/next-generation-liquid-cooling-and-power-portfolios-coming-2026",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "Munters 獲得 hyperscale 客戶巨額訂單，冷水機組產能全力擴充",
+    "point": "Munters 宣佈將於 2026 年第一季完成美國維吉尼亞州工廠擴建，支援液冷基礎設施。",
+    "summary": "該公司近期接獲價值數億美元的冷水機組與 CRAH 訂單，訂單能見度已延伸至 2028 年。Munters 正轉向處理距離熱源更近的冷卻需求，並透過收購 Geoclima 強化其冷卻水系統的產品廣度。",
+    "url": "https://www.munters.com/en-us/news-media/stories/2026/we-are-in-the-middle-of-an-industrial-revolution/",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "Rittal 推出 1MW 模組化 CDU，專為 AI 數據中心直冷設計",
+    "point": "Rittal 展示可支援超過 1MW 散熱能力的冷卻分配單元（CDU），強化 DLC 產品線。",
+    "summary": "該系統採模組化設計，相容 OCP ORV3 標準，能移除機櫃中因 AI 運算產生的極大熱負荷。Rittal 強調其直冷方案專為超大規模營運商設計，具備高可用性與無縫整合的優勢。",
+    "url": "https://www.techpowerup.com/327673/rittal-unveils-modular-cooling-distribution-unit-with-over-1-mw-capacity",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "數據中心冷卻轉型：2026 年液冷伺服器市場佔比預計突破 76%",
+    "point": "高盛預測 2026 年液冷 AI 伺服器將成市場主流，從 2024 年的 15% 呈爆炸式增長。",
+    "summary": "隨著單晶片功耗超過 700 瓦，氣冷已無法滿足散熱需求，促使液冷技術快速普及。新型膜技術與閉環系統正取代傳統冷卻塔，旨在降低水資源消耗並優化水效效能（WUE）。",
+    "url": "https://airsysnorthamerica.com/data-center-trends-cooling-strategies-to-watch-in-2026/",
+    "date": "2026-03-18"
+  }
+]
