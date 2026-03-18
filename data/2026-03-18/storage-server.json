@@ -1,0 +1,44 @@
+[
+  {
+    "title": "企業級 SSD 供應危機：SanDisk 預計 Q1 價格翻倍",
+    "highlight": "受 AI 需求與產能限制影響，企業級 SSD 出現嚴重缺貨，SanDisk 計劃將價格調漲一倍。",
+    "summary": "NAND 均價較去年同期翻倍，SSD 與 HDD 的價差擴大至 13 倍，導致超大規模資料中心採購成本激增。記憶體相依基礎設施的成本漲幅預計達 30% 至 60%，甚至可能延誤部分伺服器部署時程。",
+    "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-to-double-price-of-3d-nand-for-enterprise-ssds-in-q1-2026-hyperscalers-to-pay-top-dollar-for-storage-as-ai-continues-to-roll"
+  },
+  {
+    "title": "NVIDIA 發表 BlueField-4 STX 存儲架構加速 AI 推論",
+    "highlight": "NVIDIA 在 GTC 2026 推出模組化架構，將 KV 快取從 GPU 卸載至 NVMe SSD 以提升效率。",
+    "summary": "Supermicro 已基於此架構打造 CMX 存儲伺服器，旨在減少 GPU 記憶體壓力並加速 AI 模型推論。NVMe 2.0 ZNS 技術在此應用中扮演關鍵角色，能顯著改善存儲效能與磁碟耐用度。",
+    "url": "https://mlq.ai/news/nvidia-launches-bluefield-4-stx-storage-architecture-at-gtc-2026-supermicro-among-first-to-build-cmx-server/"
+  },
+  {
+    "title": "伺服器 CPU 短缺危機：Intel 與 AMD 交期拉長",
+    "highlight": "AI 硬體需求排擠一般伺服器資源，導致 Intel 與 AMD 伺服器 CPU 價格上漲且供貨延遲。",
+    "summary": "全球 AI 工廠建設潮造成關鍵組件短缺，部分伺服器訂單交期已延伸至 40 週以上。這迫使雲端服務商重新評估基礎設施部署策略，並轉向更高效能的專用處理器。",
+    "url": "https://qz.com/ai-cpu-shortage-2026"
+  },
+  {
+    "title": "鴻海（Foxconn）稱霸全球 AI 伺服器四成市場",
+    "highlight": "鴻海預計 2026 年營收持續強勁，主要受惠於 AI 伺服器市場超過 40% 的市佔率。",
+    "summary": "受惠於 NVIDIA Blackwell 等次世代伺服器訂單，鴻海在伺服器組裝與液冷方案的佈局已見成效。公司看好未來一年的資料中心設備需求，營收展望大幅調升。",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003853997"
+  },
+  {
+    "title": "AI 伺服器液冷市場爆发：2026 年產值將突破 170 億美元",
+    "highlight": "隨著 AI 晶片功耗飆升，液冷散熱已成為資料中心標配，Google 等大廠積極尋求新供應商。",
+    "summary": "Envicool 等散熱廠獲 Google 採購以克服基礎設施瓶頸，而 ASUS 也推出針對 Vera Rubin 伺服器優化的方案。次世代機架設計旨在支援更高溫的冷卻水，以減少對傳統空調製冷機的需求。",
+    "url": "https://www.tekedia.com/google-turns-to-chinese-suppliers-for-ai-data-center-cooling-as-infrastructure-bottlenecks-deepen/"
+  },
+  {
+    "title": "VIAVI 推出 1.6T 測試平台加速 AI 網路基礎設施部署",
+    "highlight": "VIAVI 發布 TestCenter D2 1.6T 設備，協助雲端大廠模擬與測試超大規模 AI 工作負載。",
+    "summary": "該設備支援最新 1.6T 乙太網路標準，能確保資料中心在處理 AI 模型訓練時的網路穩定性與速度。此舉有助於減少次世代網路架構部署初期的錯誤，並提升整體資料中心效率。",
+    "url": "https://www.prnewswire.com/news-releases/viavi-launches-testcenter-d2-1-6t-appliance-to-accelerate-ai-infrastructure-rollouts-across-hyperscale-and-cloud-data-center-environments-302710807.html"
+  },
+  {
+    "title": "Dell 推出 PowerEdge AI 資料平台強化存儲編排",
+    "highlight": "Dell 與 NVIDIA 合作推出 AI 資料平台，利用 PowerEdge 伺服器實現高性能 AI 存儲自動化。",
+    "summary": "該平台整合了 Dell Exascale Storage 技術，旨在自動化管理 AI 數據的生命週期並提升檢索效率。透過軟硬體整合，企業能更輕鬆地在現有基礎設施上部署大規模 AI 應用。",
+    "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dell-ai-data-platform-with-nvidia-supercharges-enterprise-ai-with-breakthrough-data-orchestration-and-storage-innovations/"
+  }
+]
