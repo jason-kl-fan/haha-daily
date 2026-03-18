@@ -1,0 +1,61 @@
+{
+  "slug": "startup",
+  "name": "Startup",
+  "date": "2026-03-18",
+  "count": 7,
+  "searchNotes": {
+    "search": "Gemini web_search only. Focus on March 17-18 news.",
+    "dedupe": "Excluded Candex, NVIDIA DLSS 5, Rubi, Blify from yesterday. Focus on new funding (Nexthop, Axiom, Kai, Oro Labs, Mind Robotics, Burger Singh) and Amazon delivery updates."
+  },
+  "items": [
+    {
+      "title": "Nexthop AI 獲 5 億美元 B 輪融資，估值達 42 億美元衝刺 AI 數據中心基礎設施",
+      "takeaway": "AI 算力競賽外溢：投資者正從晶片轉向支持大模型運行的網絡與數據中心架構。",
+      "summary": "由 Lightspeed 與 a16z 領投，Nexthop AI 專注於開發專為 AI 負載設計的高速網絡技術。該公司融資將用於擴展全球研發與製造能力，以滿足資料中心對低延遲通訊的極限需求。",
+      "source": "AI Funding Tracker / Gemini web_search",
+      "sourceUrl": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+    },
+    {
+      "title": "Mind Robotics 完成 5 億美元 A 輪融資，a16z 領投推動工業機器人 AI 革命",
+      "takeaway": "機器人迎來 GPT 時刻：大型 A 輪融資顯示創投圈看好具備通用學習能力的人形與工業機器人。",
+      "summary": "這家從電動車廠分拆出的新創公司，獲得 Accel 與 a16z 巨額支持。Mind Robotics 致力於開發能自我學習複雜任務的工業機器人，是機器人領域史上最大的 A 輪融資之一。",
+      "source": "Qubit Capital / Gemini web_search",
+      "sourceUrl": "https://qubit.capital/blog/us-series-a-weekly-funding-roundup-mar-7-14-2026"
+    },
+    {
+      "title": "AI 採購平台 Oro Labs 獲 1 億美元 C 輪融資，高盛領投加速企業支出管理自動化",
+      "takeaway": "B2B 軟體 AI 化：企業採購流程正從繁瑣的表單轉向智慧化的端到端自動管理。",
+      "summary": "Oro Labs 專注於簡化大型企業的採購工作流，透過 AI 提升採購效率與透明度。新資金將用於深化其 AI 決策引擎，並擴展與主流 ERP 系統的整合生態系。",
+      "source": "AI Funding Tracker / Gemini web_search",
+      "sourceUrl": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+    },
+    {
+      "title": "資安新創 Kai 獲 1.25 億美元 A 輪融資，打造「代理型 AI」防禦平台",
+      "takeaway": "防禦側的 AI 升級：網路安全正進入 AI 對抗 AI 的時代，自動化響應成為標配。",
+      "summary": "Kai 獲得 Evolution Equity Partners 領投，主打具備主動偵測與修復能力的 AI 代理技術。該平台能在駭客發動攻擊時，透過自主決策即時阻斷威脅，減少人為干預的延遲。",
+      "source": "AI Funding Tracker / Gemini web_search",
+      "sourceUrl": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+    },
+    {
+      "title": "亞馬遜於全美推出 1 小時與 3 小時超速配送服務，覆蓋逾 9 萬種商品",
+      "takeaway": "電商物流再極限化：亞馬遜透過 AI 優化配送網絡，將即時配送從餐飲擴展至百貨。",
+      "summary": "Amazon 宣布利用現有的當日達基礎設施，提供更快速的極短時配送選項。此舉旨在滿足消費者對生活用品與 3C 產品的即時需求，進一步鞏固其在物流領域的統治地位。",
+      "source": "Convenience.org / Gemini web_search",
+      "sourceUrl": "https://www.convenience.org/Media/Daily/2026/March/18/4-Amazon-Launches-1-Hour-Delivery_Technology"
+    },
+    {
+      "title": "美國能源部啟動 2.93 億美元基金，資助 AI 與生物技術結合的科學研究",
+      "takeaway": "國家級戰略投入：政府資金正湧入「AI+科學」領域，加速生物製藥與新材料開發。",
+      "summary": "此項撥款是 Genesis Mission 的一部分，重點在於利用 AI 處理複雜的生物數據。目標是透過算力加速能源轉型與醫療創新，解決氣候與健康的跨領域挑戰。",
+      "source": "Ethanol Producer / Gemini web_search",
+      "sourceUrl": "https://ethanolproducer.com/articles/doe-offers-funding-biotechnology-projects-leveraging-ai"
+    },
+    {
+      "title": "印度連鎖漢堡品牌 Burger Singh 獲 900 萬美元 B 輪融資，估值破 5,600 萬美元",
+      "takeaway": "區域品牌抗衡巨頭：具備在地口味與高效供應鏈的本土餐飲新創仍受資本青睞。",
+      "summary": "Burger Singh 宣布完成最新融資，資金將用於在印度二三線城市大規模展店。該公司透過優化中央廚房與數位化管理，成功在競爭激烈的速食市場中維持高速成長。",
+      "source": "Entrackr / Gemini web_search",
+      "sourceUrl": "https://entrackr.com/news/burger-singh-raises-rs-82-cr-in-series-b-round-11224074"
+    }
+  ]
+}
