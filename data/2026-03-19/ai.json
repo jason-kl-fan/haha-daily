@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-19",
+  "topic": "AI",
+  "news": [
+    {
+      "title": "GSA 擬定 AI 安全條款，嚴格規範美國政府合約",
+      "point": "美國總務管理局（GSA）發布 AI 系統基本保障草案，要求政府數據不得用於訓練模型。",
+      "summary": "該草案將確立統一的 AI 採購規則，並強調必須使用「美國 AI 系統」。承包商未來需面臨更嚴格的數據所有權規定與開發限制，公眾意見徵詢至 3 月 20 日止。",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/03/gsas-proposed-ai-clause-a-deep-dive"
+    },
+    {
+      "title": "五角大廈傳將移除 Anthropic 技術，引發軍用 AI 佈局變動",
+      "point": "一份內部備忘錄要求在六個月內將 Anthropic 的 AI 技術從美軍關鍵軍事行動中移除。",
+      "summary": "據悉此舉源於該公司執行長與川普政府間的矛盾，該技術原用於核武與網戰等領域。這項變動預計將為其他主要的 AI 科技巨頭進入國防供應鏈創造新機會。",
+      "url": "https://www.cbsnews.com/news/ai-artificial-intelligence-military-use-in-war/"
+    },
+    {
+      "title": "AWE2026 閉幕，AI 驅動的摺衣機器人成為亮點",
+      "point": "2026 年家電及消費電子博覽會（AWE）於上海閉幕，展示超過 1,200 家公司的 AI 家電。",
+      "summary": "展會中亮點包括追覓（Dreame）的摺衣服機器人，以及海爾升級的 L4 級智慧家電系統。參觀人數較去年增長超過 30%，顯示出 AI 與實體生活結合的強大吸引力。",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260318cn14244/awe2026-signals-the-future-a-defining-moment-for-the-age-of-ai"
+    },
+    {
+      "title": "HiddenLayer 報告：八分之一的企業曾遭受 AI 代理攻擊",
+      "point": "2026 年 AI 威脅現狀報告指出，隨著 AI 代理自主化，企業面臨的安全風險正快速上升。",
+      "summary": "該報告調查了 250 位資安領導者，發現現有的安全框架難以跟上代理式 AI 的演進速度。隨著 AI 系統具備更高權限，針對代理機制的漏洞攻擊已成為企業防禦的新難題。",
+      "url": "https://businessjournaldaily.com/ai-security-company-releases-2026-threat-report/"
+    },
+    {
+      "title": "華爾街金融培訓全面轉型，導入「AI 優先」課程",
+      "point": "Wall Street Prep 等主要培訓機構宣布，將為 2026 年夏季新進員工提供 AI 專屬訓練。",
+      "summary": "新課程涵蓋投行、私募與投資管理領域的 AI 工具應用與原生提示詞工程教學。此舉旨在確保新一代分析師能熟練運用 AI 提升產能，同時不失金融分析的基本功。",
+      "url": "https://www.prnewswire.com/news-releases/wall-street-prep-and-financial-edge-bring-ai-first-training-to-summer-2026-new-hire-programs-302718127.html"
+    },
+    {
+      "title": "Accenture 與微軟成立 FDE 實踐，協助企業擴大 AI 應用",
+      "point": "雙方聯手推出「前進部署工程」（FDE）服務，旨在解決 AI 代理在企業內部難以落地的痛點。",
+      "summary": "研究顯示超過 55% 的企業仍處於 AI 代理的試點階段，缺乏跨部門大規模部署的能力。該合作將利用專門工程團隊協助企業打破技術瓶頸，加速 AI 從實驗室走向生產環境。",
+      "url": "https://futurumgroup.com/insights/scale-ai/"
+    },
+    {
+      "title": "NVIDIA 協助 Cyngn 提升自動化物流機器人開發效率",
+      "point": "自動駕駛技術公司 Cyngn 利用 NVIDIA Isaac Sim 模擬環境，加速工業堆高機的 AI 開發。",
+      "summary": "透過高擬真的物理模擬，研發團隊能精確測試輪胎動力學並整合複雜的自動駕駛模型。這種數位孿生技術大幅縮短了實體場域的測試時間，提升了倉儲自動化的穩定性。",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260319la13888/cyngn-featured-in-nvidia-article-about-building-robots-with-ai"
+    }
+  ]
+}

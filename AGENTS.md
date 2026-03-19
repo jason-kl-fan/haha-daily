@@ -213,6 +213,10 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Fixed checklist after publishing: root homepage, current date page, every topic page, and `/saved`.
 - If a page falls back to an old template, treat missing `saved.js` / missing save buttons as a shipping bug, not a nice-to-have.
 - New content is optional; broken favorites are not.
+- Never claim "修好了" based only on local files. The public site must be checked directly.
+- Daily update means: content updated, homepage entry switched to today, today page exists, topic pages exist, favorites work, and the public Pages site reflects all of it.
+- If GitHub Pages build fails, the task is not done. Check Actions / Pages status, fix the build blocker, redeploy, then verify the public URLs again.
+- For this news site, publish-complete requires verifying at least: `/`, `/YYYY-MM-DD/`, one or more topic pages (including the reported broken one), and `/saved/` on the live site.
 
 ## Make It Yours
 

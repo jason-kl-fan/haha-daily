@@ -45,3 +45,24 @@ When a static Pages site shows generic build failures under legacy build_type, c
 ### Metadata
 - Source: memory-lancedb-pro/self_improvement_log
 ---
+
+
+## [LRN-20260318-001] best_practice
+
+**Logged**: 2026-03-18T21:16:57.191Z
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+Live-site verification and Pages build status are mandatory parts of publishing the news site.
+
+### Details
+A successful local rebuild is insufficient for a GitHub Pages-backed site. Publishing completion must include live URL checks and workflow/build confirmation. Broken gitlinks/submodule entries can silently block Pages deployment even when local files are correct.
+
+### Suggested Action
+Add a publish checklist to workspace rules: rebuild, commit, push, verify Pages run success, verify live homepage date, live today page, live broken page, and live saved page before reporting success.
+
+### Metadata
+- Source: memory-lancedb-pro/self_improvement_log
+---
