@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Apple 緊急發布 WebKit 零日漏洞修補程式 (CVE-2026-20643)",
+    "point": "此漏洞涉及跨來源攻擊，可能導致攻擊者在各蘋果作業系統執行惡意代碼。",
+    "summary": "蘋果今日針對 iOS、iPadOS 及 macOS 推送背景安全更新，修復 WebKit 引擎中一個已被積極利用的關鍵漏洞。官方強烈建議使用者確保設備已開啟自動更新，以防範網路攻擊。",
+    "url": "https://www.youtube.com/watch?v=hB0n4AMeJ2I"
+  },
+  {
+    "title": "Ubuntu 24.04 爆發高風險 Root 提權漏洞 (CVE-2026-3888)",
+    "point": "本地普通使用者可利用此漏洞在預設安裝的桌面版中直接獲取完整系統權限。",
+    "summary": "安全專家指出該漏洞存在於 Ubuntu 24.04 的核心組件中，風險評分極高。Canonical 已釋出修補更新，伺服器版雖受影響較小但仍建議所有管理員立即排程更新。",
+    "url": "https://www.softcat.com/blog/post-patch-tuesday-roundup-march-2026"
+  },
+  {
+    "title": "Cisco 安全防火牆發現 CVSS 10 分滿分漏洞，遭勒索軟體利用",
+    "point": "Interlock 勒索軟體正積極鎖定 Cisco FMC 軟體中無需驗證即可執行 root 指令的瑕疵。",
+    "summary": "此漏洞 (CVE-2026-20131) 允許遠端攻擊者繞過驗證並執行 Java 代碼，進而完全控制網路設備。Cisco 已發布修補版本，呼籲企業務必優先處理此核心網路防禦缺口。",
+    "url": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html"
+  },
+  {
+    "title": "新型 iOS 攻擊套件「DarkSword」現蹤，鎖定加密貨幣錢包",
+    "point": "該套件利用包含 3 個零日在內的 6 項漏洞，旨在竊取 iOS 設備中的敏感資產資料。",
+    "summary": "DarkSword 被證實與國家級駭客組織及間諜軟體商有關，展現出極高的滲透技術。攻擊者能實現完整的設備控制，特別針對加密貨幣錢包應用程式進行資料搜刮。",
+    "url": "https://www.securityweek.com/darksword-ios-exploit-kit-used-by-state-sponsored-hackers-spyware-vendors/"
+  },
+  {
+    "title": "身分保護業者 Aura 證實資料外洩，影響 90 萬個帳戶",
+    "point": "第三方行銷工具遭入侵，導致使用者姓名、電子郵件、電話及 IP 地址曝光。",
+    "summary": "資安業者 Aura 坦承因行銷合作夥伴的工具失守，造成部分客戶個資流向不明。公司已向受影響用戶發送通知，並建議使用者加強警覺以防範後續的詐騙攻擊。",
+    "url": "https://www.kaseya.com/blog/the-week-in-breach-news-03-18-26/"
+  },
+  {
+    "title": "GNU Telnetd 爆發 9.8 分關鍵漏洞，遠端攻擊者可執行代碼",
+    "point": "不需身分驗證的遠端攻擊者可利用此漏洞以提升後的權限執行任意指令。",
+    "summary": "這項編號為 CVE-2026-32746 的漏洞存在於 GNU inetutils 的 Telnetd 伺服器端。儘管 Telnet 已較少使用，但在許多嵌入式系統與舊型網路設備中仍具備極大風險。",
+    "url": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html"
+  }
+]

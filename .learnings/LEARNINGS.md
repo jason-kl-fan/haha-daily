@@ -66,3 +66,24 @@ Add a publish checklist to workspace rules: rebuild, commit, push, verify Pages 
 ### Metadata
 - Source: memory-lancedb-pro/self_improvement_log
 ---
+
+
+## [LRN-20260319-001] best_practice
+
+**Logged**: 2026-03-19T16:12:39.465Z
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+For news-site updates, completion requires verifying the public site synced after each push, not just local changes or a successful push command.
+
+### Details
+User reiterated that after every news search and push, the assistant must check whether the public webpage has actually updated. Existing rules already covered live-site verification for daily updates, but the workflow needs to treat this as mandatory on every push cycle as well.
+
+### Suggested Action
+Always verify the live homepage, current date page, relevant topic page(s), and /saved/ after each news push before reporting completion.
+
+### Metadata
+- Source: memory-lancedb-pro/self_improvement_log
+---
