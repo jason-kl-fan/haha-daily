@@ -12,12 +12,15 @@ a{color:var(--accent);text-decoration:none} strong{font-weight:800}
 .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
 .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
 h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
-p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
 .story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
 .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
-.small{font-size:.95rem}.footer{font-size:.95rem;color:var(--muted)}
-@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}}
-.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}</style>
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
   <main class="wrap">
@@ -28,37 +31,37 @@ p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax
     </section>
     <section class="card">
       <article class="story">
-        <div class="story-toolbar"><h3>Panasonic 歐洲成立液冷事業部，進軍生成式 AI 散熱市場</h3><button class="save-btn" data-id="cooling-20260319-01" data-title="Panasonic 歐洲成立液冷事業部" data-category="Cooling" data-url="https://enkiai.com/data-center/panasonics-2025-data-center-cooling-strategy-unveiled">收藏</button></div>
+        <div class="story-toolbar"><h3>Panasonic 歐洲成立液冷事業部，進軍生成式 AI 散熱市場</h3><button class="save-btn" data-id="cooling-20260319-01" data-title="Panasonic 歐洲成立液冷事業部，進軍生成式 AI 散熱市場" data-category="cooling">收藏</button></div>
         <p><strong>Panasonic 正式進軍歐洲液冷市場，推出專為生成式 AI 數據中心設計的高性能 CDU。</strong></p>
         <p class="small">該公司將於 2026 年 3 月開始接受訂單，首波產品包含冷卻分配單元（CDU），並計畫推出散熱能力超過 1.2 MW 的次世代機型。此舉旨在滿足歐洲日益增長的 AI 基礎設施散熱需求。</p>
         <p class="source"><a href="https://enkiai.com/data-center/panasonics-2025-data-center-cooling-strategy-unveiled" target="_blank">原文連結</a></p>
       </article>
       <article class="story">
-        <div class="story-toolbar"><h3>Trane Technologies 聯手 NVIDIA 優化 AI 工廠熱管理參考設計</h3><button class="save-btn" data-id="cooling-20260319-02" data-title="Trane Technologies 聯手 NVIDIA 優化散熱設計" data-category="Cooling" data-url="https://datacentremagazine.com/news/trane-and-nvidia-targeting-ai-data-centre-cooling">收藏</button></div>
+        <div class="story-toolbar"><h3>Trane Technologies 聯手 NVIDIA 優化 AI 工廠熱管理參考設計</h3><button class="save-btn" data-id="cooling-20260319-02" data-title="Trane Technologies 聯手 NVIDIA 優化 AI 工廠熱管理參考設計" data-category="cooling">收藏</button></div>
         <p><strong>Trane 透過優化熱管理參考設計，成功為 IT 設備騰出 22 MW 的額外散熱空間。</strong></p>
         <p class="small">該設計將效能提升近 10%，並納入全新的 Trane Continuum Rubin DSX 產品組合。透過與 NVIDIA 合作，這套大型 AI 部署方案能有效降低能源消耗並提升電力使用效率。</p>
         <p class="source"><a href="https://datacentremagazine.com/news/trane-and-nvidia-targeting-ai-data-centre-cooling" target="_blank">原文連結</a></p>
       </article>
       <article class="story">
-        <div class="story-toolbar"><h3>Accelsius 於 GTC 2026 發表 NeuCool IR150 機櫃級兩相液冷方案</h3><button class="save-btn" data-id="cooling-20260319-03" data-title="Accelsius 發表機櫃級兩相液冷方案" data-category="Cooling" data-url="https://lasvegassun.com/news/2026/mar/16/accelsius-makes-nvidia-gtc-debut-with-neucool-ir15/">收藏</button></div>
+        <div class="story-toolbar"><h3>Accelsius 於 GTC 2026 發表 NeuCool IR150 機櫃級兩相液冷方案</h3><button class="save-btn" data-id="cooling-20260319-03" data-title="Accelsius 於 GTC 2026 發表 NeuCool IR150 機櫃級兩相液冷方案" data-category="cooling">收藏</button></div>
         <p><strong>Accelsius 推出首款全集成機櫃級兩相直冷方案，散熱能力達 150kW。</strong></p>
         <p class="small">NeuCool IR150 系統可支援高達 45°C 的溫水進水，顯著降低冷卻過程的能耗。該方案專為 NVIDIA GPU 高密度部署設計，提供高效率且易於安裝的液冷技術解決方案。</p>
         <p class="source"><a href="https://lasvegassun.com/news/2026/mar/16/accelsius-makes-nvidia-gtc-debut-with-neucool-ir15/" target="_blank">原文連結</a></p>
       </article>
       <article class="story">
-        <div class="story-toolbar"><h3>KKR 傳考慮以 30 億美元出售液冷技術領導者 CoolIT Systems</h3><button class="save-btn" data-id="cooling-20260319-04" data-title="KKR 傳考慮出售 CoolIT Systems" data-category="Cooling" data-url="https://www.newprivatemarkets.com/kkr-reportedly-weighs-big-payday-for-impact-strategy/">收藏</button></div>
+        <div class="story-toolbar"><h3>KKR 傳考慮以 30 億美元出售液冷技術領導者 CoolIT Systems</h3><button class="save-btn" data-id="cooling-20260319-04" data-title="KKR 傳考慮以 30 億美元出售液冷技術領導者 CoolIT Systems" data-category="cooling">收藏</button></div>
         <p><strong>私募股權巨頭 KKR 正評估出售 CoolIT Systems，顯示液冷產業鏈估值持續飆升。</strong></p>
         <p class="small">CoolIT 為眾多超大規模數據中心提供液冷技術，受惠於 AI 帶動的熱管理需求成長，其市場價值大幅提升。此潛在交易反映了金融市場對高密度計算冷卻技術的高度看好。</p>
         <p class="source"><a href="https://www.newprivatemarkets.com/kkr-reportedly-weighs-big-payday-for-impact-strategy/" target="_blank">原文連結</a></p>
       </article>
       <article class="story">
-        <div class="story-toolbar"><h3>Phaidra 獲 NVIDIA 投資，利用主動式 AI 預測數據中心熱點</h3><button class="save-btn" data-id="cooling-20260319-05" data-title="Phaidra 利用 AI 預測數據中心熱點" data-category="Cooling" data-url="https://www.geekwire.com/2026/backed-by-nvidia-seattles-phaidra-targets-data-center-overheating-with-proactive-ai/">收藏</button></div>
+        <div class="story-toolbar"><h3>Phaidra 獲 NVIDIA 投資，利用主動式 AI 預測數據中心熱點</h3><button class="save-btn" data-id="cooling-20260319-05" data-title="Phaidra 獲 NVIDIA 投資，利用主動式 AI 預測數據中心熱點" data-category="cooling">收藏</button></div>
         <p><strong>Phaidra 運用 AI 預測技術防止熱點產生，優化數據中心冷卻效率與穩定性。</strong></p>
         <p class="small">該系統能主動偵測伺服器運作狀態，提前調整散熱策略以避免溫度突發異常。這項技術不僅提升了硬體壽命，更在維持高性能運算需求的同時，實現了更精確的能源管控。</p>
         <p class="source"><a href="https://www.geekwire.com/2026/backed-by-nvidia-seattles-phaidra-targets-data-center-overheating-with-proactive-ai/" target="_blank">原文連結</a></p>
       </article>
       <article class="story">
-        <div class="story-toolbar"><h3>光寶科技 (LITEON) 於 GTC 展示 2.1 MW 高彈性 CDU 散熱方案</h3><button class="save-btn" data-id="cooling-20260319-06" data-title="光寶展示 2.1 MW CDU 散熱方案" data-category="Cooling" data-url="https://www.liteon.com/en/news/press-center/content/liteon-nvidia-gtc-2026">收藏</button></div>
+        <div class="story-toolbar"><h3>光寶科技 (LITEON) 於 GTC 展示 2.1 MW 高彈性 CDU 散熱方案</h3><button class="save-btn" data-id="cooling-20260319-06" data-title="光寶科技 (LITEON) 於 GTC 展示 2.1 MW 高彈性 CDU 散熱方案" data-category="cooling">收藏</button></div>
         <p><strong>光寶科技展出 2.1 MW 巨大散熱能力的 CDU，支援 NVIDIA Vera Rubin 平台。</strong></p>
         <p class="small">該方案採用 800 VDC 電源機架架構，針對高密度 AI 伺服器提供極高的液冷部署靈活性。透過模組化設計，光寶展現了在超大規模 AI 算力中心中，實現精密熱管理的能力。</p>
         <p class="source"><a href="https://www.liteon.com/en/news/press-center/content/liteon-nvidia-gtc-2026" target="_blank">原文連結</a></p>
