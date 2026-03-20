@@ -1,75 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈哈狗報 - 半導體專欄</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .date { text-align: center; color: #7f8c8d; margin-bottom: 30px; font-weight: bold; }
-        .news-item { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .news-title { font-size: 1.2em; font-weight: bold; color: #2980b9; margin-bottom: 8px; }
-        .key-point { font-weight: bold; color: #e67e22; margin-bottom: 8px; border-left: 4px solid #e67e22; padding-left: 10px; }
-        .summary { color: #34495e; font-size: 0.95em; }
-        footer { text-align: center; margin-top: 40px; color: #95a5a6; font-size: 0.8em; }
-        a { color: #3498db; text-decoration: none; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>哈哈狗報｜Semiconductor 最新消息</title>
+  <style>
+:root{--bg:#020617;--card:#0f172a;--text:#e5eefc;--muted:#94a3b8;--line:#1e293b;--accent:#7dd3fc;--soft:#082f49;--good:#86efac}
+*{box-sizing:border-box} html{font-size:18px} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.72}
+a{color:var(--accent);text-decoration:none} strong{font-weight:800}
+.wrap{max-width:900px;margin:0 auto;padding:20px 14px 52px}.narrow{max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px 18px;box-shadow:0 12px 32px rgba(0,0,0,.35);margin-bottom:14px}
+.pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:700;font-size:.95rem}.muted{color:var(--muted)}
+h1,h2,h3{margin:0 0 10px;line-height:1.25} h1{font-size:1.8rem} h2{font-size:1.35rem} h3{font-size:1.06rem}
+p{margin:.45em 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic-card{display:block;color:inherit}
+.topic-card h3{color:var(--accent)} .list{margin:.5em 0 0 1.15em;padding:0} .list li+li{margin-top:8px}
+.story{padding:14px 0;border-top:1px solid rgba(148,163,184,.18)} .story:first-of-type{border-top:0;padding-top:0}.story h3{margin-bottom:6px}
+.kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}.source{font-size:.95rem;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(125,211,252,.06)}
+.small{font-size:.95rem}.stat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.stat div{padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(125,211,252,.05)}.stat b{display:block;color:var(--accent)}
+.footer{font-size:.95rem;color:var(--muted)}
+@media (max-width:720px){html{font-size:17px}.wrap{padding:16px 12px 40px}.card{border-radius:18px;padding:16px 14px}.stat{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.save-btn{appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.08);color:var(--accent);border-radius:999px;padding:8px 12px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;line-height:1.1}.save-btn[data-saved="true"]{background:rgba(134,239,172,.12);border-color:rgba(134,239,172,.45);color:var(--good)}.story-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.saved-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.saved-tag,.saved-date{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:rgba(125,211,252,.05)}</style>
 </head>
 <body>
-    <h1>🐶 哈哈狗報：半導體專欄</h1>
-    <p class="date">2026年3月19日 星期四</p>
-
-    <div class="news-item">
-        <div class="news-title">2026 年全球半導體銷售額預計達 9750 億美元，AI 基礎設施需求翻倍</div>
-        <div class="key-point">AI 相關晶片需求預計在 2026 年增長 26%，成為推動半導體產業接近兆元規模的核心動能。</div>
-        <div class="summary">AI 晶片雖然僅佔總出貨量的 0.2%，卻貢獻了全球近半數的營收，顯示市場價值高度集中。製造商正全力競爭晶圓代工與封裝產能，這可能導致下游非 AI 產業面臨資源排擠。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">記憶體市場面臨「RAMageddon」缺貨潮，HBM 產能擠壓傳統 DRAM 供應</div>
-        <div class="key-point">三星、SK 海力士與美光將產能優先轉向高頻寬記憶體（HBM），導致標準型記憶體價格大幅飆升。</div>
-        <div class="summary">部分記憶體產品宣過去一年漲幅已超過 100%，預計 2026 年第一季將再上漲 40% 以上。美光的 HBM 產能已全數售罄至 2027 年，這將推升 PC 與智慧型手機的終端售價。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">美光宣佈 HBM4 進入量產階段，鞏固生成式 AI 超級週期領先地位</div>
-        <div class="key-point">美光科技正式啟動 HBM4 高容量生產，滿足 NVIDIA 與其他 AI 晶片巨頭的急迫需求。</div>
-        <div class="summary">受惠於 AI 轉向推論時代，美光股價在近期 rally 中領漲半導體板塊，展現強勁成長力道。分析師認為，美光在儲存技術的突破，已使其成為 AI 基礎設施不可或缺的「堡壘」。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">Intel 揭曉「Jaguar Shores」架構，並獲 NVIDIA 加碼 50 億美元投資</div>
-        <div class="key-point">Intel 推出專為超大規模資料中心設計的新一代機架級系統架構，強化與 NVIDIA 的合作。</div>
-        <div class="summary">此項巨額投資將用於擴充 AI 伺服器產能，顯示 Intel 在晶片代工與系統整合的轉型獲得市場認可。Jaguar Shores 將整合先進封裝技術，提升資料中心的運算密度與能源效率。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">美國修訂 AI 晶片出口管制，加強互連頻寬與運算密度監管</div>
-        <div class="key-point">美國政府撤回舊版規則並代之以更嚴格的框架，為全球半導體供應鏈增添不確定性。</div>
-        <div class="summary">新制將重點鎖定在戰略性 AI 加速器的性能指標，防止技術透過特定管道外流。此舉預計將迫使晶片設計商重新調整全球產品策略，以符合最新的互連頻寬合規標準。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">索尼半導體發表全球最小像素 CMOS 感光元件 IMX908</div>
-        <div class="key-point">新款 4K 傳感器具備 1.45 µm LOFIC 像素技術，大幅提升高反差與昏暗環境的辨識率。</div>
-        <div class="summary">IMX908 專為安防與自動化監控設計，能在極端光影條件下提供精確影像識別。索尼正利用感測器優勢結合邊緣運算，強化其在物聯網半導體市場的領導地位。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">Lumotive 達成光學突破，展示全球首款 2D 光子波束成形半導體</div>
-        <div class="key-point">基於 LCM™ 結構的可程式化晶片成功問世，將推動光學系統與 LiDAR 的規模化應用。</div>
-        <div class="summary">這項技術能實現無機械零件的精確光束控制，顯著縮小感測器體積並降低生產成本。該晶片被視為自動駕駛與機器視覺領域的重要里程碑，可大幅提升系統的空間掃描效率。</div>
-    </div>
-
-    <div class="news-item">
-        <div class="news-title">NVIDIA GTC 2026 聚焦「代理式 AI」，自主運作系統成為產業新焦點</div>
-        <div class="key-point">大會重點轉向無需人類干預即可執行複雜任務的 Agentic AI，定義半導體研發新方向。</div>
-        <div class="summary">半導體產業正從單純的硬體供應，轉向支援具備更高自主權的軟硬整合生態系。NVIDIA 指出，未來的晶片架構將優化自主代理的決策流程，開啟 AI 應用的下一波革命。</div>
-    </div>
-
-    <footer>
-        <p>© 2026 哈哈狗報 | <a href="/">回首頁</a></p>
-    </footer>
+  <main class="wrap">
+    <section class="card">
+      <div class="kicker"><span class="pill">Semiconductor</span><a class="small" href="../">← 回今日總覽</a><a class="small" href="../../">回首頁</a></div>
+      <h1>Semiconductor 最新消息</h1>
+      <p>自動同步最新半導體相關更新內容。</p>
+    </section>
+    <section class="card">
+      <article class="story">
+        <h3>GSA 擬定 AI 安全條款，嚴格規範美國政府合約</h3>
+        <p><strong>美國總務管理局（GSA）發布 AI 系統基本保障草案，要求政府數據不得用於訓練模型。</strong></p>
+        <p class="small">該草案將確立統一的 AI 採購規則，並強調必須使用「美國 AI 系統」。承包商未來需面臨更嚴格的數據所有權規定與開發限制，公眾意見徵詢至 3 月 20 日止。</p>
+        <p class="source">來源：hklaw.com · <a href="https://www.hklaw.com/en/insights/publications/2026/03/gsas-proposed-ai-clause-a-deep-dive">原文連結</a></p>
+      </article>
+      <article class="story">
+        <h3>五角大廈傳將移除 Anthropic 技術，引發軍用 AI 佈局變動</h3>
+        <p><strong>一份內部備忘錄要求在六個月內將 Anthropic 的 AI 技術從美軍關鍵軍事行動中移除。</strong></p>
+        <p class="small">據悉此舉源於該公司執行長與川普政府間的矛盾，該技術原用於核武與網戰等領域。這項變動預計將為其他主要的 AI 科技巨頭進入國防供應鏈創造新機會。</p>
+        <p class="source">來源：cbsnews.com · <a href="https://www.cbsnews.com/news/ai-artificial-intelligence-military-use-in-war/">原文連結</a></p>
+      </article>
+      <article class="story">
+        <h3>AWE2026 閉幕，AI 驅動的摺衣機器人成為亮點</h3>
+        <p><strong>2026 年家電及消費電子博覽會（AWE）於上海閉幕，展示超過 1,200 家公司的 AI 家電。</strong></p>
+        <p class="small">展會中亮點 include 追覓（Dreame）的摺衣服機器人，以及海爾升級的 L4 級智慧家電系統。參觀人數較去年增長超過 30%，顯示出 AI 與實體生活結合的強大吸引力。</p>
+        <p class="source">來源：morningstar.com · <a href="https://www.morningstar.com/news/pr-newswire/20260318cn14244/awe2026-signals-the-future-a-defining-moment-for-the-age-of-ai">原文連結</a></p>
+      </article>
+    </section>
+    <section class="card"><a href="../2026-03-19/semiconductor/">查看 2026-03-19 Semiconductor 完整報導 →</a></section>
+  </main>
+  <script src="../assets/saved.js"></script>
 </body>
 </html>
